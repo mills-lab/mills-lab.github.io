@@ -1,0 +1,17 @@
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+{% if person.picture %}<img src="{{ site.url }}/assets/people/{{ person.picture }}" alt="{{ person.name }}" itemprop="image" height="240px" width="190px">
+{% else %}<img src="{{ site.url }}/assets/people/placeholder.png" alt="{{ person.name }}" itemprop="image" height="240px" width="190px">{% endif %}
+<h2 class="people-title" itemprop="name"> {{ person.name }}</h2>
+<div class="people-position">{{ position[1] }}</div>
+{% if person.CV %}
+    <div class="people-assets"><i><a href='{{ site.url }}/assets/{{ person.CV }}' target='_blank'>CV</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href='http://scholar.google.com/citations?user={{ person.google-scholar }}' target='_blank'>Google Scholar</a></i></div>
+{% else %}<br>
+{% endif %}
+<br>
+        <ul>
+          <li>{{ person.title }} </li>
+          <li>{{ person.line1 }} </li>
+          <li>{{ person.line2 }} </li>
+        </ul>
+</article><!-- /.tile -->

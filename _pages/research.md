@@ -1,0 +1,20 @@
+---
+title: Research
+layout: archive 
+share: false
+permalink: /research/
+image:
+  feature: banner-short-apb.png
+---
+<p style="float: right; margin: 10px 0px 10px 20px; width: 350px;"><img alt="Figure1" src="/images/figure1.png" style="width: 350px;" title="Figure1" /><span style="font-size: 1.0em; line-height: 1.3;"><span style="margin-top: 10px; display: block;">Analytical approaches for identifying structural variation from paired-end sequence data.</span></span></p>
+<p>
+The study of chromosomes and their structure dates back over a century to the work of Walther Flemming, who is considered by many to be the father of cytogenetics and is credited as the first person to identify and begin to characterize chromosomes in the context of cell division. The development of karyotyping in 1959 led to the observation that deletions and duplications of whole chromosomes were the underlying causes for certain diseases (for example, Down syndrome, Turner syndrome, and Klinefelter syndrome), and it was soon after that the first chromosomal structural rearrangement was discovered although it took over a decade later to be fully characterized as a reciprocal transfer of genetic material between chromosomes.
+<br>
+<br>
+Since that time, there have been a number of techniques developed to interrogate the chromosomal structure of individuals thought to have genetic abnormalities. The G-banding of chromosomes allowed for a higher resolution of detected aberrations, and the development of fluorescence in situ hybridization (FISH) enabled clinicians to directly interrogate and resolve large complex aberrations. These approaches culminated in the development and application of array comparative genomic hybridization (array-CGH), which can identify much smaller imbalances than other techniques but is limited in its ability to identify balanced rearrangements. With these advancements, researchers were able to observe for the first time that many such aberrations are actually quite common between phenotypically normal individuals. We since have learned much about these copy number variants (CNVs) in terms of their mechanistic origins and potential functional impact. However, even the highest resolution array-CGH platforms have limitations in terms of what they are able to discover, and they can be confounded by many factors including repetitive regions of the genome, balanced or complex rearrangements, and smaller variants below their effective resolutions. The rapid development and expansion of high throughput, whole genome sequencing thus has the potential to bridge this final gap and identify genetic variants across all size ranges.
+<br>
+<br>
+Our laboratory is focused on the discovery and analysis of structural variation (SVs) from genomic sequence data. As part of the <a href="http://www.1000genomes.org">1000 Genomes Project</a> and other endeavors, we have helped produce initial fine-scale maps using a variety of SV discovery approaches including: (i) paired-end mapping (or read pair analysis) based on abnormally mapped pairs of clone ends; (ii) read-depth analysis, which detects deletions and duplications through analysis of the read depth-of-coverage; (iii) split read analysis, which detects SVs by evaluating gapped sequence alignments; and (iv) sequence assembly, which enables the discovery of novel (non-reference) sequence insertions. We have examine these variants and have been able to assign particular formation mechanisms from the observed breakpoint signatures. We have also identified a number of events which potentially are directly related to particular phenotypes. Our current goals are to improve upon existing methodology in order to detect such events at a sensitivity and specificity level appropriate for use in clinical diagnostics. We are also interested in developing methods to resolve and analyze complex genomic rearrangements, defined as chromosome rearrangements made up from multiple breakpoints. Such regions confound typical analytical approaches and require the development of novel strategies to identifying the underlying chromosomal structure.
+</p>
+
+
