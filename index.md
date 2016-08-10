@@ -11,7 +11,7 @@ image:
 
 <h5><a href="/news/"><u>Recent News</u></a></h5>
 <div class="tiles">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:8 %}
 	{% include post-grid-home.html %}
 {% endfor %}
 </div><!-- /.tiles -->
