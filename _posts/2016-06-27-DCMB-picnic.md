@@ -1,5 +1,5 @@
 ---
-layout: article 
+layout: default 
 title: "DCM&B Annual Picnic"
 share: false
 external-url: 
