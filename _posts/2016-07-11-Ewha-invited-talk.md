@@ -8,7 +8,7 @@ image:
   feature: banner-short-apb.png
 ads: false
 ---
-Ryan was invited to South Korea to give a seminar at <a href="http://www.ewha.ac.kr/mbs/ewhaen/">Ewha Womans University</a> over the labs work on structural variation. There he met with former colleagues and collaborators and got a chance to learn about the rich history and culture of the South Korean people.
+Ryan was invited to South Korea to give a seminar at <a href="http://www.ewha.ac.kr/mbs/ewhaen/">Ewha Womans University</a> over the lab's work on structural variation. There he met with former colleagues and collaborators and got a chance to learn about the rich history and culture of the South Korean people.
 
 <div>
 {% for image in site.static_files %}
