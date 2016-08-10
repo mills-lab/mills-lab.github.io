@@ -12,7 +12,7 @@ Ryan was invited to South Korea to give a seminar at Ewha Womans University over
 
 <div>
 {% for image in site.static_files %}
-    {% if image.path contains 'images/2016-07-11-Ewha-talk %}
+    {% if image.path contains 'images/2016-07-11-Ewha-talk' %}
         <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
 {% endfor %}
