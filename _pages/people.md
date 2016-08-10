@@ -20,7 +20,7 @@ positions:
 <div class="tiles">
 {% for position in page.positions %}
  {% for person in sorted_people %}
-  {% if person.publish and position != 'Alumni' %}
+  {% if person.publish and position != 'alumni' %}
   	{% if person.path contains position[0] %}
         	{% include people-grid.html %}
 	{% endif %}
