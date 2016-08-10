@@ -31,7 +31,6 @@ positions:
 
 <p>
 <div class="tiles">
-<h1>Alumni</h1>
 {% for position in page.positions %}
  {% for person in sorted_people %}
   {% if person.publish and position[0] == 'alumni' %}
