@@ -29,9 +29,8 @@ positions:
 {% endfor %}
 </div><!-- /.tiles -->
 
-{% assign sorted_people = (site.people | sort: 'start-date') %}
 <p>
-
+<h1>Alumni</h1>
 <div class="tiles">
 {% for position in page.positions %}
  {% for person in sorted_people %}
