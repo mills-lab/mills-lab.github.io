@@ -1,13 +1,83 @@
+PMID- 27884106
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20161125
+LR  - 20161126
+IS  - 1471-2105 (Electronic)
+IS  - 1471-2105 (Linking)
+VI  - 17
+IP  - 1
+DP  - 2016 Nov 25
+TI  - SPECtre: a spectral coherence--based classifier of actively translated
+      transcripts from ribosome profiling sequence data.
+PG  - 482
+AB  - BACKGROUND: Active protein translation can be assessed and measured using
+      ribosome profiling sequencing strategies. Prevailing analytical approaches
+      applied to this technology make use of sequence fragment length profiling or
+      reading frame occupancy enrichment to differentiate between active translation
+      and background noise, however they do not consider additional characteristics
+      inherent to the technology which limits their overall accuracy. RESULTS: Here, we
+      present an analytical tool that models the overall tri-nucleotide periodicity of 
+      ribosomal occupancy using a classifier based on spectral coherence. Our software,
+      SPECtre, examines the relationship of normalized ribosome profiling read coverage
+      over a rolling series of windows along a transcript relative to an idealized
+      reference signal without the matched requirement of mRNA-Seq. CONCLUSIONS: A
+      comparison of SPECtre against previously published methods on existing data shows
+      a marked improvement in accuracy for detecting active translation and exhibits
+      overall high accuracy at a low false discovery rate. In addition, SPECtre
+      performs comparably to a recently published method similarly based on spectral
+      coherence, however with reduced runtime and memory requirements. SPECtre is
+      available as an open source software package at
+      https://github.com/mills-lab/spectreok .
+FAU - Chun, Sang Y
+AU  - Chun SY
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      Ann Arbor, MI, 48109, USA.
+FAU - Rodriguez, Caitlin M
+AU  - Rodriguez CM
+AD  - Department of Neurology, University of Michigan, Ann Arbor, MI, 48109, USA.
+FAU - Todd, Peter K
+AU  - Todd PK
+AD  - Department of Neurology, University of Michigan, Ann Arbor, MI, 48109, USA.
+AD  - Veterans Affairs Medical Center, Ann Arbor, MI, 48105, USA.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      Ann Arbor, MI, 48109, USA. remills@umich.edu.
+AD  - Department of Human Genetics, University of Michigan, Ann Arbor, MI, 48109, USA. 
+      remills@umich.edu.
+LA  - ENG
+PT  - Journal Article
+DEP - 20161125
+PL  - England
+TA  - BMC Bioinformatics
+JT  - BMC bioinformatics
+JID - 100965194
+OTO - NOTNLM
+OT  - Classification
+OT  - Ribosome profiling
+OT  - Spectral coherence
+OT  - Translation
+EDAT- 2016/11/26 06:00
+MHDA- 2016/11/26 06:00
+CRDT- 2016/11/26 06:00
+PHST- 2016/06/21 [received]
+PHST- 2016/11/18 [accepted]
+AID - 10.1186/s12859-016-1355-4 [doi]
+AID - 10.1186/s12859-016-1355-4 [pii]
+PST - epublish
+SO  - BMC Bioinformatics. 2016 Nov 25;17(1):482.
+
 PMID- 27287201
 OWN - NLM
 STAT- In-Data-Review
 DA  - 20160611
-LR  - 20160613
+LR  - 20161019
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 17
 IP  - 1
-DP  - 2016
+DP  - 2016 Jun 10
 TI  - Resolving complex structural genomic rearrangements using a randomized approach.
 PG  - 126
 LID - 10.1186/s13059-016-0993-1 [doi]
@@ -42,7 +112,9 @@ AD  - Department of Computational Medicine & Bioinformatics, University of Michi
       Ann Arbor, MI, 48109, USA. remills@umich.edu.
 AD  - Department of Human Genetics, University of Michigan, Ann Arbor, MI, 48109, USA. 
       remills@umich.edu.
-LA  - eng
+LA  - ENG
+GR  - DP5 OD009154/OD/NIH HHS/United States
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 DEP - 20160610
 PL  - England
@@ -63,7 +135,6 @@ MHDA- 2016/06/12 06:00
 CRDT- 2016/06/12 06:00
 PHST- 2016/04/20 [received]
 PHST- 2016/05/25 [accepted]
-PHST- 2016/06/10 [aheadofprint]
 AID - 10.1186/s13059-016-0993-1 [doi]
 AID - 10.1186/s13059-016-0993-1 [pii]
 PST - epublish
@@ -74,7 +145,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20151003
 DCOM- 20151026
-LR  - 20160610
+LR  - 20161122
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 526
@@ -116,72 +187,103 @@ FAU - McVean, Gil A
 AU  - McVean GA
 FAU - Abecasis, Goncalo R
 AU  - Abecasis GR
-LA  - eng
-GR  - 089276/Z.09/Z/Wellcome Trust/United Kingdom
+LA  - ENG
 GR  - 090532/Z/09/Z/Wellcome Trust/United Kingdom
-GR  - 090770/Wellcome Trust/United Kingdom
-GR  - 095552/Z/11/Z/Wellcome Trust/United Kingdom
-GR  - 095908/Wellcome Trust/United Kingdom
-GR  - 096599/Wellcome Trust/United Kingdom
-GR  - 100956/Wellcome Trust/United Kingdom
-GR  - 102541/Wellcome Trust/United Kingdom
-GR  - 136855/Canadian Institutes of Health Research/Canada
+GR  - R01HG4960/HG/NHGRI NIH HHS/United States
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - R01 GM108805/GM/NIGMS NIH HHS/United States
+GR  - U01HG5718/HG/NHGRI NIH HHS/United States
+GR  - WT095908/Wellcome Trust/United Kingdom
+GR  - R01CA172652/CA/NCI NIH HHS/United States
+GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
+GR  - British Heart Foundation/United Kingdom
+GR  - P30 CA016672/CA/NCI NIH HHS/United States
+GR  - R01HG7068/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - BB/I021213/1/Biotechnology and Biological Sciences Research Council/United
       Kingdom
+GR  - R01GM104390/GM/NIGMS NIH HHS/United States
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
+GR  - WT090770/Z/09/Z/Wellcome Trust/United Kingdom
+GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
+GR  - HHSN268201100040C/PHS HHS/United States
+GR  - U01 HG005718/HG/NHGRI NIH HHS/United States
+GR  - R01 CA172652/CA/NCI NIH HHS/United States
+GR  - U41 HG002371/HG/NHGRI NIH HHS/United States
+GR  - 102541/Wellcome Trust/United Kingdom
+GR  - U41 HG007635/HG/NHGRI NIH HHS/United States
+GR  - WT097307/Wellcome Trust/United Kingdom
+GR  - DP5OD9154/OD/NIH HHS/United States
+GR  - R01HG2898/HG/NHGRI NIH HHS/United States
+GR  - DP2OD6514/OD/NIH HHS/United States
+GR  - U41HG7497/HG/NHGRI NIH HHS/United States
+GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
+GR  - R01HG5214/HG/NHGRI NIH HHS/United States
+GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
+GR  - U41 HG007497/HG/NHGRI NIH HHS/United States
+GR  - U01HG5715/HG/NHGRI NIH HHS/United States
+GR  - R01GM59290/GM/NIGMS NIH HHS/United States
+GR  - P01 GM099568/GM/NIGMS NIH HHS/United States
+GR  - HHSN268201100040/HL/NHLBI NIH HHS/United States
+GR  - U01 HG005211/HG/NHGRI NIH HHS/United States
+GR  - HHSN272201000025/AI/NIAID NIH HHS/United States
+GR  - U01 HG005214/HG/NHGRI NIH HHS/United States
+GR  - U41HG7635/HG/NHGRI NIH HHS/United States
+GR  - R01HG6855/HG/NHGRI NIH HHS/United States
+GR  - WT0855322/Z/08/Z/Wellcome Trust/United Kingdom
+GR  - R01 DK075787/DK/NIDDK NIH HHS/United States
+GR  - WT098051/Wellcome Trust/United Kingdom
+GR  - P01GM99568/GM/NIGMS NIH HHS/United States
+GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - BB/I02593X/1/Biotechnology and Biological Sciences Research Council/United
       Kingdom
-GR  - DP2OD6514/OD/NIH HHS/United States
-GR  - DP5OD9154/OD/NIH HHS/United States
-GR  - G0801823/Medical Research Council/United Kingdom
-GR  - HHSN268201100040C/PHS HHS/United States
-GR  - HHSN272201000025C/PHS HHS/United States
-GR  - P01GM99568/GM/NIGMS NIH HHS/United States
-GR  - P30 CA016672/CA/NCI NIH HHS/United States
-GR  - R01 CA166661/CA/NCI NIH HHS/United States
-GR  - R01 GM108805/GM/NIGMS NIH HHS/United States
-GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - R01 HG006849/HG/NHGRI NIH HHS/United States
-GR  - R01 HG007022/HG/NHGRI NIH HHS/United States
-GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
-GR  - R01CA166661/CA/NCI NIH HHS/United States
-GR  - R01CA172652/CA/NCI NIH HHS/United States
-GR  - R01GM104390/GM/NIGMS NIH HHS/United States
-GR  - R01GM59290/GM/NIGMS NIH HHS/United States
-GR  - R01HG2385/HG/NHGRI NIH HHS/United States
-GR  - R01HG2898/HG/NHGRI NIH HHS/United States
-GR  - R01HG4960/HG/NHGRI NIH HHS/United States
-GR  - R01HG5214/HG/NHGRI NIH HHS/United States
-GR  - R01HG5701/HG/NHGRI NIH HHS/United States
-GR  - R01HG6855/HG/NHGRI NIH HHS/United States
-GR  - R01HG7068/HG/NHGRI NIH HHS/United States
-GR  - R01HG7644/HG/NHGRI NIH HHS/United States
-GR  - R01HL104608/HL/NHLBI NIH HHS/United States
-GR  - R01HL87699/HL/NHLBI NIH HHS/United States
-GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
+GR  - R01 HG007644/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005728/HG/NHGRI NIH HHS/United States
+GR  - T32 HL094284/HL/NHLBI NIH HHS/United States
+GR  - 136855/Canadian Institutes of Health Research/Canada
 GR  - T32GM7790/GM/NIGMS NIH HHS/United States
-GR  - T32HL94284/HL/NHLBI NIH HHS/United States
+GR  - 096599/Wellcome Trust/United Kingdom
+GR  - 100956/Wellcome Trust/United Kingdom
+GR  - U01 HG005715/HG/NHGRI NIH HHS/United States
+GR  - R01HL104608/HL/NHLBI NIH HHS/United States
 GR  - U01HG5211/HG/NHGRI NIH HHS/United States
-GR  - U01HG5214/HG/NHGRI NIH HHS/United States
-GR  - U01HG5715/HG/NHGRI NIH HHS/United States
-GR  - U01HG5718/HG/NHGRI NIH HHS/United States
-GR  - U01HG5728/HG/NHGRI NIH HHS/United States
 GR  - U01HG6513/HG/NHGRI NIH HHS/United States
-GR  - U41 HG002371/HG/NHGRI NIH HHS/United States
-GR  - U41HG7497/HG/NHGRI NIH HHS/United States
-GR  - U41HG7635/HG/NHGRI NIH HHS/United States
-GR  - U54HG3067/HG/NHGRI NIH HHS/United States
 GR  - U54HG3079/HG/NHGRI NIH HHS/United States
-GR  - U54HG3273/HG/NHGRI NIH HHS/United States
-GR  - WT0855322/Z/08/Z/Wellcome Trust/United Kingdom
-GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
-GR  - WT090770/Z/09/Z/Wellcome Trust/United Kingdom
-GR  - WT095908/Wellcome Trust/United Kingdom
-GR  - WT097307/Wellcome Trust/United Kingdom
-GR  - WT098051/Wellcome Trust/United Kingdom
-GR  - WT100956/Z/13/Z/Wellcome Trust/United Kingdom
-GR  - WT109497/Wellcome Trust/United Kingdom
-GR  - British Heart Foundation/United Kingdom
+GR  - R01 HL087699/HL/NHLBI NIH HHS/United States
+GR  - U01HG5214/HG/NHGRI NIH HHS/United States
+GR  - HHSN272201000025C/PHS HHS/United States
+GR  - R01 GM104390/GM/NIGMS NIH HHS/United States
+GR  - 095552/Z/11/Z/Wellcome Trust/United Kingdom
+GR  - R01 HG006849/HG/NHGRI NIH HHS/United States
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - 095908/Wellcome Trust/United Kingdom
+GR  - R01 HL104608/HL/NHLBI NIH HHS/United States
+GR  - R01 HG006855/HG/NHGRI NIH HHS/United States
 GR  - Howard Hughes Medical Institute/United States
+GR  - R01 HG005701/HG/NHGRI NIH HHS/United States
+GR  - 090770/Wellcome Trust/United Kingdom
+GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
+GR  - G0801823/Medical Research Council/United Kingdom
+GR  - U01HG5728/HG/NHGRI NIH HHS/United States
+GR  - R01CA166661/CA/NCI NIH HHS/United States
+GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
+GR  - WT109497/Wellcome Trust/United Kingdom
+GR  - 089276/Z.09/Z/Wellcome Trust/United Kingdom
+GR  - T32 GM007790/GM/NIGMS NIH HHS/United States
+GR  - R01 HG007022/HG/NHGRI NIH HHS/United States
+GR  - 617306/European Research Council/International
+GR  - U54HG3067/HG/NHGRI NIH HHS/United States
+GR  - DP5 OD009154/OD/NIH HHS/United States
+GR  - R01 HG002385/HG/NHGRI NIH HHS/United States
+GR  - DP2 OD006514/OD/NIH HHS/United States
+GR  - R01HL87699/HL/NHLBI NIH HHS/United States
+GR  - R01HG5701/HG/NHGRI NIH HHS/United States
+GR  - T32HL94284/HL/NHLBI NIH HHS/United States
+GR  - R01HG2385/HG/NHGRI NIH HHS/United States
+GR  - WT100956/Z/13/Z/Wellcome Trust/United Kingdom
+GR  - U54HG3273/HG/NHGRI NIH HHS/United States
+GR  - R01HG7644/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -1918,7 +2020,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20151003
 DCOM- 20151026
-LR  - 20160610
+LR  - 20161122
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 526
@@ -2312,26 +2414,29 @@ AD  - European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
       Meyerhofstrasse 1, 69117 Heidelberg, Germany.
 AD  - European Molecular Biology Laboratory, European Bioinformatics Institute
       (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.
-LA  - eng
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 104947/Wellcome Trust/United Kingdom
-GR  - P01HG007497/HG/NHGRI NIH HHS/United States
-GR  - P30 CA016672/CA/NCI NIH HHS/United States
-GR  - R01 CA166661/CA/NCI NIH HHS/United States
-GR  - R01 HG002385/HG/NHGRI NIH HHS/United States
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
-GR  - R01CA166661/CA/NCI NIH HHS/United States
-GR  - R01GM59290/GM/NIGMS NIH HHS/United States
-GR  - R01HG002898/HG/NHGRI NIH HHS/United States
-GR  - R01HG007068/HG/NHGRI NIH HHS/United States
-GR  - RR029676-01/RR/NCRR NIH HHS/United States
-GR  - RR19895/RR/NCRR NIH HHS/United States
-GR  - T32 GM008666/GM/NIGMS NIH HHS/United States
-GR  - U41 HG007497/HG/NHGRI NIH HHS/United States
-GR  - U41HG007497/HG/NHGRI NIH HHS/United States
+GR  - P01HG007497/HG/NHGRI NIH HHS/United States
 GR  - WT085532/Z/08/Z/Wellcome Trust/United Kingdom
+GR  - S10 RR029676/RR/NCRR NIH HHS/United States
+GR  - P30 CA016672/CA/NCI NIH HHS/United States
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 GR  - WT104947/Z/14/Z/Wellcome Trust/United Kingdom
+GR  - R01HG002898/HG/NHGRI NIH HHS/United States
+GR  - U41 HG007497/HG/NHGRI NIH HHS/United States
+GR  - R01GM59290/GM/NIGMS NIH HHS/United States
+GR  - RR19895/RR/NCRR NIH HHS/United States
+GR  - S10 RR019895/RR/NCRR NIH HHS/United States
+GR  - U41HG007497/HG/NHGRI NIH HHS/United States
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - RR029676-01/RR/NCRR NIH HHS/United States
+GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - R01CA166661/CA/NCI NIH HHS/United States
+GR  - T32 GM008666/GM/NIGMS NIH HHS/United States
+GR  - R01 HG002385/HG/NHGRI NIH HHS/United States
+GR  - 104947/Wellcome Trust/United Kingdom
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - R01HG007068/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -2379,7 +2484,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20141112
 DCOM- 20150331
-LR  - 20151029
+LR  - 20161019
 IS  - 1362-4962 (Electronic)
 IS  - 0305-1048 (Linking)
 VI  - 42
@@ -2426,7 +2531,7 @@ AUID- ORCID: http://orcid.org/0000-0003-3425-6998
 AD  - Department of Computational Medicine & Bioinformatics, University of Michigan,
       Ann Arbor, MI 48109, USA Department of Human Genetics, University of Michigan,
       Ann Arbor, MI 48109, USA remills@umich.edu.
-LA  - eng
+LA  - ENG
 SI  - GENBANK/KM281512
 SI  - GENBANK/KM281513
 SI  - GENBANK/KM281514
@@ -2450,10 +2555,10 @@ SI  - GENBANK/KM281531
 SI  - GENBANK/KM281532
 SI  - GENBANK/KM281533
 SI  - GENBANK/KM281534
-GR  - 1R01-HG007068-01A1/HG/NHGRI NIH HHS/United States
 GR  - DP5 OD009154/OD/NIH HHS/United States
-GR  - DP5OD009154/OD/NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
+GR  - 1R01-HG007068-01A1/HG/NHGRI NIH HHS/United States
+GR  - DP5OD009154/OD/NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20141027
@@ -2476,7 +2581,6 @@ OID - NLM: PMC4227756
 EDAT- 2014/10/29 06:00
 MHDA- 2015/04/01 06:00
 CRDT- 2014/10/29 06:00
-PHST- 2014/10/27 [aheadofprint]
 AID - gku1038 [pii]
 AID - 10.1093/nar/gku1038 [doi]
 PST - ppublish
@@ -2488,7 +2592,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20141004
 DCOM- 20141209
-LR  - 20160129
+LR  - 20161104
 IS  - 1537-6605 (Electronic)
 IS  - 0002-9297 (Linking)
 VI  - 95
@@ -2633,11 +2737,14 @@ AD  - Psychiatric and Neurodevelopmental Genetics Unit, Molecular Neurogenetics 
       Population Genetics, Broad Institute, Cambridge, MA 02141, USA; Department of
       Psychiatry, Massachusetts General Hospital and Harvard Medical School, Boston, MA
       02114, USA. Electronic address: doylea@helix.mgh.harvard.edu.
-LA  - eng
-GR  - K24MH094614/MH/NIMH NIH HHS/United States
-GR  - MH095867/MH/NIMH NIH HHS/United States
-GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
+LA  - ENG
+GR  - K24 MH094614/MH/NIMH NIH HHS/United States
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 GR  - R00 MH095867/MH/NIMH NIH HHS/United States
+GR  - K24MH094614/MH/NIMH NIH HHS/United States
+GR  - K99 MH095867/MH/NIMH NIH HHS/United States
+GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
+GR  - MH095867/MH/NIMH NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -2675,12 +2782,12 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20140821
 DCOM- 20150330
-LR  - 20151202
+LR  - 20161019
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 15
 IP  - 6
-DP  - 2014
+DP  - 2014 Jun 30
 TI  - Human genomic regions with exceptionally high levels of population
       differentiation identified from 911 whole-genome sequences.
 PG  - R88
@@ -2740,11 +2847,11 @@ FAU - Marth, Gabor T
 AU  - Marth GT
 FAU - McVean, Gil A
 AU  - McVean GA
-LA  - eng
-GR  - 098051/Wellcome Trust/United Kingdom
+LA  - ENG
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
 GR  - R01 CA166661/CA/NCI NIH HHS/United States
 GR  - U41 HG007234/HG/NHGRI NIH HHS/United States
+GR  - 098051/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20140630
@@ -4144,7 +4251,6 @@ MHDA- 2015/03/31 06:00
 CRDT- 2014/07/02 06:00
 PHST- 2014/05/03 [received]
 PHST- 2014/06/30 [accepted]
-PHST- 2014/06/30 [aheadofprint]
 AID - gb-2014-15-6-r88 [pii]
 AID - 10.1186/gb-2014-15-6-r88 [doi]
 PST - epublish
@@ -4155,11 +4261,11 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20150205
 DCOM- 20151002
-LR  - 20160412
+LR  - 20161122
 IS  - 2041-1723 (Electronic)
 IS  - 2041-1723 (Linking)
 VI  - 5
-DP  - 2014
+DP  - 2014 Jun 13
 TI  - Integrating sequence and array data to create an improved 1000 Genomes Project
       haplotype reference panel.
 PG  - 3934
@@ -4187,14 +4293,15 @@ AD  - 1] Department of Statistics, University of Oxford, Oxford OX1 3TG, UK [2]
       UK.
 CN  - 1000 Genomes Project Consortium
 CN  - 1000 Genomes Project Consortium
-LA  - eng
+LA  - ENG
+GR  - BB/I02593X/1/Biotechnology and Biological Sciences Research Council/United
+      Kingdom
+GR  - G0801823/Medical Research Council/United Kingdom
 GR  - 096599/Wellcome Trust/United Kingdom
-GR  - G0801823/Medical Research Council/United Kingdom
-GR  - G0801823/Medical Research Council/United Kingdom
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
 GR  - P30 ES013508/ES/NIEHS NIH HHS/United States
-GR  - R01 CA166661/CA/NCI NIH HHS/United States
 GR  - R01 HG006849/HG/NHGRI NIH HHS/United States
+GR  - R01 CA166661/CA/NCI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20140613
@@ -4995,7 +5102,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20140505
 DCOM- 20140721
-LR  - 20160610
+LR  - 20161104
 IS  - 2157-6564 (Print)
 IS  - 2157-6564 (Linking)
 VI  - 3
@@ -5071,13 +5178,15 @@ FAU - Lanza, Robert
 AU  - Lanza R
 FAU - Kim, Kwang-Soo
 AU  - Kim KS
-LA  - eng
-GR  - HL106627/HL/NHLBI NIH HHS/United States
-GR  - MH087903/MH/NIMH NIH HHS/United States
+LA  - ENG
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
+GR  - RC4 HL106627/HL/NHLBI NIH HHS/United States
 GR  - NS070577/NS/NINDS NIH HHS/United States
 GR  - R01 NS070577/NS/NINDS NIH HHS/United States
+GR  - MH087903/MH/NIMH NIH HHS/United States
 GR  - R33 MH087903/MH/NIMH NIH HHS/United States
-GR  - RC4 HL106627/HL/NHLBI NIH HHS/United States
+GR  - HL106627/HL/NHLBI NIH HHS/United States
+GR  - R21 MH087903/MH/NIMH NIH HHS/United States
 PT  - Comparative Study
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
@@ -5108,7 +5217,6 @@ OT  - Reprogramming method
 EDAT- 2014/04/26 06:00
 MHDA- 2014/07/22 06:00
 CRDT- 2014/04/26 06:00
-PHST- 2014/04/24 [aheadofprint]
 AID - sctm.2013-0149 [pii]
 AID - 10.5966/sctm.2013-0149 [doi]
 PST - ppublish
@@ -5188,7 +5296,7 @@ FAU - Rosenberg, Carla
 AU  - Rosenberg C
 AD  - Department of Genetics and Evolutionary Biology, Institute of Biosciences,
       University of Sao Paulo, Sao Paulo, Brazil.
-LA  - eng
+LA  - ENG
 PT  - Letter
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20130619
@@ -5226,7 +5334,6 @@ OID - NLM: PMC3925262
 EDAT- 2013/06/20 06:00
 MHDA- 2014/10/08 06:00
 CRDT- 2013/06/20 06:00
-PHST- 2013/06/19 [aheadofprint]
 AID - ejhg2013134 [pii]
 AID - 10.1038/ejhg.2013.134 [doi]
 PST - ppublish
@@ -5238,7 +5345,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20131004
 DCOM- 20131029
-LR  - 20160513
+LR  - 20161122
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 342
@@ -5360,35 +5467,36 @@ FAU - Tyler-Smith, Chris
 AU  - Tyler-Smith C
 FAU - Gerstein, Mark
 AU  - Gerstein M
-LA  - eng
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 090532/Wellcome Trust/United Kingdom
-GR  - 095908/Wellcome Trust/United Kingdom
-GR  - 098051/Wellcome Trust/United Kingdom
-GR  - 098051/Wellcome Trust/United Kingdom
-GR  - CA167824/CA/NCI NIH HHS/United States
-GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
-GR  - G12 RR003050/RR/NCRR NIH HHS/United States
+LA  - ENG
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - WT095908/Wellcome Trust/United Kingdom
+GR  - R01 CA152057/CA/NCI NIH HHS/United States
+GR  - U01 HG005718/HG/NHGRI NIH HHS/United States
+GR  - HG007000/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - GM104424/GM/NIGMS NIH HHS/United States
 GR  - HG005718/HG/NHGRI NIH HHS/United States
-GR  - HG007000/HG/NHGRI NIH HHS/United States
+GR  - 098051/Wellcome Trust/United Kingdom
+GR  - U01HG6513/HG/NHGRI NIH HHS/United States
+GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
-GR  - R01 CA166661/CA/NCI NIH HHS/United States
 GR  - R01 CA167824/CA/NCI NIH HHS/United States
+GR  - WT085532/Wellcome Trust/United Kingdom
+GR  - 090532/Wellcome Trust/United Kingdom
+GR  - 095908/Wellcome Trust/United Kingdom
+GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
 GR  - R01 GM097358/GM/NIGMS NIH HHS/United States
-GR  - R01 GM104424/GM/NIGMS NIH HHS/United States
-GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01CA152057/CA/NCI NIH HHS/United States
+GR  - CA167824/CA/NCI NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - U41 HG007000/HG/NHGRI NIH HHS/United States
+GR  - UL1 TR000457/TR/NCATS NIH HHS/United States
 GR  - R01HG4719/HG/NHGRI NIH HHS/United States
 GR  - U01 CA111275/CA/NCI NIH HHS/United States
-GR  - U01 CA111275/CA/NCI NIH HHS/United States
-GR  - U01 HG005718/HG/NHGRI NIH HHS/United States
-GR  - U01HG6513/HG/NHGRI NIH HHS/United States
-GR  - U41 HG007000/HG/NHGRI NIH HHS/United States
-GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
-GR  - UL1 TR000457/TR/NCATS NIH HHS/United States
-GR  - WT085532/Wellcome Trust/United Kingdom
-GR  - WT095908/Wellcome Trust/United Kingdom
+GR  - R01 GM104424/GM/NIGMS NIH HHS/United States
+GR  - G12 RR003050/RR/NCRR NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -6834,7 +6942,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20130925
 DCOM- 20131211
-LR  - 20160114
+LR  - 20161019
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 110
@@ -6893,11 +7001,13 @@ FAU - Lee, Charles
 AU  - Lee C
 FAU - Korbel, Jan O
 AU  - Korbel JO
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE45741
-GR  - 5 R01 AI 089246-01A1/AI/NIAID NIH HHS/United States
 GR  - 5 R01 GM081533/GM/NIGMS NIH HHS/United States
+GR  - F32 AG039979/AG/NIA NIH HHS/United States
+GR  - 5 R01 AI 089246-01A1/AI/NIAID NIH HHS/United States
 GR  - F32 AG 039979/AG/NIA NIH HHS/United States
+GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - R01 AI089246/AI/NIAID NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
@@ -6930,7 +7040,6 @@ OT  - retrotransposons
 EDAT- 2013/09/10 06:00
 MHDA- 2013/12/16 06:00
 CRDT- 2013/09/10 06:00
-PHST- 2013/09/06 [aheadofprint]
 AID - 1305904110 [pii]
 AID - 10.1073/pnas.1305904110 [doi]
 PST - ppublish
@@ -6942,11 +7051,11 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20130603
 DCOM- 20131105
-LR  - 20150426
+LR  - 20161019
 IS  - 1471-2105 (Electronic)
 IS  - 1471-2105 (Linking)
 VI  - 14
-DP  - 2013
+DP  - 2013 May 09
 TI  - Copy number variation genotyping using family information.
 PG  - 157
 LID - 10.1186/1471-2105-14-157 [doi]
@@ -6985,13 +7094,13 @@ FAU - Lee, Charles
 AU  - Lee C
 FAU - Raby, Benjamin A
 AU  - Raby BA
-LA  - eng
-GR  - P01 HL083069/HL/NHLBI NIH HHS/United States
-GR  - R01 MH095797/MH/NIMH NIH HHS/United States
-GR  - RHL093076/PHS HHS/United States
-GR  - T32 HL07427/HL/NHLBI NIH HHS/United States
-GR  - U01 HL075419/HL/NHLBI NIH HHS/United States
+LA  - ENG
 GR  - U01 HL65899/HL/NHLBI NIH HHS/United States
+GR  - U01 HL075419/HL/NHLBI NIH HHS/United States
+GR  - P01 HL083069/HL/NHLBI NIH HHS/United States
+GR  - RHL093076/PHS HHS/United States
+GR  - R01 MH095797/MH/NIMH NIH HHS/United States
+GR  - T32 HL07427/HL/NHLBI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20130509
@@ -7014,7 +7123,6 @@ MHDA- 2013/11/06 06:00
 CRDT- 2013/05/10 06:00
 PHST- 2012/12/14 [received]
 PHST- 2013/04/30 [accepted]
-PHST- 2013/05/09 [aheadofprint]
 AID - 1471-2105-14-157 [pii]
 AID - 10.1186/1471-2105-14-157 [doi]
 PST - epublish
@@ -7025,7 +7133,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20130513
 DCOM- 20130709
-LR  - 20150427
+LR  - 20161028
 IS  - 1097-4199 (Electronic)
 IS  - 0896-6273 (Linking)
 VI  - 78
@@ -7090,15 +7198,14 @@ FAU - Charlet-Berguerand, Nicholas
 AU  - Charlet-Berguerand N
 FAU - Paulson, Henry L
 AU  - Paulson HL
-LA  - eng
-GR  - F31 MH097451/MH/NIMH NIH HHS/United States
-GR  - K08 NS069809/NS/NINDS NIH HHS/United States
+LA  - ENG
 GR  - K99 NS073936/NS/NINDS NIH HHS/United States
+GR  - R01 AG034228/AG/NIA NIH HHS/United States
+GR  - T32 GM008322/GM/NIGMS NIH HHS/United States
 GR  - NS069809A/NS/NINDS NIH HHS/United States
-GR  - R01 AG034228/AG/NIA NIH HHS/United States
-GR  - R01 AG034228/AG/NIA NIH HHS/United States
+GR  - F31 MH097451/MH/NIMH NIH HHS/United States
 GR  - R01 NS038712/NS/NINDS NIH HHS/United States
-GR  - R01 NS038712/NS/NINDS NIH HHS/United States
+GR  - K08 NS069809/NS/NINDS NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -7135,7 +7242,6 @@ EDAT- 2013/04/23 06:00
 MHDA- 2013/07/10 06:00
 CRDT- 2013/04/23 06:00
 PHST- 2013/03/26 [accepted]
-PHST- 2013/04/18 [aheadofprint]
 AID - S0896-6273(13)00273-0 [pii]
 AID - 10.1016/j.neuron.2013.03.026 [doi]
 PST - ppublish
@@ -7147,7 +7253,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20121106
 DCOM- 20121226
-LR  - 20160429
+LR  - 20161122
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 491
@@ -7195,82 +7301,114 @@ FAU - Marth, Gabor T
 AU  - Marth GT
 FAU - McVean, Gil A
 AU  - McVean GA
-LA  - eng
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 086084/Wellcome Trust/United Kingdom
-GR  - 090532/Wellcome Trust/United Kingdom
-GR  - 095908/Wellcome Trust/United Kingdom
-GR  - 096599/Wellcome Trust/United Kingdom
+LA  - ENG
+GR  - R01HG4960/HG/NHGRI NIH HHS/United States
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - R01 ES015794/ES/NIEHS NIH HHS/United States
+GR  - U01HG5725/HG/NHGRI NIH HHS/United States
+GR  - U01HG5208/HG/NHGRI NIH HHS/United States
+GR  - RC2HG5581/HG/NHGRI NIH HHS/United States
+GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
+GR  - T15 LM007056/LM/NLM NIH HHS/United States
+GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - AI077439/AI/NIAID NIH HHS/United States
-GR  - AI2009061/AI/NIAID NIH HHS/United States
 GR  - BB/I021213/1/Biotechnology and Biological Sciences Research Council/United
       Kingdom
+GR  - R01 MH084698/MH/NIMH NIH HHS/United States
+GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005208/HG/NHGRI NIH HHS/United States
+GR  - HHSN268201100040C/PHS HHS/United States
+GR  - AI2009061/AI/NIAID NIH HHS/United States
+GR  - ES015794/ES/NIEHS NIH HHS/United States
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - P41HG2371/HG/NHGRI NIH HHS/United States
+GR  - R01HG2898/HG/NHGRI NIH HHS/United States
+GR  - DP2OD6514/OD/NIH HHS/United States
+GR  - RG/09/12/28096/British Heart Foundation/United Kingdom
+GR  - R01HG3698/HG/NHGRI NIH HHS/United States
+GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
+GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
+GR  - G0900747/Medical Research Council/United Kingdom
+GR  - RC2HL102925/HL/NHLBI NIH HHS/United States
+GR  - G0701805/Medical Research Council/United Kingdom
+GR  - U01HG5715/HG/NHGRI NIH HHS/United States
+GR  - R01GM59290/GM/NIGMS NIH HHS/United States
+GR  - R01HL95045/HL/NHLBI NIH HHS/United States
+GR  - U41HG4568/HG/NHGRI NIH HHS/United States
+GR  - HHSN268201100040/HL/NHLBI NIH HHS/United States
+GR  - U01 HG005211/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005214/HG/NHGRI NIH HHS/United States
+GR  - U01 HG006569/HG/NHGRI NIH HHS/United States
+GR  - P41 HG002371/HG/NHGRI NIH HHS/United States
 GR  - BB/I02593X/1/Biotechnology and Biological Sciences Research Council/United
       Kingdom
-GR  - DP2OD6514/OD/NIH HHS/United States
-GR  - ES015794/ES/NIEHS NIH HHS/United States
-GR  - G0701805/Medical Research Council/United Kingdom
-GR  - G0801823/Medical Research Council/United Kingdom
-GR  - G0900747/Medical Research Council/United Kingdom
-GR  - G0900747(91070)/Medical Research Council/United Kingdom
-GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
-GR  - G12 RR003050/RR/NCRR NIH HHS/United States
-GR  - HHSN268201100040C/PHS HHS/United States
-GR  - HL078885/HL/NHLBI NIH HHS/United States
-GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
-GR  - P01HG4120/HG/NHGRI NIH HHS/United States
-GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
-GR  - P41HG2371/HG/NHGRI NIH HHS/United States
-GR  - P41HG4221/HG/NHGRI NIH HHS/United States
-GR  - R01 CA166661/CA/NCI NIH HHS/United States
-GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
-GR  - R01 HG007022/HG/NHGRI NIH HHS/United States
-GR  - R01CA166661/CA/NCI NIH HHS/United States
-GR  - R01GM59290/GM/NIGMS NIH HHS/United States
-GR  - R01HG2898/HG/NHGRI NIH HHS/United States
-GR  - R01HG3698/HG/NHGRI NIH HHS/United States
-GR  - R01HG4719/HG/NHGRI NIH HHS/United States
-GR  - R01HG4960/HG/NHGRI NIH HHS/United States
-GR  - R01HG5701/HG/NHGRI NIH HHS/United States
-GR  - R01HL95045/HL/NHLBI NIH HHS/United States
-GR  - R01MH84698/MH/NIMH NIH HHS/United States
-GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
-GR  - RC2HG5581/HG/NHGRI NIH HHS/United States
-GR  - RC2HL102925/HL/NHLBI NIH HHS/United States
-GR  - RG/09/012/28096/British Heart Foundation/United Kingdom
-GR  - RG/09/12/28096/British Heart Foundation/United Kingdom
-GR  - T15 LM007056/LM/NLM NIH HHS/United States
-GR  - T15LM7033/LM/NLM NIH HHS/United States
-GR  - T32GM7748/GM/NIGMS NIH HHS/United States
-GR  - T32GM8283/GM/NIGMS NIH HHS/United States
-GR  - T32HL94284/HL/NHLBI NIH HHS/United States
-GR  - U01 HG005728/HG/NHGRI NIH HHS/United States
-GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
-GR  - U01HG5208/HG/NHGRI NIH HHS/United States
-GR  - U01HG5209/HG/NHGRI NIH HHS/United States
-GR  - U01HG5211/HG/NHGRI NIH HHS/United States
-GR  - U01HG5214/HG/NHGRI NIH HHS/United States
-GR  - U01HG5715/HG/NHGRI NIH HHS/United States
-GR  - U01HG5725/HG/NHGRI NIH HHS/United States
-GR  - U01HG5728/HG/NHGRI NIH HHS/United States
-GR  - U01HG6513/HG/NHGRI NIH HHS/United States
-GR  - U01HG6569/HG/NHGRI NIH HHS/United States
-GR  - U41HG4568/HG/NHGRI NIH HHS/United States
-GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
-GR  - U54HG3067/HG/NHGRI NIH HHS/United States
-GR  - U54HG3079/HG/NHGRI NIH HHS/United States
-GR  - U54HG3273/HG/NHGRI NIH HHS/United States
+GR  - R01 HL078885/HL/NHLBI NIH HHS/United States
+GR  - UL1 RR024131/RR/NCRR NIH HHS/United States
 GR  - UL1 TR000124/TR/NCATS NIH HHS/United States
-GR  - UL1RR024131/RR/NCRR NIH HHS/United States
-GR  - WT085475/Z/08/Z/Wellcome Trust/United Kingdom
-GR  - WT085532AIA/Wellcome Trust/United Kingdom
-GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
-GR  - WT089250/Z/09/Z/Wellcome Trust/United Kingdom
-GR  - WT090532/Z/09/Z/Wellcome Trust/United Kingdom
-GR  - WT095552/Z/11/Z/Wellcome Trust/United Kingdom
 GR  - WT098051/Wellcome Trust/United Kingdom
+GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - T32 GM008283/GM/NIGMS NIH HHS/United States
+GR  - G0801823/Medical Research Council/United Kingdom
+GR  - U01 HG005728/HG/NHGRI NIH HHS/United States
+GR  - U01HG6569/HG/NHGRI NIH HHS/United States
+GR  - WT089250/Z/09/Z/Wellcome Trust/United Kingdom
+GR  - G0900747(91070)/Medical Research Council/United Kingdom
+GR  - T32 HL094284/HL/NHLBI NIH HHS/United States
+GR  - 096599/Wellcome Trust/United Kingdom
+GR  - U01 HG005715/HG/NHGRI NIH HHS/United States
+GR  - U01HG5211/HG/NHGRI NIH HHS/United States
+GR  - U01HG6513/HG/NHGRI NIH HHS/United States
+GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
+GR  - U54HG3079/HG/NHGRI NIH HHS/United States
+GR  - HL078885/HL/NHLBI NIH HHS/United States
+GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
+GR  - T15 LM007033/LM/NLM NIH HHS/United States
+GR  - U01HG5214/HG/NHGRI NIH HHS/United States
+GR  - U19 AI077439/AI/NIAID NIH HHS/United States
+GR  - U41 HG004568/HG/NHGRI NIH HHS/United States
+GR  - T32GM7748/GM/NIGMS NIH HHS/United States
+GR  - 090532/Wellcome Trust/United Kingdom
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - WT085475/Z/08/Z/Wellcome Trust/United Kingdom
+GR  - 095908/Wellcome Trust/United Kingdom
+GR  - R01MH84698/MH/NIMH NIH HHS/United States
+GR  - RG/09/012/28096/British Heart Foundation/United Kingdom
 GR  - Howard Hughes Medical Institute/United States
+GR  - UL1RR024131/RR/NCRR NIH HHS/United States
+GR  - R01 HG005701/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005725/HG/NHGRI NIH HHS/United States
+GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
+GR  - WT095552/Z/11/Z/Wellcome Trust/United Kingdom
+GR  - WT090532/Z/09/Z/Wellcome Trust/United Kingdom
+GR  - U01HG5728/HG/NHGRI NIH HHS/United States
+GR  - R01CA166661/CA/NCI NIH HHS/United States
+GR  - R01 HG003698/HG/NHGRI NIH HHS/United States
+GR  - T15LM7033/LM/NLM NIH HHS/United States
+GR  - WT085532AIA/Wellcome Trust/United Kingdom
+GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
+GR  - P01HG4120/HG/NHGRI NIH HHS/United States
+GR  - R01 HL095045/HL/NHLBI NIH HHS/United States
+GR  - U01HG5209/HG/NHGRI NIH HHS/United States
+GR  - T32GM8283/GM/NIGMS NIH HHS/United States
+GR  - R01 HG007022/HG/NHGRI NIH HHS/United States
+GR  - U54HG3067/HG/NHGRI NIH HHS/United States
+GR  - 086084/Wellcome Trust/United Kingdom
+GR  - P41HG4221/HG/NHGRI NIH HHS/United States
+GR  - DP2 OD006514/OD/NIH HHS/United States
+GR  - RC2 HG005581/HG/NHGRI NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - R01HG5701/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
+GR  - T32HL94284/HL/NHLBI NIH HHS/United States
+GR  - R01 HL088133/HL/NHLBI NIH HHS/United States
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
+GR  - T32 GM007748/GM/NIGMS NIH HHS/United States
+GR  - R01HG4719/HG/NHGRI NIH HHS/United States
+GR  - RC2 HL102925/HL/NHLBI NIH HHS/United States
+GR  - U54HG3273/HG/NHGRI NIH HHS/United States
+GR  - G12 RR003050/RR/NCRR NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -8701,7 +8839,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20120801
 DCOM- 20121026
-LR  - 20160114
+LR  - 20161019
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 109
@@ -8755,14 +8893,18 @@ FAU - Gilad, Yoav
 AU  - Gilad Y
 FAU - Lee, Charles
 AU  - Lee C
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE33960
 SI  - GEO/GSE38572
 GR  - 2T32HL007627-26/HL/NHLBI NIH HHS/United States
-GR  - F32 AG039979/AG/NIA NIH HHS/United States
-GR  - F32AG039979/AG/NIA NIH HHS/United States
+GR  - T32 HL007627/HL/NHLBI NIH HHS/United States
 GR  - P41HG004221/HG/NHGRI NIH HHS/United States
+GR  - F32AG039979/AG/NIA NIH HHS/United States
+GR  - F32 AG039979/AG/NIA NIH HHS/United States
+GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - R01GM081533/GM/NIGMS NIH HHS/United States
+GR  - T32 GM007197/GM/NIGMS NIH HHS/United States
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20120713
@@ -8790,7 +8932,6 @@ OID - NLM: PMC3411951
 EDAT- 2012/07/17 06:00
 MHDA- 2012/10/27 06:00
 CRDT- 2012/07/17 06:00
-PHST- 2012/07/13 [aheadofprint]
 AID - 1205199109 [pii]
 AID - 10.1073/pnas.1205199109 [doi]
 PST - ppublish
@@ -8802,12 +8943,12 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20120430
 DCOM- 20120917
-LR  - 20151202
+LR  - 20161122
 IS  - 1548-7105 (Electronic)
 IS  - 1548-7091 (Linking)
 VI  - 9
 IP  - 5
-DP  - 2012 May
+DP  - 2012 Apr 27
 TI  - The 1000 Genomes Project: data management and community access.
 PG  - 459-62
 LID - 10.1038/nmeth.1974 [doi]
@@ -8845,16 +8986,16 @@ AU  - Sherry S
 FAU - Flicek, Paul
 AU  - Flicek P
 CN  - 1000 Genomes Project Consortium
-LA  - eng
-GR  - 085532/Wellcome Trust/United Kingdom
+LA  - ENG
+GR  - G1000758/Medical Research Council/United Kingdom
+GR  - Z99 LM999999/Intramural NIH HHS/United States
+GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
+GR  - WT085532/Wellcome Trust/United Kingdom
 GR  - 090532/Wellcome Trust/United Kingdom
 GR  - 095908/Wellcome Trust/United Kingdom
-GR  - G1000758/Medical Research Council/United Kingdom
 GR  - P01 CA101937/CA/NCI NIH HHS/United States
-GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
-GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
-GR  - WT085532/Wellcome Trust/United Kingdom
-GR  - Z99 LM999999/Intramural NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, N.I.H., Intramural
 PT  - Research Support, Non-U.S. Gov't
@@ -9968,7 +10109,6 @@ FIR - Schafer, Alan J
 EDAT- 2012/05/01 06:00
 MHDA- 2012/09/18 06:00
 CRDT- 2012/05/01 06:00
-PHST- 2012/04/27 [aheadofprint]
 AID - nmeth.1974 [pii]
 AID - 10.1038/nmeth.1974 [doi]
 PST - epublish
@@ -9979,12 +10119,12 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20120329
 DCOM- 20120530
-LR  - 20150225
+LR  - 20161019
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 44
 IP  - 4
-DP  - 2012 Apr
+DP  - 2012 Mar 04
 TI  - Complex reorganization and predominant non-homologous repair following
       chromosomal breakage in karyotypically balanced germline rearrangements and
       transgenic integration.
@@ -10058,24 +10198,27 @@ FAU - Gusella, James F
 AU  - Gusella JF
 FAU - Talkowski, Michael E
 AU  - Talkowski ME
-LA  - eng
-GR  - F32 MH087123/MH/NIMH NIH HHS/United States
-GR  - GM061354/GM/NIGMS NIH HHS/United States
+LA  - ENG
 GR  - HD065286/HD/NICHD NIH HHS/United States
-GR  - MH087123/MH/NIMH NIH HHS/United States
-GR  - NS16367/NS/NINDS NIH HHS/United States
-GR  - NS32765/NS/NINDS NIH HHS/United States
-GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-01A1/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-02/GM/NIGMS NIH HHS/United States
 GR  - P01 GM061354-03/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-04/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-05/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-06A2/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-07/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-08/GM/NIGMS NIH HHS/United States
+GR  - MH087123/MH/NIMH NIH HHS/United States
+GR  - GM061354/GM/NIGMS NIH HHS/United States
 GR  - P01 GM061354-09/GM/NIGMS NIH HHS/United States
+GR  - P01 GM061354-01A1/GM/NIGMS NIH HHS/United States
+GR  - P50 NS016367/NS/NINDS NIH HHS/United States
+GR  - P01 GM061354-05/GM/NIGMS NIH HHS/United States
 GR  - Canadian Institutes of Health Research/Canada
+GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
+GR  - NS16367/NS/NINDS NIH HHS/United States
+GR  - P01 GM061354-06A2/GM/NIGMS NIH HHS/United States
+GR  - P01 GM061354-08/GM/NIGMS NIH HHS/United States
+GR  - R01 NS032765/NS/NINDS NIH HHS/United States
+GR  - R21 HD065286/HD/NICHD NIH HHS/United States
+GR  - P01 GM061354-04/GM/NIGMS NIH HHS/United States
+GR  - NS32765/NS/NINDS NIH HHS/United States
+GR  - P01 GM061354-07/GM/NIGMS NIH HHS/United States
+GR  - P01 GM061354-02/GM/NIGMS NIH HHS/United States
+GR  - F32 MH087123/MH/NIMH NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -10107,7 +10250,6 @@ MHDA- 2012/05/31 06:00
 CRDT- 2012/03/06 06:00
 PHST- 2011/09/29 [received]
 PHST- 2012/01/17 [accepted]
-PHST- 2012/03/04 [aheadofprint]
 AID - ng.2202 [pii]
 AID - 10.1038/ng.2202 [doi]
 PST - epublish
@@ -10118,7 +10260,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20120111
 DCOM- 20120312
-LR  - 20160411
+LR  - 20161019
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 109
@@ -10182,14 +10324,16 @@ FAU - Freeman, Jennifer L
 AU  - Freeman JL
 FAU - Lee, Charles
 AU  - Lee C
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE28328
-GR  - 1K99ES018892/ES/NIEHS NIH HHS/United States
-GR  - 5P41HG004421/HG/NHGRI NIH HHS/United States
-GR  - 5R01CA111560/CA/NCI NIH HHS/United States
-GR  - K99 ES018892/ES/NIEHS NIH HHS/United States
 GR  - T32HL007627/HL/NHLBI NIH HHS/United States
+GR  - T32 HL007627/HL/NHLBI NIH HHS/United States
+GR  - R01 CA111560/CA/NCI NIH HHS/United States
+GR  - K99 ES018892/ES/NIEHS NIH HHS/United States
 GR  - Howard Hughes Medical Institute/United States
+GR  - 1K99ES018892/ES/NIEHS NIH HHS/United States
+GR  - 5R01CA111560/CA/NCI NIH HHS/United States
+GR  - 5P41HG004421/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -10214,7 +10358,6 @@ OID - NLM: PMC3258620
 EDAT- 2011/12/29 06:00
 MHDA- 2012/03/13 06:00
 CRDT- 2011/12/29 06:00
-PHST- 2011/12/27 [aheadofprint]
 AID - 1112163109 [pii]
 AID - 10.1073/pnas.1112163109 [doi]
 PST - ppublish
@@ -10226,12 +10369,12 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20120427
 DCOM- 20120823
-LR  - 20150804
+LR  - 20161122
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 12
 IP  - 9
-DP  - 2011
+DP  - 2011 Sep 14
 TI  - The functional spectrum of low-frequency coding variation.
 PG  - R84
 LID - 10.1186/gb-2011-12-9-r84 [doi]
@@ -10329,19 +10472,18 @@ AU  - Palotie A
 FAU - Gibbs, Richard
 AU  - Gibbs R
 CN  - 1000 Genomes Project
-LA  - eng
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 090532/Wellcome Trust/United Kingdom
+LA  - ENG
 GR  - 1U01HG005211-0109/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - 5U54HG003273/HG/NHGRI NIH HHS/United States
 GR  - P30 DK043351/DK/NIDDK NIH HHS/United States
-GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
-GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
-GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - WT 077009/Wellcome Trust/United Kingdom
+GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
+GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - 090532/Wellcome Trust/United Kingdom
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -11120,7 +11262,6 @@ CRDT- 2011/09/16 06:00
 PHST- 2011/05/27 [received]
 PHST- 2011/08/11 [revised]
 PHST- 2011/09/14 [accepted]
-PHST- 2011/09/14 [aheadofprint]
 AID - gb-2011-12-9-r84 [pii]
 AID - 10.1186/gb-2011-12-9-r84 [doi]
 PST - epublish
@@ -11131,7 +11272,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20110720
 DCOM- 20111003
-LR  - 20150407
+LR  - 20161122
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 108
@@ -11184,24 +11325,24 @@ AU  - Gibbs RA
 CN  - 1000 Genomes Project
 FAU - Bustamante, Carlos D
 AU  - Bustamante CD
-LA  - eng
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 090532/Wellcome Trust/United Kingdom
-GR  - G1000758/Medical Research Council/United Kingdom
-GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
-GR  - R01 HL072810/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-01/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-02/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-03/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-04/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-05A1/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-06/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-07/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-08/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072810-09/HL/NHLBI NIH HHS/United States
+LA  - ENG
 GR  - R01 HL072904/HL/NHLBI NIH HHS/United States
-GR  - R01 HL072904-08/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-06/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-05A1/HL/NHLBI NIH HHS/United States
+GR  - G1000758/Medical Research Council/United Kingdom
+GR  - R01 HL072810-03/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-07/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-04/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810/HL/NHLBI NIH HHS/United States
+GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - 090532/Wellcome Trust/United Kingdom
+GR  - R01 HL072904-08/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-09/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-01/HL/NHLBI NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - R01 HL072810-08/HL/NHLBI NIH HHS/United States
+GR  - R01 HL072810-02/HL/NHLBI NIH HHS/United States
 PT  - Comparative Study
 PT  - Journal Article
 DEP - 20110705
@@ -12329,7 +12470,6 @@ FIR - McVean, Gil A
 EDAT- 2011/07/07 06:00
 MHDA- 2011/10/04 06:00
 CRDT- 2011/07/07 06:00
-PHST- 2011/07/05 [aheadofprint]
 AID - 1019276108 [pii]
 AID - 10.1073/pnas.1019276108 [doi]
 PST - ppublish
@@ -12341,12 +12481,12 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20110628
 DCOM- 20110915
-LR  - 20150407
+LR  - 20161122
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 43
 IP  - 7
-DP  - 2011 Jul
+DP  - 2011 Jun 12
 TI  - Variation in genome-wide mutation rates within and between human families.
 PG  - 712-4
 LID - 10.1038/ng.862 [doi]
@@ -12398,13 +12538,13 @@ AU  - Hurles ME
 FAU - Awadalla, Philip
 AU  - Awadalla P
 CN  - 1000 Genomes Project
-LA  - eng
-GR  - 077014/Wellcome Trust/United Kingdom
-GR  - 077014/Z/05/Z/Wellcome Trust/United Kingdom
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 090532/Wellcome Trust/United Kingdom
-GR  - R01 GM070806/GM/NIGMS NIH HHS/United States
+LA  - ENG
 GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
+GR  - R01 GM070806/GM/NIGMS NIH HHS/United States
+GR  - 090532/Wellcome Trust/United Kingdom
+GR  - 077014/Wellcome Trust/United Kingdom
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - 077014/Z/05/Z/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20110612
@@ -13539,7 +13679,6 @@ MHDA- 2011/09/16 06:00
 CRDT- 2011/06/14 06:00
 PHST- 2010/10/14 [received]
 PHST- 2011/05/19 [accepted]
-PHST- 2011/06/12 [aheadofprint]
 AID - ng.862 [pii]
 AID - 10.1038/ng.862 [doi]
 PST - epublish
@@ -13550,7 +13689,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20110602
 DCOM- 20110926
-LR  - 20151119
+LR  - 20161122
 IS  - 1549-5469 (Electronic)
 IS  - 1088-9051 (Linking)
 VI  - 21
@@ -13598,13 +13737,14 @@ FAU - Webber, Caleb
 AU  - Webber C
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE27889
-GR  - F32HG004207/HG/NHGRI NIH HHS/United States
-GR  - MC_U137761446/Medical Research Council/United Kingdom
-GR  - MC_UP_A320_1004/Medical Research Council/United Kingdom
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - MC_UP_A320_1004/Medical Research Council/United Kingdom
+GR  - MC_U137761446/Medical Research Council/United Kingdom
 GR  - R01HG002898/HG/NHGRI NIH HHS/United States
+GR  - F32HG004207/HG/NHGRI NIH HHS/United States
+GR  - F32 HG004207/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -13627,8 +13767,6 @@ OID - NLM: PMC3106316
 EDAT- 2011/04/05 06:00
 MHDA- 2011/09/29 06:00
 CRDT- 2011/04/05 06:00
-PHST- 2011/04/01 [aheadofprint]
-PHST- 2011/04/25 [aheadofprint]
 AID - gr.115907.110 [pii]
 AID - 10.1101/gr.115907.110 [doi]
 PST - ppublish
@@ -13639,12 +13777,12 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20110609
 DCOM- 20111014
-LR  - 20150425
+LR  - 20161122
 IS  - 1546-1696 (Electronic)
 IS  - 1087-0156 (Linking)
 VI  - 29
 IP  - 6
-DP  - 2011 Jun
+DP  - 2011 May 08
 TI  - Comprehensive assessment of array-based platforms and calling algorithms for
       detection of copy number variants.
 PG  - 512-20
@@ -13709,26 +13847,28 @@ FAU - Scherer, Stephen W
 AU  - Scherer SW
 FAU - Feuk, Lars
 AU  - Feuk L
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE25893
 GR  - 077008/Wellcome Trust/United Kingdom
+GR  - T32 HD007396/HD/NICHD NIH HHS/United States
+GR  - WT077008/Wellcome Trust/United Kingdom
+GR  - R01 HD055150/HD/NICHD NIH HHS/United States
+GR  - HG004221/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
+GR  - HG005209/HG/NHGRI NIH HHS/United States
+GR  - R01 CA111560/CA/NCI NIH HHS/United States
+GR  - HD055150/HD/NICHD NIH HHS/United States
+GR  - R01 CA111560-05/CA/NCI NIH HHS/United States
 GR  - 077014/Wellcome Trust/United Kingdom
 GR  - 213997/Canadian Institutes of Health Research/Canada
-GR  - CA111560/CA/NCI NIH HHS/United States
-GR  - HD007396/HD/NICHD NIH HHS/United States
-GR  - HD055150/HD/NICHD NIH HHS/United States
-GR  - HG004221/HG/NHGRI NIH HHS/United States
-GR  - HG005209/HG/NHGRI NIH HHS/United States
 GR  - P01 HD068250/HD/NICHD NIH HHS/United States
-GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - HD007396/HD/NICHD NIH HHS/United States
 GR  - P41 HG004221-03/HG/NHGRI NIH HHS/United States
-GR  - R01 CA111560/CA/NCI NIH HHS/United States
-GR  - R01 CA111560-05/CA/NCI NIH HHS/United States
+GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 GR  - T32 GM007748/GM/NIGMS NIH HHS/United States
 GR  - T32 GM007748-33/GM/NIGMS NIH HHS/United States
-GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
-GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
-GR  - WT077008/Wellcome Trust/United Kingdom
+GR  - CA111560/CA/NCI NIH HHS/United States
 PT  - Comparative Study
 PT  - Evaluation Studies
 PT  - Journal Article
@@ -13760,7 +13900,6 @@ MHDA- 2011/10/15 06:00
 CRDT- 2011/05/10 06:00
 PHST- 2010/10/08 [received]
 PHST- 2011/03/22 [accepted]
-PHST- 2011/05/08 [aheadofprint]
 AID - nbt.1852 [pii]
 AID - 10.1038/nbt.1852 [doi]
 PST - epublish
@@ -13771,7 +13910,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20110204
 DCOM- 20110222
-LR  - 20150407
+LR  - 20161122
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 470
@@ -13912,49 +14051,42 @@ AU  - McCarroll SA
 FAU - Korbel, Jan O
 AU  - Korbel JO
 CN  - 1000 Genomes Project
-LA  - eng
-GR  - 062023/Wellcome Trust/United Kingdom
+LA  - ENG
 GR  - 077009/Wellcome Trust/United Kingdom
-GR  - 077014/Wellcome Trust/United Kingdom
-GR  - 077192/Wellcome Trust/United Kingdom
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - G0701805/Medical Research Council/United Kingdom
-GR  - G1000758/Medical Research Council/United Kingdom
-GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-01/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-02/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-03/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-03S1/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-03S2/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-03S3/HG/NHGRI NIH HHS/United States
-GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
-GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
-GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - R01 GM081533-01A1/GM/NIGMS NIH HHS/United States
-GR  - R01 GM081533-02/GM/NIGMS NIH HHS/United States
-GR  - R01 GM081533-03/GM/NIGMS NIH HHS/United States
-GR  - R01 GM081533-04/GM/NIGMS NIH HHS/United States
-GR  - R01 GM59290/GM/NIGMS NIH HHS/United States
-GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - 077192/Wellcome Trust/United Kingdom
 GR  - R01 HG004719-01/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719-04/HG/NHGRI NIH HHS/United States
+GR  - G1000758/Medical Research Council/United Kingdom
+GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
+GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
+GR  - G0701805/Medical Research Council/United Kingdom
+GR  - U01 HG005209-01/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-03S2/HG/NHGRI NIH HHS/United States
+GR  - R01 MH091350/MH/NIMH NIH HHS/United States
+GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - R01 GM081533-04/GM/NIGMS NIH HHS/United States
+GR  - RC2 HG005552-01/RC/CCR NIH HHS/United States
+GR  - P41 HG004221-03S3/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-02/HG/NHGRI NIH HHS/United States
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - R01 GM081533-03/GM/NIGMS NIH HHS/United States
+GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
+GR  - RC2 HG005552-02/HG/NHGRI NIH HHS/United States
+GR  - 077014/Wellcome Trust/United Kingdom
 GR  - R01 HG004719-02/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-01/HG/NHGRI NIH HHS/United States
+GR  - 062023/Wellcome Trust/United Kingdom
+GR  - P41 HG004221-03S1/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-03/HG/NHGRI NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
 GR  - R01 HG004719-02S1/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-03/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719-04/HG/NHGRI NIH HHS/United States
-GR  - R01 MH091350/MH/NIMH NIH HHS/United States
-GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552-01/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552-02/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
-GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
-GR  - U01 HG005209-01/HG/NHGRI NIH HHS/United States
-GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
-GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
-GR  - Howard Hughes Medical Institute/United States
+GR  - R21 AA022707/AA/NIAAA NIH HHS/United States
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - R01 GM081533-02/GM/NIGMS NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -15082,7 +15214,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20111020
 DCOM- 20120214
-LR  - 20160114
+LR  - 20161019
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 12
@@ -15129,12 +15261,12 @@ FAU - Johnson, Welkin E
 AU  - Johnson WE
 FAU - Lee, Charles
 AU  - Lee C
-LA  - eng
-GR  - AI057039/AI/NIAID NIH HHS/United States
+LA  - ENG
 GR  - AI083118/AI/NIAID NIH HHS/United States
+GR  - RR00168/RR/NCRR NIH HHS/United States
 GR  - P41HG004221/HG/NHGRI NIH HHS/United States
 GR  - R01GM081533/GM/NIGMS NIH HHS/United States
-GR  - RR00168/RR/NCRR NIH HHS/United States
+GR  - AI057039/AI/NIAID NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -15169,7 +15301,6 @@ CRDT- 2011/06/02 06:00
 PHST- 2010/12/20 [received]
 PHST- 2011/05/16 [revised]
 PHST- 2011/05/31 [accepted]
-PHST- 2011/05/31 [aheadofprint]
 AID - gb-2011-12-5-r52 [pii]
 AID - 10.1186/gb-2011-12-5-r52 [doi]
 PST - ppublish
@@ -15180,7 +15311,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20101029
 DCOM- 20101116
-LR  - 20150708
+LR  - 20161122
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 330
@@ -15224,15 +15355,14 @@ AU  - Shendure J
 CN  - 1000 Genomes Project
 FAU - Eichler, Evan E
 AU  - Eichler EE
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE24334
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - HG004120/HG/NHGRI NIH HHS/United States
-GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
 GR  - P01 HG004120-03/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - HG004120/HG/NHGRI NIH HHS/United States
 GR  - Howard Hughes Medical Institute/United States
-GR  - Howard Hughes Medical Institute/United States
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -16384,7 +16514,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20101028
 DCOM- 20101214
-LR  - 20150813
+LR  - 20161122
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 467
@@ -16433,72 +16563,95 @@ FAU - Hurles, Matt E
 AU  - Hurles ME
 FAU - McVean, Gil A
 AU  - McVean GA
-LA  - eng
-GR  - 01HG3229/HG/NHGRI NIH HHS/United States
-GR  - 01MH84698/MH/NIMH NIH HHS/United States
-GR  - 075491/Wellcome Trust/United Kingdom
+LA  - ENG
 GR  - 077009/Wellcome Trust/United Kingdom
-GR  - 077014/Wellcome Trust/United Kingdom
+GR  - R01HG4960/HG/NHGRI NIH HHS/United States
 GR  - 077192/Wellcome Trust/United Kingdom
+GR  - U01HG5208/HG/NHGRI NIH HHS/United States
+GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
+GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
+GR  - R01 MH084698/MH/NIMH NIH HHS/United States
+GR  - R01GM72861/GM/NIGMS NIH HHS/United States
+GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719-01/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005208/HG/NHGRI NIH HHS/United States
+GR  - 01MH84698/MH/NIMH NIH HHS/United States
+GR  - U41 HG002371/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004333/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004222/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719-04/HG/NHGRI NIH HHS/United States
+GR  - WT081407/Z/06/Z/Wellcome Trust/United Kingdom
+GR  - P41HG2371/HG/NHGRI NIH HHS/United States
+GR  - R01 HG002651/HG/NHGRI NIH HHS/United States
+GR  - R01HG4333/HG/NHGRI NIH HHS/United States
+GR  - R01HG3698/HG/NHGRI NIH HHS/United States
+GR  - R01 GM072861/GM/NIGMS NIH HHS/United States
+GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
+GR  - U54HG2757/HG/NHGRI NIH HHS/United States
+GR  - U54 HG002757/HG/NHGRI NIH HHS/United States
+GR  - 089088/Wellcome Trust/United Kingdom
+GR  - R01GM59290/GM/NIGMS NIH HHS/United States
+GR  - U01HG5210/HG/NHGRI NIH HHS/United States
+GR  - U41HG4568/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005211/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005214/HG/NHGRI NIH HHS/United States
+GR  - RC2 HG005552-01/HG/NHGRI NIH HHS/United States
+GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
+GR  - P41 HG002371/HG/NHGRI NIH HHS/United States
+GR  - T32 GM007753/GM/NIGMS NIH HHS/United States
+GR  - WT075491/Z/04/Wellcome Trust/United Kingdom
+GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
+GR  - WT077009/Wellcome Trust/United Kingdom
+GR  - G0801823/Medical Research Council/United Kingdom
+GR  - RC2 HG005552-01/RC/CCR NIH HHS/United States
+GR  - 075491/Wellcome Trust/United Kingdom
+GR  - Intramural NIH HHS/United States
+GR  - U01HG5211/HG/NHGRI NIH HHS/United States
+GR  - U54HG3079/HG/NHGRI NIH HHS/United States
+GR  - N01-HG-62088/HG/NHGRI NIH HHS/United States
+GR  - U01HG5214/HG/NHGRI NIH HHS/United States
+GR  - U41 HG004568/HG/NHGRI NIH HHS/United States
+GR  - U54 HG002750/HG/NHGRI NIH HHS/United States
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - RG/09/012/28096/British Heart Foundation/United Kingdom
+GR  - Howard Hughes Medical Institute/United States
+GR  - U54HG2750/HG/NHGRI NIH HHS/United States
+GR  - 089062/Wellcome Trust/United Kingdom
+GR  - U01 HG005210/HG/NHGRI NIH HHS/United States
+GR  - RC2 HG005552-02/HG/NHGRI NIH HHS/United States
+GR  - 077014/Wellcome Trust/United Kingdom
+GR  - R01 HG004719-02/HG/NHGRI NIH HHS/United States
+GR  - R01 HG003698/HG/NHGRI NIH HHS/United States
+GR  - WT085532AIA/Wellcome Trust/United Kingdom
+GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
+GR  - P01HG4120/HG/NHGRI NIH HHS/United States
+GR  - U01HG5209/HG/NHGRI NIH HHS/United States
+GR  - 089061/Wellcome Trust/United Kingdom
+GR  - 01HG3229/HG/NHGRI NIH HHS/United States
+GR  - U54HG3067/HG/NHGRI NIH HHS/United States
+GR  - 086084/Wellcome Trust/United Kingdom
+GR  - P41HG4221/HG/NHGRI NIH HHS/United States
+GR  - R01 HG002510/HG/NHGRI NIH HHS/United States
 GR  - 081407/Wellcome Trust/United Kingdom
 GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 086084/Wellcome Trust/United Kingdom
-GR  - 089061/Wellcome Trust/United Kingdom
-GR  - 089062/Wellcome Trust/United Kingdom
-GR  - 089088/Wellcome Trust/United Kingdom
-GR  - G0801823/Medical Research Council/United Kingdom
-GR  - G0801823/Medical Research Council/United Kingdom
-GR  - G0801823(89305)/Medical Research Council/United Kingdom
-GR  - N01HG62088/HG/NHGRI NIH HHS/United States
-GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
-GR  - P01HG4120/HG/NHGRI NIH HHS/United States
-GR  - P41HG2371/HG/NHGRI NIH HHS/United States
-GR  - P41HG4221/HG/NHGRI NIH HHS/United States
-GR  - P41HG4222/HG/NHGRI NIH HHS/United States
+GR  - F31 HG005201/HG/NHGRI NIH HHS/United States
 GR  - P50HG2357/HG/NHGRI NIH HHS/United States
-GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
-GR  - R01 HG003229-05/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719-01/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719-02/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-02S1/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-03/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719-04/HG/NHGRI NIH HHS/United States
-GR  - R01GM59290/GM/NIGMS NIH HHS/United States
-GR  - R01GM72861/GM/NIGMS NIH HHS/United States
-GR  - R01HG2651/HG/NHGRI NIH HHS/United States
-GR  - R01HG3698/HG/NHGRI NIH HHS/United States
-GR  - R01HG4333/HG/NHGRI NIH HHS/United States
-GR  - R01HG4719/HG/NHGRI NIH HHS/United States
-GR  - R01HG4960/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552-01/HG/NHGRI NIH HHS/United States
-GR  - RC2 HG005552-02/HG/NHGRI NIH HHS/United States
-GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
-GR  - RG/09/012/28096/British Heart Foundation/United Kingdom
-GR  - RG/09/012/28096/British Heart Foundation/United Kingdom
+GR  - R01 HG003229-05/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
+GR  - R21 AA022707/AA/NIAAA NIH HHS/United States
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
+GR  - P41HG4222/HG/NHGRI NIH HHS/United States
 GR  - S10RR025056/RR/NCRR NIH HHS/United States
-GR  - T32 GM007753/GM/NIGMS NIH HHS/United States
-GR  - U01HG5208/HG/NHGRI NIH HHS/United States
-GR  - U01HG5209/HG/NHGRI NIH HHS/United States
-GR  - U01HG5210/HG/NHGRI NIH HHS/United States
-GR  - U01HG5211/HG/NHGRI NIH HHS/United States
-GR  - U01HG5214/HG/NHGRI NIH HHS/United States
-GR  - U41HG4568/HG/NHGRI NIH HHS/United States
-GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
-GR  - U54HG2750/HG/NHGRI NIH HHS/United States
-GR  - U54HG2757/HG/NHGRI NIH HHS/United States
-GR  - U54HG3067/HG/NHGRI NIH HHS/United States
-GR  - U54HG3079/HG/NHGRI NIH HHS/United States
+GR  - R01HG2651/HG/NHGRI NIH HHS/United States
+GR  - R01HG4719/HG/NHGRI NIH HHS/United States
+GR  - P50 HG002357/HG/NHGRI NIH HHS/United States
+GR  - G0801823(89305)/Medical Research Council/United Kingdom
 GR  - U54HG3273/HG/NHGRI NIH HHS/United States
-GR  - WT075491/Z/04/Wellcome Trust/United Kingdom
-GR  - WT077009/Wellcome Trust/United Kingdom
-GR  - WT081407/Z/06/Z/Wellcome Trust/United Kingdom
-GR  - WT085532AIA/Wellcome Trust/United Kingdom
-GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
 GR  - WT089088/Z/09/Z/Wellcome Trust/United Kingdom
-GR  - Howard Hughes Medical Institute/United States
-GR  - Intramural NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, N.I.H., Intramural
@@ -17648,7 +17801,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20101013
 DCOM- 20110124
-LR  - 20141202
+LR  - 20161019
 IS  - 1460-2083 (Electronic)
 IS  - 0964-6906 (Linking)
 VI  - 19
@@ -17677,7 +17830,7 @@ FAU - Pittard, W Stephen
 AU  - Pittard WS
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01HG002898/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
@@ -17700,8 +17853,6 @@ OID - NLM: PMC2953750
 EDAT- 2010/09/23 06:00
 MHDA- 2011/01/25 06:00
 CRDT- 2010/09/23 06:00
-PHST- 2010/09/21 [aheadofprint]
-PHST- 2010/09/30 [aheadofprint]
 AID - ddq400 [pii]
 AID - 10.1093/hmg/ddq400 [doi]
 PST - ppublish
@@ -17713,7 +17864,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20100706
 DCOM- 20100713
-LR  - 20150606
+LR  - 20161122
 IS  - 1097-4172 (Electronic)
 IS  - 0092-8674 (Linking)
 VI  - 141
@@ -17756,19 +17907,23 @@ FAU - Vertino, Paula M
 AU  - Vertino PM
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
-GR  - 1R01CA132065/CA/NCI NIH HHS/United States
-GR  - 5P01CA116676/CA/NCI NIH HHS/United States
-GR  - F32HG004207/HG/NHGRI NIH HHS/United States
-GR  - R01 CA132065/CA/NCI NIH HHS/United States
-GR  - R01 GM078541/GM/NIGMS NIH HHS/United States
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - R01 HG002898-06/HG/NHGRI NIH HHS/United States
-GR  - R01CA086335/CA/NCI NIH HHS/United States
-GR  - R01CA116804/CA/NCI NIH HHS/United States
+GR  - R01 CA086335/CA/NCI NIH HHS/United States
 GR  - R01GM078541/GM/NIGMS NIH HHS/United States
+GR  - R01 CA132065/CA/NCI NIH HHS/United States
 GR  - R01HG002898/HG/NHGRI NIH HHS/United States
+GR  - F32HG004207/HG/NHGRI NIH HHS/United States
+GR  - R01 GM078541/GM/NIGMS NIH HHS/United States
+GR  - 1R01CA132065/CA/NCI NIH HHS/United States
+GR  - F32 HG004207/HG/NHGRI NIH HHS/United States
+GR  - P01 CA116676/CA/NCI NIH HHS/United States
+GR  - R01 CA116804/CA/NCI NIH HHS/United States
+GR  - R01CA116804/CA/NCI NIH HHS/United States
+GR  - 5P01CA116676/CA/NCI NIH HHS/United States
 GR  - T32 GM008490/GM/NIGMS NIH HHS/United States
+GR  - R01CA086335/CA/NCI NIH HHS/United States
+GR  - R01 HG002898-06/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -17809,7 +17964,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20100429
 DCOM- 20100527
-LR  - 20141204
+LR  - 20161122
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 42
@@ -17894,12 +18049,13 @@ FAU - Lee, Charles
 AU  - Lee C
 FAU - Seo, Jeong-Sun
 AU  - Seo JS
-LA  - eng
+LA  - ENG
 SI  - GEO/GSE19651
-GR  - 077008/Wellcome Trust/United Kingdom
 GR  - 077009/Wellcome Trust/United Kingdom
-GR  - 077014/Wellcome Trust/United Kingdom
+GR  - 077008/Wellcome Trust/United Kingdom
 GR  - HG004221/HG/NHGRI NIH HHS/United States
+GR  - 077014/Wellcome Trust/United Kingdom
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -17934,7 +18090,6 @@ MHDA- 2010/05/28 06:00
 CRDT- 2010/04/06 06:00
 PHST- 2009/11/30 [received]
 PHST- 2010/02/22 [accepted]
-PHST- 2010/04/04 [aheadofprint]
 AID - ng.555 [pii]
 AID - 10.1038/ng.555 [doi]
 PST - ppublish
@@ -17945,7 +18100,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20100409
 DCOM- 20100805
-LR  - 20141204
+LR  - 20161122
 IS  - 1600-0854 (Electronic)
 IS  - 1398-9219 (Linking)
 VI  - 11
@@ -17985,16 +18140,16 @@ FAU - Devine, Scott E
 AU  - Devine SE
 FAU - Corbett, Anita H
 AU  - Corbett AH
-LA  - eng
-GR  - R01 GM058728/GM/NIGMS NIH HHS/United States
-GR  - R01 GM065442/GM/NIGMS NIH HHS/United States
-GR  - R01 GM065442-04/GM/NIGMS NIH HHS/United States
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - R01 GM058728/GM/NIGMS NIH HHS/United States
+GR  - R01 GM065442-04/GM/NIGMS NIH HHS/United States
+GR  - R01 GM065442/GM/NIGMS NIH HHS/United States
 GR  - R01 HG002898-06/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20091215
-PL  - Denmark
+PL  - England
 TA  - Traffic
 JT  - Traffic (Copenhagen, Denmark)
 JID - 100939340
@@ -18020,7 +18175,6 @@ OID - NLM: PMC2886731
 EDAT- 2009/12/24 06:00
 MHDA- 2010/08/06 06:00
 CRDT- 2009/12/24 06:00
-PHST- 2009/12/15 [aheadofprint]
 AID - TRA1028 [pii]
 AID - 10.1111/j.1600-0854.2009.01028.x [doi]
 PST - ppublish
@@ -18032,7 +18186,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20090820
 DCOM- 20090923
-LR  - 20150710
+LR  - 20161122
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 460
@@ -18152,14 +18306,15 @@ FAU - Kingsmore, Stephen F
 AU  - Kingsmore SF
 FAU - Seo, Jeong-Sun
 AU  - Seo JS
-LA  - eng
-GR  - HG004221/HG/NHGRI NIH HHS/United States
-GR  - P20 RR016480/RR/NCRR NIH HHS/United States
-GR  - P20 RR016480-08/RR/NCRR NIH HHS/United States
-GR  - RR016480/RR/NCRR NIH HHS/United States
+LA  - ENG
 GR  - U01 AI066569/AI/NIAID NIH HHS/United States
 GR  - U01 AI066569-04/AI/NIAID NIH HHS/United States
+GR  - RR016480/RR/NCRR NIH HHS/United States
+GR  - HG004221/HG/NHGRI NIH HHS/United States
 GR  - U19 HD077693/HD/NICHD NIH HHS/United States
+GR  - P20 RR016480-08/RR/NCRR NIH HHS/United States
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - P20 RR016480/RR/NCRR NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -18189,7 +18344,6 @@ MHDA- 2009/09/24 06:00
 CRDT- 2009/07/10 09:00
 PHST- 2009/03/06 [received]
 PHST- 2009/06/18 [accepted]
-PHST- 2009/07/08 [aheadofprint]
 AID - nature08211 [pii]
 AID - 10.1038/nature08211 [doi]
 PST - ppublish
@@ -18200,7 +18354,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20081205
 DCOM- 20090116
-LR  - 20141124
+LR  - 20161122
 IS  - 1088-9051 (Print)
 IS  - 1088-9051 (Linking)
 VI  - 18
@@ -18243,13 +18397,15 @@ FAU - Weichenrieder, Oliver
 AU  - Weichenrieder O
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
-GR  - F32HG004207/HG/NHGRI NIH HHS/United States
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898-05/HG/NHGRI NIH HHS/United States
-GR  - R01GM060518/GM/NIGMS NIH HHS/United States
 GR  - R01HG002898/HG/NHGRI NIH HHS/United States
+GR  - F32HG004207/HG/NHGRI NIH HHS/United States
+GR  - R01 GM060518/GM/NIGMS NIH HHS/United States
+GR  - F32 HG004207/HG/NHGRI NIH HHS/United States
 GR  - T32 GM008490/GM/NIGMS NIH HHS/United States
+GR  - R01GM060518/GM/NIGMS NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -18274,8 +18430,6 @@ OID - NLM: PMC2593586
 EDAT- 2008/10/07 09:00
 MHDA- 2009/01/17 09:00
 CRDT- 2008/10/07 09:00
-PHST- 2008/10/03 [aheadofprint]
-PHST- 2008/11/03 [aheadofprint]
 AID - gr.081737.108 [pii]
 AID - 10.1101/gr.081737.108 [doi]
 PST - ppublish
@@ -18286,7 +18440,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20080505
 DCOM- 20080617
-LR  - 20141125
+LR  - 20161122
 IS  - 0021-9258 (Print)
 IS  - 0021-9258 (Linking)
 VI  - 283
@@ -18329,7 +18483,7 @@ FAU - Devine, Scott E
 AU  - Devine SE
 FAU - Corbett, Anita H
 AU  - Corbett AH
-LA  - eng
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898-05/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
@@ -18370,7 +18524,6 @@ OID - NLM: PMC2442336
 EDAT- 2008/03/18 09:00
 MHDA- 2008/06/18 09:00
 CRDT- 2008/03/18 09:00
-PHST- 2008/03/14 [aheadofprint]
 AID - M800898200 [pii]
 AID - 10.1074/jbc.M800898200 [doi]
 PST - ppublish
@@ -18382,7 +18535,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20070402
 DCOM- 20070605
-LR  - 20141124
+LR  - 20161122
 IS  - 0168-9525 (Print)
 IS  - 0168-9525 (Linking)
 VI  - 23
@@ -18409,11 +18562,11 @@ FAU - Iskow, Rebecca C
 AU  - Iskow RC
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
-GR  - 2T32GM00849/GM/NIGMS NIH HHS/United States
+LA  - ENG
 GR  - 5R01HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898-03/HG/NHGRI NIH HHS/United States
+GR  - 2T32GM00849/GM/NIGMS NIH HHS/United States
 GR  - T32 GM008490/GM/NIGMS NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
@@ -18440,7 +18593,6 @@ CRDT- 2007/03/03 09:00
 PHST- 2006/05/02 [received]
 PHST- 2007/01/15 [revised]
 PHST- 2007/02/12 [accepted]
-PHST- 2007/02/27 [aheadofprint]
 AID - S0168-9525(07)00059-5 [pii]
 AID - 10.1016/j.tig.2007.02.006 [doi]
 PST - ppublish
@@ -18451,7 +18603,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20070219
 DCOM- 20070417
-LR  - 20150719
+LR  - 20161122
 IS  - 0021-9258 (Print)
 IS  - 0021-9258 (Linking)
 VI  - 282
@@ -18484,7 +18636,7 @@ FAU - Devine, Scott E
 AU  - Devine SE
 FAU - Corbett, Anita H
 AU  - Corbett AH
-LA  - eng
+LA  - ENG
 GR  - MC_U105178939/Medical Research Council/United Kingdom
 GR  - R01 GM058728/GM/NIGMS NIH HHS/United States
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
@@ -18515,7 +18667,6 @@ OID - NLM: PMC4502416
 EDAT- 2006/12/16 09:00
 MHDA- 2007/04/18 09:00
 CRDT- 2006/12/16 09:00
-PHST- 2006/12/14 [aheadofprint]
 AID - R600026200 [pii]
 AID - 10.1074/jbc.R600026200 [doi]
 PST - ppublish
@@ -18526,7 +18677,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20060904
 DCOM- 20061019
-LR  - 20141125
+LR  - 20161122
 IS  - 1088-9051 (Print)
 IS  - 1088-9051 (Linking)
 VI  - 16
@@ -18571,10 +18722,10 @@ FAU - Pittard, W Stephen
 AU  - Pittard WS
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
-GR  - 1R01HG002898/HG/NHGRI NIH HHS/United States
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898-02/HG/NHGRI NIH HHS/United States
+GR  - 1R01HG002898/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -18597,7 +18748,6 @@ OID - NLM: PMC1557762
 EDAT- 2006/08/12 09:00
 MHDA- 2006/10/20 09:00
 CRDT- 2006/08/12 09:00
-PHST- 2006/08/10 [aheadofprint]
 AID - gr.4565806 [pii]
 AID - 10.1101/gr.4565806 [doi]
 PST - ppublish
@@ -18608,7 +18758,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20060313
 DCOM- 20060425
-LR  - 20141124
+LR  - 20161122
 IS  - 0002-9297 (Print)
 IS  - 0002-9297 (Linking)
 VI  - 78
@@ -18648,12 +18798,12 @@ FAU - Pittard, W Stephen
 AU  - Pittard WS
 FAU - Devine, Scott E
 AU  - Devine SE
-LA  - eng
-GR  - 1R01HG002898/HG/NHGRI NIH HHS/United States
-GR  - 2T32GM00849/GM/NIGMS NIH HHS/United States
+LA  - ENG
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - R01 HG002898-02/HG/NHGRI NIH HHS/United States
+GR  - 2T32GM00849/GM/NIGMS NIH HHS/United States
 GR  - T32 GM008490/GM/NIGMS NIH HHS/United States
+GR  - R01 HG002898-02/HG/NHGRI NIH HHS/United States
+GR  - 1R01HG002898/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20060202
@@ -18681,7 +18831,6 @@ MHDA- 2006/04/28 09:00
 CRDT- 2006/03/15 09:00
 PHST- 2005/07/15 [received]
 PHST- 2005/12/30 [accepted]
-PHST- 2006/02/02 [aheadofprint]
 AID - S0002-9297(07)63704-5 [pii]
 AID - 10.1086/501028 [doi]
 PST - ppublish
@@ -18692,7 +18841,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20040928
 DCOM- 20041102
-LR  - 20140608
+LR  - 20161019
 IS  - 0022-538X (Print)
 IS  - 0022-538X (Linking)
 VI  - 78
@@ -18735,10 +18884,14 @@ FAU - Ploegh, Hidde L
 AU  - Ploegh HL
 FAU - Kessler, Benedikt M
 AU  - Kessler BM
-LA  - eng
-GR  - AI 33456-05/AI/NIAID NIH HHS/United States
+LA  - ENG
 GR  - HG 00783/HG/NHGRI NIH HHS/United States
 GR  - TW 005899/TW/FIC NIH HHS/United States
+GR  - AI 33456-05/AI/NIAID NIH HHS/United States
+GR  - R03 TW005899/TW/FIC NIH HHS/United States
+GR  - R37 AI033456/AI/NIAID NIH HHS/United States
+GR  - R01 HG000783/HG/NHGRI NIH HHS/United States
+GR  - R01 AI033456/AI/NIAID NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 PT  - Research Support, U.S. Gov't, P.H.S.
@@ -18778,7 +18931,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20031120
 DCOM- 20040630
-LR  - 20140610
+LR  - 20161019
 IS  - 1362-4962 (Electronic)
 IS  - 0305-1048 (Linking)
 VI  - 31
@@ -18820,10 +18973,11 @@ FAU - Tatusova, Tatiana
 AU  - Tatusova T
 FAU - Borodovsky, Mark
 AU  - Borodovsky M
-LA  - eng
+LA  - ENG
 SI  - GENBANK/AF083975
 SI  - RefSeq/NC_000899
 SI  - RefSeq/NC_001824
+GR  - R01 HG000783/HG/NHGRI NIH HHS/United States
 GR  - HG00783/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
@@ -18859,7 +19013,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20030513
 DCOM- 20030612
-LR  - 20140611
+LR  - 20161019
 IS  - 0022-538X (Print)
 IS  - 0022-538X (Linking)
 VI  - 77
@@ -18902,7 +19056,7 @@ FAU - Borodovsky, Mark
 AU  - Borodovsky M
 FAU - Hilliard, Julia K
 AU  - Hilliard JK
-LA  - eng
+LA  - ENG
 SI  - GENBANK/AF533768
 SI  - GENBANK/AY230747
 SI  - GENBANK/AY230748
@@ -18946,6 +19100,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20080422
 DCOM- 20080514
+LR  - 20161021
 IS  - 1934-340X (Electronic)
 IS  - 1934-3396 (Linking)
 VI  - Chapter 4
@@ -18971,12 +19126,11 @@ FAU - Besemer, John
 AU  - Besemer J
 FAU - Lomsadze, Alex
 AU  - Lomsadze A
-LA  - eng
+LA  - ENG
 PT  - Journal Article
 PL  - United States
 TA  - Curr Protoc Bioinformatics
-JT  - Current protocols in bioinformatics / editoral board, Andreas D. Baxevanis ...
-      [et al.]
+JT  - Current protocols in bioinformatics
 JID - 101157830
 SB  - IM
 MH  - *Algorithms
@@ -19005,6 +19159,7 @@ OWN - NLM
 STAT- MEDLINE
 DA  - 20080422
 DCOM- 20080514
+LR  - 20161021
 IS  - 1934-340X (Electronic)
 IS  - 1934-3396 (Linking)
 VI  - Chapter 4
@@ -19031,12 +19186,11 @@ FAU - Ivanov, Nikolai
 AU  - Ivanov N
 FAU - Mills, Ryan
 AU  - Mills R
-LA  - eng
+LA  - ENG
 PT  - Journal Article
 PL  - United States
 TA  - Curr Protoc Bioinformatics
-JT  - Current protocols in bioinformatics / editoral board, Andreas D. Baxevanis ...
-      [et al.]
+JT  - Current protocols in bioinformatics
 JID - 101157830
 SB  - IM
 MH  - *Algorithms
