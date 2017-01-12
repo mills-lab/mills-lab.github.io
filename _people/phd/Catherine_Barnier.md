@@ -1,10 +1,10 @@
 ---
 publish: true
 name: Catherine Barnier
-title: PIBS Rotation Student [Winter/2017]
+title: PIBS Rotation Student
 picture: Catherine_Barnier_pic.jpg
 line1: B.A. Western Connecticut State University 
-line2: 
+line2: [Winter/2017]
 google-scholar: 
 CV:
 linked-in: 
