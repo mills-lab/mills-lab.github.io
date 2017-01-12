@@ -3,7 +3,7 @@ publish: true
 name: Zhenning Zhang
 title: Bioinformatics [Winter/2017]
 picture: Zhenning_Zhang_pic.png
-line1: B.S.  
+line1: B.S. University of Macau  
 line2: (Winter/2017)
 google-scholar: 
 CV:
