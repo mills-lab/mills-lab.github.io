@@ -3,7 +3,7 @@ publish: true
 name: Weichen Zhou
 title: Ph.D., Fudan University 
 picture: Weichen_Zhou_pic.jpg
-line1: B.S.E., Huazhong University of Science and Technology, China 
+line1: B.S.E., Huazhong University of Science and Technology
 line2: 
 google-scholar: 
 CV:
