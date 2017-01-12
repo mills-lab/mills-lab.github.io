@@ -1,10 +1,10 @@
 ---
 publish: true
 name: Fan Zhang
-title: Bioinformatics Rotation Student [Fall/2015]
+title: Bioinformatics Rotation Student
 picture: Fan_Zhang_pic.jpg
 line1: B.S.E., South China University of Technology
-line2: 
+line2: [Fall/2015] 
 google-scholar: 
 CV:
 linked-in: 
