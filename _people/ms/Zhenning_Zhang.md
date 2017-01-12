@@ -4,7 +4,7 @@ name: Zhenning Zhang
 title: Bioinformatics [Winter/2017]
 picture: Zhenning_Zhang_pic.jpg
 line1: B.S. University of Macau  
-line2: (Winter/2017)
+line2: 
 google-scholar: 
 CV:
 linked-in: 
