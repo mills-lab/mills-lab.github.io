@@ -1,0 +1,14 @@
+---
+publish: true
+name: Zhenning Zhang
+title: Bioinformatics [Winter/2017]
+picture: Zhenning_Zhang_pic.png
+line1: B.S.  
+line2: (Winter/2017)
+google-scholar: 
+CV:
+linked-in: 
+twitter: 
+email: frankzzn@umich.edu
+start-date: 2017-01-02
+---
