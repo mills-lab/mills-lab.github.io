@@ -24,6 +24,7 @@ Office: 2055B Palmer Commons<br>
 The Mills Lab is located on the 2nd floor of Palmer Commons. Please feel free to contact us regarding software and data availability.
 <br /> <br />
 <a href="http://palmercommons.umich.edu/article/driving-directions">Parking Information</a>
+Visitor parking is available in the Palmer Commons Visitors parking structure at 100 Washtenaw Ave., Ann Arbor, MI 48109
 <br /> <br />
 <b>Shipping:</b><br>
 Dr. Ryan Mills<br>
