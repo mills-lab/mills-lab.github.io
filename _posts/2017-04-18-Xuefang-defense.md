@@ -4,7 +4,7 @@ title: "Xuefang Thesis Defense"
 share: false
 external-url: 
 image:
-  teaser: congratulations.png
+  teaser: congratulations.jpg
   feature: banner-short-apb.png
 ads: false
 ---
