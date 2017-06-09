@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Alex Weber
-title: Bioinformatics Rotation Student
+title: Bioinformatics Pre-candidate
 picture: Alex_Weber_pic.jpg
 line1: B.S., University of Wisconsin - Madison
 line2:  
