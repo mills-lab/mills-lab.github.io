@@ -3,7 +3,7 @@ publish: true
 name: Akima George
 title: Bioinformatics Student
 picture: Akima_George_pic.jpg
-line1: M.Sc., University of Michigan
+line1: M.S., University of Michigan
 line2: B.S., University of the Virgin Islands
 CV:
 linked-in: 
