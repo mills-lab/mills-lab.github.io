@@ -1,10 +1,10 @@
 ---
 publish: true
 name: Xuefang Zhao
-title: Bioinformatics PhD
+title: Bioinformatics PhD Student
 picture: Xuefang_Zhao_pic.png
 line1: B.S., University of Science and Technology of China
-line2: 
+line2: [Graduated Spring/2017]
 google-scholar: 
 CV:
 linked-in: 

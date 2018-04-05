@@ -1,11 +1,10 @@
 ---
 publish: true
 name: Akima George
-title: Bioinformatics Candidate
+title: Bioinformatics Student
 picture: Akima_George_pic.jpg
-line1: B.S., University of the Virgin Islands
-line2: (co-mentored w/Sally Camper)
-google-scholar: 
+line1: M.Sc., University of Michigan
+line2: B.S., University of the Virgin Islands
 CV:
 linked-in: 
 twitter:

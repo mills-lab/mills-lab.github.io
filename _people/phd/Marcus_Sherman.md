@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Marcus Sherman
-title: Bioinformatics Pre-candidate 
+title: Bioinformatics PhD Candidate
 picture: Marcus_Sherman_pic.png
 line1: B.S., University of North Carolina at Pembroke 
 line2: <a href="https://www.betteridiot.tech/">https://www.betteridiot.tech</a>

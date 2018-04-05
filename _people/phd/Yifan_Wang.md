@@ -1,10 +1,10 @@
 ---
 publish: true
 name: Yifan Wang
-title: Human Genetics Candidate
+title: Human Genetics PhD Candidate
 picture: Yifan_Wang_pic.png
-line1: B.S., University of Maryland, College Park 
-line2:
+line1: M.S., University of Michigan
+line2: B.S., University of Maryland, College Park 
 google-scholar: 
 CV:
 linked-in: 

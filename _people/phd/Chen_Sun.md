@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Chen Sun
-title: Bioinformatics Pre-candidate
+title: Bioinformatics PhD Pre-candidate
 picture: Chen_Sun_pic.jpg
 line1: B.S., Shanghai Jiaotong University
 line2:  

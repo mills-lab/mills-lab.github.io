@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Zhenning Zhang
-title: Bioinformatics
+title: Bioinformatics Student
 picture: Zhenning_Zhang_pic.jpg
 line1: B.S. University of Macau  
 line2: [Winter/2017]
