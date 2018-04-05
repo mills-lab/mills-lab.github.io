@@ -8,7 +8,7 @@ image:
   feature: banner-short-apb.png
 ads: false
 ---
-The Mills Lab celebrated the new lunar year with festive decorations, and... apologies to your vegan and vegetarian colleages, meat. Delicious. Tasty. Meat. And a monstrous tower of brownies and ice cream. How's that low-carb diet going, boss?
+The Mills Lab celebrated the new lunar year with festive decorations, and... apologies to our vegan and vegetarian colleages, meat. Delicious. Tasty. Meat. And a monstrous tower of brownies and ice cream. How's that low-carb diet going, boss?
 
 <div>
 {% for image in site.static_files %}
