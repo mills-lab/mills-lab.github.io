@@ -6,7 +6,7 @@ picture: Weichen_Zhou_pic.jpg
 line1: B.S.E., Huazhong University of Science and Technology
 line2: 
 google-scholar: 3O6XCBkAAAAJ 
-CV: ZhouWeichen_CV201702.pdf
+CV: ZhouWeichen_CV.pdf
 linked-in: 
 twitter:
 email:
