@@ -1,8 +1,579 @@
-PMID- 28450582
+PMID- 29559002
 OWN - NLM
 STAT- In-Data-Review
-DA  - 20170428
-LR  - 20170818
+LR  - 20180401
+IS  - 1474-760X (Electronic)
+IS  - 1474-7596 (Linking)
+VI  - 19
+IP  - 1
+DP  - 2018 Mar 20
+TI  - FusorSV: an algorithm for optimally combining data from multiple structural
+      variation detection methods.
+PG  - 38
+LID - 10.1186/s13059-018-1404-6 [doi]
+AB  - Comprehensive and accurate identification of structural variations (SVs) from
+      next generation sequencing data remains a major challenge. We develop FusorSV,
+      which uses a data mining approach to assess performance and merge callsets from
+      an ensemble of SV-calling algorithms. It includes a fusion model built using
+      analysis of 27 deep-coverage human genomes from the 1000 Genomes Project. We
+      identify 843 novel SV calls that were not reported by the 1000 Genomes Project
+      for these 27 samples. Experimental validation of a subset of these calls yields a
+      validation rate of 86.7%. FusorSV is available at
+      https://github.com/TheJacksonLaboratory/SVE .
+FAU - Becker, Timothy
+AU  - Becker T
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+AD  - Department of Computer Science and Engineering, University of Connecticut,
+      Storrs, CT, USA.
+FAU - Lee, Wan-Ping
+AU  - Lee WP
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Leone, Joseph
+AU  - Leone J
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Zhu, Qihui
+AU  - Zhu Q
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Zhang, Chengsheng
+AU  - Zhang C
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Liu, Silvia
+AU  - Liu S
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Sargent, Jack
+AU  - Sargent J
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Shanker, Kritika
+AU  - Shanker K
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Mil-Homens, Adam
+AU  - Mil-Homens A
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Cerveira, Eliza
+AU  - Cerveira E
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Ryan, Mallory
+AU  - Ryan M
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Cha, Jane
+AU  - Cha J
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+FAU - Navarro, Fabio C P
+AU  - Navarro FCP
+AD  - Program in Computational Biology and Bioinformatics, Yale University, New Haven, 
+      CT, USA.
+AD  - Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, 
+      CT, USA.
+FAU - Galeev, Timur
+AU  - Galeev T
+AD  - Program in Computational Biology and Bioinformatics, Yale University, New Haven, 
+      CT, USA.
+AD  - Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, 
+      CT, USA.
+FAU - Gerstein, Mark
+AU  - Gerstein M
+AD  - Program in Computational Biology and Bioinformatics, Yale University, New Haven, 
+      CT, USA.
+AD  - Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, 
+      CT, USA.
+AD  - Department of Computer Science, Yale University, New Haven, CT, USA.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      Ann Arbor, MI, USA.
+AD  - Department of Human Genetics, University of Michigan, Ann Arbor, MI, USA.
+FAU - Shin, Dong-Guk
+AU  - Shin DG
+AD  - Department of Computer Science and Engineering, University of Connecticut,
+      Storrs, CT, USA.
+FAU - Lee, Charles
+AU  - Lee C
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+      Charles.Lee@jax.org.
+AD  - The Department of Life Sciences, Ewha Womans University, Seoul, Korea.
+      Charles.Lee@jax.org.
+FAU - Malhotra, Ankit
+AU  - Malhotra A
+AUID- ORCID: http://orcid.org/0000-0002-1905-0732
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT, USA.
+      Ankit.Malhotra@jax.org.
+LA  - eng
+GR  - Ewha Womans University Research grant of 2015-6/Ewha Womans University
+GR  - P30CA034196/National Cancer Institute
+GR  - U41HG007497/National Human Genome Research Institute
+PT  - Journal Article
+DEP - 20180320
+PL  - England
+TA  - Genome Biol
+JT  - Genome biology
+JID - 100960660
+PMC - PMC5859555
+OTO - NOTNLM
+OT  - Copy number variation
+OT  - Genome rearrangements
+OT  - Next generation sequencing
+OT  - Structural variation
+EDAT- 2018/03/22 06:00
+MHDA- 2018/03/22 06:00
+CRDT- 2018/03/22 06:00
+PHST- 2017/09/28 00:00 [received]
+PHST- 2018/02/07 00:00 [accepted]
+PHST- 2018/03/22 06:00 [entrez]
+PHST- 2018/03/22 06:00 [pubmed]
+PHST- 2018/03/22 06:00 [medline]
+AID - 10.1186/s13059-018-1404-6 [doi]
+AID - 10.1186/s13059-018-1404-6 [pii]
+PST - epublish
+SO  - Genome Biol. 2018 Mar 20;19(1):38. doi: 10.1186/s13059-018-1404-6.
+
+PMID- 28855259
+OWN - NLM
+STAT- In-Process
+LR  - 20171115
+IS  - 1549-5469 (Electronic)
+IS  - 1088-9051 (Linking)
+VI  - 27
+IP  - 11
+DP  - 2017 Nov
+TI  - The Mobile Element Locator Tool (MELT): population-scale mobile element discovery
+      and biology.
+PG  - 1916-1929
+LID - 10.1101/gr.218032.116 [doi]
+AB  - Mobile element insertions (MEIs) represent approximately 25% of all structural
+      variants in human genomes. Moreover, when they disrupt genes, MEIs can influence 
+      human traits and diseases. Therefore, MEIs should be fully discovered along with 
+      other forms of genetic variation in whole genome sequencing (WGS) projects
+      involving population genetics, human diseases, and clinical genomics. Here, we
+      describe the Mobile Element Locator Tool (MELT), which was developed as part of
+      the 1000 Genomes Project to perform MEI discovery on a population scale. Using
+      both Illumina WGS data and simulations, we demonstrate that MELT outperforms
+      existing MEI discovery tools in terms of speed, scalability, specificity, and
+      sensitivity, while also detecting a broader spectrum of MEI-associated features. 
+      Several run modes were developed to perform MEI discovery on local and cloud
+      systems. In addition to using MELT to discover MEIs in modern humans as part of
+      the 1000 Genomes Project, we also used it to discover MEIs in chimpanzees and
+      ancient (Neanderthal and Denisovan) hominids. We detected diverse patterns of MEI
+      stratification across these populations that likely were caused by (1) diverse
+      rates of MEI production from source elements, (2) diverse patterns of MEI
+      inheritance, and (3) the introgression of ancient MEIs into modern human genomes.
+      Overall, our study provides the most comprehensive map of MEIs to date spanning
+      chimpanzees, ancient hominids, and modern humans and reveals new aspects of MEI
+      biology in these lineages. We also demonstrate that MELT is a robust platform for
+      MEI discovery and analysis in a variety of experimental settings.
+CI  - (c) 2017 Gardner et al.; Published by Cold Spring Harbor Laboratory Press.
+FAU - Gardner, Eugene J
+AU  - Gardner EJ
+AD  - Program in Molecular Medicine, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+FAU - Lam, Vincent K
+AU  - Lam VK
+AD  - Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Greenebaum Cancer Center, University of Maryland School of Medicine, Baltimore,
+      Maryland 21201, USA.
+FAU - Harris, Daniel N
+AU  - Harris DN
+AD  - Program in Molecular Medicine, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+FAU - Chuang, Nelson T
+AU  - Chuang NT
+AD  - Program in Molecular Medicine, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Department of Medicine, University of Maryland School of Medicine, Baltimore,
+      Maryland 21201, USA.
+AD  - Division of Gastroenterology, Department of Medicine, University of Maryland
+      School of Medicine, Baltimore, Maryland 21201, USA.
+FAU - Scott, Emma C
+AU  - Scott EC
+AD  - Program in Molecular Medicine, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+FAU - Pittard, W Stephen
+AU  - Pittard WS
+AD  - Department of Biostatistics and Bioinformatics, Rollins School of Public Health, 
+      Emory University, Atlanta, Georgia 30322, USA.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan
+      Medical School, Ann Arbor, Michigan 48109, USA.
+AD  - Department of Human Genetics, University of Michigan Medical School, Ann Arbor,
+      Michigan 48109, USA.
+CN  - 1000 Genomes Project Consortium
+FAU - Devine, Scott E
+AU  - Devine SE
+AD  - Program in Molecular Medicine, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, Maryland 21201, USA.
+AD  - Greenebaum Cancer Center, University of Maryland School of Medicine, Baltimore,
+      Maryland 21201, USA.
+AD  - Department of Medicine, University of Maryland School of Medicine, Baltimore,
+      Maryland 21201, USA.
+LA  - eng
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - F31 HG009223/HG/NHGRI NIH HHS/United States
+GR  - T32 DK067872/DK/NIDDK NIH HHS/United States
+PT  - Journal Article
+DEP - 20170830
+PL  - United States
+TA  - Genome Res
+JT  - Genome research
+JID - 9518021
+PMC - PMC5668948
+EDAT- 2017/09/01 06:00
+MHDA- 2017/09/01 06:00
+CRDT- 2017/09/01 06:00
+PHST- 2016/11/02 00:00 [received]
+PHST- 2017/08/07 00:00 [accepted]
+PHST- 2017/09/01 06:00 [pubmed]
+PHST- 2017/09/01 06:00 [medline]
+PHST- 2017/09/01 06:00 [entrez]
+AID - gr.218032.116 [pii]
+AID - 10.1101/gr.218032.116 [doi]
+PST - ppublish
+SO  - Genome Res. 2017 Nov;27(11):1916-1929. doi: 10.1101/gr.218032.116. Epub 2017 Aug 
+      30.
+
+PMID- 29163793
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20180228
+IS  - 1949-2553 (Electronic)
+IS  - 1949-2553 (Linking)
+VI  - 8
+IP  - 52
+DP  - 2017 Oct 27
+TI  - Rapid, ultra low coverage copy number profiling of cell-free DNA as a precision
+      oncology screening strategy.
+PG  - 89848-89866
+LID - 10.18632/oncotarget.21163 [doi]
+AB  - Current cell-free DNA (cfDNA) next generation sequencing (NGS) precision oncology
+      workflows are typically limited to targeted and/or disease-specific applications.
+      In advanced cancer, disease burden and cfDNA tumor content are often elevated,
+      yielding unique precision oncology opportunities. We sought to demonstrate the
+      utility of a pan-cancer, rapid, inexpensive, whole genome NGS of cfDNA approach
+      (PRINCe) as a precision oncology screening strategy via ultra-low coverage
+      (~0.01x) tumor content determination through genome-wide copy number alteration
+      (CNA) profiling. We applied PRINCe to a retrospective cohort of 124 cfDNA samples
+      from 100 patients with advanced cancers, including 76 men with metastatic
+      castration-resistant prostate cancer (mCRPC), enabling cfDNA tumor content
+      approximation and actionable focal CNA detection, while facilitating concordance 
+      analyses between cfDNA and tissue-based NGS profiles and assessment of cfDNA
+      alteration associations with mCRPC treatment outcomes. Therapeutically relevant
+      focal CNAs were present in 42 (34%) cfDNA samples, including 36 of 93 (39%) mCRPC
+      patient samples harboring AR amplification. PRINCe identified pre-treatment cfDNA
+      CNA profiles facilitating disease monitoring. Combining PRINCe with routine
+      targeted NGS of cfDNA enabled mutation and CNA assessment with coverages tuned to
+      cfDNA tumor content. In mCRPC, genome-wide PRINCe cfDNA and matched tissue CNA
+      profiles showed high concordance (median Pearson correlation = 0.87), and PRINCe 
+      detectable AR amplifications predicted reduced time on therapy, independent of
+      therapy type (Kaplan-Meier log-rank test, chi-square = 24.9, p < 0.0001). Our
+      screening approach enables robust, broadly applicable cfDNA-based precision
+      oncology for patients with advanced cancer through scalable identification of
+      therapeutically relevant CNAs and pre-/post-treatment genomic profiles, enabling 
+      cfDNA- or tissue-based precision oncology workflow optimization.
+FAU - Hovelson, Daniel H
+AU  - Hovelson DH
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Liu, Chia-Jen
+AU  - Liu CJ
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Pathology, University of Michigan Medical School, Ann Arbor, MI,
+      USA.
+FAU - Wang, Yugang
+AU  - Wang Y
+AD  - Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.
+FAU - Kang, Qing
+AU  - Kang Q
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Henderson, James
+AU  - Henderson J
+AD  - Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.
+FAU - Gursky, Amy
+AU  - Gursky A
+AD  - Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.
+FAU - Brockman, Scott
+AU  - Brockman S
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+FAU - Ramnath, Nithya
+AU  - Ramnath N
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Krauss, John C
+AU  - Krauss JC
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Talpaz, Moshe
+AU  - Talpaz M
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Kandarpa, Malathi
+AU  - Kandarpa M
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Chugh, Rashmi
+AU  - Chugh R
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Tuck, Missy
+AU  - Tuck M
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Herman, Kirk
+AU  - Herman K
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+FAU - Grasso, Catherine S
+AU  - Grasso CS
+AD  - Division of Hematology-Oncology, University of California, Los Angeles and the
+      Jonsson Comprehensive Cancer Center, Los Angeles, CA, USA.
+AD  - The Parker Institute of Cancer Immunotherapy, San Francisco, CA, USA.
+FAU - Quist, Michael J
+AU  - Quist MJ
+AD  - Division of Hematology-Oncology, University of California, Los Angeles and the
+      Jonsson Comprehensive Cancer Center, Los Angeles, CA, USA.
+AD  - The Parker Institute of Cancer Immunotherapy, San Francisco, CA, USA.
+FAU - Feng, Felix Y
+AU  - Feng FY
+AD  - Departments of Radiation Oncology, Urology, and Medicine, University of
+      California at San Francisco, San Francisco, CA, USA.
+FAU - Haakenson, Christine
+AU  - Haakenson C
+AD  - Takara Bio USA, Ann Arbor, MI, USA.
+FAU - Langmore, John
+AU  - Langmore J
+AD  - Takara Bio USA, Ann Arbor, MI, USA.
+FAU - Kamberov, Emmanuel
+AU  - Kamberov E
+AD  - Takara Bio USA, Ann Arbor, MI, USA.
+FAU - Tesmer, Tim
+AU  - Tesmer T
+AD  - Takara Bio USA, Ann Arbor, MI, USA.
+FAU - Husain, Hatim
+AU  - Husain H
+AD  - Medical Oncology, University of California, San Diego Moore's Cancer Center, San 
+      Diego, CA, USA.
+FAU - Lonigro, Robert J
+AU  - Lonigro RJ
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Pathology, University of Michigan Medical School, Ann Arbor, MI,
+      USA.
+FAU - Robinson, Dan
+AU  - Robinson D
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Pathology, University of Michigan Medical School, Ann Arbor, MI,
+      USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+FAU - Smith, David C
+AU  - Smith DC
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+FAU - Alva, Ajjai S
+AU  - Alva AS
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+FAU - Hussain, Maha H
+AU  - Hussain MH
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+AD  - Present address: Division of Hematology/Oncology, Feinberg School of Medicine,
+      Northwestern University, Chicago, IL, USA.
+FAU - Chinnaiyan, Arul M
+AU  - Chinnaiyan AM
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Pathology, University of Michigan Medical School, Ann Arbor, MI,
+      USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+AD  - Division of Hematology-Oncology, University of California, Los Angeles and the
+      Jonsson Comprehensive Cancer Center, Los Angeles, CA, USA.
+FAU - Tewari, Muneesh
+AU  - Tewari M
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+AD  - Department of Internal Medicine (Hematology/Oncology), University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+AD  - Department of Biomedical Engineering, University of Michigan Medical School, Ann 
+      Arbor, MI, USA.
+AD  - Department of Human Genetics, University of Michigan Medical School, Ann Arbor,
+      MI, USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+AD  - Department of Biointerfaces Institute, University of Michigan Medical School, Ann
+      Arbor, MI, USA.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan
+      Medical School, Ann Arbor, MI, USA.
+AD  - Department of Human Genetics, University of Michigan Medical School, Ann Arbor,
+      MI, USA.
+FAU - Morgan, Todd M
+AU  - Morgan TM
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+FAU - Tomlins, Scott A
+AU  - Tomlins SA
+AD  - Michigan Center for Translational Pathology, University of Michigan Medical
+      School, Ann Arbor, MI, USA.
+AD  - Department of Pathology, University of Michigan Medical School, Ann Arbor, MI,
+      USA.
+AD  - Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.
+AD  - Department of Comprehensive Cancer Center, University of Michigan Medical School,
+      Ann Arbor, MI, USA.
+LA  - eng
+GR  - R01 CA183857/CA/NCI NIH HHS/United States
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
+PT  - Journal Article
+DEP - 20170922
+PL  - United States
+TA  - Oncotarget
+JT  - Oncotarget
+JID - 101532965
+PMC - PMC5685714
+OTO - NOTNLM
+OT  - cell-free DNA
+OT  - copy-number analysis
+OT  - precision oncology
+OT  - prostate cancer
+OT  - whole genome sequencing
+COIS- CONFLICTS OF INTEREST C.H., T.T., J.L. and E.K. are current or former employees
+      of Takara Bio USA. D.H.H. has received travel support from Thermo Fisher. S.A.T
+      has received travel support from, and had a sponsored research agreement with
+      Compendia Bioscience/Life Technologies/ThermoFisher that provided access to the
+      targeted sequencing panel used herein. No other aspect of this study was
+      supported by Compendia Bioscience/Life Technologies/ThermoFisher. The University 
+      of Michigan has been issued a patent on ETS gene fusions in prostate cancer on
+      which A.M.C. and S.A.T. are co-inventors. The diagnostic field of use has been
+      licensed to Hologic/Gen-Probe, Inc., which has sublicensed rights to
+      Roche/Ventana Medical Systems. S.A.T. has an unrelated sponsored research
+      agreement with Astellas. S.A.T. has served as a consultant for and received
+      honoraria from Roche/Ventana Medical Systems, Almac Diagnostics, Janssen, AbbVie 
+      and Astellas/Medivation. S.A.T. is a co-founder of, consultant for and Laboratory
+      Director of Strata Oncology. The other authors have no competing interests to
+      declare.
+EDAT- 2017/11/23 06:00
+MHDA- 2017/11/23 06:01
+CRDT- 2017/11/23 06:00
+PHST- 2017/08/29 00:00 [received]
+PHST- 2017/09/08 00:00 [accepted]
+PHST- 2017/11/23 06:00 [entrez]
+PHST- 2017/11/23 06:00 [pubmed]
+PHST- 2017/11/23 06:01 [medline]
+AID - 10.18632/oncotarget.21163 [doi]
+AID - 21163 [pii]
+PST - epublish
+SO  - Oncotarget. 2017 Sep 22;8(52):89848-89866. doi: 10.18632/oncotarget.21163.
+      eCollection 2017 Oct 27.
+
+PMID- 28873962
+OWN - NLM
+STAT- In-Process
+LR  - 20180410
+IS  - 2047-217X (Electronic)
+IS  - 2047-217X (Linking)
+VI  - 6
+IP  - 8
+DP  - 2017 Aug 1
+TI  - A recurrence-based approach for validating structural variation using long-read
+      sequencing technology.
+PG  - 1-9
+LID - 10.1093/gigascience/gix061 [doi]
+AB  - Although numerous algorithms have been developed to identify structural
+      variations (SVs) in genomic sequences, there is a dearth of approaches that can
+      be used to evaluate their results. This is significant as the accurate
+      identification of structural variation is still an outstanding but important
+      problem in genomics. The emergence of new sequencing technologies that generate
+      longer sequence reads can, in theory, provide direct evidence for all types of
+      SVs regardless of the length of the region through which it spans. However,
+      current efforts to use these data in this manner require the use of large
+      computational resources to assemble these sequences as well as visual inspection 
+      of each region. Here we present VaPoR, a highly efficient algorithm that
+      autonomously validates large SV sets using long-read sequencing data. We assessed
+      the performance of VaPoR on SVs in both simulated and real genomes and report a
+      high-fidelity rate for overall accuracy across different levels of sequence
+      depths. We show that VaPoR can interrogate a much larger range of SVs while still
+      matching existing methods in terms of false positive validations and providing
+      additional features considering breakpoint precision and predicted genotype. We
+      further show that VaPoR can run quickly and efficiency without requiring a large 
+      processing or assembly pipeline. VaPoR provides a long read-based validation
+      approach for genomic SVs that requires relatively low read depth and computing
+      resources and thus will provide utility with targeted or low-pass sequencing
+      coverage for accurate SV assessment. The VaPoR Software is available at:
+      https://github.com/mills-lab/vapor.
+CI  - (c) The Authors 2017. Published by Oxford University Press.
+FAU - Zhao, Xuefang
+AU  - Zhao X
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      100 Washtenaw Ave, Ann Arbor, MI 48109, USA.
+FAU - Weber, Alexandra M
+AU  - Weber AM
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      100 Washtenaw Ave, Ann Arbor, MI 48109, USA.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AD  - Department of Computational Medicine and Bioinformatics, University of Michigan, 
+      100 Washtenaw Ave, Ann Arbor, MI 48109, USA.
+AD  - Department of Human Genetics, University of Michigan, 1241 Catherine St, Ann
+      Arbor, MI 48109, USA.
+LA  - eng
+GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
+GR  - T32 HG000040/HG/NHGRI NIH HHS/United States
+PT  - Journal Article
+PL  - United States
+TA  - Gigascience
+JT  - GigaScience
+JID - 101596872
+PMC - PMC5737365
+OTO - NOTNLM
+OT  - copy number variation
+OT  - sequence analysis
+OT  - structural variation
+EDAT- 2017/09/07 06:00
+MHDA- 2017/09/07 06:00
+CRDT- 2017/09/07 06:00
+PHST- 2017/03/27 00:00 [received]
+PHST- 2017/07/09 00:00 [accepted]
+PHST- 2017/09/07 06:00 [entrez]
+PHST- 2017/09/07 06:00 [pubmed]
+PHST- 2017/09/07 06:00 [medline]
+AID - 3979348 [pii]
+AID - 10.1093/gigascience/gix061 [doi]
+PST - ppublish
+SO  - Gigascience. 2017 Aug 1;6(8):1-9. doi: 10.1093/gigascience/gix061.
+
+PMID- 28450582
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171219
+LR  - 20180330
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 356
@@ -139,18 +710,25 @@ AUID- ORCID: http://orcid.org/0000-0003-2167-981X
 CN  - Brain Somatic Mosaicism Network
 LA  - eng
 GR  - R01 MH110558/MH/NIMH NIH HHS/United States
+GR  - U54 HD079123/HD/NICHD NIH HHS/United States
 GR  - U01 MH106883/MH/NIMH NIH HHS/United States
 GR  - U01 MH106892/MH/NIMH NIH HHS/United States
 GR  - U01 MH108898/MH/NIMH NIH HHS/United States
+GR  - T32 MH019934/MH/NIMH NIH HHS/United States
 GR  - U01 MH106884/MH/NIMH NIH HHS/United States
 GR  - T32 HG000040/HG/NHGRI NIH HHS/United States
+GR  - T32 GM007753/GM/NIGMS NIH HHS/United States
 GR  - U01 MH106891/MH/NIMH NIH HHS/United States
 GR  - U01 MH106876/MH/NIMH NIH HHS/United States
 GR  - U01 MH106882/MH/NIMH NIH HHS/United States
 GR  - U01 MH106893/MH/NIMH NIH HHS/United States
+GR  - P01 HD070494/HD/NICHD NIH HHS/United States
 GR  - R01 MH100914/MH/NIMH NIH HHS/United States
+GR  - U54 HD090255/HD/NICHD NIH HHS/United States
 GR  - T32 GM007544/GM/NIGMS NIH HHS/United States
 GR  - U01 MH106874/MH/NIMH NIH HHS/United States
+GR  - K01 AG051791/AG/NIA NIH HHS/United States
+GR  - P30 CA014195/CA/NCI NIH HHS/United States
 PT  - Journal Article
 PT  - Review
 DEP - 20170427
@@ -158,6 +736,22 @@ PL  - United States
 TA  - Science
 JT  - Science (New York, N.Y.)
 JID - 0404511
+SB  - IM
+MH  - Brain/*abnormalities/metabolism
+MH  - Cell Division/genetics
+MH  - DNA Damage
+MH  - DNA Mutational Analysis/methods
+MH  - DNA Repair/genetics
+MH  - DNA Replication
+MH  - Genome, Human
+MH  - Germ Cells/metabolism
+MH  - Humans
+MH  - Mental Disorders/*genetics
+MH  - *Mosaicism
+MH  - Nerve Net/growth & development/metabolism
+MH  - Nervous System Diseases/*genetics
+MH  - Neural Stem Cells/metabolism/*physiology
+MH  - Neurons/metabolism/*physiology
 PMC - PMC5558435
 MID - NIHMS888777
 IR  - Barton AR
@@ -235,19 +829,22 @@ FIR - Zhao, Xuefang
 IR  - Zhou W
 FIR - Zhou, Weichen
 EDAT- 2017/04/30 06:00
-MHDA- 2017/04/30 06:00
+MHDA- 2017/12/20 06:00
 CRDT- 2017/04/29 06:00
+PHST- 2017/04/29 06:00 [entrez]
+PHST- 2017/04/30 06:00 [pubmed]
+PHST- 2017/12/20 06:00 [medline]
 AID - 356/6336/eaal1641 [pii]
 AID - 10.1126/science.aal1641 [doi]
 PST - ppublish
-SO  - Science. 2017 Apr 28;356(6336). pii: eaal1641. doi: 10.1126/science.aal1641. Epub
-      2017 Apr 27.
+SO  - Science. 2017 Apr 28;356(6336). pii: 356/6336/eaal1641. doi:
+      10.1126/science.aal1641. Epub 2017 Apr 27.
 
 PMID- 27828722
 OWN - NLM
-STAT- In-Process
-DA  - 20161109
-LR  - 20170321
+STAT- MEDLINE
+DCOM- 20171208
+LR  - 20180410
 IS  - 1945-7189 (Electronic)
 IS  - 0163-769X (Linking)
 VI  - 37
@@ -375,31 +972,41 @@ AD  - Department of Human Genetics (Q.F., A.S.G., M.L.B., A.H.M., P.G., L.Y.M.C.
       R.E.M., J.Z.L.), University of Michigan, Ann Arbor, Michigan 48109.
 LA  - eng
 GR  - R01 HD034283/HD/NICHD NIH HHS/United States
+GR  - T32 HG000040/HG/NHGRI NIH HHS/United States
 GR  - R01 HD030428/HD/NICHD NIH HHS/United States
 GR  - R37 HD030428/HD/NICHD NIH HHS/United States
 GR  - T32 DK007245/DK/NIDDK NIH HHS/United States
 GR  - T32 GM007544/GM/NIGMS NIH HHS/United States
 PT  - Journal Article
+PT  - Review
+PT  - Research Support, N.I.H., Extramural
 DEP - 20161109
 PL  - United States
 TA  - Endocr Rev
 JT  - Endocrine reviews
 JID - 8006258
+RN  - Combined Pituitary Hormone Deficiency
+SB  - IM
+MH  - Animals
+MH  - Genomics/*methods
+MH  - Humans
+MH  - Hypopituitarism/*genetics
 PMC - PMC5155665
 EDAT- 2016/11/10 06:00
-MHDA- 2016/11/10 06:00
+MHDA- 2017/12/09 06:00
 CRDT- 2016/11/10 06:00
-PMCR- 2017/12/01
+PHST- 2016/11/10 06:00 [pubmed]
+PHST- 2017/12/09 06:00 [medline]
+PHST- 2016/11/10 06:00 [entrez]
 AID - 10.1210/er.2016-1101 [doi]
 PST - ppublish
-SO  - Endocr Rev. 2016 Dec;37(6):636-675. Epub 2016 Nov 9.
+SO  - Endocr Rev. 2016 Dec;37(6):636-675. doi: 10.1210/er.2016-1101. Epub 2016 Nov 9.
 
 PMID- 27884106
 OWN - NLM
 STAT- MEDLINE
-DA  - 20161125
 DCOM- 20170718
-LR  - 20170718
+LR  - 20180125
 IS  - 1471-2105 (Electronic)
 IS  - 1471-2105 (Linking)
 VI  - 17
@@ -447,6 +1054,7 @@ LA  - eng
 GR  - P30 AG053760/AG/NIA NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 GR  - R01 NS086810/NS/NINDS NIH HHS/United States
+GR  - T32 NS076401/NS/NINDS NIH HHS/United States
 GR  - T32 CA140044/CA/NCI NIH HHS/United States
 GR  - F31 NS090883/NS/NINDS NIH HHS/United States
 PT  - Journal Article
@@ -477,19 +1085,21 @@ OT  - Translation
 EDAT- 2016/11/26 06:00
 MHDA- 2017/07/19 06:00
 CRDT- 2016/11/26 06:00
-PHST- 2016/06/21 [received]
-PHST- 2016/11/18 [accepted]
+PHST- 2016/06/21 00:00 [received]
+PHST- 2016/11/18 00:00 [accepted]
+PHST- 2016/11/26 06:00 [entrez]
+PHST- 2016/11/26 06:00 [pubmed]
+PHST- 2017/07/19 06:00 [medline]
 AID - 10.1186/s12859-016-1355-4 [doi]
 AID - 10.1186/s12859-016-1355-4 [pii]
 PST - epublish
-SO  - BMC Bioinformatics. 2016 Nov 25;17(1):482.
+SO  - BMC Bioinformatics. 2016 Nov 25;17(1):482. doi: 10.1186/s12859-016-1355-4.
 
 PMID- 27287201
 OWN - NLM
 STAT- MEDLINE
-DA  - 20160611
 DCOM- 20170710
-LR  - 20170713
+LR  - 20180207
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 17
@@ -533,6 +1143,8 @@ LA  - eng
 GR  - DP5 OD009154/OD/NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20160610
 PL  - England
 TA  - Genome Biol
@@ -552,18 +1164,20 @@ MH  - Software
 MH  - *Translocation, Genetic
 MH  - Web Browser
 PMC - PMC4901421
-OID - NLM: PMC4901421
 OTO - NOTNLM
-OT  - Complex structural rearrangements
-OT  - Copy number variant (CNV)
-OT  - Human
-OT  - Sequence analysis
-OT  - Structural variation (SV)
+OT  - *Complex structural rearrangements
+OT  - *Copy number variant (CNV)
+OT  - *Human
+OT  - *Sequence analysis
+OT  - *Structural variation (SV)
 EDAT- 2016/06/12 06:00
 MHDA- 2017/07/14 06:00
 CRDT- 2016/06/12 06:00
-PHST- 2016/04/20 [received]
-PHST- 2016/05/25 [accepted]
+PHST- 2016/04/20 00:00 [received]
+PHST- 2016/05/25 00:00 [accepted]
+PHST- 2016/06/12 06:00 [entrez]
+PHST- 2016/06/12 06:00 [pubmed]
+PHST- 2017/07/14 06:00 [medline]
 AID - 10.1186/s13059-016-0993-1 [doi]
 AID - 10.1186/s13059-016-0993-1 [pii]
 PST - epublish
@@ -572,14 +1186,13 @@ SO  - Genome Biol. 2016 Jun 10;17(1):126. doi: 10.1186/s13059-016-0993-1.
 PMID- 26432245
 OWN - NLM
 STAT- MEDLINE
-DA  - 20151003
 DCOM- 20151026
-LR  - 20161220
+LR  - 20170930
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 526
 IP  - 7571
-DP  - 2015 Oct 01
+DP  - 2015 Oct 1
 TI  - A global reference for human genetic variation.
 PG  - 68-74
 LID - 10.1038/nature15393 [doi]
@@ -622,11 +1235,9 @@ GR  - R01HG4960/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 GM108805/GM/NIGMS NIH HHS/United States
 GR  - U01HG5718/HG/NHGRI NIH HHS/United States
-GR  - WT095908/Wellcome Trust/United Kingdom
 GR  - R01CA172652/CA/NCI NIH HHS/United States
 GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
 GR  - British Heart Foundation/United Kingdom
-GR  - P30 CA016672/CA/NCI NIH HHS/United States
 GR  - R01HG7068/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - BB/I021213/1/Biotechnology and Biological Sciences Research Council/United
@@ -747,8 +1358,6 @@ MH  - Reference Standards
 MH  - Sequence Analysis, DNA
 PMC - PMC4750478
 MID - NIHMS753481
-OID - NLM: NIHMS753481
-OID - NLM: PMC4750478
 IR  - Auton A
 FIR - Auton, Adam
 IR  - Abecasis GR
@@ -2438,8 +3047,11 @@ FIR - Abecasis, Goncalo R
 EDAT- 2015/10/04 06:00
 MHDA- 2015/10/27 06:00
 CRDT- 2015/10/04 06:00
-PHST- 2015/05/12 [received]
-PHST- 2015/08/20 [accepted]
+PHST- 2015/05/12 00:00 [received]
+PHST- 2015/08/20 00:00 [accepted]
+PHST- 2015/10/04 06:00 [entrez]
+PHST- 2015/10/04 06:00 [pubmed]
+PHST- 2015/10/27 06:00 [medline]
 AID - nature15393 [pii]
 AID - 10.1038/nature15393 [doi]
 PST - ppublish
@@ -2448,14 +3060,13 @@ SO  - Nature. 2015 Oct 1;526(7571):68-74. doi: 10.1038/nature15393.
 PMID- 26432246
 OWN - NLM
 STAT- MEDLINE
-DA  - 20151003
 DCOM- 20151026
-LR  - 20170718
+LR  - 20170930
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 526
 IP  - 7571
-DP  - 2015 Oct 01
+DP  - 2015 Oct 1
 TI  - An integrated map of structural variation in 2,504 human genomes.
 PG  - 75-81
 LID - 10.1038/nature15394 [doi]
@@ -2854,7 +3465,6 @@ GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - P01HG007497/HG/NHGRI NIH HHS/United States
 GR  - WT085532/Z/08/Z/Wellcome Trust/United Kingdom
 GR  - S10 RR029676/RR/NCRR NIH HHS/United States
-GR  - P30 CA016672/CA/NCI NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 GR  - WT104947/Z/14/Z/Wellcome Trust/United Kingdom
 GR  - R01HG002898/HG/NHGRI NIH HHS/United States
@@ -2903,12 +3513,14 @@ MH  - Sequence Deletion/genetics
 PMC - PMC4617611
 MID - EMS64772
 OID - NLM: EMS64772
-OID - NLM: PMC4617611
 EDAT- 2015/10/04 06:00
 MHDA- 2015/10/27 06:00
 CRDT- 2015/10/04 06:00
-PHST- 2015/02/19 [received]
-PHST- 2015/08/20 [accepted]
+PHST- 2015/02/19 00:00 [received]
+PHST- 2015/08/20 00:00 [accepted]
+PHST- 2015/10/04 06:00 [entrez]
+PHST- 2015/10/04 06:00 [pubmed]
+PHST- 2015/10/27 06:00 [medline]
 AID - 10.1038/nature15394 [doi]
 PST - ppublish
 SO  - Nature. 2015 Oct 1;526(7571):75-81. doi: 10.1038/nature15394.
@@ -2916,7 +3528,6 @@ SO  - Nature. 2015 Oct 1;526(7571):75-81. doi: 10.1038/nature15394.
 PMID- 27774284
 OWN - NLM
 STAT- PubMed-not-MEDLINE
-DA  - 20161024
 LR  - 20170220
 IS  - 2057-1577 (Print)
 IS  - 2057-1577 (Linking)
@@ -2980,15 +3591,17 @@ OT  - synthetic
 EDAT- 2016/10/25 06:00
 MHDA- 2016/10/25 06:01
 CRDT- 2016/10/25 06:00
+PHST- 2016/10/25 06:00 [pubmed]
+PHST- 2016/10/25 06:01 [medline]
+PHST- 2016/10/25 06:00 [entrez]
 AID - 10.1093/ve/vev012 [doi]
 AID - vev012 [pii]
 PST - epublish
-SO  - Virus Evol. 2015 Oct 2;1(1):vev012. eCollection 2015.
+SO  - Virus Evol. 2015 Oct 2;1(1):vev012. doi: 10.1093/ve/vev012. eCollection 2015.
 
 PMID- 25348406
 OWN - NLM
 STAT- MEDLINE
-DA  - 20141112
 DCOM- 20150331
 LR  - 20161019
 IS  - 1362-4962 (Electronic)
@@ -3083,10 +3696,12 @@ MH  - Mutagenesis, Insertional
 MH  - Phylogeny
 MH  - *Polymorphism, Genetic
 PMC - PMC4227756
-OID - NLM: PMC4227756
 EDAT- 2014/10/29 06:00
 MHDA- 2015/04/01 06:00
 CRDT- 2014/10/29 06:00
+PHST- 2014/10/29 06:00 [entrez]
+PHST- 2014/10/29 06:00 [pubmed]
+PHST- 2015/04/01 06:00 [medline]
 AID - gku1038 [pii]
 AID - 10.1093/nar/gku1038 [doi]
 PST - ppublish
@@ -3096,14 +3711,13 @@ SO  - Nucleic Acids Res. 2014 Nov 10;42(20):12640-9. doi: 10.1093/nar/gku1038. E
 PMID- 25279985
 OWN - NLM
 STAT- MEDLINE
-DA  - 20141004
 DCOM- 20141209
-LR  - 20170220
+LR  - 20180410
 IS  - 1537-6605 (Electronic)
 IS  - 0002-9297 (Linking)
 VI  - 95
 IP  - 4
-DP  - 2014 Oct 02
+DP  - 2014 Oct 2
 TI  - Cryptic and complex chromosomal aberrations in early-onset neuropsychiatric
       disorders.
 PG  - 454-61
@@ -3249,6 +3863,7 @@ GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
 GR  - R00 MH095867/MH/NIMH NIH HHS/United States
 GR  - K24MH094614/MH/NIMH NIH HHS/United States
 GR  - K99 MH095867/MH/NIMH NIH HHS/United States
+GR  - P30 CA034196/CA/NCI NIH HHS/United States
 GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
 GR  - MH095867/MH/NIMH NIH HHS/United States
 PT  - Journal Article
@@ -3272,12 +3887,14 @@ MH  - Neurodegenerative Diseases/epidemiology/*genetics
 MH  - Phenotype
 MH  - United States/epidemiology
 PMC - PMC4185111
-OID - NLM: PMC4185111
 EDAT- 2014/10/04 06:00
 MHDA- 2014/12/15 06:00
 CRDT- 2014/10/04 06:00
-PHST- 2014/08/08 [received]
-PHST- 2014/09/11 [accepted]
+PHST- 2014/08/08 00:00 [received]
+PHST- 2014/09/11 00:00 [accepted]
+PHST- 2014/10/04 06:00 [entrez]
+PHST- 2014/10/04 06:00 [pubmed]
+PHST- 2014/12/15 06:00 [medline]
 AID - S0002-9297(14)00388-7 [pii]
 AID - 10.1016/j.ajhg.2014.09.005 [doi]
 PST - ppublish
@@ -3286,9 +3903,8 @@ SO  - Am J Hum Genet. 2014 Oct 2;95(4):454-61. doi: 10.1016/j.ajhg.2014.09.005.
 PMID- 24980144
 OWN - NLM
 STAT- MEDLINE
-DA  - 20140821
 DCOM- 20150330
-LR  - 20170517
+LR  - 20180411
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 15
@@ -3354,6 +3970,7 @@ AU  - Marth GT
 FAU - McVean, Gil A
 AU  - McVean GA
 LA  - eng
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - U41 HG007234/HG/NHGRI NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
@@ -3376,7 +3993,6 @@ MH  - *Polymorphism, Single Nucleotide
 MH  - Selection, Genetic
 MH  - Sequence Analysis, DNA
 PMC - PMC4197830
-OID - NLM: PMC4197830
 IR  - Altshuler DM
 FIR - Altshuler, David M
 IR  - Durbin RM
@@ -4756,8 +5372,11 @@ FIR - Peterson, Jane L
 EDAT- 2014/07/02 06:00
 MHDA- 2015/03/31 06:00
 CRDT- 2014/07/02 06:00
-PHST- 2014/05/03 [received]
-PHST- 2014/06/30 [accepted]
+PHST- 2014/05/03 00:00 [received]
+PHST- 2014/06/30 00:00 [accepted]
+PHST- 2014/07/02 06:00 [entrez]
+PHST- 2014/07/02 06:00 [pubmed]
+PHST- 2015/03/31 06:00 [medline]
 AID - gb-2014-15-6-r88 [pii]
 AID - 10.1186/gb-2014-15-6-r88 [doi]
 PST - epublish
@@ -4766,9 +5385,8 @@ SO  - Genome Biol. 2014 Jun 30;15(6):R88. doi: 10.1186/gb-2014-15-6-r88.
 PMID- 25653097
 OWN - NLM
 STAT- MEDLINE
-DA  - 20150205
 DCOM- 20151002
-LR  - 20170517
+LR  - 20180411
 IS  - 2041-1723 (Electronic)
 IS  - 2041-1723 (Linking)
 VI  - 5
@@ -4801,6 +5419,7 @@ AD  - 1] Department of Statistics, University of Oxford, Oxford OX1 3TG, UK [2]
 CN  - 1000 Genomes Project Consortium
 CN  - 1000 Genomes Project Consortium
 LA  - eng
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - BB/I02593X/1/Biotechnology and Biological Sciences Research Council/United
       Kingdom
@@ -4830,7 +5449,6 @@ MH  - Polymorphism, Single Nucleotide
 PMC - PMC4338501
 MID - EMS58243
 OID - NLM: EMS58243
-OID - NLM: PMC4338501
 IR  - McVean GA
 FIR - McVean, Gil A
 IR  - Donnelly P
@@ -5598,8 +6216,11 @@ FIR - Peltonenz, Leena
 EDAT- 2015/02/06 06:00
 MHDA- 2015/10/03 06:00
 CRDT- 2015/02/06 06:00
-PHST- 2013/08/19 [received]
-PHST- 2014/04/23 [accepted]
+PHST- 2013/08/19 00:00 [received]
+PHST- 2014/04/23 00:00 [accepted]
+PHST- 2015/02/06 06:00 [entrez]
+PHST- 2015/02/06 06:00 [pubmed]
+PHST- 2015/10/03 06:00 [medline]
 AID - ncomms4934 [pii]
 AID - 10.1038/ncomms4934 [doi]
 PST - epublish
@@ -5608,7 +6229,6 @@ SO  - Nat Commun. 2014 Jun 13;5:3934. doi: 10.1038/ncomms4934.
 PMID- 24763686
 OWN - NLM
 STAT- MEDLINE
-DA  - 20140505
 DCOM- 20140721
 LR  - 20170220
 IS  - 2157-6564 (Print)
@@ -5715,7 +6335,6 @@ MH  - Mice
 MH  - *Transcription Factors/biosynthesis/genetics
 MH  - *Transduction, Genetic
 PMC - PMC4006484
-OID - NLM: PMC4006484
 OTO - NOTNLM
 OT  - Copy number variant
 OT  - Genomic integrity
@@ -5725,6 +6344,9 @@ OT  - Reprogramming method
 EDAT- 2014/04/26 06:00
 MHDA- 2014/07/22 06:00
 CRDT- 2014/04/26 06:00
+PHST- 2014/04/26 06:00 [entrez]
+PHST- 2014/04/26 06:00 [pubmed]
+PHST- 2014/07/22 06:00 [medline]
 AID - sctm.2013-0149 [pii]
 AID - 10.5966/sctm.2013-0149 [doi]
 PST - ppublish
@@ -5734,7 +6356,6 @@ SO  - Stem Cells Transl Med. 2014 May;3(5):599-609. doi: 10.5966/sctm.2013-0149.
 PMID- 23778870
 OWN - NLM
 STAT- MEDLINE
-DA  - 20140213
 DCOM- 20141007
 LR  - 20150424
 IS  - 1476-5438 (Electronic)
@@ -5838,10 +6459,12 @@ MH  - Middle Aged
 MH  - Receptors, Cell Surface/genetics
 MH  - Tumor Suppressor Protein p53/genetics
 PMC - PMC3925262
-OID - NLM: PMC3925262
 EDAT- 2013/06/20 06:00
 MHDA- 2014/10/08 06:00
 CRDT- 2013/06/20 06:00
+PHST- 2013/06/20 06:00 [entrez]
+PHST- 2013/06/20 06:00 [pubmed]
+PHST- 2014/10/08 06:00 [medline]
 AID - ejhg2013134 [pii]
 AID - 10.1038/ejhg.2013.134 [doi]
 PST - ppublish
@@ -5851,9 +6474,8 @@ SO  - Eur J Hum Genet. 2014 Mar;22(3):307-9. doi: 10.1038/ejhg.2013.134. Epub 20
 PMID- 24026178
 OWN - NLM
 STAT- MEDLINE
-DA  - 20131203
 DCOM- 20140709
-LR  - 20170220
+LR  - 20170922
 IS  - 1549-5469 (Electronic)
 IS  - 1088-9051 (Linking)
 VI  - 23
@@ -5931,10 +6553,12 @@ MH  - Reproducibility of Results
 MH  - Retroelements/*genetics
 MH  - Sequence Analysis, DNA
 PMC - PMC3847774
-OID - NLM: PMC3847774
 EDAT- 2013/09/13 06:00
 MHDA- 2014/07/10 06:00
 CRDT- 2013/09/13 06:00
+PHST- 2013/09/13 06:00 [entrez]
+PHST- 2013/09/13 06:00 [pubmed]
+PHST- 2014/07/10 06:00 [medline]
 AID - gr.154625.113 [pii]
 AID - 10.1101/gr.154625.113 [doi]
 PST - ppublish
@@ -5944,14 +6568,13 @@ SO  - Genome Res. 2013 Dec;23(12):2042-52. doi: 10.1101/gr.154625.113. Epub 2013
 PMID- 24092746
 OWN - NLM
 STAT- MEDLINE
-DA  - 20131004
 DCOM- 20131029
-LR  - 20170718
+LR  - 20170922
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 342
 IP  - 6154
-DP  - 2013 Oct 04
+DP  - 2013 Oct 4
 TI  - Integrative annotation of variants from 1092 humans: application to cancer
       genomics.
 PG  - 1235587
@@ -6220,31 +6843,33 @@ AD  - Department of Molecular Biophysics and Biochemistry, Yale University, New 
 AD  - Department of Computer Science, Yale University, New Haven, CT 06520, USA.
 LA  - eng
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - WT095908/Wellcome Trust/United Kingdom
 GR  - R01 CA152057/CA/NCI NIH HHS/United States
-GR  - U01 HG005718/HG/NHGRI NIH HHS/United States
-GR  - HG007000/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
-GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
-GR  - GM104424/GM/NIGMS NIH HHS/United States
-GR  - HG005718/HG/NHGRI NIH HHS/United States
-GR  - 098051/Wellcome Trust/United Kingdom
 GR  - U01HG6513/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005718/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - HG005718/HG/NHGRI NIH HHS/United States
+GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
+GR  - CA167824/CA/NCI NIH HHS/United States
+GR  - R01HG4719/HG/NHGRI NIH HHS/United States
+GR  - 098051/Wellcome Trust/United Kingdom
 GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
 GR  - R01 CA167824/CA/NCI NIH HHS/United States
-GR  - WT085532/Wellcome Trust/United Kingdom
+GR  - WT095908/Wellcome Trust/United Kingdom
 GR  - 090532/Wellcome Trust/United Kingdom
 GR  - 095908/Wellcome Trust/United Kingdom
+GR  - R01CA152057/CA/NCI NIH HHS/United States
 GR  - R01 CA166661/CA/NCI NIH HHS/United States
 GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
+GR  - WT085532/Wellcome Trust/United Kingdom
+GR  - WT090532/Wellcome Trust/United Kingdom
+GR  - WT098051/Wellcome Trust/United Kingdom
 GR  - R01 GM097358/GM/NIGMS NIH HHS/United States
-GR  - R01CA152057/CA/NCI NIH HHS/United States
-GR  - CA167824/CA/NCI NIH HHS/United States
 GR  - 085532/Wellcome Trust/United Kingdom
+GR  - GM104424/GM/NIGMS NIH HHS/United States
 GR  - U41 HG007000/HG/NHGRI NIH HHS/United States
 GR  - UL1 TR000457/TR/NCATS NIH HHS/United States
-GR  - R01HG4719/HG/NHGRI NIH HHS/United States
+GR  - HG007000/HG/NHGRI NIH HHS/United States
 GR  - U01 CA111275/CA/NCI NIH HHS/United States
 GR  - R01 GM104424/GM/NIGMS NIH HHS/United States
 GR  - G12 RR003050/RR/NCRR NIH HHS/United States
@@ -6274,11 +6899,1416 @@ MH  - RNA, Untranslated/genetics
 MH  - Selection, Genetic
 PMC - PMC3947637
 MID - NIHMS545446
-OID - NLM: NIHMS545446
-OID - NLM: PMC3947637
+IR  - Altshuler DM
+FIR - Altshuler, David M
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Abecasis GR
+FIR - Abecasis, Goncalo R
+IR  - Bentley DR
+FIR - Bentley, David R
+IR  - Chakravarti A
+FIR - Chakravarti, Aravinda
+IR  - Clark AG
+FIR - Clark, Andrew G
+IR  - Donnelly P
+FIR - Donnelly, Peter
+IR  - Eichler EE
+FIR - Eichler, Evan E
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Gabriel SB
+FIR - Gabriel, Stacey B
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Green ED
+FIR - Green, Eric D
+IR  - Hurles ME
+FIR - Hurles, Matthew E
+IR  - Knoppers BM
+FIR - Knoppers, Bartha M
+IR  - Korbel JO
+FIR - Korbel, Jan O
+IR  - Lander ES
+FIR - Lander, Eric S
+IR  - Lee C
+FIR - Lee, Charles
+IR  - Lehrach H
+FIR - Lehrach, Hans
+IR  - Mardis ER
+FIR - Mardis, Elaine R
+IR  - Marth GT
+FIR - Marth, Gabor T
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Nickerson DA
+FIR - Nickerson, Deborah A
+IR  - Schmidt JP
+FIR - Schmidt, Jeanette P
+IR  - Sherry ST
+FIR - Sherry, Stephen T
+IR  - Wang J
+FIR - Wang, Jun
+IR  - Wilson RK
+FIR - Wilson, Richard K
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Dinh H
+FIR - Dinh, Huyen
+IR  - Kovar C
+FIR - Kovar, Christie
+IR  - Lee S
+FIR - Lee, Sandra
+IR  - Lewis L
+FIR - Lewis, Lora
+IR  - Muzny D
+FIR - Muzny, Donna
+IR  - Reid J
+FIR - Reid, Jeff
+IR  - Wang M
+FIR - Wang, Min
+IR  - Wang J
+FIR - Wang, Jun
+IR  - Fang X
+FIR - Fang, Xiaodong
+IR  - Guo X
+FIR - Guo, Xiaosen
+IR  - Jian M
+FIR - Jian, Min
+IR  - Jiang H
+FIR - Jiang, Hui
+IR  - Jin X
+FIR - Jin, Xin
+IR  - Li G
+FIR - Li, Guoqing
+IR  - Li J
+FIR - Li, Jingxiang
+IR  - Li Y
+FIR - Li, Yingrui
+IR  - Li Z
+FIR - Li, Zhuo
+IR  - Liu X
+FIR - Liu, Xiao
+IR  - Lu Y
+FIR - Lu, Yao
+IR  - Ma X
+FIR - Ma, Xuedi
+IR  - Su Z
+FIR - Su, Zhe
+IR  - Tai S
+FIR - Tai, Shuaishuai
+IR  - Tang M
+FIR - Tang, Meifang
+IR  - Wang B
+FIR - Wang, Bo
+IR  - Wang G
+FIR - Wang, Guangbiao
+IR  - Wu H
+FIR - Wu, Honglong
+IR  - Wu R
+FIR - Wu, Renhua
+IR  - Yin Y
+FIR - Yin, Ye
+IR  - Zhang W
+FIR - Zhang, Wenwei
+IR  - Zhao J
+FIR - Zhao, Jiao
+IR  - Zhao M
+FIR - Zhao, Meiru
+IR  - Zheng X
+FIR - Zheng, Xiaole
+IR  - Zhou Y
+FIR - Zhou, Yan
+IR  - Lander ES
+FIR - Lander, Eric S
+IR  - Altshuler DM
+FIR - Altshuler, David M
+IR  - Gabriel SB
+FIR - Gabriel, Stacey B
+IR  - Gupta N
+FIR - Gupta, Namrata
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Clarke L
+FIR - Clarke, Laura
+IR  - Leinonen R
+FIR - Leinonen, Rasko
+IR  - Smith RE
+FIR - Smith, Richard E
+IR  - Zheng-Bradley X
+FIR - Zheng-Bradley, Xiangqun
+IR  - Bentley DR
+FIR - Bentley, David R
+IR  - Grocock R
+FIR - Grocock, Russell
+IR  - Humphray S
+FIR - Humphray, Sean
+IR  - James T
+FIR - James, Terena
+IR  - Kingsbury Z
+FIR - Kingsbury, Zoya
+IR  - Lehrach H
+FIR - Lehrach, Hans
+IR  - Sudbrak R
+FIR - Sudbrak, Ralf
+IR  - Albrecht MW
+FIR - Albrecht, Marcus W
+IR  - Amstislavskiy VS
+FIR - Amstislavskiy, Vyacheslav S
+IR  - Borodina TA
+FIR - Borodina, Tatiana A
+IR  - Lienhard M
+FIR - Lienhard, Matthias
+IR  - Mertes F
+FIR - Mertes, Florian
+IR  - Sultan M
+FIR - Sultan, Marc
+IR  - Timmermann B
+FIR - Timmermann, Bernd
+IR  - Yaspo ML
+FIR - Yaspo, Marie-Laure
+IR  - Sherry ST
+FIR - Sherry, Stephen T
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Mardis ER
+FIR - Mardis, Elaine R
+IR  - Wilson RK
+FIR - Wilson, Richard K
+IR  - Fulton L
+FIR - Fulton, Lucinda
+IR  - Fulton R
+FIR - Fulton, Robert
+IR  - Weinstock GM
+FIR - Weinstock, George M
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Balasubramaniam S
+FIR - Balasubramaniam, Senduran
+IR  - Burton J
+FIR - Burton, John
+IR  - Danecek P
+FIR - Danecek, Petr
+IR  - Keane TM
+FIR - Keane, Thomas M
+IR  - Kolb-Kokocinski A
+FIR - Kolb-Kokocinski, Anja
+IR  - McCarthy S
+FIR - McCarthy, Shane
+IR  - Stalker J
+FIR - Stalker, James
+IR  - Quail M
+FIR - Quail, Michael
+IR  - Schmidt JP
+FIR - Schmidt, Jeanette P
+IR  - Davies CJ
+FIR - Davies, Christopher J
+IR  - Gollub J
+FIR - Gollub, Jeremy
+IR  - Webster T
+FIR - Webster, Teresa
+IR  - Wong B
+FIR - Wong, Brant
+IR  - Zhan Y
+FIR - Zhan, Yiping
+IR  - Auton A
+FIR - Auton, Adam
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Yu F
+FIR - Yu, Fuli
+IR  - Bainbridge M
+FIR - Bainbridge, Matthew
+IR  - Challis D
+FIR - Challis, Danny
+IR  - Evani US
+FIR - Evani, Uday S
+IR  - Lu J
+FIR - Lu, James
+IR  - Muzny D
+FIR - Muzny, Donna
+IR  - Nagaswamy U
+FIR - Nagaswamy, Uma
+IR  - Reid J
+FIR - Reid, Jeff
+IR  - Sabo A
+FIR - Sabo, Aniko
+IR  - Wang Y
+FIR - Wang, Yi
+IR  - Yu J
+FIR - Yu, Jin
+IR  - Wang J
+FIR - Wang, Jun
+IR  - Coin LJ
+FIR - Coin, Lachlan J M
+IR  - Fang L
+FIR - Fang, Lin
+IR  - Guo X
+FIR - Guo, Xiaosen
+IR  - Jin X
+FIR - Jin, Xin
+IR  - Li G
+FIR - Li, Guoqing
+IR  - Li Q
+FIR - Li, Qibin
+IR  - Li Y
+FIR - Li, Yingrui
+IR  - Li Z
+FIR - Li, Zhenyu
+IR  - Lin H
+FIR - Lin, Haoxiang
+IR  - Liu B
+FIR - Liu, Binghang
+IR  - Luo R
+FIR - Luo, Ruibang
+IR  - Qin N
+FIR - Qin, Nan
+IR  - Shao H
+FIR - Shao, Haojing
+IR  - Wang B
+FIR - Wang, Bingqiang
+IR  - Xie Y
+FIR - Xie, Yinlong
+IR  - Ye C
+FIR - Ye, Chen
+IR  - Yu C
+FIR - Yu, Chang
+IR  - Zhang F
+FIR - Zhang, Fan
+IR  - Zheng H
+FIR - Zheng, Hancheng
+IR  - Zhu H
+FIR - Zhu, Hongmei
+IR  - Marth GT
+FIR - Marth, Gabor T
+IR  - Garrison EP
+FIR - Garrison, Erik P
+IR  - Kural D
+FIR - Kural, Deniz
+IR  - Lee WP
+FIR - Lee, Wan-Ping
+IR  - Leong WF
+FIR - Leong, Wen Fung
+IR  - Ward AN
+FIR - Ward, Alistair N
+IR  - Wu J
+FIR - Wu, Jiantao
+IR  - Zhang M
+FIR - Zhang, Mengyao
+IR  - Lee C
+FIR - Lee, Charles
+IR  - Griffin L
+FIR - Griffin, Lauren
+IR  - Hsieh CH
+FIR - Hsieh, Chih-Heng
+IR  - Mills RE
+FIR - Mills, Ryan E
+IR  - Shi X
+FIR - Shi, Xinghua
+IR  - von Grotthuss M
+FIR - von Grotthuss, Marcin
+IR  - Zhang C
+FIR - Zhang, Chengsheng
+IR  - Daly MJ
+FIR - Daly, Mark J
+IR  - DePristo MA
+FIR - DePristo, Mark A
+IR  - Altshuler DM
+FIR - Altshuler, David M
+IR  - Banks E
+FIR - Banks, Eric
+IR  - Bhatia G
+FIR - Bhatia, Gaurav
+IR  - Carneiro MO
+FIR - Carneiro, Mauricio O
+IR  - del Angel G
+FIR - del Angel, Guillermo
+IR  - Gabriel SB
+FIR - Gabriel, Stacey B
+IR  - Genovese G
+FIR - Genovese, Giulio
+IR  - Gupta N
+FIR - Gupta, Namrata
+IR  - Handsaker RE
+FIR - Handsaker, Robert E
+IR  - Hartl C
+FIR - Hartl, Chris
+IR  - Lander ES
+FIR - Lander, Eric S
+IR  - McCarroll SA
+FIR - McCarroll, Steven A
+IR  - Nemesh JC
+FIR - Nemesh, James C
+IR  - Poplin RE
+FIR - Poplin, Ryan E
+IR  - Schaffner SF
+FIR - Schaffner, Stephen F
+IR  - Shakir K
+FIR - Shakir, Khalid
+IR  - Yoon SC
+FIR - Yoon, Seungtai C
+IR  - Lihm J
+FIR - Lihm, Jayon
+IR  - Makarov V
+FIR - Makarov, Vladimir
+IR  - Jin H
+FIR - Jin, Hanjun
+IR  - Kim W
+FIR - Kim, Wook
+IR  - Kim KC
+FIR - Kim, Ki Cheol
+IR  - Korbel JO
+FIR - Korbel, Jan O
+IR  - Rausch T
+FIR - Rausch, Tobias
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Beal K
+FIR - Beal, Kathryn
+IR  - Clarke L
+FIR - Clarke, Laura
+IR  - Cunningham F
+FIR - Cunningham, Fiona
+IR  - Herrero J
+FIR - Herrero, Javier
+IR  - McLaren WM
+FIR - McLaren, William M
+IR  - Ritchie GR
+FIR - Ritchie, Graham R S
+IR  - Smith RE
+FIR - Smith, Richard E
+IR  - Zheng-Bradley X
+FIR - Zheng-Bradley, Xiangqun
+IR  - Clark AG
+FIR - Clark, Andrew G
+IR  - Gottipati S
+FIR - Gottipati, Srikanth
+IR  - Keinan A
+FIR - Keinan, Alon
+IR  - Rodriguez-Flores JL
+FIR - Rodriguez-Flores, Juan L
+IR  - Sabeti PC
+FIR - Sabeti, Pardis C
+IR  - Grossman SR
+FIR - Grossman, Sharon R
+IR  - Tabrizi S
+FIR - Tabrizi, Shervin
+IR  - Tariyal R
+FIR - Tariyal, Ridhi
+IR  - Cooper DN
+FIR - Cooper, David N
+IR  - Ball EV
+FIR - Ball, Edward V
+IR  - Stenson PD
+FIR - Stenson, Peter D
+IR  - Bentley DR
+FIR - Bentley, David R
+IR  - Barnes B
+FIR - Barnes, Bret
+IR  - Bauer M
+FIR - Bauer, Markus
+IR  - Cheetham R
+FIR - Cheetham, R Keira
+IR  - Cox T
+FIR - Cox, Tony
+IR  - Eberle M
+FIR - Eberle, Michael
+IR  - Humphray S
+FIR - Humphray, Sean
+IR  - Kahn S
+FIR - Kahn, Scott
+IR  - Murray L
+FIR - Murray, Lisa
+IR  - Peden J
+FIR - Peden, John
+IR  - Shaw R
+FIR - Shaw, Richard
+IR  - Ye K
+FIR - Ye, Kai
+IR  - Batzer MA
+FIR - Batzer, Mark A
+IR  - Konkel MK
+FIR - Konkel, Miriam K
+IR  - Walker JA
+FIR - Walker, Jerilyn A
+IR  - MacArthur DG
+FIR - MacArthur, Daniel G
+IR  - Lek M
+FIR - Lek, Monkol
+IR  - Sudbrak R
+FIR - Sudbrak, Ralf
+IR  - Amstislavskiy VS
+FIR - Amstislavskiy, Vyacheslav S
+IR  - Herwig R
+FIR - Herwig, Ralf
+IR  - Shriver MD
+FIR - Shriver, Mark D
+IR  - Bustamante CD
+FIR - Bustamante, Carlos D
+IR  - Byrnes JK
+FIR - Byrnes, Jake K
+IR  - De La Vega M
+FIR - De La Vega, M
+IR  - Gravel S
+FIR - Gravel, Simon
+IR  - Kenny EE
+FIR - Kenny, Eimear E
+IR  - Kidd JM
+FIR - Kidd, Jeffrey M
+IR  - Lacroute P
+FIR - Lacroute, Phil
+IR  - Maples BK
+FIR - Maples, Brian K
+IR  - Moreno-Estrada A
+FIR - Moreno-Estrada, Andres
+IR  - Zakharia F
+FIR - Zakharia, Fouad
+IR  - Halperin E
+FIR - Halperin, Eran
+IR  - Baran Y
+FIR - Baran, Yael
+IR  - Craig DW
+FIR - Craig, David W
+IR  - Christoforides A
+FIR - Christoforides, Alexis
+IR  - Homer N
+FIR - Homer, Nils
+IR  - Izatt T
+FIR - Izatt, Tyler
+IR  - Kurdoglu AA
+FIR - Kurdoglu, Ahmet A
+IR  - Sinari SA
+FIR - Sinari, Shripad A
+IR  - Squire K
+FIR - Squire, Kevin
+IR  - Sherry ST
+FIR - Sherry, Stephen T
+IR  - Xiao C
+FIR - Xiao, Chunlin
+IR  - Sebat J
+FIR - Sebat, Jonathan
+IR  - Bafna V
+FIR - Bafna, Vineet
+IR  - Ye K
+FIR - Ye, Kenny
+IR  - Burchard EG
+FIR - Burchard, Esteban G
+IR  - Hernandez RD
+FIR - Hernandez, Ryan D
+IR  - Gignoux CR
+FIR - Gignoux, Christopher R
+IR  - Haussler D
+FIR - Haussler, David
+IR  - Katzman SJ
+FIR - Katzman, Sol J
+IR  - Kent W
+FIR - Kent, W James
+IR  - Howie B
+FIR - Howie, Bryan
+IR  - Ruiz-Linares A
+FIR - Ruiz-Linares, Andres
+IR  - Dermitzakis ET
+FIR - Dermitzakis, Emmanouil T
+IR  - Lappalainen T
+FIR - Lappalainen, Tuuli
+IR  - Devine SE
+FIR - Devine, Scott E
+IR  - Liu X
+FIR - Liu, Xinyue
+IR  - Maroo A
+FIR - Maroo, Ankit
+IR  - Tallon LJ
+FIR - Tallon, Luke J
+IR  - Rosenfeld JA
+FIR - Rosenfeld, Jeffrey A
+IR  - Michelson LP
+FIR - Michelson, Leslie P
+IR  - Abecasis GR
+FIR - Abecasis, Goncalo R
+IR  - Kang HM
+FIR - Kang, Hyun Min
+IR  - Anderson P
+FIR - Anderson, Paul
+IR  - Angius A
+FIR - Angius, Andrea
+IR  - Bigham A
+FIR - Bigham, Abigail
+IR  - Blackwell T
+FIR - Blackwell, Tom
+IR  - Busonero F
+FIR - Busonero, Fabio
+IR  - Cucca F
+FIR - Cucca, Francesco
+IR  - Fuchsberger C
+FIR - Fuchsberger, Christian
+IR  - Jones C
+FIR - Jones, Chris
+IR  - Jun G
+FIR - Jun, Goo
+IR  - Li Y
+FIR - Li, Yun
+IR  - Lyons R
+FIR - Lyons, Robert
+IR  - Maschio A
+FIR - Maschio, Andrea
+IR  - Porcu E
+FIR - Porcu, Eleonora
+IR  - Reinier F
+FIR - Reinier, Fred
+IR  - Sanna S
+FIR - Sanna, Serena
+IR  - Schlessinger D
+FIR - Schlessinger, David
+IR  - Sidore C
+FIR - Sidore, Carlo
+IR  - Tan A
+FIR - Tan, Adrian
+IR  - Trost MK
+FIR - Trost, Mary Kate
+IR  - Awadalla P
+FIR - Awadalla, Philip
+IR  - Hodgkinson A
+FIR - Hodgkinson, Alan
+IR  - Lunter G
+FIR - Lunter, Gerton
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Marchini JL
+FIR - Marchini, Jonathan L
+IR  - Myers S
+FIR - Myers, Simon
+IR  - Churchhouse C
+FIR - Churchhouse, Claire
+IR  - Delaneau O
+FIR - Delaneau, Olivier
+IR  - Gupta-Hinch A
+FIR - Gupta-Hinch, Anjali
+IR  - Iqbal Z
+FIR - Iqbal, Zamin
+IR  - Mathieson I
+FIR - Mathieson, Iain
+IR  - Rimmer A
+FIR - Rimmer, Andy
+IR  - Xifara DK
+FIR - Xifara, Dionysia K
+IR  - Oleksyk TK
+FIR - Oleksyk, Taras K
+IR  - Fu Y
+FIR - Fu, Yunxin
+IR  - Liu X
+FIR - Liu, Xiaoming
+IR  - Xiong M
+FIR - Xiong, Momiao
+IR  - Jorde L
+FIR - Jorde, Lynn
+IR  - Witherspoon D
+FIR - Witherspoon, David
+IR  - Xing J
+FIR - Xing, Jinchuan
+IR  - Eichler EE
+FIR - Eichler, Evan E
+IR  - Browning BL
+FIR - Browning, Brian L
+IR  - Alkan C
+FIR - Alkan, Can
+IR  - Hajirasouliha I
+FIR - Hajirasouliha, Iman
+IR  - Hormozdiari F
+FIR - Hormozdiari, Fereydoun
+IR  - Ko A
+FIR - Ko, Arthur
+IR  - Sudmant PH
+FIR - Sudmant, Peter H
+IR  - Mardis ER
+FIR - Mardis, Elaine R
+IR  - Chen K
+FIR - Chen, Ken
+IR  - Chinwalla A
+FIR - Chinwalla, Asif
+IR  - Ding L
+FIR - Ding, Li
+IR  - Dooling D
+FIR - Dooling, David
+IR  - Koboldt DC
+FIR - Koboldt, Daniel C
+IR  - McLellan MD
+FIR - McLellan, Michael D
+IR  - Wallis JW
+FIR - Wallis, John W
+IR  - Wendl MC
+FIR - Wendl, Michael C
+IR  - Zhang Q
+FIR - Zhang, Qunyuan
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Hurles ME
+FIR - Hurles, Matthew E
+IR  - Tyler-Smith C
+FIR - Tyler-Smith, Chris
+IR  - Albers CA
+FIR - Albers, Cornelis A
+IR  - Ayub Q
+FIR - Ayub, Qasim
+IR  - Balasubramaniam S
+FIR - Balasubramaniam, Senduran
+IR  - Chen Y
+FIR - Chen, Yuan
+IR  - Coffey AJ
+FIR - Coffey, Alison J
+IR  - Colonna V
+FIR - Colonna, Vincenza
+IR  - Danecek P
+FIR - Danecek, Petr
+IR  - Huang N
+FIR - Huang, Ni
+IR  - Jostins L
+FIR - Jostins, Luke
+IR  - Keane TM
+FIR - Keane, Thomas M
+IR  - Li H
+FIR - Li, Heng
+IR  - McCarthy S
+FIR - McCarthy, Shane
+IR  - Scally A
+FIR - Scally, Aylwyn
+IR  - Stalker J
+FIR - Stalker, James
+IR  - Walter K
+FIR - Walter, Klaudia
+IR  - Xue Y
+FIR - Xue, Yali
+IR  - Zhang Y
+FIR - Zhang, Yujun
+IR  - Gerstein MB
+FIR - Gerstein, Mark B
+IR  - Abyzov A
+FIR - Abyzov, Alexej
+IR  - Balasubramanian S
+FIR - Balasubramanian, Suganthi
+IR  - Chen J
+FIR - Chen, Jieming
+IR  - Clarke D
+FIR - Clarke, Declan
+IR  - Fu Y
+FIR - Fu, Yao
+IR  - Habegger L
+FIR - Habegger, Lukas
+IR  - Harmanci AO
+FIR - Harmanci, Arif O
+IR  - Jin M
+FIR - Jin, Mike
+IR  - Khurana E
+FIR - Khurana, Ekta
+IR  - Mu XJ
+FIR - Mu, Xinmeng Jasmine
+IR  - Sisu C
+FIR - Sisu, Cristina
+IR  - Li Y
+FIR - Li, Yingrui
+IR  - Luo R
+FIR - Luo, Ruibang
+IR  - Zhu H
+FIR - Zhu, Hongmei
+IR  - Lee C
+FIR - Lee, Charles
+IR  - Griffin L
+FIR - Griffin, Lauren
+IR  - Hsieh CH
+FIR - Hsieh, Chih-Heng
+IR  - Mills RE
+FIR - Mills, Ryan E
+IR  - Shi X
+FIR - Shi, Xinghua
+IR  - von Grotthuss M
+FIR - von Grotthuss, Marcin
+IR  - Zhang C
+FIR - Zhang, Chengsheng
+IR  - Marth GT
+FIR - Marth, Gabor T
+IR  - Garrison EP
+FIR - Garrison, Erik P
+IR  - Kural D
+FIR - Kural, Deniz
+IR  - Lee WP
+FIR - Lee, Wan-Ping
+IR  - Ward AN
+FIR - Ward, Alistair N
+IR  - Wu J
+FIR - Wu, Jiantao
+IR  - Zhang M
+FIR - Zhang, Mengyao
+IR  - McCarroll SA
+FIR - McCarroll, Steven A
+IR  - Altshuler DM
+FIR - Altshuler, David M
+IR  - Banks E
+FIR - Banks, Eric
+IR  - del Angel G
+FIR - del Angel, Guillermo
+IR  - Genovese G
+FIR - Genovese, Giulio
+IR  - Handsaker RE
+FIR - Handsaker, Robert E
+IR  - Hartl C
+FIR - Hartl, Chris
+IR  - Nemesh JC
+FIR - Nemesh, James C
+IR  - Shakir K
+FIR - Shakir, Khalid
+IR  - Yoon SC
+FIR - Yoon, Seungtai C
+IR  - Lihm J
+FIR - Lihm, Jayon
+IR  - Makarov V
+FIR - Makarov, Vladimir
+IR  - Degenhardt J
+FIR - Degenhardt, Jeremiah
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Clarke L
+FIR - Clarke, Laura
+IR  - Smith RE
+FIR - Smith, Richard E
+IR  - Zheng-Bradley X
+FIR - Zheng-Bradley, Xiangqun
+IR  - Korbel JO
+FIR - Korbel, Jan O
+IR  - Rausch T
+FIR - Rausch, Tobias
+IR  - Stutz AM
+FIR - Stutz, Adrian M
+IR  - Bentley DR
+FIR - Bentley, David R
+IR  - Barnes B
+FIR - Barnes, Bret
+IR  - Cheetham R
+FIR - Cheetham, R Keira
+IR  - Eberle M
+FIR - Eberle, Michael
+IR  - Humphray S
+FIR - Humphray, Sean
+IR  - Kahn S
+FIR - Kahn, Scott
+IR  - Murray L
+FIR - Murray, Lisa
+IR  - Shaw R
+FIR - Shaw, Richard
+IR  - Ye K
+FIR - Ye, Kai
+IR  - Batzer MA
+FIR - Batzer, Mark A
+IR  - Konkel MK
+FIR - Konkel, Miriam K
+IR  - Walker JA
+FIR - Walker, Jerilyn A
+IR  - Lacroute P
+FIR - Lacroute, Phil
+IR  - Craig DW
+FIR - Craig, David W
+IR  - Homer N
+FIR - Homer, Nils
+IR  - Church D
+FIR - Church, Deanna
+IR  - Xiao C
+FIR - Xiao, Chunlin
+IR  - Sebat J
+FIR - Sebat, Jonathan
+IR  - Bafna V
+FIR - Bafna, Vineet
+IR  - Michaelson JJ
+FIR - Michaelson, Jacob J
+IR  - Ye K
+FIR - Ye, Kenny
+IR  - Devine SE
+FIR - Devine, Scott E
+IR  - Liu X
+FIR - Liu, Xinyue
+IR  - Maroo A
+FIR - Maroo, Ankit
+IR  - Tallon LJ
+FIR - Tallon, Luke J
+IR  - Lunter G
+FIR - Lunter, Gerton
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Iqbal Z
+FIR - Iqbal, Zamin
+IR  - Witherspoon D
+FIR - Witherspoon, David
+IR  - Xing J
+FIR - Xing, Jinchuan
+IR  - Eichler EE
+FIR - Eichler, Evan E
+IR  - Alkan C
+FIR - Alkan, Can
+IR  - Hajirasouliha I
+FIR - Hajirasouliha, Iman
+IR  - Hormozdiari F
+FIR - Hormozdiari, Fereydoun
+IR  - Ko A
+FIR - Ko, Arthur
+IR  - Sudmant PH
+FIR - Sudmant, Peter H
+IR  - Chen K
+FIR - Chen, Ken
+IR  - Chinwalla A
+FIR - Chinwalla, Asif
+IR  - Ding L
+FIR - Ding, Li
+IR  - McLellan MD
+FIR - McLellan, Michael D
+IR  - Wallis JW
+FIR - Wallis, John W
+IR  - Hurles ME
+FIR - Hurles, Matthew E
+IR  - Blackburne B
+FIR - Blackburne, Ben
+IR  - Li H
+FIR - Li, Heng
+IR  - Lindsay SJ
+FIR - Lindsay, Sarah J
+IR  - Ning Z
+FIR - Ning, Zemin
+IR  - Scally A
+FIR - Scally, Aylwyn
+IR  - Walter K
+FIR - Walter, Klaudia
+IR  - Zhang Y
+FIR - Zhang, Yujun
+IR  - Gerstein MB
+FIR - Gerstein, Mark B
+IR  - Abyzov A
+FIR - Abyzov, Alexej
+IR  - Chen J
+FIR - Chen, Jieming
+IR  - Clarke D
+FIR - Clarke, Declan
+IR  - Khurana E
+FIR - Khurana, Ekta
+IR  - Mu XJ
+FIR - Mu, Xinmeng Jasmine
+IR  - Sisu C
+FIR - Sisu, Cristina
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Yu F
+FIR - Yu, Fuli
+IR  - Bainbridge M
+FIR - Bainbridge, Matthew
+IR  - Challis D
+FIR - Challis, Danny
+IR  - Evani US
+FIR - Evani, Uday S
+IR  - Kovar C
+FIR - Kovar, Christie
+IR  - Lewis L
+FIR - Lewis, Lora
+IR  - Lu J
+FIR - Lu, James
+IR  - Muzny D
+FIR - Muzny, Donna
+IR  - Nagaswamy U
+FIR - Nagaswamy, Uma
+IR  - Reid J
+FIR - Reid, Jeff
+IR  - Sabo A
+FIR - Sabo, Aniko
+IR  - Yu J
+FIR - Yu, Jin
+IR  - Guo X
+FIR - Guo, Xiaosen
+IR  - Li Y
+FIR - Li, Yingrui
+IR  - Wu R
+FIR - Wu, Renhua
+IR  - Marth GT
+FIR - Marth, Gabor T
+IR  - Garrison EP
+FIR - Garrison, Erik P
+IR  - Leong WF
+FIR - Leong, Wen Fung
+IR  - Ward AN
+FIR - Ward, Alistair N
+IR  - del Angel G
+FIR - del Angel, Guillermo
+IR  - DePristo MA
+FIR - DePristo, Mark A
+IR  - Gabriel SB
+FIR - Gabriel, Stacey B
+IR  - Gupta N
+FIR - Gupta, Namrata
+IR  - Hartl C
+FIR - Hartl, Chris
+IR  - Poplin RE
+FIR - Poplin, Ryan E
+IR  - Clark AG
+FIR - Clark, Andrew G
+IR  - Rodriguez-Flores JL
+FIR - Rodriguez-Flores, Juan L
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Clarke L
+FIR - Clarke, Laura
+IR  - Smith RE
+FIR - Smith, Richard E
+IR  - Zheng-Bradley X
+FIR - Zheng-Bradley, Xiangqun
+IR  - MacArthur DG
+FIR - MacArthur, Daniel G
+IR  - Bustamante CD
+FIR - Bustamante, Carlos D
+IR  - Gravel S
+FIR - Gravel, Simon
+IR  - Craig DW
+FIR - Craig, David W
+IR  - Christoforides A
+FIR - Christoforides, Alexis
+IR  - Homer N
+FIR - Homer, Nils
+IR  - Izatt T
+FIR - Izatt, Tyler
+IR  - Sherry ST
+FIR - Sherry, Stephen T
+IR  - Xiao C
+FIR - Xiao, Chunlin
+IR  - Dermitzakis ET
+FIR - Dermitzakis, Emmanouil T
+IR  - Abecasis GR
+FIR - Abecasis, Goncalo R
+IR  - Kang HM
+FIR - Kang, Hyun Min
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Mardis ER
+FIR - Mardis, Elaine R
+IR  - Dooling D
+FIR - Dooling, David
+IR  - Fulton L
+FIR - Fulton, Lucinda
+IR  - Fulton R
+FIR - Fulton, Robert
+IR  - Koboldt DC
+FIR - Koboldt, Daniel C
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Balasubramaniam S
+FIR - Balasubramaniam, Senduran
+IR  - Keane TM
+FIR - Keane, Thomas M
+IR  - McCarthy S
+FIR - McCarthy, Shane
+IR  - Stalker J
+FIR - Stalker, James
+IR  - Gerstein MB
+FIR - Gerstein, Mark B
+IR  - Balasubramanian S
+FIR - Balasubramanian, Suganthi
+IR  - Habegger L
+FIR - Habegger, Lukas
+IR  - Garrison EP
+FIR - Garrison, Erik P
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Bainbridge M
+FIR - Bainbridge, Matthew
+IR  - Muzny D
+FIR - Muzny, Donna
+IR  - Yu F
+FIR - Yu, Fuli
+IR  - Yu J
+FIR - Yu, Jin
+IR  - del Angel G
+FIR - del Angel, Guillermo
+IR  - Handsaker RE
+FIR - Handsaker, Robert E
+IR  - Makarov V
+FIR - Makarov, Vladimir
+IR  - Rodriguez-Flores JL
+FIR - Rodriguez-Flores, Juan L
+IR  - Jin H
+FIR - Jin, Hanjun
+IR  - Kim W
+FIR - Kim, Wook
+IR  - Kim KC
+FIR - Kim, Ki Cheol
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Beal K
+FIR - Beal, Kathryn
+IR  - Clarke L
+FIR - Clarke, Laura
+IR  - Cunningham F
+FIR - Cunningham, Fiona
+IR  - Herrero J
+FIR - Herrero, Javier
+IR  - McLaren WM
+FIR - McLaren, William M
+IR  - Ritchie GR
+FIR - Ritchie, Graham R S
+IR  - Zheng-Bradley X
+FIR - Zheng-Bradley, Xiangqun
+IR  - Tabrizi S
+FIR - Tabrizi, Shervin
+IR  - MacArthur DG
+FIR - MacArthur, Daniel G
+IR  - Lek M
+FIR - Lek, Monkol
+IR  - Bustamante CD
+FIR - Bustamante, Carlos D
+IR  - De La Vega FM
+FIR - De La Vega, Francisco M
+IR  - Craig DW
+FIR - Craig, David W
+IR  - Kurdoglu AA
+FIR - Kurdoglu, Ahmet A
+IR  - Lappalainen T
+FIR - Lappalainen, Tuuli
+IR  - Rosenfeld JA
+FIR - Rosenfeld, Jeffrey A
+IR  - Michelson LP
+FIR - Michelson, Leslie P
+IR  - Awadalla P
+FIR - Awadalla, Philip
+IR  - Hodgkinson A
+FIR - Hodgkinson, Alan
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Chen K
+FIR - Chen, Ken
+IR  - Tyler-Smith C
+FIR - Tyler-Smith, Chris
+IR  - Chen Y
+FIR - Chen, Yuan
+IR  - Colonna V
+FIR - Colonna, Vincenza
+IR  - Frankish A
+FIR - Frankish, Adam
+IR  - Harrow J
+FIR - Harrow, Jennifer
+IR  - Xue Y
+FIR - Xue, Yali
+IR  - Gerstein MB
+FIR - Gerstein, Mark B
+IR  - Abyzov A
+FIR - Abyzov, Alexej
+IR  - Balasubramanian S
+FIR - Balasubramanian, Suganthi
+IR  - Chen J
+FIR - Chen, Jieming
+IR  - Clarke D
+FIR - Clarke, Declan
+IR  - Fu Y
+FIR - Fu, Yao
+IR  - Harmanci AO
+FIR - Harmanci, Arif O
+IR  - Jin M
+FIR - Jin, Mike
+IR  - Khurana E
+FIR - Khurana, Ekta
+IR  - Mu XJ
+FIR - Mu, Xinmeng Jasmine
+IR  - Sisu C
+FIR - Sisu, Cristina
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Kovar C
+FIR - Kovar, Christie
+IR  - Kalra D
+FIR - Kalra, Divya
+IR  - Hale W
+FIR - Hale, Walker
+IR  - Fowler G
+FIR - Fowler, Gerald
+IR  - Muzny D
+FIR - Muzny, Donna
+IR  - Reid J
+FIR - Reid, Jeff
+IR  - Wang J
+FIR - Wang, Jun
+IR  - Guo X
+FIR - Guo, Xiaosen
+IR  - Li G
+FIR - Li, Guoqing
+IR  - Li Y
+FIR - Li, Yingrui
+IR  - Zheng X
+FIR - Zheng, Xiaole
+IR  - Altshuler DM
+FIR - Altshuler, David M
+IR  - Flicek P
+FIR - Flicek, Paul
+IR  - Clarke L
+FIR - Clarke, Laura
+IR  - Barker J
+FIR - Barker, Jonathan
+IR  - Kelman G
+FIR - Kelman, Gavin
+IR  - Kulesha E
+FIR - Kulesha, Eugene
+IR  - Leinonen R
+FIR - Leinonen, Rasko
+IR  - McLaren WM
+FIR - McLaren, William M
+IR  - Radhakrishnan R
+FIR - Radhakrishnan, Rajesh
+IR  - Roa A
+FIR - Roa, Asier
+IR  - Smirnov D
+FIR - Smirnov, Dmitriy
+IR  - Smith RE
+FIR - Smith, Richard E
+IR  - Streeter I
+FIR - Streeter, Ian
+IR  - Toneva I
+FIR - Toneva, Iliana
+IR  - Vaughan B
+FIR - Vaughan, Brendan
+IR  - Zheng-Bradley X
+FIR - Zheng-Bradley, Xiangqun
+IR  - Bentley DR
+FIR - Bentley, David R
+IR  - Cox T
+FIR - Cox, Tony
+IR  - Humphray S
+FIR - Humphray, Sean
+IR  - Kahn S
+FIR - Kahn, Scott
+IR  - Sudbrak R
+FIR - Sudbrak, Ralf
+IR  - Albrecht MW
+FIR - Albrecht, Marcus W
+IR  - Lienhard M
+FIR - Lienhard, Matthias
+IR  - Craig DW
+FIR - Craig, David W
+IR  - Izatt T
+FIR - Izatt, Tyler
+IR  - Kurdoglu AA
+FIR - Kurdoglu, Ahmet A
+IR  - Sherry ST
+FIR - Sherry, Stephen T
+IR  - Ananiev V
+FIR - Ananiev, Victor
+IR  - Belaia Z
+FIR - Belaia, Zinaida
+IR  - Beloslyudtsev D
+FIR - Beloslyudtsev, Dimitriy
+IR  - Bouk N
+FIR - Bouk, Nathan
+IR  - Chen C
+FIR - Chen, Chao
+IR  - Church D
+FIR - Church, Deanna
+IR  - Cohen R
+FIR - Cohen, Robert
+IR  - Cook C
+FIR - Cook, Charles
+IR  - Garner J
+FIR - Garner, John
+IR  - Hefferon T
+FIR - Hefferon, Timothy
+IR  - Kimelman M
+FIR - Kimelman, Mikhail
+IR  - Liu C
+FIR - Liu, Chunlei
+IR  - Lopez J
+FIR - Lopez, John
+IR  - Meric P
+FIR - Meric, Peter
+IR  - O'Sullivan C
+FIR - O'Sullivan, Chris
+IR  - Ostapchuk Y
+FIR - Ostapchuk, Yuri
+IR  - Phan L
+FIR - Phan, Lon
+IR  - Ponomarov S
+FIR - Ponomarov, Sergiy
+IR  - Schneider V
+FIR - Schneider, Valerie
+IR  - Shekhtman E
+FIR - Shekhtman, Eugene
+IR  - Sirotkin K
+FIR - Sirotkin, Karl
+IR  - Slotta D
+FIR - Slotta, Douglas
+IR  - Xiao C
+FIR - Xiao, Chunlin
+IR  - Zhang H
+FIR - Zhang, Hua
+IR  - Haussler D
+FIR - Haussler, David
+IR  - Abecasis GR
+FIR - Abecasis, Goncalo R
+IR  - McVean GA
+FIR - McVean, Gil A
+IR  - Alkan C
+FIR - Alkan, Can
+IR  - Ko A
+FIR - Ko, Arthur
+IR  - Dooling D
+FIR - Dooling, David
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Balasubramaniam S
+FIR - Balasubramaniam, Senduran
+IR  - Keane TM
+FIR - Keane, Thomas M
+IR  - McCarthy S
+FIR - McCarthy, Shane
+IR  - Stalker J
+FIR - Stalker, James
+IR  - Chakravarti A
+FIR - Chakravarti, Aravinda
+IR  - Knoppers BM
+FIR - Knoppers, Bartha M
+IR  - Abecasis GR
+FIR - Abecasis, Goncalo R
+IR  - Barnes KC
+FIR - Barnes, Kathleen C
+IR  - Beiswanger C
+FIR - Beiswanger, Christine
+IR  - Burchard E
+FIR - Burchard, Esteban
+IR  - Bustamante CD
+FIR - Bustamante, Carlos D
+IR  - Cai H
+FIR - Cai, Hongyu
+IR  - Cao H
+FIR - Cao, Hongzhi
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Gharani N
+FIR - Gharani, Neda
+IR  - Gibbs RA
+FIR - Gibbs, Richard A
+IR  - Gignoux CR
+FIR - Gignoux, Christopher R
+IR  - Gravel S
+FIR - Gravel, Simon
+IR  - Henn B
+FIR - Henn, Brenna
+IR  - Jones D
+FIR - Jones, Danielle
+IR  - Jorde L
+FIR - Jorde, Lynn
+IR  - Kaye JS
+FIR - Kaye, Jane S
+IR  - Keinan A
+FIR - Keinan, Alon
+IR  - Kent A
+FIR - Kent, Alastair
+IR  - Kerasidou A
+FIR - Kerasidou, Angeliki
+IR  - Li Y
+FIR - Li, Yingrui
+IR  - Mathias R
+FIR - Mathias, Rasika
+IR  - McVean G
+FIR - McVean, Gil
+IR  - Moreno-Estrada A
+FIR - Moreno-Estrada, Andres
+IR  - Ossorio PN
+FIR - Ossorio, Pilar N
+IR  - Parker M
+FIR - Parker, Michael
+IR  - Reich D
+FIR - Reich, David
+IR  - Rotimi CN
+FIR - Rotimi, Charles N
+IR  - Royal CD
+FIR - Royal, Charmaine D
+IR  - Sandoval K
+FIR - Sandoval, Karla
+IR  - Su Y
+FIR - Su, Yeyang
+IR  - Sudbrak R
+FIR - Sudbrak, Ralf
+IR  - Tian Z
+FIR - Tian, Zhongming
+IR  - Timmermann B
+FIR - Timmermann, Bernd
+IR  - Tishkoff S
+FIR - Tishkoff, Sarah
+IR  - Toji LH
+FIR - Toji, Lorraine H
+IR  - Tyler-Smith C
+FIR - Tyler-Smith, Chris
+IR  - Via M
+FIR - Via, Marc
+IR  - Wang Y
+FIR - Wang, Yuhong
+IR  - Yang H
+FIR - Yang, Huanming
+IR  - Yang L
+FIR - Yang, Ling
+IR  - Zhu J
+FIR - Zhu, Jiayong
+IR  - Bodmer W
+FIR - Bodmer, Walter
+IR  - Bedoya G
+FIR - Bedoya, Gabriel
+IR  - Ruiz-Linares A
+FIR - Ruiz-Linares, Andres
+IR  - Ming CZ
+FIR - Ming, Cai Zhi
+IR  - Yang G
+FIR - Yang, Gao
+IR  - You CJ
+FIR - You, Chu Jia
+IR  - Peltonen L
+FIR - Peltonen, Leena
+IR  - Garcia-Montero A
+FIR - Garcia-Montero, Andres
+IR  - Orfao A
+FIR - Orfao, Alberto
+IR  - Dutil J
+FIR - Dutil, Julie
+IR  - Martinez-Cruzado JC
+FIR - Martinez-Cruzado, Juan C
+IR  - Oleksyk TK
+FIR - Oleksyk, Taras K
+IR  - Brooks LD
+FIR - Brooks, Lisa D
+IR  - Felsenfeld AL
+FIR - Felsenfeld, Adam L
+IR  - McEwen JE
+FIR - McEwen, Jean E
+IR  - Clemm NC
+FIR - Clemm, Nicholas C
+IR  - Duncanson A
+FIR - Duncanson, Audrey
+IR  - Dunn M
+FIR - Dunn, Michael
+IR  - Green ED
+FIR - Green, Eric D
+IR  - Guyer MS
+FIR - Guyer, Mark S
+IR  - Peterson JL
+FIR - Peterson, Jane L
+IR  - Abecasis GR
+FIR - Abecasis, Goncalo R
+IR  - Auton A
+FIR - Auton, Adam
+IR  - Brooks LD
+FIR - Brooks, Lisa D
+IR  - DePristo MA
+FIR - DePristo, Mark A
+IR  - Durbin RM
+FIR - Durbin, Richard M
+IR  - Handsaker RE
+FIR - Handsaker, Robert E
+IR  - Kang HM
+FIR - Kang, Hyun Min
+IR  - Marth GT
+FIR - Marth, Gabor T
+IR  - McVean GA
+FIR - McVean, Gil A
 EDAT- 2013/10/05 06:00
 MHDA- 2013/10/30 06:00
 CRDT- 2013/10/05 06:00
+PHST- 2013/10/05 06:00 [entrez]
+PHST- 2013/10/05 06:00 [pubmed]
+PHST- 2013/10/30 06:00 [medline]
 AID - 10.1126/science.1235587 [doi]
 PST - ppublish
 SO  - Science. 2013 Oct 4;342(6154):1235587. doi: 10.1126/science.1235587.
@@ -6286,7 +8316,6 @@ SO  - Science. 2013 Oct 4;342(6154):1235587. doi: 10.1126/science.1235587.
 PMID- 24014587
 OWN - NLM
 STAT- MEDLINE
-DA  - 20130925
 DCOM- 20131211
 LR  - 20170220
 IS  - 1091-6490 (Electronic)
@@ -6377,7 +8406,6 @@ MH  - Organ Specificity/genetics
 MH  - Primates/*genetics
 MH  - Species Specificity
 PMC - PMC3785719
-OID - NLM: PMC3785719
 OTO - NOTNLM
 OT  - copy-number variation
 OT  - genome evolution
@@ -6386,6 +8414,9 @@ OT  - retrotransposons
 EDAT- 2013/09/10 06:00
 MHDA- 2013/12/16 06:00
 CRDT- 2013/09/10 06:00
+PHST- 2013/09/10 06:00 [entrez]
+PHST- 2013/09/10 06:00 [pubmed]
+PHST- 2013/12/16 06:00 [medline]
 AID - 1305904110 [pii]
 AID - 10.1073/pnas.1305904110 [doi]
 PST - ppublish
@@ -6395,13 +8426,12 @@ SO  - Proc Natl Acad Sci U S A. 2013 Sep 24;110(39):15764-9. doi:
 PMID- 23656838
 OWN - NLM
 STAT- MEDLINE
-DA  - 20130603
 DCOM- 20131105
 LR  - 20170110
 IS  - 1471-2105 (Electronic)
 IS  - 1471-2105 (Linking)
 VI  - 14
-DP  - 2013 May 09
+DP  - 2013 May 9
 TI  - Copy number variation genotyping using family information.
 PG  - 157
 LID - 10.1186/1471-2105-14-157 [doi]
@@ -6464,12 +8494,14 @@ MH  - *Genotyping Techniques
 MH  - Humans
 MH  - Polymerase Chain Reaction
 PMC - PMC3668900
-OID - NLM: PMC3668900
 EDAT- 2013/05/10 06:00
 MHDA- 2013/11/06 06:00
 CRDT- 2013/05/10 06:00
-PHST- 2012/12/14 [received]
-PHST- 2013/04/30 [accepted]
+PHST- 2012/12/14 00:00 [received]
+PHST- 2013/04/30 00:00 [accepted]
+PHST- 2013/05/10 06:00 [entrez]
+PHST- 2013/05/10 06:00 [pubmed]
+PHST- 2013/11/06 06:00 [medline]
 AID - 1471-2105-14-157 [pii]
 AID - 10.1186/1471-2105-14-157 [doi]
 PST - epublish
@@ -6478,14 +8510,13 @@ SO  - BMC Bioinformatics. 2013 May 9;14:157. doi: 10.1186/1471-2105-14-157.
 PMID- 23602499
 OWN - NLM
 STAT- MEDLINE
-DA  - 20130513
 DCOM- 20130709
 LR  - 20161028
 IS  - 1097-4199 (Electronic)
 IS  - 0896-6273 (Linking)
 VI  - 78
 IP  - 3
-DP  - 2013 May 08
+DP  - 2013 May 8
 TI  - CGG repeat-associated translation mediates neurodegeneration in fragile X tremor 
       ataxia syndrome.
 PG  - 440-55
@@ -6583,12 +8614,13 @@ MH  - Tremor/*genetics/metabolism/pathology
 MH  - Trinucleotide Repeat Expansion/*genetics
 PMC - PMC3831531
 MID - NIHMS471026
-OID - NLM: NIHMS471026
-OID - NLM: PMC3831531
 EDAT- 2013/04/23 06:00
 MHDA- 2013/07/10 06:00
 CRDT- 2013/04/23 06:00
-PHST- 2013/03/26 [accepted]
+PHST- 2013/03/26 00:00 [accepted]
+PHST- 2013/04/23 06:00 [entrez]
+PHST- 2013/04/23 06:00 [pubmed]
+PHST- 2013/07/10 06:00 [medline]
 AID - S0896-6273(13)00273-0 [pii]
 AID - 10.1016/j.neuron.2013.03.026 [doi]
 PST - ppublish
@@ -6598,9 +8630,8 @@ SO  - Neuron. 2013 May 8;78(3):440-55. doi: 10.1016/j.neuron.2013.03.026. Epub 2
 PMID- 23478400
 OWN - NLM
 STAT- MEDLINE
-DA  - 20130502
 DCOM- 20131209
-LR  - 20161122
+LR  - 20170922
 IS  - 1549-5469 (Electronic)
 IS  - 1088-9051 (Linking)
 VI  - 23
@@ -6712,10 +8743,12 @@ MH  - Mutagenesis, Insertional
 MH  - Mutation Rate
 MH  - Polymorphism, Single Nucleotide
 PMC - PMC3638132
-OID - NLM: PMC3638132
 EDAT- 2013/03/13 06:00
 MHDA- 2013/12/16 06:00
 CRDT- 2013/03/13 06:00
+PHST- 2013/03/13 06:00 [entrez]
+PHST- 2013/03/13 06:00 [pubmed]
+PHST- 2013/12/16 06:00 [medline]
 AID - gr.148718.112 [pii]
 AID - 10.1101/gr.148718.112 [doi]
 PST - ppublish
@@ -6724,7 +8757,6 @@ SO  - Genome Res. 2013 May;23(5):749-61. doi: 10.1101/gr.148718.112. Epub 2013 M
 PMID- 23517041
 OWN - NLM
 STAT- MEDLINE
-DA  - 20130322
 DCOM- 20130906
 LR  - 20161215
 IS  - 1365-2222 (Electronic)
@@ -6812,14 +8844,15 @@ MH  - Polymorphism, Single Nucleotide
 MH  - Serpins/genetics
 PMC - PMC3609036
 MID - NIHMS421208
-OID - NLM: NIHMS421208
-OID - NLM: PMC3609036
 EDAT- 2013/03/23 06:00
 MHDA- 2013/09/07 06:00
 CRDT- 2013/03/23 06:00
-PHST- 2012/08/15 [received]
-PHST- 2012/10/11 [revised]
-PHST- 2012/10/22 [accepted]
+PHST- 2012/08/15 00:00 [received]
+PHST- 2012/10/11 00:00 [revised]
+PHST- 2012/10/22 00:00 [accepted]
+PHST- 2013/03/23 06:00 [entrez]
+PHST- 2013/03/23 06:00 [pubmed]
+PHST- 2013/09/07 06:00 [medline]
 AID - 10.1111/cea.12060 [doi]
 PST - ppublish
 SO  - Clin Exp Allergy. 2013 Apr;43(4):455-62. doi: 10.1111/cea.12060.
@@ -6827,14 +8860,13 @@ SO  - Clin Exp Allergy. 2013 Apr;43(4):455-62. doi: 10.1111/cea.12060.
 PMID- 23217326
 OWN - NLM
 STAT- MEDLINE
-DA  - 20121210
 DCOM- 20130214
-LR  - 20170220
+LR  - 20170922
 IS  - 1537-6605 (Electronic)
 IS  - 0002-9297 (Linking)
 VI  - 91
 IP  - 6
-DP  - 2012 Dec 07
+DP  - 2012 Dec 7
 TI  - Deleterious- and disease-allele prevalence in healthy individuals: insights from 
       current predictions, mutation databases, and population-scale resequencing.
 PG  - 1022-32
@@ -6905,13 +8937,15 @@ MH  - *Mutation Rate
 MH  - Mutation, Missense
 MH  - Prevalence
 PMC - PMC3516590
-OID - NLM: PMC3516590
 EDAT- 2012/12/12 06:00
 MHDA- 2013/02/15 06:00
 CRDT- 2012/12/11 06:00
-PHST- 2012/07/15 [received]
-PHST- 2012/08/22 [revised]
-PHST- 2012/10/11 [accepted]
+PHST- 2012/07/15 00:00 [received]
+PHST- 2012/08/22 00:00 [revised]
+PHST- 2012/10/11 00:00 [accepted]
+PHST- 2012/12/11 06:00 [entrez]
+PHST- 2012/12/12 06:00 [pubmed]
+PHST- 2013/02/15 06:00 [medline]
 AID - S0002-9297(12)00538-1 [pii]
 AID - 10.1016/j.ajhg.2012.10.015 [doi]
 PST - ppublish
@@ -6920,14 +8954,13 @@ SO  - Am J Hum Genet. 2012 Dec 7;91(6):1022-32. doi: 10.1016/j.ajhg.2012.10.015.
 PMID- 23128226
 OWN - NLM
 STAT- MEDLINE
-DA  - 20121106
 DCOM- 20121226
-LR  - 20170220
+LR  - 20170922
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 491
 IP  - 7422
-DP  - 2012 Nov 01
+DP  - 2012 Nov 1
 TI  - An integrated map of genetic variation from 1,092 human genomes.
 PG  - 56-65
 LID - 10.1038/nature11632 [doi]
@@ -7108,7 +9141,6 @@ MH  - Transcription Factors/metabolism
 PMC - PMC3498066
 MID - EMS50091
 OID - NLM: EMS50091
-OID - NLM: PMC3498066
 IR  - Altshuler DM
 FIR - Altshuler, David M
 IR  - Durbin RM
@@ -8496,8 +10528,11 @@ FIR - Peterson, Jane L
 EDAT- 2012/11/07 06:00
 MHDA- 2012/12/27 06:00
 CRDT- 2012/11/07 06:00
-PHST- 2012/07/04 [received]
-PHST- 2012/10/01 [accepted]
+PHST- 2012/07/04 00:00 [received]
+PHST- 2012/10/01 00:00 [accepted]
+PHST- 2012/11/07 06:00 [entrez]
+PHST- 2012/11/07 06:00 [pubmed]
+PHST- 2012/12/27 06:00 [medline]
 AID - nature11632 [pii]
 AID - 10.1038/nature11632 [doi]
 PST - ppublish
@@ -8506,9 +10541,8 @@ SO  - Nature. 2012 Nov 1;491(7422):56-65. doi: 10.1038/nature11632.
 PMID- 22797897
 OWN - NLM
 STAT- MEDLINE
-DA  - 20120801
 DCOM- 20121026
-LR  - 20161019
+LR  - 20171006
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 109
@@ -8572,7 +10606,6 @@ GR  - F32AG039979/AG/NIA NIH HHS/United States
 GR  - F32 AG039979/AG/NIA NIH HHS/United States
 GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - R01GM081533/GM/NIGMS NIH HHS/United States
-GR  - T32 GM007197/GM/NIGMS NIH HHS/United States
 GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
@@ -8597,10 +10630,12 @@ MH  - RNA, Untranslated/*physiology
 MH  - Regulatory Elements, Transcriptional/*physiology
 MH  - Species Specificity
 PMC - PMC3411951
-OID - NLM: PMC3411951
 EDAT- 2012/07/17 06:00
 MHDA- 2012/10/27 06:00
 CRDT- 2012/07/17 06:00
+PHST- 2012/07/17 06:00 [entrez]
+PHST- 2012/07/17 06:00 [pubmed]
+PHST- 2012/10/27 06:00 [medline]
 AID - 1205199109 [pii]
 AID - 10.1073/pnas.1205199109 [doi]
 PST - ppublish
@@ -8610,9 +10645,8 @@ SO  - Proc Natl Acad Sci U S A. 2012 Jul 31;109(31):12656-61. doi:
 PMID- 22543379
 OWN - NLM
 STAT- MEDLINE
-DA  - 20120430
 DCOM- 20120917
-LR  - 20170516
+LR  - 20170922
 IS  - 1548-7105 (Electronic)
 IS  - 1548-7091 (Linking)
 VI  - 9
@@ -8662,7 +10696,6 @@ GR  - Z99 LM999999/Intramural NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
-GR  - WT085532/Wellcome Trust/United Kingdom
 GR  - 090532/Wellcome Trust/United Kingdom
 GR  - 095908/Wellcome Trust/United Kingdom
 GR  - P01 CA101937/CA/NCI NIH HHS/United States
@@ -8685,8 +10718,6 @@ MH  - Humans
 MH  - Sequence Analysis, DNA/*methods
 PMC - PMC3340611
 MID - NIHMS367033
-OID - NLM: NIHMS367033
-OID - NLM: PMC3340611
 IR  - Altshuler D
 FIR - Altshuler, David
 IR  - Durbin RM
@@ -9780,6 +11811,9 @@ FIR - Schafer, Alan J
 EDAT- 2012/05/01 06:00
 MHDA- 2012/09/18 06:00
 CRDT- 2012/05/01 06:00
+PHST- 2012/05/01 06:00 [entrez]
+PHST- 2012/05/01 06:00 [pubmed]
+PHST- 2012/09/18 06:00 [medline]
 AID - nmeth.1974 [pii]
 AID - 10.1038/nmeth.1974 [doi]
 PST - epublish
@@ -9788,14 +11822,13 @@ SO  - Nat Methods. 2012 Apr 27;9(5):459-62. doi: 10.1038/nmeth.1974.
 PMID- 22388000
 OWN - NLM
 STAT- MEDLINE
-DA  - 20120329
 DCOM- 20120530
 LR  - 20161019
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 44
 IP  - 4
-DP  - 2012 Mar 04
+DP  - 2012 Mar 4
 TI  - Complex reorganization and predominant non-homologous repair following
       chromosomal breakage in karyotypically balanced germline rearrangements and
       transgenic integration.
@@ -9914,13 +11947,14 @@ MH  - Sequence Analysis, DNA
 MH  - Translocation, Genetic
 PMC - PMC3340016
 MID - NIHMS352865
-OID - NLM: NIHMS352865
-OID - NLM: PMC3340016
 EDAT- 2012/03/06 06:00
 MHDA- 2012/05/31 06:00
 CRDT- 2012/03/06 06:00
-PHST- 2011/09/29 [received]
-PHST- 2012/01/17 [accepted]
+PHST- 2011/09/29 00:00 [received]
+PHST- 2012/01/17 00:00 [accepted]
+PHST- 2012/03/06 06:00 [entrez]
+PHST- 2012/03/06 06:00 [pubmed]
+PHST- 2012/05/31 06:00 [medline]
 AID - ng.2202 [pii]
 AID - 10.1038/ng.2202 [doi]
 PST - epublish
@@ -9929,9 +11963,8 @@ SO  - Nat Genet. 2012 Mar 4;44(4):390-7, S1. doi: 10.1038/ng.2202.
 PMID- 22344438
 OWN - NLM
 STAT- MEDLINE
-DA  - 20120220
 DCOM- 20120308
-LR  - 20161122
+LR  - 20170922
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 335
@@ -10089,11 +12122,13 @@ MH  - Proteins/*genetics
 MH  - Selection, Genetic
 PMC - PMC3299548
 MID - UKMS41098
-OID - NLM: PMC3299548
 OID - NLM: UKMS41098
 EDAT- 2012/02/22 06:00
 MHDA- 2012/03/09 06:00
 CRDT- 2012/02/21 06:00
+PHST- 2012/02/21 06:00 [entrez]
+PHST- 2012/02/22 06:00 [pubmed]
+PHST- 2012/03/09 06:00 [medline]
 AID - 335/6070/823 [pii]
 AID - 10.1126/science.1215040 [doi]
 PST - ppublish
@@ -10102,7 +12137,6 @@ SO  - Science. 2012 Feb 17;335(6070):823-8. doi: 10.1126/science.1215040.
 PMID- 22203992
 OWN - NLM
 STAT- MEDLINE
-DA  - 20120111
 DCOM- 20120312
 LR  - 20161019
 IS  - 1091-6490 (Electronic)
@@ -10198,10 +12232,12 @@ MH  - Genomics/*methods
 MH  - Species Specificity
 MH  - Zebrafish/classification/*genetics
 PMC - PMC3258620
-OID - NLM: PMC3258620
 EDAT- 2011/12/29 06:00
 MHDA- 2012/03/13 06:00
 CRDT- 2011/12/29 06:00
+PHST- 2011/12/29 06:00 [entrez]
+PHST- 2011/12/29 06:00 [pubmed]
+PHST- 2012/03/13 06:00 [medline]
 AID - 1112163109 [pii]
 AID - 10.1073/pnas.1112163109 [doi]
 PST - ppublish
@@ -10211,9 +12247,8 @@ SO  - Proc Natl Acad Sci U S A. 2012 Jan 10;109(2):529-34. doi:
 PMID- 21917140
 OWN - NLM
 STAT- MEDLINE
-DA  - 20120427
 DCOM- 20120823
-LR  - 20170408
+LR  - 20171010
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 12
@@ -10318,7 +12353,6 @@ AU  - Gibbs R
 CN  - 1000 Genomes Project
 LA  - eng
 GR  - 1U01HG005211-0109/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
 GR  - 5U54HG003273/HG/NHGRI NIH HHS/United States
 GR  - P30 DK043351/DK/NIDDK NIH HHS/United States
@@ -10354,7 +12388,6 @@ MH  - Sensitivity and Specificity
 MH  - Sequence Alignment/methods
 MH  - Sequence Analysis, DNA/*methods
 PMC - PMC3308047
-OID - NLM: PMC3308047
 IR  - Durbin RM
 FIR - Durbin, Richard M
 IR  - Burton J
@@ -11104,9 +13137,12 @@ FIR - Cartwright, Reed A
 EDAT- 2011/09/16 06:00
 MHDA- 2012/08/24 06:00
 CRDT- 2011/09/16 06:00
-PHST- 2011/05/27 [received]
-PHST- 2011/08/11 [revised]
-PHST- 2011/09/14 [accepted]
+PHST- 2011/05/27 00:00 [received]
+PHST- 2011/08/11 00:00 [revised]
+PHST- 2011/09/14 00:00 [accepted]
+PHST- 2011/09/16 06:00 [entrez]
+PHST- 2011/09/16 06:00 [pubmed]
+PHST- 2012/08/24 06:00 [medline]
 AID - gb-2011-12-9-r84 [pii]
 AID - 10.1186/gb-2011-12-9-r84 [doi]
 PST - epublish
@@ -11115,9 +13151,8 @@ SO  - Genome Biol. 2011 Sep 14;12(9):R84. doi: 10.1186/gb-2011-12-9-r84.
 PMID- 21730125
 OWN - NLM
 STAT- MEDLINE
-DA  - 20110720
 DCOM- 20111003
-LR  - 20170220
+LR  - 20170922
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 108
@@ -11209,7 +13244,6 @@ MH  - Humans
 MH  - *Models, Genetic
 MH  - Sequence Analysis, DNA
 PMC - PMC3142009
-OID - NLM: PMC3142009
 IR  - Altshuler DL
 FIR - Altshuler, David L
 IR  - Durbin RM
@@ -12315,6 +14349,9 @@ FIR - McVean, Gil A
 EDAT- 2011/07/07 06:00
 MHDA- 2011/10/04 06:00
 CRDT- 2011/07/07 06:00
+PHST- 2011/07/07 06:00 [entrez]
+PHST- 2011/07/07 06:00 [pubmed]
+PHST- 2011/10/04 06:00 [medline]
 AID - 1019276108 [pii]
 AID - 10.1073/pnas.1019276108 [doi]
 PST - ppublish
@@ -12324,9 +14361,8 @@ SO  - Proc Natl Acad Sci U S A. 2011 Jul 19;108(29):11983-8. doi:
 PMID- 21666693
 OWN - NLM
 STAT- MEDLINE
-DA  - 20110628
 DCOM- 20110915
-LR  - 20161122
+LR  - 20171010
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 43
@@ -12384,7 +14420,6 @@ FAU - Awadalla, Philip
 AU  - Awadalla P
 CN  - 1000 Genomes Project
 LA  - eng
-GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - R01 GM070806/GM/NIGMS NIH HHS/United States
 GR  - 090532/Wellcome Trust/United Kingdom
 GR  - 077014/Wellcome Trust/United Kingdom
@@ -12411,7 +14446,6 @@ MH  - Male
 MH  - Polymerase Chain Reaction
 PMC - PMC3322360
 MID - UKMS36509
-OID - NLM: PMC3322360
 OID - NLM: UKMS36509
 IR  - Altshuler D
 FIR - Altshuler, David
@@ -13522,8 +15556,11 @@ FIR - McVean, Gil A
 EDAT- 2011/06/15 06:00
 MHDA- 2011/09/16 06:00
 CRDT- 2011/06/14 06:00
-PHST- 2010/10/14 [received]
-PHST- 2011/05/19 [accepted]
+PHST- 2010/10/14 00:00 [received]
+PHST- 2011/05/19 00:00 [accepted]
+PHST- 2011/06/14 06:00 [entrez]
+PHST- 2011/06/15 06:00 [pubmed]
+PHST- 2011/09/16 06:00 [medline]
 AID - ng.862 [pii]
 AID - 10.1038/ng.862 [doi]
 PST - epublish
@@ -13532,9 +15569,8 @@ SO  - Nat Genet. 2011 Jun 12;43(7):712-4. doi: 10.1038/ng.862.
 PMID- 21460062
 OWN - NLM
 STAT- MEDLINE
-DA  - 20110602
 DCOM- 20110926
-LR  - 20161122
+LR  - 20170922
 IS  - 1549-5469 (Electronic)
 IS  - 1088-9051 (Linking)
 VI  - 21
@@ -13608,10 +15644,12 @@ MH  - INDEL Mutation/*genetics
 MH  - Microarray Analysis
 MH  - Precision Medicine/methods
 PMC - PMC3106316
-OID - NLM: PMC3106316
 EDAT- 2011/04/05 06:00
 MHDA- 2011/09/29 06:00
 CRDT- 2011/04/05 06:00
+PHST- 2011/04/05 06:00 [entrez]
+PHST- 2011/04/05 06:00 [pubmed]
+PHST- 2011/09/29 06:00 [medline]
 AID - gr.115907.110 [pii]
 AID - 10.1101/gr.115907.110 [doi]
 PST - ppublish
@@ -13620,14 +15658,13 @@ SO  - Genome Res. 2011 Jun;21(6):830-9. doi: 10.1101/gr.115907.110. Epub 2011 Ap
 PMID- 21552272
 OWN - NLM
 STAT- MEDLINE
-DA  - 20110609
 DCOM- 20111014
-LR  - 20161122
+LR  - 20170922
 IS  - 1546-1696 (Electronic)
 IS  - 1087-0156 (Linking)
 VI  - 29
 IP  - 6
-DP  - 2011 May 08
+DP  - 2011 May 8
 TI  - Comprehensive assessment of array-based platforms and calling algorithms for
       detection of copy number variants.
 PG  - 512-20
@@ -13696,7 +15733,6 @@ LA  - eng
 SI  - GEO/GSE25893
 GR  - 077008/Wellcome Trust/United Kingdom
 GR  - T32 HD007396/HD/NICHD NIH HHS/United States
-GR  - WT077008/Wellcome Trust/United Kingdom
 GR  - R01 HD055150/HD/NICHD NIH HHS/United States
 GR  - HG004221/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
@@ -13738,13 +15774,14 @@ MH  - Reproducibility of Results
 MH  - Software
 PMC - PMC3270583
 MID - NIHMS346122
-OID - NLM: NIHMS346122
-OID - NLM: PMC3270583
 EDAT- 2011/05/10 06:00
 MHDA- 2011/10/15 06:00
 CRDT- 2011/05/10 06:00
-PHST- 2010/10/08 [received]
-PHST- 2011/03/22 [accepted]
+PHST- 2010/10/08 00:00 [received]
+PHST- 2011/03/22 00:00 [accepted]
+PHST- 2011/05/10 06:00 [entrez]
+PHST- 2011/05/10 06:00 [pubmed]
+PHST- 2011/10/15 06:00 [medline]
 AID - nbt.1852 [pii]
 AID - 10.1038/nbt.1852 [doi]
 PST - epublish
@@ -13753,14 +15790,13 @@ SO  - Nat Biotechnol. 2011 May 8;29(6):512-20. doi: 10.1038/nbt.1852.
 PMID- 21293372
 OWN - NLM
 STAT- MEDLINE
-DA  - 20110204
 DCOM- 20110222
-LR  - 20170408
+LR  - 20170922
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 470
 IP  - 7332
-DP  - 2011 Feb 03
+DP  - 2011 Feb 3
 TI  - Mapping copy number variation by population-scale genome sequencing.
 PG  - 59-65
 LID - 10.1038/nature09708 [doi]
@@ -13955,8 +15991,6 @@ MH  - Sequence Analysis, DNA
 MH  - Sequence Deletion/genetics
 PMC - PMC3077050
 MID - NIHMS254846
-OID - NLM: NIHMS254846
-OID - NLM: PMC3077050
 IR  - Altshuler DL
 FIR - Altshuler, David L
 IR  - Durbin RM
@@ -15048,8 +17082,11 @@ FIR - Schafer, Alan J
 EDAT- 2011/02/05 06:00
 MHDA- 2011/02/23 06:00
 CRDT- 2011/02/05 06:00
-PHST- 2010/08/19 [received]
-PHST- 2010/11/26 [accepted]
+PHST- 2010/08/19 00:00 [received]
+PHST- 2010/11/26 00:00 [accepted]
+PHST- 2011/02/05 06:00 [entrez]
+PHST- 2011/02/05 06:00 [pubmed]
+PHST- 2011/02/23 06:00 [medline]
 AID - nature09708 [pii]
 AID - 10.1038/nature09708 [doi]
 PST - ppublish
@@ -15058,7 +17095,6 @@ SO  - Nature. 2011 Feb 3;470(7332):59-65. doi: 10.1038/nature09708.
 PMID- 21627829
 OWN - NLM
 STAT- MEDLINE
-DA  - 20111020
 DCOM- 20120214
 LR  - 20161019
 IS  - 1474-760X (Electronic)
@@ -15140,13 +17176,15 @@ MH  - Pan troglodytes/*genetics
 MH  - Selection, Genetic/immunology
 MH  - Species Specificity
 PMC - PMC3219974
-OID - NLM: PMC3219974
 EDAT- 2011/06/02 06:00
 MHDA- 2012/02/15 06:00
 CRDT- 2011/06/02 06:00
-PHST- 2010/12/20 [received]
-PHST- 2011/05/16 [revised]
-PHST- 2011/05/31 [accepted]
+PHST- 2010/12/20 00:00 [received]
+PHST- 2011/05/16 00:00 [revised]
+PHST- 2011/05/31 00:00 [accepted]
+PHST- 2011/06/02 06:00 [entrez]
+PHST- 2011/06/02 06:00 [pubmed]
+PHST- 2012/02/15 06:00 [medline]
 AID - gb-2011-12-5-r52 [pii]
 AID - 10.1186/gb-2011-12-5-r52 [doi]
 PST - ppublish
@@ -15155,9 +17193,8 @@ SO  - Genome Biol. 2011;12(5):R52. doi: 10.1186/gb-2011-12-5-r52. Epub 2011 May 
 PMID- 21030649
 OWN - NLM
 STAT- MEDLINE
-DA  - 20101029
 DCOM- 20101116
-LR  - 20170408
+LR  - 20170922
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 330
@@ -15242,8 +17279,6 @@ MH  - Polymorphism, Single Nucleotide
 MH  - Sequence Analysis, DNA
 PMC - PMC3020103
 MID - NIHMS255880
-OID - NLM: NIHMS255880
-OID - NLM: PMC3020103
 IR  - Altshuler DL
 FIR - Altshuler, David L
 IR  - Durbin RM
@@ -16351,6 +18386,9 @@ FIR - McVean, Gil A
 EDAT- 2010/10/30 06:00
 MHDA- 2010/11/17 06:00
 CRDT- 2010/10/30 06:00
+PHST- 2010/10/30 06:00 [entrez]
+PHST- 2010/10/30 06:00 [pubmed]
+PHST- 2010/11/17 06:00 [medline]
 AID - 330/6004/641 [pii]
 AID - 10.1126/science.1197005 [doi]
 PST - ppublish
@@ -16359,9 +18397,8 @@ SO  - Science. 2010 Oct 29;330(6004):641-6. doi: 10.1126/science.1197005.
 PMID- 20981092
 OWN - NLM
 STAT- MEDLINE
-DA  - 20101028
 DCOM- 20101214
-LR  - 20161203
+LR  - 20170922
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 467
@@ -16450,7 +18487,6 @@ GR  - P41 HG002371/HG/NHGRI NIH HHS/United States
 GR  - T32 GM007753/GM/NIGMS NIH HHS/United States
 GR  - WT075491/Z/04/Wellcome Trust/United Kingdom
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
-GR  - WT077009/Wellcome Trust/United Kingdom
 GR  - G0801823/Medical Research Council/United Kingdom
 GR  - RC2 HG005552-01/RC/CCR NIH HHS/United States
 GR  - 075491/Wellcome Trust/United Kingdom
@@ -16543,7 +18579,6 @@ MH  - Sequence Alignment
 MH  - Sequence Analysis, DNA/*methods
 PMC - PMC3042601
 MID - UKMS34220
-OID - NLM: PMC3042601
 OID - NLM: UKMS34220
 IR  - Altshuler D
 FIR - Altshuler, David
@@ -17636,8 +19671,11 @@ FIR - Cartwright, Reed A
 EDAT- 2010/10/29 06:00
 MHDA- 2010/12/16 06:00
 CRDT- 2010/10/29 06:00
-PHST- 2010/07/20 [received]
-PHST- 2010/09/30 [accepted]
+PHST- 2010/07/20 00:00 [received]
+PHST- 2010/09/30 00:00 [accepted]
+PHST- 2010/10/29 06:00 [entrez]
+PHST- 2010/10/29 06:00 [pubmed]
+PHST- 2010/12/16 06:00 [medline]
 AID - nature09534 [pii]
 AID - 10.1038/nature09534 [doi]
 PST - ppublish
@@ -17646,7 +19684,6 @@ SO  - Nature. 2010 Oct 28;467(7319):1061-73. doi: 10.1038/nature09534.
 PMID- 20858594
 OWN - NLM
 STAT- MEDLINE
-DA  - 20101013
 DCOM- 20110124
 LR  - 20170220
 IS  - 1460-2083 (Electronic)
@@ -17696,10 +19733,12 @@ MH  - Mutagenesis, Insertional/*genetics
 MH  - Polymorphism, Single Nucleotide/genetics
 MH  - Sequence Deletion/*genetics
 PMC - PMC2953750
-OID - NLM: PMC2953750
 EDAT- 2010/09/23 06:00
 MHDA- 2011/01/25 06:00
 CRDT- 2010/09/23 06:00
+PHST- 2010/09/23 06:00 [entrez]
+PHST- 2010/09/23 06:00 [pubmed]
+PHST- 2011/01/25 06:00 [medline]
 AID - ddq400 [pii]
 AID - 10.1093/hmg/ddq400 [doi]
 PST - ppublish
@@ -17709,7 +19748,6 @@ SO  - Hum Mol Genet. 2010 Oct 15;19(R2):R131-6. doi: 10.1093/hmg/ddq400. Epub 20
 PMID- 20603005
 OWN - NLM
 STAT- MEDLINE
-DA  - 20100706
 DCOM- 20100713
 LR  - 20161122
 IS  - 1097-4172 (Electronic)
@@ -17793,14 +19831,15 @@ MH  - *Mutagenesis
 MH  - Sequence Analysis, DNA/*methods
 PMC - PMC2943760
 MID - NIHMS223984
-OID - NLM: NIHMS223984
-OID - NLM: PMC2943760
 EDAT- 2010/07/07 06:00
 MHDA- 2010/07/14 06:00
 CRDT- 2010/07/07 06:00
-PHST- 2010/01/15 [received]
-PHST- 2010/04/01 [revised]
-PHST- 2010/05/12 [accepted]
+PHST- 2010/01/15 00:00 [received]
+PHST- 2010/04/01 00:00 [revised]
+PHST- 2010/05/12 00:00 [accepted]
+PHST- 2010/07/07 06:00 [entrez]
+PHST- 2010/07/07 06:00 [pubmed]
+PHST- 2010/07/14 06:00 [medline]
 AID - S0092-8674(10)00556-8 [pii]
 AID - 10.1016/j.cell.2010.05.020 [doi]
 PST - ppublish
@@ -17809,9 +19848,8 @@ SO  - Cell. 2010 Jun 25;141(7):1253-61. doi: 10.1016/j.cell.2010.05.020.
 PMID- 20364138
 OWN - NLM
 STAT- MEDLINE
-DA  - 20100429
 DCOM- 20100527
-LR  - 20161122
+LR  - 20170922
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 42
@@ -17930,13 +19968,15 @@ MH  - *Nucleic Acid Hybridization
 MH  - Sequence Analysis, DNA/*methods
 PMC - PMC3329635
 MID - UKMS37113
-OID - NLM: PMC3329635
 OID - NLM: UKMS37113
 EDAT- 2010/04/07 06:00
 MHDA- 2010/05/28 06:00
 CRDT- 2010/04/06 06:00
-PHST- 2009/11/30 [received]
-PHST- 2010/02/22 [accepted]
+PHST- 2009/11/30 00:00 [received]
+PHST- 2010/02/22 00:00 [accepted]
+PHST- 2010/04/06 06:00 [entrez]
+PHST- 2010/04/07 06:00 [pubmed]
+PHST- 2010/05/28 06:00 [medline]
 AID - ng.555 [pii]
 AID - 10.1038/ng.555 [doi]
 PST - ppublish
@@ -17945,7 +19985,6 @@ SO  - Nat Genet. 2010 May;42(5):400-5. doi: 10.1038/ng.555. Epub 2010 Apr 4.
 PMID- 20028483
 OWN - NLM
 STAT- MEDLINE
-DA  - 20100409
 DCOM- 20100805
 LR  - 20161122
 IS  - 1600-0854 (Electronic)
@@ -18017,11 +20056,12 @@ MH  - Saccharomyces cerevisiae/*metabolism
 MH  - Saccharomyces cerevisiae Proteins/*metabolism
 PMC - PMC2886731
 MID - NIHMS190194
-OID - NLM: NIHMS190194
-OID - NLM: PMC2886731
 EDAT- 2009/12/24 06:00
 MHDA- 2010/08/06 06:00
 CRDT- 2009/12/24 06:00
+PHST- 2009/12/24 06:00 [entrez]
+PHST- 2009/12/24 06:00 [pubmed]
+PHST- 2010/08/06 06:00 [medline]
 AID - TRA1028 [pii]
 AID - 10.1111/j.1600-0854.2009.01028.x [doi]
 PST - ppublish
@@ -18031,7 +20071,6 @@ SO  - Traffic. 2010 Mar;11(3):311-23. doi: 10.1111/j.1600-0854.2009.01028.x. Epu
 PMID- 19587683
 OWN - NLM
 STAT- MEDLINE
-DA  - 20090820
 DCOM- 20090923
 LR  - 20170220
 IS  - 1476-4687 (Electronic)
@@ -18184,13 +20223,14 @@ MH  - Polymorphism, Single Nucleotide/genetics
 MH  - Sequence Analysis, DNA
 PMC - PMC2860965
 MID - NIHMS187328
-OID - NLM: NIHMS187328
-OID - NLM: PMC2860965
 EDAT- 2009/07/10 09:00
 MHDA- 2009/09/24 06:00
 CRDT- 2009/07/10 09:00
-PHST- 2009/03/06 [received]
-PHST- 2009/06/18 [accepted]
+PHST- 2009/03/06 00:00 [received]
+PHST- 2009/06/18 00:00 [accepted]
+PHST- 2009/07/10 09:00 [entrez]
+PHST- 2009/07/10 09:00 [pubmed]
+PHST- 2009/09/24 06:00 [medline]
 AID - nature08211 [pii]
 AID - 10.1038/nature08211 [doi]
 PST - ppublish
@@ -18199,7 +20239,6 @@ SO  - Nature. 2009 Aug 20;460(7258):1011-5. doi: 10.1038/nature08211. Epub 2009 
 PMID- 18836035
 OWN - NLM
 STAT- MEDLINE
-DA  - 20081205
 DCOM- 20090116
 LR  - 20161122
 IS  - 1088-9051 (Print)
@@ -18273,10 +20312,12 @@ MH  - Models, Genetic
 MH  - Models, Molecular
 MH  - *Retroelements
 PMC - PMC2593586
-OID - NLM: PMC2593586
 EDAT- 2008/10/07 09:00
 MHDA- 2009/01/17 09:00
 CRDT- 2008/10/07 09:00
+PHST- 2008/10/07 09:00 [pubmed]
+PHST- 2009/01/17 09:00 [medline]
+PHST- 2008/10/07 09:00 [entrez]
 AID - gr.081737.108 [pii]
 AID - 10.1101/gr.081737.108 [doi]
 PST - ppublish
@@ -18285,14 +20326,13 @@ SO  - Genome Res. 2008 Dec;18(12):1875-83. doi: 10.1101/gr.081737.108. Epub 2008
 PMID- 18343812
 OWN - NLM
 STAT- MEDLINE
-DA  - 20080505
 DCOM- 20080617
 LR  - 20161122
 IS  - 0021-9258 (Print)
 IS  - 0021-9258 (Linking)
 VI  - 283
 IP  - 19
-DP  - 2008 May 09
+DP  - 2008 May 9
 TI  - A PY-NLS nuclear targeting signal is required for nuclear localization and
       function of the Saccharomyces cerevisiae mRNA-binding protein Hrp1.
 PG  - 12926-34
@@ -18367,10 +20407,12 @@ MH  - Saccharomyces cerevisiae Proteins/chemistry/genetics/*metabolism
 MH  - beta Karyopherins
 MH  - mRNA Cleavage and Polyadenylation Factors/chemistry/genetics/*metabolism
 PMC - PMC2442336
-OID - NLM: PMC2442336
 EDAT- 2008/03/18 09:00
 MHDA- 2008/06/18 09:00
 CRDT- 2008/03/18 09:00
+PHST- 2008/03/18 09:00 [pubmed]
+PHST- 2008/06/18 09:00 [medline]
+PHST- 2008/03/18 09:00 [entrez]
 AID - M800898200 [pii]
 AID - 10.1074/jbc.M800898200 [doi]
 PST - ppublish
@@ -18380,7 +20422,6 @@ SO  - J Biol Chem. 2008 May 9;283(19):12926-34. doi: 10.1074/jbc.M800898200. Epu
 PMID- 17331616
 OWN - NLM
 STAT- MEDLINE
-DA  - 20070402
 DCOM- 20070605
 LR  - 20161122
 IS  - 0168-9525 (Print)
@@ -18437,20 +20478,23 @@ RF  - 96
 EDAT- 2007/03/03 09:00
 MHDA- 2007/06/06 09:00
 CRDT- 2007/03/03 09:00
-PHST- 2006/05/02 [received]
-PHST- 2007/01/15 [revised]
-PHST- 2007/02/12 [accepted]
+PHST- 2006/05/02 00:00 [received]
+PHST- 2007/01/15 00:00 [revised]
+PHST- 2007/02/12 00:00 [accepted]
+PHST- 2007/03/03 09:00 [pubmed]
+PHST- 2007/06/06 09:00 [medline]
+PHST- 2007/03/03 09:00 [entrez]
 AID - S0168-9525(07)00059-5 [pii]
 AID - 10.1016/j.tig.2007.02.006 [doi]
 PST - ppublish
-SO  - Trends Genet. 2007 Apr;23(4):183-91. Epub 2007 Feb 27.
+SO  - Trends Genet. 2007 Apr;23(4):183-91. doi: 10.1016/j.tig.2007.02.006. Epub 2007
+      Feb 27.
 
 PMID- 17170104
 OWN - NLM
 STAT- MEDLINE
-DA  - 20070219
 DCOM- 20070417
-LR  - 20170219
+LR  - 20170922
 IS  - 0021-9258 (Print)
 IS  - 0021-9258 (Linking)
 VI  - 282
@@ -18509,20 +20553,21 @@ MH  - beta Karyopherins/genetics/*metabolism
 RF  - 61
 PMC - PMC4502416
 MID - NIHMS238720
-OID - NLM: NIHMS238720
-OID - NLM: PMC4502416
 EDAT- 2006/12/16 09:00
 MHDA- 2007/04/18 09:00
 CRDT- 2006/12/16 09:00
+PHST- 2006/12/16 09:00 [pubmed]
+PHST- 2007/04/18 09:00 [medline]
+PHST- 2006/12/16 09:00 [entrez]
 AID - R600026200 [pii]
 AID - 10.1074/jbc.R600026200 [doi]
 PST - ppublish
-SO  - J Biol Chem. 2007 Feb 23;282(8):5101-5. Epub 2006 Dec 14.
+SO  - J Biol Chem. 2007 Feb 23;282(8):5101-5. doi: 10.1074/jbc.R600026200. Epub 2006
+      Dec 14.
 
 PMID- 16902084
 OWN - NLM
 STAT- MEDLINE
-DA  - 20060904
 DCOM- 20061019
 LR  - 20161122
 IS  - 1088-9051 (Print)
@@ -18591,19 +20636,20 @@ MH  - *Polymorphism, Genetic
 MH  - Polymorphism, Single Nucleotide
 MH  - *Sequence Deletion
 PMC - PMC1557762
-OID - NLM: PMC1557762
 EDAT- 2006/08/12 09:00
 MHDA- 2006/10/20 09:00
 CRDT- 2006/08/12 09:00
+PHST- 2006/08/12 09:00 [pubmed]
+PHST- 2006/10/20 09:00 [medline]
+PHST- 2006/08/12 09:00 [entrez]
 AID - gr.4565806 [pii]
 AID - 10.1101/gr.4565806 [doi]
 PST - ppublish
-SO  - Genome Res. 2006 Sep;16(9):1182-90. Epub 2006 Aug 10.
+SO  - Genome Res. 2006 Sep;16(9):1182-90. doi: 10.1101/gr.4565806. Epub 2006 Aug 10.
 
 PMID- 16532396
 OWN - NLM
 STAT- MEDLINE
-DA  - 20060313
 DCOM- 20060425
 LR  - 20161122
 IS  - 0002-9297 (Print)
@@ -18672,21 +20718,22 @@ MH  - Pan troglodytes/*genetics
 MH  - Polymerase Chain Reaction
 MH  - Repetitive Sequences, Nucleic Acid
 PMC - PMC1424692
-OID - NLM: PMC1424692
 EDAT- 2006/03/15 09:00
 MHDA- 2006/04/28 09:00
 CRDT- 2006/03/15 09:00
-PHST- 2005/07/15 [received]
-PHST- 2005/12/30 [accepted]
+PHST- 2005/07/15 00:00 [received]
+PHST- 2005/12/30 00:00 [accepted]
+PHST- 2006/03/15 09:00 [pubmed]
+PHST- 2006/04/28 09:00 [medline]
+PHST- 2006/03/15 09:00 [entrez]
 AID - S0002-9297(07)63704-5 [pii]
 AID - 10.1086/501028 [doi]
 PST - ppublish
-SO  - Am J Hum Genet. 2006 Apr;78(4):671-9. Epub 2006 Feb 2.
+SO  - Am J Hum Genet. 2006 Apr;78(4):671-9. doi: 10.1086/501028. Epub 2006 Feb 2.
 
 PMID- 15452238
 OWN - NLM
 STAT- MEDLINE
-DA  - 20040928
 DCOM- 20041102
 LR  - 20161019
 IS  - 0022-538X (Print)
@@ -18764,26 +20811,27 @@ MH  - Sequence Analysis, DNA
 MH  - Viral Proteins/*chemistry/genetics/metabolism
 MH  - Virion/*chemistry/genetics
 PMC - PMC521832
-OID - NLM: PMC521832
 EDAT- 2004/09/29 05:00
 MHDA- 2004/11/04 09:00
 CRDT- 2004/09/29 05:00
+PHST- 2004/09/29 05:00 [pubmed]
+PHST- 2004/11/04 09:00 [medline]
+PHST- 2004/09/29 05:00 [entrez]
 AID - 10.1128/JVI.78.20.11187-11197.2004 [doi]
 AID - 78/20/11187 [pii]
 PST - ppublish
-SO  - J Virol. 2004 Oct;78(20):11187-97.
+SO  - J Virol. 2004 Oct;78(20):11187-97. doi: 10.1128/JVI.78.20.11187-11197.2004.
 
 PMID- 14627837
 OWN - NLM
 STAT- MEDLINE
-DA  - 20031120
 DCOM- 20040630
 LR  - 20170219
 IS  - 1362-4962 (Electronic)
 IS  - 0305-1048 (Linking)
 VI  - 31
 IP  - 23
-DP  - 2003 Dec 01
+DP  - 2003 Dec 1
 TI  - Improving gene annotation of complete viral genomes.
 PG  - 7041-55
 AB  - Gene annotation in viruses often relies upon similarity search methods. These
@@ -18848,17 +20896,18 @@ MH  - Sequence Alignment
 MH  - Software
 MH  - Viral Proteins/chemistry/genetics
 PMC - PMC290248
-OID - NLM: PMC290248
 EDAT- 2003/11/25 05:00
 MHDA- 2004/07/01 05:00
 CRDT- 2003/11/25 05:00
+PHST- 2003/11/25 05:00 [pubmed]
+PHST- 2004/07/01 05:00 [medline]
+PHST- 2003/11/25 05:00 [entrez]
 PST - ppublish
 SO  - Nucleic Acids Res. 2003 Dec 1;31(23):7041-55.
 
 PMID- 12743273
 OWN - NLM
 STAT- MEDLINE
-DA  - 20030513
 DCOM- 20030612
 LR  - 20170219
 IS  - 0022-538X (Print)
@@ -18935,17 +20984,18 @@ MH  - Open Reading Frames/genetics
 MH  - *Sequence Analysis, DNA
 MH  - Viral Proteins/chemistry/genetics
 PMC - PMC155011
-OID - NLM: PMC155011
 EDAT- 2003/05/14 05:00
 MHDA- 2003/06/13 05:00
 CRDT- 2003/05/14 05:00
+PHST- 2003/05/14 05:00 [pubmed]
+PHST- 2003/06/13 05:00 [medline]
+PHST- 2003/05/14 05:00 [entrez]
 PST - ppublish
 SO  - J Virol. 2003 Jun;77(11):6167-77.
 
 PMID- 18428700
 OWN - NLM
 STAT- MEDLINE
-DA  - 20080422
 DCOM- 20080514
 LR  - 20161021
 IS  - 1934-340X (Electronic)
@@ -18996,6 +21046,9 @@ MH  - *Software
 EDAT- 2008/04/23 09:00
 MHDA- 2008/05/15 09:00
 CRDT- 2008/04/23 09:00
+PHST- 2008/04/23 09:00 [pubmed]
+PHST- 2008/05/15 09:00 [medline]
+PHST- 2008/04/23 09:00 [entrez]
 AID - 10.1002/0471250953.bi0405s01 [doi]
 PST - ppublish
 SO  - Curr Protoc Bioinformatics. 2003 May;Chapter 4:Unit4.5. doi:
@@ -19004,7 +21057,6 @@ SO  - Curr Protoc Bioinformatics. 2003 May;Chapter 4:Unit4.5. doi:
 PMID- 18428701
 OWN - NLM
 STAT- MEDLINE
-DA  - 20080422
 DCOM- 20080514
 LR  - 20161021
 IS  - 1934-340X (Electronic)
@@ -19055,6 +21107,9 @@ MH  - *Software
 EDAT- 2008/04/23 09:00
 MHDA- 2008/05/15 09:00
 CRDT- 2008/04/23 09:00
+PHST- 2008/04/23 09:00 [pubmed]
+PHST- 2008/05/15 09:00 [medline]
+PHST- 2008/04/23 09:00 [entrez]
 AID - 10.1002/0471250953.bi0406s01 [doi]
 PST - ppublish
 SO  - Curr Protoc Bioinformatics. 2003 May;Chapter 4:Unit4.6. doi:
