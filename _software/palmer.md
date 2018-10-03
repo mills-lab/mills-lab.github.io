@@ -1,4 +1,4 @@
-
+---
 layout: default
 title:  palmer
 external_url: https://github.com/mills-lab/PALMER
