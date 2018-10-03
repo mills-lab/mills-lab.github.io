@@ -4,7 +4,7 @@ name: Fan Zhang
 title: Bioinformatics Rotation Student
 picture: Fan_Zhang_pic.jpg
 line1: B.S.E., South China University of Technology
-line2: [Fall/2015] 
+line2: Ph.D. Student, <a href="https://sph.umich.edu/faculty-profiles/kang-hyunmin.html">Kang Lab</a> 
 google-scholar: 
 CV:
 linked-in: 

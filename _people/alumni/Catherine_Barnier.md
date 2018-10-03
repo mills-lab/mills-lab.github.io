@@ -4,7 +4,7 @@ name: Catherine Barnier
 title: PIBS Rotation Student
 picture: Catherine_Barnier_pic.jpg
 line1: B.A. Western Connecticut State University 
-line2: <a href="Freddolino Lab">http://freddolino-lab.med.umich.edu/</a>
+line2: Ph.D. Student, <a href="http://freddolino-lab.med.umich.edu/">Freddolino Lab</a>
 google-scholar: 
 CV:
 linked-in: 
