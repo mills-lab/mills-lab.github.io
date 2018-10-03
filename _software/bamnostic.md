@@ -1,8 +1,8 @@
 ---
 layout: default
-title: bamnostic 
+title:  bamnostic
 external_url: https://github.com/mills-lab/bamnostic
 date: 2018-08-09
-description: This software is a pure Python multi-version tolerant, runtime and OS-agnostic BAM file parser and random access tool. 
-citation: Sherman MS, Mills RE. BAMnostic: and OS-agnostic toolkit for genomic sequence analysis. Journal of Open Source Software, 3(28), 826.
+description: A pure Python multi-version tolerant, runtime and OS-agnostic BAM file parser and random access tool.
+citation: 
 ---
