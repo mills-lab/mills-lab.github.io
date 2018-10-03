@@ -6,10 +6,10 @@ picture: Tony_Chun_pic.png
 line1: Ph.D., University of Michigan
 line2: M.S., University of Michigan
 line3: B.A., Kalamazoo College
-google-scholar: D1pQub8AAAAJ 
+google-scholar:  
 CV: 16Nov17_stonyc-CV.pdf
-linked-in: stonyc
-twitter: stonyc
+linked-in: 
+twitter: 
 email: stonyc@umich.edu
 start-date: 2017-11-01
 ---
