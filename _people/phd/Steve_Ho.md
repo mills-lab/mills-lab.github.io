@@ -2,7 +2,7 @@
 publish: true
 name: Steve Ho
 title: PIBS Rotation Student
-picture: Steve_Ho_pic.jpg
+picture: Steve_Ho_pic.png
 line1: B.S., University of California - Davis
 line2:  (joint with Alan Boyle)
 google-scholar: 
