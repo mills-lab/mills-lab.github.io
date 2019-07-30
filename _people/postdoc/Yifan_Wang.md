@@ -1,9 +1,9 @@
 ---
 publish: true
 name: Yifan Wang
-title: Human Genetics PhD Candidate
+title: Post-doctoral Fellow
 picture: Yifan_Wang_pic.png
-line1: M.S., University of Michigan
+line1: Ph.D. University of Michigan
 line2: B.S., University of Maryland, College Park 
 google-scholar: 
 CV:
