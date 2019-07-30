@@ -32,12 +32,6 @@ positions:
 
 <p>
 <div class="tiles">
-person: Alumni
-{% include people-grid.html %}
-</div><!--/.tiles-->
-
-<p>
-<div class="tiles">
 {% for position in page.positions %}
  {% for person in sorted_people %}
   {% if person.publish and position[0] == 'alumni' %}
