@@ -30,6 +30,11 @@ positions:
 {% endfor %}
 </div><!-- /.tiles -->
 
+<p>
+<div class="tiles">
+person: Alumni
+{% include people-grid.html %}
+</div><!--/.tiles-->
 
 <p>
 <div class="tiles">
