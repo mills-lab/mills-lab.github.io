@@ -30,11 +30,6 @@ positions:
 {% endfor %}
 </div><!-- /.tiles -->
 
-<p>
-<div class="tiles">
-Lab Alumni
-</div>
-</p>
 
 <p>
 <div class="tiles">
