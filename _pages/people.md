@@ -30,7 +30,12 @@ positions:
 {% endfor %}
 </div><!-- /.tiles -->
 
-<hr>
+<p>
+<div class="tiles">
+Lab Alumni
+</div>
+</p>
+
 <p>
 <div class="tiles">
 {% for position in page.positions %}
