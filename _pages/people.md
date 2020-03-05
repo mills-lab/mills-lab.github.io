@@ -30,6 +30,8 @@ positions:
 {% endfor %}
 </div><!-- /.tiles -->
 
+{% include people-grid-empty.html %} <!-- evens rows out, really need to clean this up -->
+
 <p>
 <b>Previous Lab Members</b>
 <div class="tiles">
