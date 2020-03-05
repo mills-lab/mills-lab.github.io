@@ -30,11 +30,11 @@ positions:
 {% endfor %}
 </div><!-- /.tiles -->
 
-{% include people-grid-empty.html %} <!-- evens rows out, really need to clean this up -->
+<br />
 
 <p>
+<b>Previous Lab Members</b>    
 <div class="tiles">
-<b>Previous Lab Members</b>
 {% for position in page.positions %}
  {% for person in sorted_people %}
   {% if person.publish and position[0] == 'alumni' %}
