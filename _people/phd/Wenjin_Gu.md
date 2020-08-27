@@ -1,14 +1,14 @@
 ---
 publish: true
 name: Wenjin Gu 
-title: Biostatistics MS Candidate
+title: Bioinformatics PhD Pre-Candidate
 picture: Wenjin_Gu_pic.jpg
 line1: B.S., China Agricultural University
-line2:  
+line2: M.S., Biostatistics, University of Michigan
 google-scholar: 
 CV:
 linked-in: 
 twitter:
 email: wenjingu@umich.edu
-start-date: 2019-01-01
+start-date: 2020-09-01
 ---
