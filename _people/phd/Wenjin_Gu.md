@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Wenjin Gu 
-title: Bioinformatics PhD Candidate
+title: Bioinformatics PhD Pre-Candidate
 picture: Wenjin_Gu_pic.jpg
 line1: B.S., China Agricultural University
 line2: M.S., Biostatistics, University of Michigan
