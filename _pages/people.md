@@ -7,6 +7,7 @@ image:
 positions:
   pi: Principal Investigator
   postdoc: Post-doctoral Fellow
+  researchinvestigator: Research Investigator
   phd: Doctoral Student
   ms: Masters Student
   staff: Staff
