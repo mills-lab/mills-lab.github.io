@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  SearcHPV 
+title:  searchpv 
 external_url: https://github.com/mills-lab/SearcHPV
 date: 2021-05-01
 description: HPV integration point detection tool for targeted capture sequencing data 
