@@ -8,7 +8,7 @@ image:
   feature: banner-short-apb.png
 ads: false
 ---
-Our lab had a lot of fun on our annual cookout at Ryan's house. The food and drinks were so good! We enjoined talking with each other in person after months of remote working.
+Our lab had a lot of fun at our annual cookout at Ryan's house. The food and drinks were so good! We enjoyed talking with each other in person after months of remote working.
 
 <div>
 {% for image in site.static_files %}
