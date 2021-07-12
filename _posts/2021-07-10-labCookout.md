@@ -4,7 +4,7 @@ title: "The Annual Summer Lab Cookout"
 share: false
 external-url: 
 image:
-  teaser: 2021_labCookout_t.jpg.jpg
+  teaser: 2021_labCookout_t.jpg
   feature: banner-short-apb.png
 ads: false
 ---
