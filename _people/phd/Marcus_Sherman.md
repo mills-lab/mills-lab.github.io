@@ -4,7 +4,7 @@ name: Marcus Sherman
 title: Bioinformatics PhD Candidate
 picture: Marcus_Sherman_pic.png
 line1: B.S., University of North Carolina at Pembroke 
-line2: <a href="https://www.betteridiot.tech/">https://www.betteridiot.tech</a>
+line2: 
 google-scholar: 
 CV:
 linked-in: 
