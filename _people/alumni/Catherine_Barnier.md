@@ -10,5 +10,5 @@ CV:
 linked-in: 
 twitter: 
 email: barnierc@umich.edu
-start-date: 2017-01-02
+start-date: 2016-08-02
 ---
