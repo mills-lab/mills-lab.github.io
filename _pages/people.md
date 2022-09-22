@@ -14,6 +14,7 @@ positions:
   bs: Undergraduate
   alumni: Alumni
   rotation: Rotation Student
+  dummy: spacer
 ---
 
 {% assign sorted_people = (site.people | sort: 'start-date') %}
