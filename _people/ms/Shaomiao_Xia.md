@@ -2,7 +2,7 @@
 publish: true
 name: Shaomiao Xia 
 title: Bioinformatics MS Candidate
-picture: Shaomaio_Xia_pic.jpg
+picture: Shaomiao_Xia_pic.jpg
 line1: B.S., The Chinese University of Hong Kong, Shenzhen 
 line2: 
 google-scholar: 
