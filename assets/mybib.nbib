@@ -1,7 +1,1378 @@
+PMID- 36055201
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220908
+LR  - 20220915
+IS  - 1097-4172 (Electronic)
+IS  - 0092-8674 (Linking)
+VI  - 185
+IP  - 18
+DP  - 2022 Sep 1
+TI  - High-coverage whole-genome sequencing of the expanded 1000 Genomes
+      Project cohort including 602 trios.
+PG  - 3426-3440.e19
+LID - S0092-8674(22)00991-6 [pii]
+LID - 10.1016/j.cell.2022.08.004 [doi]
+AB  - The 1000 Genomes Project (1kGP) is the largest fully open resource of
+      whole-genome sequencing (WGS) data consented for public distribution
+      without access or use restrictions. The final, phase 3 release of the
+      1kGP included 2,504 unrelated samples from 26 populations and was based
+      primarily on low-coverage WGS. Here, we present a high-coverage
+      3,202-sample WGS 1kGP resource, which now includes 602 complete trios,
+      sequenced to a depth of 30X using Illumina. We performed single-
+      nucleotide variant (SNV) and short insertion and deletion (INDEL)
+      discovery and generated a comprehensive set of structural variants (SVs)
+      by integrating multiple analytic methods through a machine learning
+      model. We show gains in sensitivity and precision of variant calls
+      compared to phase 3, especially among rare SNVs as well as INDELs and SVs
+      spanning frequency spectrum. We also generated an improved reference
+      imputation panel, making variants discovered here accessible for
+      association studies.
+CI  - Copyright (c) 2022 The Authors. Published by Elsevier Inc. All rights
+      reserved.
+FAU - Byrska-Bishop, Marta
+AU  - Byrska-Bishop M
+AD  - New York Genome Center, New York, NY 10013, USA. Electronic address:
+      mbyrska-bishop@nygenome.org.
+FAU - Evani, Uday S
+AU  - Evani US
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Zhao, Xuefang
+AU  - Zhao X
+AD  - Program in Medical and Population Genetics, Broad Institute of MIT and
+      Harvard, Cambridge, MA 02142, USA; Center for Genomic Medicine,
+      Massachusetts General Hospital, Boston, MA 02114, USA; Department of
+      Neurology, Massachusetts General Hospital and Harvard Medical School,
+      Boston, MA 02114, USA.
+FAU - Basile, Anna O
+AU  - Basile AO
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Abel, Haley J
+AU  - Abel HJ
+AD  - McDonnell Genome Institute, Washington University School of Medicine, St.
+      Louis, MO 63108, USA; Department of Medicine, Washington University
+      School of Medicine, St. Louis, MO 63110, USA.
+FAU - Regier, Allison A
+AU  - Regier AA
+AD  - McDonnell Genome Institute, Washington University School of Medicine, St.
+      Louis, MO 63108, USA; Department of Medicine, Washington University
+      School of Medicine, St. Louis, MO 63110, USA.
+FAU - Corvelo, Andre
+AU  - Corvelo A
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Clarke, Wayne E
+AU  - Clarke WE
+AD  - New York Genome Center, New York, NY 10013, USA; Outlier Informatics
+      Inc., Saskatoon, SK S7H 1L4, Canada.
+FAU - Musunuri, Rajeeva
+AU  - Musunuri R
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Nagulapalli, Kshithija
+AU  - Nagulapalli K
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Fairley, Susan
+AU  - Fairley S
+AD  - European Molecular Biology Laboratory, European Bioinformatics Institute,
+      Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, UK.
+FAU - Runnels, Alexi
+AU  - Runnels A
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Winterkorn, Lara
+AU  - Winterkorn L
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Lowy, Ernesto
+AU  - Lowy E
+AD  - European Molecular Biology Laboratory, European Bioinformatics Institute,
+      Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, UK.
+CN  - Human Genome Structural Variation Consortium
+FAU - Paul Flicek
+AU  - Paul Flicek
+AD  - European Molecular Biology Laboratory, European Bioinformatics Institute,
+      Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, UK.
+FAU - Germer, Soren
+AU  - Germer S
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Brand, Harrison
+AU  - Brand H
+AD  - Program in Medical and Population Genetics, Broad Institute of MIT and
+      Harvard, Cambridge, MA 02142, USA; Center for Genomic Medicine,
+      Massachusetts General Hospital, Boston, MA 02114, USA; Department of
+      Neurology, Massachusetts General Hospital and Harvard Medical School,
+      Boston, MA 02114, USA; Stanley Center for Psychiatric Research, Broad
+      Institute of MIT and Harvard, Cambridge, MA 02142, USA.
+FAU - Hall, Ira M
+AU  - Hall IM
+AD  - McDonnell Genome Institute, Washington University School of Medicine, St.
+      Louis, MO 63108, USA; Department of Medicine, Washington University
+      School of Medicine, St. Louis, MO 63110, USA; Center for Genomic Health,
+      Yale University School of Medicine, New Haven, CT 06510, USA; Department
+      of Genetics, Yale University School of Medicine, New Haven, CT 06520,
+      USA.
+FAU - Talkowski, Michael E
+AU  - Talkowski ME
+AD  - Program in Medical and Population Genetics, Broad Institute of MIT and
+      Harvard, Cambridge, MA 02142, USA; Center for Genomic Medicine,
+      Massachusetts General Hospital, Boston, MA 02114, USA; Department of
+      Neurology, Massachusetts General Hospital and Harvard Medical School,
+      Boston, MA 02114, USA; Stanley Center for Psychiatric Research, Broad
+      Institute of MIT and Harvard, Cambridge, MA 02142, USA.
+FAU - Narzisi, Giuseppe
+AU  - Narzisi G
+AD  - New York Genome Center, New York, NY 10013, USA.
+FAU - Zody, Michael C
+AU  - Zody MC
+AD  - New York Genome Center, New York, NY 10013, USA. Electronic address:
+      mczody@nygenome.org.
+LA  - eng
+GR  - R01 MH115957/MH/NIMH NIH HHS/United States
+GR  - UM1 HG008895/HG/NHGRI NIH HHS/United States
+GR  - UM1 HG008901/HG/NHGRI NIH HHS/United States
+GR  - UM1 HG008853/HG/NHGRI NIH HHS/United States
+GR  - R01 HD081256/HD/NICHD NIH HHS/United States
+GR  - R56 MH115957/MH/NIMH NIH HHS/United States
+GR  - WT_/Wellcome Trust/United Kingdom
+GR  - U24 HG007497/HG/NHGRI NIH HHS/United States
+PT  - Journal Article
+PL  - United States
+TA  - Cell
+JT  - Cell
+JID - 0413066
+SB  - IM
+MH  - Female
+MH  - *Genome, Human
+MH  - High-Throughput Nucleotide Sequencing/methods
+MH  - Humans
+MH  - INDEL Mutation
+MH  - Male
+MH  - Polymorphism, Single Nucleotide
+MH  - *Whole Genome Sequencing
+PMC - PMC9439720
+OTO - NOTNLM
+OT  - 1000 Genomes Project
+OT  - INDEL
+OT  - SNV
+OT  - population genetics
+OT  - reference imputation panel
+OT  - structural variation
+OT  - trio sequencing
+OT  - whole-genome sequencing
+COIS- Declaration of interests E.E.E. is a scientific advisory board (SAB)
+      member of Variant Bio, Inc. P.F. is an SAB member of Fabric Genomics,
+      Inc., and Eagle Genomics, Ltd.
+IR  - Eichler EE
+FIR - Eichler, Evan E
+IR  - Korbel JO
+FIR - Korbel, Jan O
+IR  - Lee C
+FIR - Lee, Charles
+IR  - Marschall T
+FIR - Marschall, Tobias
+IR  - Devine SE
+FIR - Devine, Scott E
+IR  - Harvey WT
+FIR - Harvey, William T
+IR  - Zhou W
+FIR - Zhou, Weichen
+IR  - Mills RE
+FIR - Mills, Ryan E
+IR  - Rausch T
+FIR - Rausch, Tobias
+IR  - Kumar S
+FIR - Kumar, Sushant
+IR  - Alkan C
+FIR - Alkan, Can
+IR  - Hormozdiari F
+FIR - Hormozdiari, Fereydoun
+IR  - Chong Z
+FIR - Chong, Zechen
+IR  - Chen Y
+FIR - Chen, Yu
+IR  - Yang X
+FIR - Yang, Xiaofei
+IR  - Lin J
+FIR - Lin, Jiadong
+IR  - Gerstein MB
+FIR - Gerstein, Mark B
+IR  - Kai Y
+FIR - Kai, Ye
+IR  - Zhu Q
+FIR - Zhu, Qihui
+IR  - Yilmaz F
+FIR - Yilmaz, Feyza
+IR  - Xiao C
+FIR - Xiao, Chunlin
+EDAT- 2022/09/03 06:00
+MHDA- 2022/09/09 06:00
+CRDT- 2022/09/02 18:32
+PHST- 2021/11/12 00:00 [received]
+PHST- 2022/06/21 00:00 [revised]
+PHST- 2022/08/03 00:00 [accepted]
+PHST- 2022/09/02 18:32 [entrez]
+PHST- 2022/09/03 06:00 [pubmed]
+PHST- 2022/09/09 06:00 [medline]
+AID - S0092-8674(22)00991-6 [pii]
+AID - 10.1016/j.cell.2022.08.004 [doi]
+PST - ppublish
+SO  - Cell. 2022 Sep 1;185(18):3426-3440.e19. doi: 10.1016/j.cell.2022.08.004.
+
+PMID- 35901164
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220801
+LR  - 20220917
+IS  - 1095-9203 (Electronic)
+IS  - 0036-8075 (Linking)
+VI  - 377
+IP  - 6605
+DP  - 2022 Jul 29
+TI  - Analysis of somatic mutations in 131 human brains reveals aging-
+      associated hypermutability.
+PG  - 511-517
+LID - 10.1126/science.abm6222 [doi]
+AB  - We analyzed 131 human brains (44 neurotypical, 19 with Tourette syndrome,
+      9 with schizophrenia, and 59 with autism) for somatic mutations after
+      whole genome sequencing to a depth of more than 200x. Typically, brains
+      had 20 to 60 detectable single-nucleotide mutations, but ~6% of brains
+      harbored hundreds of somatic mutations. Hypermutability was associated
+      with age and damaging mutations in genes implicated in cancers and, in
+      some brains, reflected in vivo clonal expansions. Somatic duplications,
+      likely arising during development, were found in ~5% of normal and
+      diseased brains, reflecting background mutagenesis. Brains with autism
+      were associated with mutations creating putative transcription factor
+      binding motifs in enhancer-like regions in the developing brain. The top-
+      ranked affected motifs corresponded to MEIS (myeloid ectopic viral
+      integration site) transcription factors, suggesting a potential link
+      between their involvement in gene regulation and autism.
+FAU - Bae, Taejeong
+AU  - Bae T
+AUID- ORCID: 0000-0002-4626-3725
+AD  - Department of Quantitative Health Sciences, Center for Individualized
+      Medicine, Mayo Clinic, Rochester, MN, USA.
+FAU - Fasching, Liana
+AU  - Fasching L
+AUID- ORCID: 0000-0002-6840-658X
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+FAU - Wang, Yifan
+AU  - Wang Y
+AUID- ORCID: 0000-0001-8056-9755
+AD  - Department of Quantitative Health Sciences, Center for Individualized
+      Medicine, Mayo Clinic, Rochester, MN, USA.
+FAU - Shin, Joo Heon
+AU  - Shin JH
+AUID- ORCID: 0000-0002-5563-8605
+AD  - Lieber Institute for Brain Development, Johns Hopkins Medical Campus,
+      Baltimore, MD, USA.
+AD  - Department of Neurology, Johns Hopkins School of Medicine, Baltimore, MD,
+      USA.
+FAU - Suvakov, Milovan
+AU  - Suvakov M
+AUID- ORCID: 0000-0002-5839-9611
+AD  - Department of Quantitative Health Sciences, Center for Individualized
+      Medicine, Mayo Clinic, Rochester, MN, USA.
+FAU - Jang, Yeongjun
+AU  - Jang Y
+AUID- ORCID: 0000-0002-7816-3278
+AD  - Department of Quantitative Health Sciences, Center for Individualized
+      Medicine, Mayo Clinic, Rochester, MN, USA.
+FAU - Norton, Scott
+AU  - Norton S
+AUID- ORCID: 0000-0002-1366-0628
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+FAU - Dias, Caroline
+AU  - Dias C
+AD  - Division of Genetics and Genomics and Howard Hughes Medical Institute,
+      Boston Children's Hospital, Boston, MA, USA.
+AD  - Department of Pediatrics and Department of Neurology, Harvard Medical
+      School, Boston, MA, USA.
+FAU - Mariani, Jessica
+AU  - Mariani J
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+FAU - Jourdon, Alexandre
+AU  - Jourdon A
+AUID- ORCID: 0000-0002-6074-1498
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+FAU - Wu, Feinan
+AU  - Wu F
+AUID- ORCID: 0000-0002-4962-1874
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+FAU - Panda, Arijit
+AU  - Panda A
+AUID- ORCID: 0000-0001-5156-6459
+AD  - Department of Quantitative Health Sciences, Center for Individualized
+      Medicine, Mayo Clinic, Rochester, MN, USA.
+FAU - Pattni, Reenal
+AU  - Pattni R
+AUID- ORCID: 0000-0003-4490-731X
+AD  - Department of Psychiatry and Behavioral Sciences and Department of
+      Genetics, Stanford University School of Medicine, Stanford, CA, USA.
+FAU - Chahine, Yasmine
+AU  - Chahine Y
+AD  - Division of Genetics and Genomics and Howard Hughes Medical Institute,
+      Boston Children's Hospital, Boston, MA, USA.
+AD  - Department of Pediatrics and Department of Neurology, Harvard Medical
+      School, Boston, MA, USA.
+FAU - Yeh, Rebecca
+AU  - Yeh R
+AD  - Division of Genetics and Genomics and Howard Hughes Medical Institute,
+      Boston Children's Hospital, Boston, MA, USA.
+AD  - Department of Pediatrics and Department of Neurology, Harvard Medical
+      School, Boston, MA, USA.
+FAU - Roberts, Rosalinda C
+AU  - Roberts RC
+AD  - Department of Psychiatry and Behavioral Neurobiology, University of
+      Alabama at Birmingham, Birmingham, AL, USA.
+FAU - Huttner, Anita
+AU  - Huttner A
+AD  - Department of Pathology, Yale University, New Haven, CT, USA.
+FAU - Kleinman, Joel E
+AU  - Kleinman JE
+AUID- ORCID: 0000-0002-4210-6052
+AD  - Lieber Institute for Brain Development, Johns Hopkins Medical Campus,
+      Baltimore, MD, USA.
+AD  - Department of Psychiatry and Behavioral Sciences, Johns Hopkins School of
+      Medicine, Baltimore, MD, USA.
+FAU - Hyde, Thomas M
+AU  - Hyde TM
+AUID- ORCID: 0000-0002-8746-3037
+AD  - Lieber Institute for Brain Development, Johns Hopkins Medical Campus,
+      Baltimore, MD, USA.
+AD  - Department of Neurology, Johns Hopkins School of Medicine, Baltimore, MD,
+      USA.
+AD  - Department of Psychiatry and Behavioral Sciences, Johns Hopkins School of
+      Medicine, Baltimore, MD, USA.
+FAU - Straub, Richard E
+AU  - Straub RE
+AUID- ORCID: 0000-0002-2084-3676
+AD  - Lieber Institute for Brain Development, Johns Hopkins Medical Campus,
+      Baltimore, MD, USA.
+FAU - Walsh, Christopher A
+AU  - Walsh CA
+AUID- ORCID: 0000-0002-0156-2238
+AD  - Division of Genetics and Genomics and Howard Hughes Medical Institute,
+      Boston Children's Hospital, Boston, MA, USA.
+AD  - Department of Pediatrics and Department of Neurology, Harvard Medical
+      School, Boston, MA, USA.
+CN  - Brain Somatic Mosaicism Network section sign
+FAU - Urban, Alexander E
+AU  - Urban AE
+AUID- ORCID: 0000-0001-9772-933X
+AD  - Department of Psychiatry and Behavioral Sciences and Department of
+      Genetics, Stanford University School of Medicine, Stanford, CA, USA.
+FAU - Leckman, James F
+AU  - Leckman JF
+AUID- ORCID: 0000-0002-3902-4478
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+FAU - Weinberger, Daniel R
+AU  - Weinberger DR
+AUID- ORCID: 0000-0003-2409-2969
+AD  - Lieber Institute for Brain Development, Johns Hopkins Medical Campus,
+      Baltimore, MD, USA.
+AD  - Department of Neurology, Johns Hopkins School of Medicine, Baltimore, MD,
+      USA.
+AD  - Department of Psychiatry and Behavioral Sciences, Johns Hopkins School of
+      Medicine, Baltimore, MD, USA.
+AD  - Department of Genetic Medicine, Johns Hopkins School of Medicine,
+      Baltimore, MD, USA.
+AD  - Department of Neuroscience, Johns Hopkins School of Medicine, Baltimore,
+      MD, USA.
+FAU - Vaccarino, Flora M
+AU  - Vaccarino FM
+AUID- ORCID: 0000-0003-2167-981X
+AD  - Child Study Center, Yale University, New Haven, CT, USA.
+AD  - Department of Neuroscience, Yale University, New Haven, CT, USA.
+FAU - Abyzov, Alexej
+AU  - Abyzov A
+AUID- ORCID: 0000-0001-5405-6729
+AD  - Department of Quantitative Health Sciences, Center for Individualized
+      Medicine, Mayo Clinic, Rochester, MN, USA.
+LA  - eng
+GR  - U01 MH108898/MH/NIMH NIH HHS/United States
+GR  - U24 CA220242/CA/NCI NIH HHS/United States
+GR  - U01 MH106876/MH/NIMH NIH HHS/United States
+GR  - U01 MH106891/MH/NIMH NIH HHS/United States
+GR  - R01 MH109648/MH/NIMH NIH HHS/United States
+GR  - U01 MH106892/MH/NIMH NIH HHS/United States
+GR  - R01 MH118453/MH/NIMH NIH HHS/United States
+GR  - U01 MH106882/MH/NIMH NIH HHS/United States
+GR  - RF1 AG074341/AG/NIA NIH HHS/United States
+GR  - U01 MH106883/MH/NIMH NIH HHS/United States
+GR  - U01 MH106893/MH/NIMH NIH HHS/United States
+GR  - U01 MH106884/MH/NIMH NIH HHS/United States
+GR  - U01 MH106874/MH/NIMH NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, N.I.H., Extramural
+DEP - 20220728
+PL  - United States
+TA  - Science
+JT  - Science (New York, N.Y.)
+JID - 0404511
+RN  - 0 (Transcription Factors)
+SB  - IM
+MH  - *Aging/genetics
+MH  - *Autistic Disorder/genetics
+MH  - *Brain
+MH  - Enhancer Elements, Genetic/genetics
+MH  - Gene Expression Regulation
+MH  - Humans
+MH  - *Mutagenesis
+MH  - Mutation
+MH  - Protein Binding/genetics
+MH  - *Transcription Factors/genetics
+MH  - Whole Genome Sequencing
+PMC - PMC9420557
+MID - NIHMS1831345
+IR  - Walsh CA
+FIR - Walsh, Christopher A
+IR  - Park PJ
+FIR - Park, Peter J
+IR  - Sestan N
+FIR - Sestan, Nenad
+IR  - Weinberger D
+FIR - Weinberger, Daniel
+IR  - Moran JV
+FIR - Moran, John V
+IR  - Scuderi S
+FIR - Scuderi, Soraya
+IR  - Gage FH
+FIR - Gage, Fred H
+IR  - Vaccarino FM
+FIR - Vaccarino, Flora M
+IR  - Gleeson J
+FIR - Gleeson, Joseph
+IR  - Mathern G
+FIR - Mathern, Gary
+IR  - Courchesne E
+FIR - Courchesne, Eric
+IR  - Roy S
+FIR - Roy, Subhojit
+IR  - Chess AJ
+FIR - Chess, Andrew J
+IR  - Akbarian S
+FIR - Akbarian, Schahram
+IR  - Bizzotto S
+FIR - Bizzotto, Sara
+IR  - Coulter M
+FIR - Coulter, Michael
+IR  - Dias C
+FIR - Dias, Caroline
+IR  - D'Gama A
+FIR - D'Gama, Alissa
+IR  - Ganz J
+FIR - Ganz, Javier
+IR  - Hill R
+FIR - Hill, Robert
+IR  - Huang AY
+FIR - Huang, August Yue
+IR  - Khoshkhoo S
+FIR - Khoshkhoo, Sattar
+IR  - Kim S
+FIR - Kim, Sonia
+IR  - Lee A
+FIR - Lee, Alice
+IR  - Lodato M
+FIR - Lodato, Michael
+IR  - Maury EA
+FIR - Maury, Eduardo A
+IR  - Miller M
+FIR - Miller, Michael
+IR  - Borges-Monroy R
+FIR - Borges-Monroy, Rebeca
+IR  - Rodin R
+FIR - Rodin, Rachel
+IR  - Zhou Z
+FIR - Zhou, Zinan
+IR  - Bohrson C
+FIR - Bohrson, Craig
+IR  - Chu C
+FIR - Chu, Chong
+IR  - Cortes-Ciriano I
+FIR - Cortes-Ciriano, Isidro
+IR  - Dou Y
+FIR - Dou, Yanmei
+IR  - Galor A
+FIR - Galor, Alon
+IR  - Gulhan D
+FIR - Gulhan, Doga
+IR  - Kwon M
+FIR - Kwon, Minseok
+IR  - Luquette J
+FIR - Luquette, Joe
+IR  - Sherman M
+FIR - Sherman, Maxwell
+IR  - Viswanadham V
+FIR - Viswanadham, Vinay
+IR  - Jones A
+FIR - Jones, Attila
+IR  - Rosenbluh C
+FIR - Rosenbluh, Chaggai
+IR  - Cho S
+FIR - Cho, Sean
+IR  - Langmead B
+FIR - Langmead, Ben
+IR  - Thorpe J
+FIR - Thorpe, Jeremy
+IR  - Erwin J
+FIR - Erwin, Jennifer
+IR  - Jaffe A
+FIR - Jaffe, Andrew
+IR  - McConnell M
+FIR - McConnell, Michael
+IR  - Narurkar R
+FIR - Narurkar, Rujuta
+IR  - Paquola A
+FIR - Paquola, Apua
+IR  - Shin J
+FIR - Shin, Jooheon
+IR  - Straub R
+FIR - Straub, Richard
+IR  - Abyzov A
+FIR - Abyzov, Alexej
+IR  - Bae T
+FIR - Bae, Taejeong
+IR  - Jang Y
+FIR - Jang, Yeongjun
+IR  - Wang Y
+FIR - Wang, Yifan
+IR  - Molitor C
+FIR - Molitor, Cindy
+IR  - Peters M
+FIR - Peters, Mette
+IR  - Linker S
+FIR - Linker, Sara
+IR  - Reed P
+FIR - Reed, Patrick
+IR  - Wang M
+FIR - Wang, Meiyan
+IR  - Urban A
+FIR - Urban, Alexander
+IR  - Zhou B
+FIR - Zhou, Bo
+IR  - Zhu X
+FIR - Zhu, Xiaowei
+IR  - Pattni R
+FIR - Pattni, Reenal
+IR  - Serres Amero A
+FIR - Serres Amero, Aitor
+IR  - Juan D
+FIR - Juan, David
+IR  - Lobon I
+FIR - Lobon, Irene
+IR  - Marques-Bonet T
+FIR - Marques-Bonet, Tomas
+IR  - Solis Moruno M
+FIR - Solis Moruno, Manuel
+IR  - Garcia Perez R
+FIR - Garcia Perez, Raquel
+IR  - Povolotskaya I
+FIR - Povolotskaya, Inna
+IR  - Soriano E
+FIR - Soriano, Eduardo
+IR  - Antaki D
+FIR - Antaki, Danny
+IR  - Averbuj D
+FIR - Averbuj, Dan
+IR  - Ball L
+FIR - Ball, Laurel
+IR  - Breuss M
+FIR - Breuss, Martin
+IR  - Yang X
+FIR - Yang, Xiaoxu
+IR  - Chung C
+FIR - Chung, Changuk
+IR  - Emery SB
+FIR - Emery, Sarah B
+IR  - Flasch DA
+FIR - Flasch, Diane A
+IR  - Kidd JM
+FIR - Kidd, Jeffrey M
+IR  - Kopera HC
+FIR - Kopera, Huira C
+IR  - Kwan KY
+FIR - Kwan, Kenneth Y
+IR  - Mills RE
+FIR - Mills, Ryan E
+IR  - Moldovan JB
+FIR - Moldovan, John B
+IR  - Sun C
+FIR - Sun, Chen
+IR  - Zhao X
+FIR - Zhao, Xuefang
+IR  - Zhou W
+FIR - Zhou, Weichen
+IR  - Frisbie TJ
+FIR - Frisbie, Trenton J
+IR  - Cherskov A
+FIR - Cherskov, Adriana
+IR  - Fasching L
+FIR - Fasching, Liana
+IR  - Jourdon A
+FIR - Jourdon, Alexandre
+IR  - Pochareddy S
+FIR - Pochareddy, Sirisha
+EDAT- 2022/07/29 06:00
+MHDA- 2022/08/02 06:00
+CRDT- 2022/07/28 14:04
+PMCR- 2023/01/29 00:00
+PHST- 2023/01/29 00:00 [pmc-release]
+PHST- 2022/07/28 14:04 [entrez]
+PHST- 2022/07/29 06:00 [pubmed]
+PHST- 2022/08/02 06:00 [medline]
+AID - 10.1126/science.abm6222 [doi]
+PST - ppublish
+SO  - Science. 2022 Jul 29;377(6605):511-517. doi: 10.1126/science.abm6222.
+      Epub 2022 Jul 28.
+
+PMID- 35444276
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220429
+LR  - 20220921
+IS  - 1476-4687 (Electronic)
+IS  - 0028-0836 (Linking)
+VI  - 604
+IP  - 7907
+DP  - 2022 Apr
+TI  - Somatic mosaicism reveals clonal distributions of neocortical
+      development.
+PG  - 689-696
+LID - 10.1038/s41586-022-04602-7 [doi]
+AB  - The structure of the human neocortex underlies species-specific traits
+      and reflects intricate developmental programs. Here we sought to
+      reconstruct processes that occur during early development by sampling
+      adult human tissues. We analysed neocortical clones in a post-mortem
+      human brain through a comprehensive assessment of brain somatic
+      mosaicism, acting as neutral lineage recorders(1,2). We combined the
+      sampling of 25 distinct anatomic locations with deep whole-genome
+      sequencing in a neurotypical deceased individual and confirmed results
+      with 5 samples collected from each of three additional donors. We
+      identified 259 bona fide mosaic variants from the index case, then
+      deconvolved distinct geographical, cell-type and clade organizations
+      across the brain and other organs. We found that clones derived after the
+      accumulation of 90-200 progenitors in the cerebral cortex tended to
+      respect the midline axis, well before the anterior-posterior or ventral-
+      dorsal axes, representing a secondary hierarchy following the overall
+      patterning of forebrain and hindbrain domains. Clones across
+      neocortically derived cells were consistent with a dual origin from both
+      dorsal and ventral cellular populations, similar to rodents, whereas the
+      microglia lineage appeared distinct from other resident brain cells. Our
+      data provide a comprehensive analysis of brain somatic mosaicism across
+      the neocortex and demonstrate cellular origins and progenitor
+      distribution patterns within the human brain.
+CI  - (c) 2022. The Author(s), under exclusive licence to Springer Nature
+      Limited.
+FAU - Breuss, Martin W
+AU  - Breuss MW
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+AD  - Department of Pediatrics, Section of Clinical Genetics and Metabolism,
+      University of Colorado School of Medicine, Aurora, CO, USA.
+FAU - Yang, Xiaoxu
+AU  - Yang X
+AUID- ORCID: http://orcid.org/0000-0003-0219-0023
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Schlachetzki, Johannes C M
+AU  - Schlachetzki JCM
+AUID- ORCID: http://orcid.org/0000-0002-7801-9743
+AD  - Department of Cellular and Molecular Medicine, University of California,
+      San Diego, La Jolla, CA, USA.
+FAU - Antaki, Danny
+AU  - Antaki D
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Lana, Addison J
+AU  - Lana AJ
+AD  - Department of Cellular and Molecular Medicine, University of California,
+      San Diego, La Jolla, CA, USA.
+FAU - Xu, Xin
+AU  - Xu X
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Chung, Changuk
+AU  - Chung C
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Chai, Guoliang
+AU  - Chai G
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Stanley, Valentina
+AU  - Stanley V
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Song, Qiong
+AU  - Song Q
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Newmeyer, Traci F
+AU  - Newmeyer TF
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Nguyen, An
+AU  - Nguyen A
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - O'Brien, Sydney
+AU  - O'Brien S
+AD  - Department of Cellular and Molecular Medicine, University of California,
+      San Diego, La Jolla, CA, USA.
+FAU - Hoeksema, Marten A
+AU  - Hoeksema MA
+AUID- ORCID: http://orcid.org/0000-0001-5981-121X
+AD  - Department of Cellular and Molecular Medicine, University of California,
+      San Diego, La Jolla, CA, USA.
+FAU - Cao, Beibei
+AU  - Cao B
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Nott, Alexi
+AU  - Nott A
+AD  - Department of Brain Sciences, Imperial College London, White City Campus,
+      London, UK.
+AD  - UK Dementia Research Institute, Imperial College London, White City
+      Campus, London, UK.
+FAU - McEvoy-Venneri, Jennifer
+AU  - McEvoy-Venneri J
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Pasillas, Martina P
+AU  - Pasillas MP
+AD  - Department of Cellular and Molecular Medicine, University of California,
+      San Diego, La Jolla, CA, USA.
+FAU - Barton, Scott T
+AU  - Barton ST
+AD  - Division of Medical Education, School of Medicine, University of
+      California, San Diego, La Jolla, CA, USA.
+FAU - Copeland, Brett R
+AU  - Copeland BR
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Nahas, Shareef
+AU  - Nahas S
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Van Der Kraan, Lucitia
+AU  - Van Der Kraan L
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+FAU - Ding, Yan
+AU  - Ding Y
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+CN  - NIMH Brain Somatic Mosaicism Network
+FAU - Glass, Christopher K
+AU  - Glass CK
+AD  - Department of Cellular and Molecular Medicine, University of California,
+      San Diego, La Jolla, CA, USA.
+AD  - Department of Medicine, University of California, San Diego, La Jolla,
+      CA, USA.
+FAU - Gleeson, Joseph G
+AU  - Gleeson JG
+AUID- ORCID: http://orcid.org/0000-0002-6713-8018
+AD  - Department of Neurosciences, University of California, San Diego, La
+      Jolla, CA, USA. jogleeson@health.ucsd.edu.
+AD  - Rady Children's Institute for Genomic Medicine, San Diego, CA, USA.
+      jogleeson@health.ucsd.edu.
+LA  - eng
+GR  - R01 MH124890/MH/NIMH NIH HHS/United States
+GR  - HHMI/Howard Hughes Medical Institute/United States
+GR  - Medical Research Council UK
+GR  - R01 NS096170/NS/NINDS NIH HHS/United States
+GR  - R21 AG070462/AG/NIA NIH HHS/United States
+GR  - R01 AG056511/AG/NIA NIH HHS/United States
+GR  - U01 MH108898/MH/NIMH NIH HHS/United States
+GR  - RF1 AG061060/AG/NIA NIH HHS/United States
+GR  - S10 OD026929/OD/NIH HHS/United States
+PT  - Journal Article
+DEP - 20220420
+PL  - England
+TA  - Nature
+JT  - Nature
+JID - 0410462
+SB  - IM
+MH  - Cell Lineage
+MH  - Cells, Cultured
+MH  - *Clone Cells
+MH  - Humans
+MH  - Microglia
+MH  - *Mosaicism
+MH  - *Neocortex/cytology/growth & development
+PMC - PMC9436791
+MID - NIHMS1818642
+IR  - Gleeson JG
+FIR - Gleeson, Joseph G
+IR  - Breuss MW
+FIR - Breuss, Martin W
+IR  - Yang X
+FIR - Yang, Xiaoxu
+IR  - Antaki D
+FIR - Antaki, Danny
+IR  - Chung C
+FIR - Chung, Changuk
+IR  - Averbuj D
+FIR - Averbuj, Dan
+IR  - Courchesne E
+FIR - Courchesne, Eric
+IR  - Ball LL
+FIR - Ball, Laurel L
+IR  - Roy S
+FIR - Roy, Subhojit
+IR  - Weinberger D
+FIR - Weinberger, Daniel
+IR  - Jaffe A
+FIR - Jaffe, Andrew
+IR  - Paquola A
+FIR - Paquola, Apua
+IR  - Erwin J
+FIR - Erwin, Jennifer
+IR  - Shin J
+FIR - Shin, Jooheon
+IR  - McConnell M
+FIR - McConnell, Michael
+IR  - Straub R
+FIR - Straub, Richard
+IR  - Narurkar R
+FIR - Narurkar, Rujuta
+IR  - Mathern G
+FIR - Mathern, Gary
+IR  - Walsh CA
+FIR - Walsh, Christopher A
+IR  - Lee A
+FIR - Lee, Alice
+IR  - Huang AY
+FIR - Huang, August Yue
+IR  - D'Gama A
+FIR - D'Gama, Alissa
+IR  - Dias C
+FIR - Dias, Caroline
+IR  - Maury E
+FIR - Maury, Eduardo
+IR  - Ganz J
+FIR - Ganz, Javier
+IR  - Lodato M
+FIR - Lodato, Michael
+IR  - Miller M
+FIR - Miller, Michael
+IR  - Li P
+FIR - Li, Pengpeng
+IR  - Rodin R
+FIR - Rodin, Rachel
+IR  - Borges-Monroy R
+FIR - Borges-Monroy, Rebeca
+IR  - Hill R
+FIR - Hill, Robert
+IR  - Bizzotto S
+FIR - Bizzotto, Sara
+IR  - Khoshkhoo S
+FIR - Khoshkhoo, Sattar
+IR  - Kim S
+FIR - Kim, Sonia
+IR  - Zhou Z
+FIR - Zhou, Zinan
+IR  - Park PJ
+FIR - Park, Peter J
+IR  - Barton A
+FIR - Barton, Alison
+IR  - Galor A
+FIR - Galor, Alon
+IR  - Chu C
+FIR - Chu, Chong
+IR  - Bohrson C
+FIR - Bohrson, Craig
+IR  - Gulhan D
+FIR - Gulhan, Doga
+IR  - Lim E
+FIR - Lim, Elaine
+IR  - Lim E
+FIR - Lim, Euncheon
+IR  - Melloni G
+FIR - Melloni, Giorgio
+IR  - Cortes I
+FIR - Cortes, Isidro
+IR  - Lee J
+FIR - Lee, Jake
+IR  - Luquette J
+FIR - Luquette, Joe
+IR  - Yang L
+FIR - Yang, Lixing
+IR  - Sherman M
+FIR - Sherman, Maxwell
+IR  - Coulter M
+FIR - Coulter, Michael
+IR  - Kwon M
+FIR - Kwon, Minseok
+IR  - Lee S
+FIR - Lee, Semin
+IR  - Lee S
+FIR - Lee, Soo
+IR  - Viswanadham V
+FIR - Viswanadham, Vinary
+IR  - Dou Y
+FIR - Dou, Yanmei
+IR  - Chess AJ
+FIR - Chess, Andrew J
+IR  - Jones A
+FIR - Jones, Attila
+IR  - Rosenbluh C
+FIR - Rosenbluh, Chaggai
+IR  - Akbarian S
+FIR - Akbarian, Schahram
+IR  - Langmead B
+FIR - Langmead, Ben
+IR  - Thorpe J
+FIR - Thorpe, Jeremy
+IR  - Cho S
+FIR - Cho, Sean
+IR  - Abyzov A
+FIR - Abyzov, Alexej
+IR  - Bae T
+FIR - Bae, Taejeong
+IR  - Jang Y
+FIR - Jang, Yeongjun
+IR  - Wang Y
+FIR - Wang, Yifan
+IR  - Molitor C
+FIR - Molitor, Cindy
+IR  - Peters M
+FIR - Peters, Mette
+IR  - Gage FH
+FIR - Gage, Fred H
+IR  - Wang M
+FIR - Wang, Meiyan
+IR  - Reed P
+FIR - Reed, Patrick
+IR  - Linker S
+FIR - Linker, Sara
+IR  - Urban A
+FIR - Urban, Alexander
+IR  - Zhou B
+FIR - Zhou, Bo
+IR  - Pattni R
+FIR - Pattni, Reenal
+IR  - Zhu X
+FIR - Zhu, Xiaowei
+IR  - Amero AS
+FIR - Amero, Aitor Serres
+IR  - Juan D
+FIR - Juan, David
+IR  - Povolotskaya I
+FIR - Povolotskaya, Inna
+IR  - Lobon I
+FIR - Lobon, Irene
+IR  - Moruno MS
+FIR - Moruno, Manuel Solis
+IR  - Perez RG
+FIR - Perez, Raquel Garcia
+IR  - Marques-Bonet T
+FIR - Marques-Bonet, Tomas
+IR  - Soriano E
+FIR - Soriano, Eduardo
+IR  - Moran JV
+FIR - Moran, John V
+IR  - Sun C
+FIR - Sun, Chen
+IR  - Flasch DA
+FIR - Flasch, Diane A
+IR  - Frisbie TJ
+FIR - Frisbie, Trenton J
+IR  - Kopera HC
+FIR - Kopera, Huira C
+IR  - Kidd JM
+FIR - Kidd, Jeffrey M
+IR  - Moldovan JB
+FIR - Moldovan, John B
+IR  - Kwan KY
+FIR - Kwan, Kenneth Y
+IR  - Mills RE
+FIR - Mills, Ryan E
+IR  - Emery SB
+FIR - Emery, Sarah B
+IR  - Zhou W
+FIR - Zhou, Weichen
+IR  - Zhao X
+FIR - Zhao, Xuefang
+IR  - Ratan A
+FIR - Ratan, Aakrosh
+IR  - Vaccarino FM
+FIR - Vaccarino, Flora M
+IR  - Cherskov A
+FIR - Cherskov, Adriana
+IR  - Jourdon A
+FIR - Jourdon, Alexandre
+IR  - Fasching L
+FIR - Fasching, Liana
+IR  - Sestan N
+FIR - Sestan, Nenad
+IR  - Pochareddy S
+FIR - Pochareddy, Sirisha
+IR  - Scuder S
+FIR - Scuder, Soraya
+EDAT- 2022/04/22 06:00
+MHDA- 2022/04/30 06:00
+CRDT- 2022/04/21 05:34
+PHST- 2020/12/05 00:00 [received]
+PHST- 2022/02/25 00:00 [accepted]
+PHST- 2022/04/22 06:00 [pubmed]
+PHST- 2022/04/30 06:00 [medline]
+PHST- 2022/04/21 05:34 [entrez]
+AID - 10.1038/s41586-022-04602-7 [doi]
+AID - 10.1038/s41586-022-04602-7 [pii]
+PST - ppublish
+SO  - Nature. 2022 Apr;604(7907):689-696. doi: 10.1038/s41586-022-04602-7. Epub
+      2022 Apr 20.
+
+PMID- 34702772
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220407
+LR  - 20220716
+IS  - 1557-3265 (Electronic)
+IS  - 1078-0432 (Linking)
+VI  - 28
+IP  - 2
+DP  - 2022 Jan 15
+TI  - Early HPV ctDNA Kinetics and Imaging Biomarkers Predict Therapeutic
+      Response in p16+ Oropharyngeal Squamous Cell Carcinoma.
+PG  - 350-359
+LID - 10.1158/1078-0432.CCR-21-2338 [doi]
+AB  - PURPOSE: In locally advanced p16+ oropharyngeal squamous cell carcinoma
+      (OPSCC), (i) to investigate kinetics of human papillomavirus (HPV)
+      circulating tumor DNA (ctDNA) and association with tumor progression
+      after chemoradiation, and (ii) to compare the predictive value of ctDNA
+      to imaging biomarkers of MRI and FDG-PET. EXPERIMENTAL DESIGN: Serial
+      blood samples were collected from patients with AJCC8 stage III OPSCC (n
+      = 34) enrolled on a randomized trial: pretreatment; during chemoradiation
+      at weeks 2, 4, and 7; and posttreatment. All patients also had dynamic-
+      contrast-enhanced and diffusion-weighted MRI, as well as FDG-PET scans
+      pre-chemoradiation and week 2 during chemoradiation. ctDNA values were
+      analyzed for prediction of freedom from progression (FFP), and
+      correlations with aggressive tumor subvolumes with low blood volume
+      (TVLBV) and low apparent diffusion coefficient (TVLADC), and metabolic
+      tumor volume (MTV) using Cox proportional hazards model and Spearman rank
+      correlation. RESULTS: Low pretreatment ctDNA and an early increase in
+      ctDNA at week 2 compared with baseline were significantly associated with
+      superior FFP (P < 0.02 and P < 0.05, respectively). At week 4 or 7,
+      neither ctDNA counts nor clearance were significantly predictive of
+      progression (P = 0.8). Pretreatment ctDNA values were significantly
+      correlated with nodal TVLBV, TVLADC, and MTV pre-chemoradiation (P <
+      0.03), while the ctDNA values at week 2 were correlated with these
+      imaging metrics in primary tumor. Multivariate analysis showed that ctDNA
+      and the imaging metrics performed comparably to predict FFP. CONCLUSIONS:
+      Early ctDNA kinetics during definitive chemoradiation may predict therapy
+      response in stage III OPSCC.
+CI  - (c)2021 American Association for Cancer Research.
+FAU - Cao, Yue
+AU  - Cao Y
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Department of Radiology, University of Michigan, Ann Arbor, Michigan.
+FAU - Haring, Catherine T
+AU  - Haring CT
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+FAU - Brummel, Collin
+AU  - Brummel C
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+FAU - Bhambhani, Chandan
+AU  - Bhambhani C
+AD  - Department of Internal Medicine, University of Michigan, Ann Arbor,
+      Michigan.
+FAU - Aryal, Madhava
+AU  - Aryal M
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan.
+FAU - Lee, Choonik
+AU  - Lee C
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan.
+FAU - Heft Neal, Molly
+AU  - Heft Neal M
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+FAU - Bhangale, Apurva
+AU  - Bhangale A
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+FAU - Gu, Wenjin
+AU  - Gu W
+AUID- ORCID: 0000-0002-0028-1645
+AD  - Department of Computational Medicine and Bioinformatics, University of
+      Michigan, Ann Arbor, Michigan.
+FAU - Casper, Keith
+AU  - Casper K
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Malloy, Kelly
+AU  - Malloy K
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Sun, Yilun
+AU  - Sun Y
+AUID- ORCID: 0000-0002-1341-382X
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Shuman, Andrew
+AU  - Shuman A
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Prince, Mark E
+AU  - Prince ME
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Spector, Matthew E
+AU  - Spector ME
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Chinn, Steven
+AU  - Chinn S
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Shah, Jennifer
+AU  - Shah J
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Schonewolf, Caitlin
+AU  - Schonewolf C
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - McHugh, Jonathan B
+AU  - McHugh JB
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+AD  - Department of Pathology, University of Michigan, Ann Arbor, Michigan.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AUID- ORCID: 0000-0003-3425-6998
+AD  - Department of Computational Medicine and Bioinformatics, University of
+      Michigan, Ann Arbor, Michigan.
+FAU - Tewari, Muneesh
+AU  - Tewari M
+AD  - Department of Internal Medicine, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Worden, Francis P
+AU  - Worden FP
+AD  - Department of Internal Medicine, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Swiecicki, Paul L
+AU  - Swiecicki PL
+AUID- ORCID: 0000-0003-2286-3555
+AD  - Department of Internal Medicine, University of Michigan, Ann Arbor,
+      Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Mierzwa, Michelle
+AU  - Mierzwa M
+AD  - Department of Radiation Oncology, University of Michigan, Ann Arbor,
+      Michigan. mmierzwa@umich.edu.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+FAU - Brenner, J Chad
+AU  - Brenner JC
+AUID- ORCID: 0000-0003-3238-1111
+AD  - Department of Otolaryngology Head and Neck Surgery, University of
+      Michigan, Ann Arbor, Michigan.
+AD  - Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.
+LA  - eng
+GR  - P30 CA046592/CA/NCI NIH HHS/United States
+GR  - R01 CA184153/CA/NCI NIH HHS/United States
+GR  - U01 CA183848/CA/NCI NIH HHS/United States
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, N.I.H., Extramural
+DEP - 20211026
+PL  - United States
+TA  - Clin Cancer Res
+JT  - Clinical cancer research : an official journal of the American
+      Association for Cancer Research
+JID - 9502500
+RN  - 0 (Biomarkers)
+RN  - 0 (Circulating Tumor DNA)
+RN  - 0Z5B2CJX4D (Fluorodeoxyglucose F18)
+SB  - IM
+MH  - *Alphapapillomavirus
+MH  - Biomarkers
+MH  - *Carcinoma, Squamous Cell/diagnostic imaging/genetics/therapy
+MH  - *Circulating Tumor DNA/genetics
+MH  - Fluorodeoxyglucose F18
+MH  - *Head and Neck Neoplasms
+MH  - Humans
+MH  - Kinetics
+MH  - *Oropharyngeal Neoplasms/diagnostic imaging/genetics/therapy
+MH  - Papillomaviridae/genetics
+MH  - *Papillomavirus Infections/complications/genetics
+MH  - Prognosis
+MH  - Retrospective Studies
+MH  - Squamous Cell Carcinoma of Head and Neck
+PMC - PMC8785355
+MID - NIHMS1752804
+EDAT- 2021/10/28 06:00
+MHDA- 2022/04/08 06:00
+CRDT- 2021/10/27 06:13
+PHST- 2021/06/25 00:00 [received]
+PHST- 2021/09/11 00:00 [revised]
+PHST- 2021/10/20 00:00 [accepted]
+PHST- 2021/10/28 06:00 [pubmed]
+PHST- 2022/04/08 06:00 [medline]
+PHST- 2021/10/27 06:13 [entrez]
+AID - 1078-0432.CCR-21-2338 [pii]
+AID - 10.1158/1078-0432.CCR-21-2338 [doi]
+PST - ppublish
+SO  - Clin Cancer Res. 2022 Jan 15;28(2):350-359. doi:
+      10.1158/1078-0432.CCR-21-2338. Epub 2021 Oct 26.
+
+PMID- 34706748
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220127
+LR  - 20220429
+IS  - 1474-760X (Electronic)
+IS  - 1474-7596 (Linking)
+VI  - 22
+IP  - 1
+DP  - 2021 Oct 27
+TI  - SquiggleNet: real-time, direct classification of nanopore signals.
+PG  - 298
+LID - 10.1186/s13059-021-02511-y [doi]
+AB  - We present SquiggleNet, the first deep-learning model that can classify
+      nanopore reads directly from their electrical signals. SquiggleNet
+      operates faster than DNA passes through the pore, allowing real-time
+      classification and read ejection. Using 1 s of sequencing data, the
+      classifier achieves significantly higher accuracy than base calling
+      followed by sequence alignment. Our approach is also faster and requires
+      an order of magnitude less memory than alignment-based approaches.
+      SquiggleNet distinguished human from bacterial DNA with over 90%
+      accuracy, generalized to unseen bacterial species in a human respiratory
+      meta genome sample, and accurately classified sequences containing human
+      long interspersed repeat elements.
+CI  - (c) 2021. The Author(s).
+FAU - Bao, Yuwei
+AU  - Bao Y
+AD  - Department of Computer Science and Engineering, University of Michigan,
+      Ann Arbor, 48109, MI, USA.
+FAU - Wadden, Jack
+AU  - Wadden J
+AD  - Department of Computer Science and Engineering, University of Michigan,
+      Ann Arbor, 48109, MI, USA.
+AD  - Department of Electrical and Computer Engineering, University of
+      Michigan, Ann Arbor, 48109, MI, USA.
+FAU - Erb-Downward, John R
+AU  - Erb-Downward JR
+AD  - Division of Pulmonary and Critical Care Medicine, Department of Internal
+      Medicine, University of Michigan Medical School, Ann Arbor, 48109, MI,
+      USA.
+FAU - Ranjan, Piyush
+AU  - Ranjan P
+AD  - Division of Pulmonary and Critical Care Medicine, Department of Internal
+      Medicine, University of Michigan Medical School, Ann Arbor, 48109, MI,
+      USA.
+FAU - Zhou, Weichen
+AU  - Zhou W
+AD  - Department of Computational Medicine and Bioinformatics, University of
+      Michigan, Ann Arbor, 48109, MI, USA.
+FAU - McDonald, Torrin L
+AU  - McDonald TL
+AD  - Department of Human Genetics, University of Michigan Medical, Ann Arbor,
+      48109, MI, USA.
+FAU - Mills, Ryan E
+AU  - Mills RE
+AD  - Department of Computational Medicine and Bioinformatics, University of
+      Michigan, Ann Arbor, 48109, MI, USA.
+AD  - Department of Human Genetics, University of Michigan Medical, Ann Arbor,
+      48109, MI, USA.
+FAU - Boyle, Alan P
+AU  - Boyle AP
+AD  - Department of Computational Medicine and Bioinformatics, University of
+      Michigan, Ann Arbor, 48109, MI, USA.
+AD  - Department of Human Genetics, University of Michigan Medical, Ann Arbor,
+      48109, MI, USA.
+FAU - Dickson, Robert P
+AU  - Dickson RP
+AD  - Division of Pulmonary and Critical Care Medicine, Department of Internal
+      Medicine, University of Michigan Medical School, Ann Arbor, 48109, MI,
+      USA.
+AD  - Department of Microbiology and Immunology, University of Michigan Medical
+      School, Ann Arbor, 48109, MI, USA.
+AD  - Michigan Center for Integrative Research in Critical Care, Ann Arbor,
+      48109, MI, USA.
+FAU - Blaauw, David
+AU  - Blaauw D
+AD  - Division of Pulmonary and Critical Care Medicine, Department of Internal
+      Medicine, University of Michigan Medical School, Ann Arbor, 48109, MI,
+      USA.
+FAU - Welch, Joshua D
+AU  - Welch JD
+AUID- ORCID: 0000-0002-5869-2391
+AD  - Department of Computer Science and Engineering, University of Michigan,
+      Ann Arbor, 48109, MI, USA. welchjd@umich.edu.
+AD  - Department of Computational Medicine and Bioinformatics, University of
+      Michigan, Ann Arbor, 48109, MI, USA. welchjd@umich.edu.
+LA  - eng
+GR  - T32 HL007749/HL/NHLBI NIH HHS/United States
+GR  - R01 HL144599/HL/NHLBI NIH HHS/United States
+GR  - R01 HG010883/HG/NHGRI NIH HHS/United States
+GR  - R21 HG011493/HG/NHGRI NIH HHS/United States
+GR  - R21 AI137669/AI/NIAID NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20211027
+PL  - England
+TA  - Genome Biol
+JT  - Genome biology
+JID - 100960660
+RN  - 0 (DNA, Bacterial)
+SB  - IM
+MH  - DNA, Bacterial/analysis
+MH  - *Deep Learning
+MH  - Humans
+MH  - Long Interspersed Nucleotide Elements
+MH  - Metagenome
+MH  - Nanopore Sequencing/*methods
+MH  - Respiratory System/microbiology
+PMC - PMC8548853
+OTO - NOTNLM
+OT  - *Deep learning
+OT  - *Oxford Nanopore
+OT  - *Raw signal
+OT  - *Read-until
+OT  - *Real-time
+EDAT- 2021/10/29 06:00
+MHDA- 2022/01/28 06:00
+CRDT- 2021/10/28 05:33
+PHST- 2021/03/05 00:00 [received]
+PHST- 2021/10/04 00:00 [accepted]
+PHST- 2021/10/28 05:33 [entrez]
+PHST- 2021/10/29 06:00 [pubmed]
+PHST- 2022/01/28 06:00 [medline]
+AID - 10.1186/s13059-021-02511-y [doi]
+AID - 10.1186/s13059-021-02511-y [pii]
+PST - epublish
+SO  - Genome Biol. 2021 Oct 27;22(1):298. doi: 10.1186/s13059-021-02511-y.
+
 PMID- 34160069
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20211002
+STAT- MEDLINE
+DCOM- 20220308
+LR  - 20220308
 IS  - 1097-0142 (Electronic)
 IS  - 0008-543X (Linking)
 VI  - 127
@@ -73,14 +1444,14 @@ AD  - Rogel Cancer Center, Michigan Medicine, Ann Arbor, Michigan.
 AD  - Department of Pharmacology, University of Michigan, Ann Arbor, Michigan.
 FAU - Mills, Ryan E
 AU  - Mills RE
-AUID- ORCID: https://orcid.org/0000-0003-3425-6998
+AUID- ORCID: 0000-0003-3425-6998
 AD  - Department of Computational Medicine and Bioinformatics, University of
       Michigan, Ann Arbor, Michigan.
 AD  - Department of Human Genetics, University of Michigan, Ann Arbor,
       Michigan.
 FAU - Brenner, J Chad
 AU  - Brenner JC
-AUID- ORCID: https://orcid.org/0000-0003-3238-1111
+AUID- ORCID: 0000-0003-3238-1111
 AD  - Department of Otolaryngology/Head and Neck Surgery, University of
       Michigan, Ann Arbor, Michigan.
 AD  - Rogel Cancer Center, Michigan Medicine, Ann Arbor, Michigan.
@@ -90,41 +1461,335 @@ GR  - R01 CA194536/CA/NCI NIH HHS/United States
 GR  - U01 DE029255/DE/NIDCR NIH HHS/United States
 GR  - University of Michigan
 PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20210623
 PL  - United States
 TA  - Cancer
 JT  - Cancer
 JID - 0374236
-SB  - AIM
+RN  - 0 (DNA, Viral)
 SB  - IM
+MH  - *Alphapapillomavirus/genetics
+MH  - *Carcinoma, Squamous Cell
+MH  - DNA, Viral/genetics
+MH  - Female
+MH  - Genomics
+MH  - Humans
+MH  - Papillomaviridae/genetics
+MH  - *Papillomavirus Infections/complications/genetics
+MH  - *Uterine Cervical Neoplasms
 PMC - PMC8454028
 MID - NIHMS1706532
 OTO - NOTNLM
-OT  - DNA sequence analysis
-OT  - bioinformatics
-OT  - genomics
-OT  - papillomavirus infections
-OT  - squamous cell carcinoma
-OT  - virus integration
+OT  - *DNA sequence analysis
+OT  - *bioinformatics
+OT  - *genomics
+OT  - *papillomavirus infections
+OT  - *squamous cell carcinoma
+OT  - *virus integration
 EDAT- 2021/06/24 06:00
-MHDA- 2021/06/24 06:00
+MHDA- 2022/03/09 06:00
 CRDT- 2021/06/23 09:18
 PHST- 2021/04/15 00:00 [revised]
 PHST- 2021/01/21 00:00 [received]
 PHST- 2021/05/03 00:00 [accepted]
 PHST- 2021/06/24 06:00 [pubmed]
-PHST- 2021/06/24 06:00 [medline]
+PHST- 2022/03/09 06:00 [medline]
 PHST- 2021/06/23 09:18 [entrez]
 AID - 10.1002/cncr.33691 [doi]
 PST - ppublish
 SO  - Cancer. 2021 Oct 1;127(19):3531-3540. doi: 10.1002/cncr.33691. Epub 2021
       Jun 23.
 
+PMID- 34224879
+OWN - NLM
+STAT- Publisher
+LR  - 20220825
+IS  - 2210-3244 (Electronic)
+IS  - 1672-0229 (Linking)
+DP  - 2021 Jul 3
+TI  - Mako: A Graph-based Pattern Growth Approach to Detect Complex Structural
+      Variants.
+LID - S1672-0229(21)00143-1 [pii]
+LID - 10.1016/j.gpb.2021.03.007 [doi]
+AB  - Complex structural variants (CSVs) are genomic alterations that have more
+      than two breakpoints and are considered as the simultaneous occurrence of
+      simple structural variants. However, detecting the compounded mutational
+      signals of CSVs is challenging through a commonly used model-match
+      strategy. As a result, there has been limited progress for CSV discovery
+      compared with simple structural variants. Here, we systematically
+      analyzed the multi-breakpoint connection feature of CSVs, and proposed
+      Mako, utilizing a bottom-up guided model-free strategy, to detect CSVs
+      from paired-end short-read sequencing. Specifically, we implemented a
+      graph-based pattern growth approach, where the graph depicts potential
+      breakpoint connections, and pattern growth enables CSV detection without
+      pre-defined models. Comprehensive evaluations on both simulated and real
+      datasets revealed that Mako outperformed other algorithms. Notably,
+      validation rates of CSVs on real data based on experimental and
+      computational validations as well as manual inspections are around 70%,
+      where the medians of experimental and computational breakpoint shift are
+      13 bp and 26 bp, respectively. Moreover, the Mako CSV subgraph
+      effectively characterized the breakpoint connections of a CSV event and
+      uncovered a total of 15 CSV types, including two novel types of adjacent
+      segment swap and tandem dispersed duplication. Further analysis of these
+      CSVs also revealed the impact of sequence homology on the formation of
+      CSVs. Mako is publicly available at https://github.com/xjtu-omics/Mako.
+CI  - Copyright (c) 2021 The Authors. Published by Elsevier B.V. All rights
+      reserved.
+FAU - Lin, Jiadong
+AU  - Lin J
+AD  - School of Automation Science and Engineering, Faculty of Electronic and
+      Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China;
+      MOE Key Lab for Intelligent Networks & Networks Security, Faculty of
+      Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an
+      710049, China; Genome Institute, the First Affiliated Hospital of Xi'an
+      Jiaotong University, Xi'an 710061, China; Leiden Institute of Advanced
+      Computer Science, Faculty of Science, Leiden University, Leiden 2311EZ,
+      Netherland.
+FAU - Yang, Xiaofei
+AU  - Yang X
+AD  - MOE Key Lab for Intelligent Networks & Networks Security, Faculty of
+      Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an
+      710049, China; School of Computer Science and Technology, Faculty of
+      Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an
+      710049, China.
+FAU - Kosters, Walter
+AU  - Kosters W
+AD  - Leiden Institute of Advanced Computer Science, Faculty of Science, Leiden
+      University, Leiden 2311EZ, Netherland.
+FAU - Xu, Tun
+AU  - Xu T
+AD  - School of Automation Science and Engineering, Faculty of Electronic and
+      Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China.
+FAU - Jia, Yanyan
+AU  - Jia Y
+AD  - School of Automation Science and Engineering, Faculty of Electronic and
+      Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China.
+FAU - Wang, Songbo
+AU  - Wang S
+AD  - School of Automation Science and Engineering, Faculty of Electronic and
+      Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China.
+FAU - Zhu, Qihui
+AU  - Zhu Q
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, USA.
+FAU - Ryan, Mallory
+AU  - Ryan M
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, USA.
+FAU - Guo, Li
+AU  - Guo L
+AD  - MOE Key Lab for Intelligent Networks & Networks Security, Faculty of
+      Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an
+      710049, China.
+FAU - Zhang, Chengsheng
+AU  - Zhang C
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, USA;
+      Precision Medicine Center, the First Affiliated Hospital of Xi'an
+      Jiaotong University, Xi'an 710061, China.
+CN  - Human Genome Structural Variation Consortium
+FAU - Lee, Charles
+AU  - Lee C
+AD  - The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, USA;
+      Precision Medicine Center, the First Affiliated Hospital of Xi'an
+      Jiaotong University, Xi'an 710061, China.
+FAU - Devine, Scott E
+AU  - Devine SE
+AD  - School of Automation Science and Engineering, Faculty of Electronic and
+      Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China;
+      Institute for Genome Sciences, University of Maryland School of Medicine,
+      Baltimore, MD 21201, USA.
+FAU - Eichler, Evan E
+AU  - Eichler EE
+AD  - Department of Genome Sciences, University of Washington School of
+      Medicine, Seattle, WA 98119-5065, USA; Howard Hughes Medical Institute,
+      University of Washington, Seattle, WA 98195, USA.
+FAU - Ye, Kai
+AU  - Ye K
+AD  - School of Automation Science and Engineering, Faculty of Electronic and
+      Information Engineering, Xi'an Jiaotong University, Xi'an 710049, China;
+      MOE Key Lab for Intelligent Networks & Networks Security, Faculty of
+      Electronic and Information Engineering, Xi'an Jiaotong University, Xi'an
+      710049, China; Genome Institute, the First Affiliated Hospital of Xi'an
+      Jiaotong University, Xi'an 710061, China; The School of Life Science and
+      Technology, Xi'an Jiaotong University, Xi'an 710049, China. Electronic
+      address: kaiye@xjtu.edu.cn.
+LA  - eng
+GR  - P30 CA034196/CA/NCI NIH HHS/United States
+GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
+GR  - U24 HG007497/HG/NHGRI NIH HHS/United States
+PT  - Journal Article
+DEP - 20210703
+PL  - China
+TA  - Genomics Proteomics Bioinformatics
+JT  - Genomics, proteomics & bioinformatics
+JID - 101197608
+SB  - IM
+OTO - NOTNLM
+OT  - Complex structural variant
+OT  - Formation mechanism
+OT  - Graph mining
+OT  - Next-generation sequencing
+OT  - Pattern growth
+COIS- Competing Interests The authors have declared no competing interests.
+IR  - Gerstein MB
+FIR - Gerstein, Mark B
+IRAD- Program in Computational Biology and Bioinformatics, Yale University, New
+      Haven, CT 06520, USA.
+IR  - Sanders AD
+FIR - Sanders, Ashley D
+IRAD- European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
+      D-69117 Heidelberg, Germany.
+IR  - Zody MC
+FIR - Zody, Micheal C
+IRAD- New York Genome Center, New York, NY 10013, USA.
+IR  - Talkowski ME
+FIR - Talkowski, Michael E
+IRAD- Center for Genomic Medicine, Massachusetts General Hospital, Department
+      of Neurology, Harvard Medical School, Boston, MA 02114, USA.
+IR  - Mills RE
+FIR - Mills, Ryan E
+IRAD- Department of Computational Medicine & Bioinformatics, University of
+      Michigan, Ann Arbor, MI 48109, USA.
+IR  - Korbel JO
+FIR - Korbel, Jan O
+IRAD- European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
+      D-69117 Heidelberg, Germany.
+IR  - Marschall T
+FIR - Marschall, Tobias
+IRAD- Heinrich Heine University, Medical Faculty, Institute for Medical
+      Biometry and Bioinformatics, D-40225 Dusseldorf, Germany.
+IR  - Ebert P
+FIR - Ebert, Peter
+IRAD- Heinrich Heine University, Medical Faculty, Institute for Medical
+      Biometry and Bioinformatics, D-40225 Dusseldorf, Germany.
+IR  - Audano PA
+FIR - Audano, Peter A
+IRAD- Department of Genome Sciences, University of Washington School of
+      Medicine, Seattle, WA 98195-5065, USA.
+IR  - Rodriguez-Martin B
+FIR - Rodriguez-Martin, Bernardo
+IRAD- European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
+      D-69117 Heidelberg, Germany.
+IR  - Porubsky D
+FIR - Porubsky, David
+IRAD- Heinrich Heine University, Medical Faculty, Institute for Medical
+      Biometry and Bioinformatics, D-40225 Dusseldorf, Germany.
+IR  - Jan Bonder M
+FIR - Jan Bonder, Marc
+IRAD- European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
+      D-69117 Heidelberg, Germany; Division of Computational Genomics and
+      Systems Genetics, German Cancer Research Center (DKFZ), D-69120
+      Heidelberg, Germany.
+IR  - Sulovari A
+FIR - Sulovari, Arvis
+IRAD- Department of Genome Sciences, University of Washington School of
+      Medicine, Seattle, WA 98195-5065, USA.
+IR  - Ebler J
+FIR - Ebler, Jana
+IRAD- Heinrich Heine University, Medical Faculty, Institute for Medical
+      Biometry and Bioinformatics, D-40225 Dusseldorf, Germany.
+IR  - Zhou W
+FIR - Zhou, Weichen
+IRAD- Department of Computational Medicine & Bioinformatics, University of
+      Michigan, Ann Arbor, MI 48109, USA.
+IR  - Serra Mari R
+FIR - Serra Mari, Rebecca
+IRAD- Heinrich Heine University, Medical Faculty, Institute for Medical
+      Biometry and Bioinformatics, D-40225 Dusseldorf, Germany.
+IR  - Yilmaz F
+FIR - Yilmaz, Feyza
+IRAD- The Jackson Laboratory for Genomic Medicine, Farmington, CT 06030, USA.
+IR  - Zhao X
+FIR - Zhao, Xuefang
+IRAD- Center for Genomic Medicine, Massachusetts General Hospital, Department
+      of Neurology, Harvard Medical School, Boston, MA 02114, USA.
+IR  - Hsieh P
+FIR - Hsieh, PingHsun
+IRAD- Department of Genome Sciences, University of Washington School of
+      Medicine, Seattle, WA 98195-5065, USA.
+IR  - Lee J
+FIR - Lee, Joyce
+IRAD- Bionano Genomics, San Diego, CA 92121, USA.
+IR  - Kumar S
+FIR - Kumar, Sushant
+IRAD- Program in Computational Biology and Bioinformatics, Yale University, New
+      Haven, CT 06520, USA.
+IR  - Rausch T
+FIR - Rausch, Tobias
+IRAD- European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
+      D-69117 Heidelberg, Germany.
+IR  - Chen Y
+FIR - Chen, Yu
+IRAD- Department of Genetics and Informatics Institute, School of Medicine,
+      University of Alabama at Birmingham, Birmingham, AL 35294, USA.
+IR  - Chong Z
+FIR - Chong, Zechen
+IRAD- Department of Genetics and Informatics Institute, School of Medicine,
+      University of Alabama at Birmingham, Birmingham, AL 35294, USA.
+IR  - Munson KM
+FIR - Munson, Katherine M
+IRAD- Department of Genome Sciences, University of Washington School of
+      Medicine, Seattle, WA 98195-5065, USA.
+IR  - Chaisson MJP
+FIR - Chaisson, Mark J P
+IRAD- Molecular and Computational Biology, University of Southern California,
+      Los Angeles, CA 90089, USA.
+IR  - Chen J
+FIR - Chen, Junjie
+IRAD- Department of Computer & Information Sciences, Temple University,
+      Philadelphia, PA 19122, USA.
+IR  - Shi X
+FIR - Shi, Xinghua
+IRAD- Department of Computer & Information Sciences, Temple University,
+      Philadelphia, PA 19122, USA.
+IR  - Wenger AM
+FIR - Wenger, Aaron M
+IRAD- Pacific Biosystems of California, Inc, Menlo Park, CA 94025, USA.
+IR  - Harvey WT
+FIR - Harvey, William T
+IRAD- Department of Genome Sciences, University of Washington School of
+      Medicine, Seattle, WA 98195-5065, USA.
+IR  - Hansenfeld P
+FIR - Hansenfeld, Patrick
+IRAD- European Molecular Biology Laboratory (EMBL), Genome Biology Unit,
+      D-69117 Heidelberg, Germany.
+IR  - Regier A
+FIR - Regier, Allison
+IRAD- Washington University, St. Louis, MO 63108, USA.
+IR  - Hall IM
+FIR - Hall, Ira M
+IRAD- Washington University, St. Louis, MO 63108, USA.
+IR  - Flicek P
+FIR - Flicek, Paul
+IRAD- European Molecular Biology Laboratory, European Bioinformatics Institute,
+      Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.
+IR  - Hastie AR
+FIR - Hastie, Alex R
+IRAD- Bionano Genomics, San Diego, CA 92121, USA.
+IR  - Fairely S
+FIR - Fairely, Susan
+IRAD- European Molecular Biology Laboratory, European Bioinformatics Institute,
+      Wellcome Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.
+EDAT- 2021/07/06 06:00
+MHDA- 2021/07/06 06:00
+CRDT- 2021/07/05 20:15
+PHST- 2021/01/17 00:00 [received]
+PHST- 2021/03/05 00:00 [revised]
+PHST- 2021/03/05 00:00 [accepted]
+PHST- 2021/07/06 06:00 [pubmed]
+PHST- 2021/07/06 06:00 [medline]
+PHST- 2021/07/05 20:15 [entrez]
+AID - S1672-0229(21)00143-1 [pii]
+AID - 10.1016/j.gpb.2021.03.007 [doi]
+PST - aheadofprint
+SO  - Genomics Proteomics Bioinformatics. 2021 Jul 3. pii:
+      S1672-0229(21)00143-1. doi: 10.1016/j.gpb.2021.03.007.
+
 PMID- 34117247
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20210630
-LR  - 20210929
+LR  - 20211201
 IS  - 2041-1723 (Electronic)
 IS  - 2041-1723 (Linking)
 VI  - 12
@@ -226,7 +1891,7 @@ PMID- 33789087
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20210630
-LR  - 20210630
+LR  - 20220514
 IS  - 1537-6605 (Electronic)
 IS  - 0002-9297 (Linking)
 VI  - 108
@@ -403,15 +2068,17 @@ LA  - eng
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 MH115957/MH/NIMH NIH HHS/United States
 GR  - R03 HD099547/HD/NICHD NIH HHS/United States
+GR  - R35 GM138212/GM/NIGMS NIH HHS/United States
 GR  - UM1 HG008895/HG/NHGRI NIH HHS/United States
 GR  - F31 HG010569/HG/NHGRI NIH HHS/United States
-GR  - R00 DE026824/DE/NIDCR NIH HHS/United States
 GR  - R01 HD091797/HD/NICHD NIH HHS/United States
 GR  - T32 HG002295/HG/NHGRI NIH HHS/United States
 GR  - R01 HG010169/HG/NHGRI NIH HHS/United States
 GR  - R01 HD081256/HD/NICHD NIH HHS/United States
 GR  - U24 HG007497/HG/NHGRI NIH HHS/United States
 GR  - R01 HD096326/HD/NICHD NIH HHS/United States
+GR  - R00 DE026824/DE/NIDCR NIH HHS/United States
+GR  - P30 CA034196/CA/NCI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -445,10 +2112,8 @@ OT  - *whole-genome sequencing
 EDAT- 2021/04/01 06:00
 MHDA- 2021/07/01 06:00
 CRDT- 2021/03/31 20:07
-PMCR- 2021/11/06 00:00
 PHST- 2020/06/24 00:00 [received]
 PHST- 2021/03/12 00:00 [accepted]
-PHST- 2021/11/06 00:00 [pmc-release]
 PHST- 2021/04/01 06:00 [pubmed]
 PHST- 2021/07/01 06:00 [medline]
 PHST- 2021/03/31 20:07 [entrez]
@@ -462,7 +2127,7 @@ PMID- 33632895
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20210409
-LR  - 20211003
+LR  - 20220429
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 372
@@ -838,12 +2503,15 @@ AD  - Howard Hughes Medical Institute, University of Washington, Seattle, WA
 LA  - eng
 GR  - R35 GM138212/GM/NIGMS NIH HHS/United States
 GR  - U01 HG010973/HG/NHGRI NIH HHS/United States
+GR  - P30 CA034196/CA/NCI NIH HHS/United States
 GR  - UM1 HG008901/HG/NHGRI NIH HHS/United States
 GR  - R01 HD081256/HD/NICHD NIH HHS/United States
 GR  - WT_/Wellcome Trust/United Kingdom
 GR  - U24 HG007497/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002385/HG/NHGRI NIH HHS/United States
 GR  - R15 HG009565/HG/NHGRI NIH HHS/United States
+GR  - 773026/ERC_/European Research Council/International
+GR  - T32 DK067872/DK/NIDDK NIH HHS/United States
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - K99 HG011041/HG/NHGRI NIH HHS/United States
 GR  - R01 MH115957/MH/NIMH NIH HHS/United States
@@ -896,8 +2564,9 @@ SO  - Science. 2021 Apr 2;372(6537). pii: science.abf7117. doi:
 
 PMID- 33781308
 OWN - NLM
-STAT- In-Process
-LR  - 20210920
+STAT- MEDLINE
+DCOM- 20220111
+LR  - 20220517
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 22
@@ -1204,9 +2873,11 @@ AUID- ORCID: 0000-0001-5405-6729
 AD  - Department of Health Sciences Research, Center for Individualized
       Medicine, Mayo Clinic, Rochester, MN, 55905, USA. Abyzov.Alexej@mayo.edu.
 LA  - eng
+GR  - R01 NS032457/NS/NINDS NIH HHS/United States
 GR  - U01 MH106883/MH/NIMH NIH HHS/United States
 GR  - UL1 TR001863/TR/NCATS NIH HHS/United States
 GR  - U01 MH106876/MH/NIMH NIH HHS/United States
+GR  - P50 HG007735/HG/NHGRI NIH HHS/United States
 GR  - T32 GM007544/GM/NIGMS NIH HHS/United States
 GR  - U01 MH106874/MH/NIMH NIH HHS/United States
 GR  - U01 MH106892/MH/NIMH NIH HHS/United States
@@ -1225,15 +2896,27 @@ TA  - Genome Biol
 JT  - Genome biology
 JID - 100960660
 SB  - IM
+MH  - Alleles
+MH  - Brain/*metabolism
+MH  - Chromosome Mapping
+MH  - Computational Biology/methods
+MH  - *Genetic Association Studies/methods
+MH  - *Genetic Variation
+MH  - Genomics/methods
+MH  - Germ Cells/metabolism
+MH  - High-Throughput Nucleotide Sequencing
+MH  - Humans
+MH  - Organ Specificity/genetics
+MH  - Polymorphism, Single Nucleotide
 PMC - PMC8006362
 EDAT- 2021/03/31 06:00
-MHDA- 2021/03/31 06:00
+MHDA- 2022/01/12 06:00
 CRDT- 2021/03/30 05:57
 PHST- 2020/09/22 00:00 [received]
 PHST- 2021/02/01 00:00 [accepted]
 PHST- 2021/03/30 05:57 [entrez]
 PHST- 2021/03/31 06:00 [pubmed]
-PHST- 2021/03/31 06:00 [medline]
+PHST- 2022/01/12 06:00 [medline]
 AID - 10.1186/s13059-021-02285-3 [doi]
 AID - 10.1186/s13059-021-02285-3 [pii]
 PST - epublish
@@ -1625,7 +3308,7 @@ PMID- 33432196
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20210319
-LR  - 20211001
+LR  - 20220418
 IS  - 1546-1726 (Electronic)
 IS  - 1097-6256 (Linking)
 VI  - 24
@@ -1742,23 +3425,27 @@ AD  - Department of Psychiatry and Behavioral Sciences, Stanford University,
 AD  - Department of Genetics, Stanford University, Palo Alto, CA, USA.
       aeurban@stanford.edu.
 LA  - eng
+GR  - U01 MH106883/MH/NIMH NIH HHS/United States
 GR  - Stanford Schizophrenia Genetics Research Fund/SU | School of Medicine,
       Stanford University (Stanford School of Medicine, Stanford University)
 GR  - U01 MH106884/MH/NIMH NIH HHS/United States
-GR  - U01 MH106876/MH/NIMH NIH HHS/United States
-GR  - S10 RR025518/RR/NCRR NIH HHS/United States
 GR  - U01 MH106891/MH/NIMH NIH HHS/United States
+GR  - U01 MH106876/MH/NIMH NIH HHS/United States
 GR  - U01 MH106893/MH/NIMH NIH HHS/United States
-GR  - U01 MH106892/MH/NIMH NIH HHS/United States
+GR  - P50 HG007735/HG/NHGRI NIH HHS/United States
+GR  - R01 MH100914/MH/NIMH NIH HHS/United States
+GR  - R01 MH094740/MH/NIMH NIH HHS/United States
 GR  - U01 MH106882/MH/NIMH NIH HHS/United States
-GR  - T32 HL110952/HL/NHLBI NIH HHS/United States
-GR  - U01 MH106883/MH/NIMH NIH HHS/United States
+GR  - S10 RR025518/RR/NCRR NIH HHS/United States
 GR  - U01MH106876/U.S. Department of Health &amp; Human Services | NIH |
       National Institute of Mental Health (NIMH)
+GR  - U01 MH106892/MH/NIMH NIH HHS/United States
 GR  - U01 MH108898/MH/NIMH NIH HHS/United States
 GR  - P50 HD103538/HD/NICHD NIH HHS/United States
 GR  - R01MH094740/U.S. Department of Health &amp; Human Services | NIH |
       National Institute of Mental Health (NIMH)
+GR  - U01 MH106874/MH/NIMH NIH HHS/United States
+GR  - T32 HL110952/HL/NHLBI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -1791,6 +3478,8 @@ MH  - *Neurons
 MH  - Pregnancy
 MH  - Retroelements
 MH  - Schizophrenia/genetics
+PMC - PMC8806165
+MID - NIHMS1648953
 IR  - Zhu X
 FIR - Zhu, Xiaowei
 IR  - Zhou B
@@ -1993,8 +3682,9 @@ SO  - Nat Neurosci. 2021 Feb;24(2):186-196. doi: 10.1038/s41593-020-00767-4.
 
 PMID- 33438729
 OWN - NLM
-STAT- In-Process
-LR  - 20210916
+STAT- MEDLINE
+DCOM- 20211025
+LR  - 20211025
 IS  - 2047-217X (Electronic)
 IS  - 2047-217X (Linking)
 VI  - 10
@@ -2158,6 +3848,12 @@ TA  - Gigascience
 JT  - GigaScience
 JID - 101596872
 SB  - IM
+MH  - *DNA Copy Number Variations
+MH  - Genome
+MH  - Genomics
+MH  - Humans
+MH  - *Polymorphism, Single Nucleotide
+MH  - Ukraine
 PMC - PMC7804371
 OTO - NOTNLM
 OT  - *BGISEQ-500
@@ -2171,14 +3867,14 @@ OT  - *genotyping
 OT  - *indels
 OT  - *variant calling
 EDAT- 2021/01/14 06:00
-MHDA- 2021/01/14 06:00
+MHDA- 2021/10/26 06:00
 CRDT- 2021/01/13 08:38
 PHST- 2020/08/04 00:00 [received]
 PHST- 2020/08/21 00:00 [revised]
 PHST- 2020/12/15 00:00 [accepted]
 PHST- 2021/01/13 08:38 [entrez]
 PHST- 2021/01/14 06:00 [pubmed]
-PHST- 2021/01/14 06:00 [medline]
+PHST- 2021/10/26 06:00 [medline]
 AID - 6079618 [pii]
 AID - 10.1093/gigascience/giaa159 [doi]
 PST - ppublish
@@ -2542,7 +4238,7 @@ SO  - Nat Biotechnol. 2020 Nov;38(11):1347-1355. doi:
 PMID- 33062306
 OWN - NLM
 STAT- PubMed-not-MEDLINE
-LR  - 20201022
+LR  - 20220309
 IS  - 2056-7944 (Electronic)
 IS  - 2056-7944 (Linking)
 VI  - 5
@@ -2577,11 +4273,11 @@ AD  - Department of Bioinformatics and Genomics, College of Computing and
       28223 USA.
 AD  - Present Address: Department of Computer and Information Sciences, College
       of Science and Technology, Temple University, Philadelphia, Pennsylvania
-      19122 USA.grid.264727.20000 0001 2248 3398
+      19122 USA.
 FAU - Radhakrishnan, Saranya
 AU  - Radhakrishnan S
 AD  - Department of Pathology, Brigham and Women's Hospital and Harvard Medical
-      School, Boston, Massachusetts 02115 USA.grid.62560.370000 0004 0378 8294
+      School, Boston, Massachusetts 02115 USA.
 FAU - Wen, Jia
 AU  - Wen J
 AD  - Department of Bioinformatics and Genomics, College of Computing and
@@ -2590,7 +4286,7 @@ AD  - Department of Bioinformatics and Genomics, College of Computing and
 FAU - Chen, Jin Yun
 AU  - Chen JY
 AD  - Department of Pathology, Brigham and Women's Hospital and Harvard Medical
-      School, Boston, Massachusetts 02115 USA.grid.62560.370000 0004 0378 8294
+      School, Boston, Massachusetts 02115 USA.
 FAU - Chen, Junjie
 AU  - Chen J
 AD  - Department of Bioinformatics and Genomics, College of Computing and
@@ -2598,7 +4294,7 @@ AD  - Department of Bioinformatics and Genomics, College of Computing and
       28223 USA.
 AD  - Present Address: Department of Computer and Information Sciences, College
       of Science and Technology, Temple University, Philadelphia, Pennsylvania
-      19122 USA.grid.264727.20000 0001 2248 3398
+      19122 USA.
 FAU - Lam, Brianna Ashlyn
 AU  - Lam BA
 AD  - Department of Bioinformatics and Genomics, College of Computing and
@@ -2608,24 +4304,24 @@ FAU - Mills, Ryan E
 AU  - Mills RE
 AUID- ORCID: 0000-0003-3425-6998
 AD  - Department of Computational Medicine and Bioinformatics, University of
-      Michigan, Ann Arbor, Michigan 48109 USA.grid.214458.e0000000086837370
+      Michigan, Ann Arbor, Michigan 48109 USA.
 FAU - Stranger, Barbara E
 AU  - Stranger BE
 AD  - Department of Pharmacology, Northwestern University, Chicago, Illinois
-      60611 USA.grid.16753.360000 0001 2299 3507
+      60611 USA.
 FAU - Lee, Charles
 AU  - Lee C
 AD  - The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut
-      06032 USA.grid.249880.f0000 0004 0374 0039
+      06032 USA.
 AD  - Department of Life Sciences, Ewha Womans University, Seoul, 03760 South
-      Korea.grid.255649.90000 0001 2171 7754
+      Korea.
 AD  - Precision Medicine Center, The First Affiliated Hospital of Xi'an
-      Jiaotong University, Xi'an, 710061 Shaanxi China.grid.452438.c
+      Jiaotong University, Xi'an, 710061 Shaanxi China.
 FAU - Setlur, Sunita R
 AU  - Setlur SR
 AUID- ORCID: 0000-0002-0546-5312
 AD  - Department of Pathology, Brigham and Women's Hospital and Harvard Medical
-      School, Boston, Massachusetts 02115 USA.grid.62560.370000 0004 0378 8294
+      School, Boston, Massachusetts 02115 USA.
 LA  - eng
 GR  - P50 CA090381/CA/NCI NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
@@ -2639,8 +4335,8 @@ JT  - NPJ genomic medicine
 JID - 101685193
 PMC - PMC7519119
 OTO - NOTNLM
-OT  - DNA methylation
-OT  - Genetic variation
+OT  - *DNA methylation
+OT  - *Genetic variation
 COIS- Competing interestsThe authors declare no competing interests.
 EDAT- 2020/10/17 06:00
 MHDA- 2020/10/17 06:01
@@ -2651,125 +4347,10 @@ PHST- 2020/10/16 05:54 [entrez]
 PHST- 2020/10/17 06:00 [pubmed]
 PHST- 2020/10/17 06:01 [medline]
 AID - 10.1038/s41525-020-00145-w [doi]
-AID - 145 [pii]
+AID - 10.1038/s41525-020-00145-w [pii]
 PST - epublish
 SO  - NPJ Genom Med. 2020 Sep 24;5:41. doi: 10.1038/s41525-020-00145-w.
       eCollection 2020.
-
-PMID- 34556651
-OWN - NLM
-STAT- PubMed-not-MEDLINE
-LR  - 20210924
-IS  - 2056-7944 (Electronic)
-IS  - 2056-7944 (Linking)
-VI  - 5
-IP  - 1
-DP  - 2020 Sep 24
-TI  - Association of CNVs with methylation variation.
-PG  - 41
-LID - 10.1038/s41525-020-00145-w [doi]
-AB  - Germline copy number variants (CNVs) and single-nucleotide polymorphisms
-      (SNPs) form the basis of inter-individual genetic variation. Although the
-      phenotypic effects of SNPs have been extensively investigated, the
-      effects of CNVs is relatively less understood. To better characterize
-      mechanisms by which CNVs affect cellular phenotype, we tested their
-      association with variable CpG methylation in a genome-wide manner. Using
-      paired CNV and methylation data from the 1000 genomes and HapMap
-      projects, we identified genome-wide associations by methylation
-      quantitative trait locus (mQTL) analysis. We found individual CNVs being
-      associated with methylation of multiple CpGs and vice versa. CNV-
-      associated methylation changes were correlated with gene expression. CNV-
-      mQTLs were enriched for regulatory regions, transcription factor-binding
-      sites (TFBSs), and were involved in long-range physical interactions with
-      associated CpGs. Some CNV-mQTLs were associated with methylation of
-      imprinted genes. Several CNV-mQTLs and/or associated genes were among
-      those previously reported by genome-wide association studies (GWASs). We
-      demonstrate that germline CNVs in the genome are associated with CpG
-      methylation. Our findings suggest that structural variation together with
-      methylation may affect cellular phenotype.
-CI  - (c) 2020. The Author(s).
-FAU - Shi, Xinghua
-AU  - Shi X
-AD  - Department of Bioinformatics and Genomics, College of Computing and
-      Informatics, University of North Carolina, Charlotte, North Carolina,
-      28223, USA.
-AD  - Department of Computer and Information Sciences, College of Science and
-      Technology, Temple University, Philadelphia, Pennsylvania, 19122, USA.
-FAU - Radhakrishnan, Saranya
-AU  - Radhakrishnan S
-AD  - Department of Pathology, Brigham and Women's Hospital and Harvard Medical
-      School, Boston, Massachusetts, 02115, USA.
-FAU - Wen, Jia
-AU  - Wen J
-AD  - Department of Bioinformatics and Genomics, College of Computing and
-      Informatics, University of North Carolina, Charlotte, North Carolina,
-      28223, USA.
-FAU - Chen, Jin Yun
-AU  - Chen JY
-AD  - Department of Pathology, Brigham and Women's Hospital and Harvard Medical
-      School, Boston, Massachusetts, 02115, USA.
-FAU - Chen, Junjie
-AU  - Chen J
-AD  - Department of Bioinformatics and Genomics, College of Computing and
-      Informatics, University of North Carolina, Charlotte, North Carolina,
-      28223, USA.
-AD  - Department of Computer and Information Sciences, College of Science and
-      Technology, Temple University, Philadelphia, Pennsylvania, 19122, USA.
-FAU - Lam, Brianna Ashlyn
-AU  - Lam BA
-AD  - Department of Bioinformatics and Genomics, College of Computing and
-      Informatics, University of North Carolina, Charlotte, North Carolina,
-      28223, USA.
-FAU - Mills, Ryan E
-AU  - Mills RE
-AUID- ORCID: http://orcid.org/0000-0003-3425-6998
-AD  - Department of Computational Medicine and Bioinformatics, University of
-      Michigan, Ann Arbor, Michigan, 48109, USA.
-FAU - Stranger, Barbara E
-AU  - Stranger BE
-AD  - Department of Pharmacology, Northwestern University, Chicago, Illinois,
-      60611, USA.
-FAU - Lee, Charles
-AU  - Lee C
-AD  - The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut,
-      06032, USA. Charles.Lee@jax.org.
-AD  - Department of Life Sciences, Ewha Womans University, Seoul, 03760, South
-      Korea. Charles.Lee@jax.org.
-AD  - Precision Medicine Center, The First Affiliated Hospital of Xi'an
-      Jiaotong University, Xi'an, 710061, Shaanxi, China. Charles.Lee@jax.org.
-FAU - Setlur, Sunita R
-AU  - Setlur SR
-AUID- ORCID: http://orcid.org/0000-0002-0546-5312
-AD  - Department of Pathology, Brigham and Women's Hospital and Harvard Medical
-      School, Boston, Massachusetts, 02115, USA. ssetlur@rics.bwh.harvard.edu.
-LA  - eng
-GR  - R15HG009565/U.S. Department of Health & Human Services | National
-      Institutes of Health (NIH)
-GR  - 1R01HG007068-01A1/U.S. Department of Health & Human Services | National
-      Institutes of Health (NIH)
-GR  - U41HG007497/U.S. Department of Health & Human Services | National
-      Institutes of Health (NIH)
-GR  - U41HG007497/U.S. Department of Health & Human Services | National
-      Institutes of Health (NIH)
-GR  - IIS-1502172/National Science Foundation (NSF)
-PT  - Journal Article
-DEP - 20200924
-PL  - England
-TA  - NPJ Genom Med
-JT  - NPJ genomic medicine
-JID - 101685193
-EDAT- 2021/09/25 06:00
-MHDA- 2021/09/25 06:01
-CRDT- 2021/09/24 06:09
-PHST- 2019/08/08 00:00 [received]
-PHST- 2020/08/04 00:00 [accepted]
-PHST- 2021/09/24 06:09 [entrez]
-PHST- 2021/09/25 06:00 [pubmed]
-PHST- 2021/09/25 06:01 [medline]
-AID - 10.1038/s41525-020-00145-w [doi]
-AID - 10.1038/s41525-020-00145-w [pii]
-PST - epublish
-SO  - NPJ Genom Med. 2020 Sep 24;5(1):41. doi: 10.1038/s41525-020-00145-w.
 
 PMID- 31729472
 OWN - NLM
@@ -3925,7 +5506,7 @@ PMID- 30992455
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20190528
-LR  - 20210224
+LR  - 20220910
 IS  - 2041-1723 (Electronic)
 IS  - 2041-1723 (Linking)
 VI  - 10
@@ -4427,11 +6008,11 @@ GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - U41 HG007497/HG/NHGRI NIH HHS/United States
 GR  - P30 CA034196/CA/NCI NIH HHS/United States
 GR  - T32 HG002295/HG/NHGRI NIH HHS/United States
+GR  - R01 HG010169/HG/NHGRI NIH HHS/United States
 GR  - R21 AI117407/AI/NIAID NIH HHS/United States
 GR  - R01 HD081256/HD/NICHD NIH HHS/United States
 GR  - F31 HG009223/HG/NHGRI NIH HHS/United States
 GR  - WT_/Wellcome Trust/United Kingdom
-GR  - S10 OD021644/OD/NIH HHS/United States
 GR  - R01 HG002385/HG/NHGRI NIH HHS/United States
 GR  - R15 HG009565/HG/NHGRI NIH HHS/United States
 GR  - R01 HG005946/HG/NHGRI NIH HHS/United States
@@ -4443,6 +6024,8 @@ GR  - R01 CA166661/CA/NCI NIH HHS/United States
 GR  - R56 MH115957/MH/NIMH NIH HHS/United States
 GR  - T32 GM008666/GM/NIGMS NIH HHS/United States
 GR  - R01 HG008628/HG/NHGRI NIH HHS/United States
+GR  - S10 OD021644/OD/NIH HHS/United States
+GR  - U24 HG007497/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -4481,7 +6064,7 @@ PMID- 30578782
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20190503
-LR  - 20200528
+LR  - 20220124
 IS  - 1528-0012 (Electronic)
 IS  - 0016-5085 (Linking)
 VI  - 156
@@ -4617,8 +6200,9 @@ GR  - P30 CA046592/CA/NCI NIH HHS/United States
 GR  - U54 CA163059/CA/NCI NIH HHS/United States
 GR  - P50 CA150964/CA/NCI NIH HHS/United States
 GR  - P30 DK097948/DK/NIDDK NIH HHS/United States
-GR  - T32 CA009676/CA/NCI NIH HHS/United States
 GR  - U54 CA163060/CA/NCI NIH HHS/United States
+GR  - T32 CA009676/CA/NCI NIH HHS/United States
+GR  - P30 DK034933/DK/NIDDK NIH HHS/United States
 PT  - Comparative Study
 PT  - Journal Article
 PT  - Multicenter Study
@@ -4636,7 +6220,6 @@ RN  - EC 2.5.1.- (GSTT2 protein, human)
 RN  - EC 2.5.1.- (Gstt2 protein, rat)
 RN  - EC 2.5.1.18 (Glutathione Transferase)
 RN  - Adenocarcinoma Of Esophagus
-SB  - AIM
 SB  - IM
 MH  - Adenocarcinoma/enzymology/ethnology/*genetics/pathology
 MH  - African Americans/*genetics
@@ -4646,7 +6229,6 @@ MH  - *DNA Damage
 MH  - Disease Models, Animal
 MH  - Esophageal Mucosa/*enzymology/pathology
 MH  - Esophageal Neoplasms/enzymology/ethnology/*genetics/pathology
-MH  - European Continental Ancestry Group/*genetics
 MH  - Female
 MH  - Gastroesophageal Reflux/enzymology/ethnology/*genetics/pathology
 MH  - Glutathione Transferase/*genetics/metabolism
@@ -4663,6 +6245,7 @@ MH  - Rats, Sprague-Dawley
 MH  - Risk Factors
 MH  - United States/epidemiology
 MH  - Up-Regulation
+MH  - Whites/*genetics
 PMC - PMC6441633
 MID - NIHMS1516580
 OTO - NOTNLM
@@ -4833,7 +6416,7 @@ PMID- 28855259
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20180612
-LR  - 20210623
+LR  - 20220408
 IS  - 1549-5469 (Electronic)
 IS  - 1088-9051 (Linking)
 VI  - 27
@@ -5972,7 +7555,7 @@ SO  - Genome Biol. 2016 Jun 10;17(1):126. doi: 10.1186/s13059-016-0993-1.
 PMID- 27774284
 OWN - NLM
 STAT- PubMed-not-MEDLINE
-LR  - 20200930
+LR  - 20220129
 IS  - 2057-1577 (Print)
 IS  - 2057-1577 (Linking)
 VI  - 1
@@ -6023,7 +7606,7 @@ AD  - Division of Infectious Diseases, Department of Internal Medicine,
       Microbiology and Immunology, University of Michigan, Ann Arbor, MI 48109,
       USA.
 LA  - eng
-GR  - 2013105/Doris Duke Charitable Foundation/United States
+GR  - 2013105/DDCF_/Doris Duke Charitable Foundation/United States
 PT  - Journal Article
 DEP - 20151002
 PL  - England
@@ -6053,7 +7636,7 @@ PMID- 26432246
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20151026
-LR  - 20210911
+LR  - 20220409
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 526
@@ -6537,7 +8120,7 @@ PMID- 26432245
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20151026
-LR  - 20210911
+LR  - 20220410
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 526
@@ -6584,7 +8167,6 @@ AU  - Abecasis GR
 LA  - eng
 GR  - R01HG7068/HG/NHGRI NIH HHS/United States
 GR  - R01HG6855/HG/NHGRI NIH HHS/United States
-GR  - T32 HL094284/HL/NHLBI NIH HHS/United States
 GR  - R01 HL087699/HL/NHLBI NIH HHS/United States
 GR  - 090532/Z/09/Z/WT_/Wellcome Trust/United Kingdom
 GR  - R01HG4960/HG/NHGRI NIH HHS/United States
@@ -6629,6 +8211,8 @@ GR  - P01GM99568/GM/NIGMS NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - R01 HG007644/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005728/HG/NHGRI NIH HHS/United States
+GR  - 617306/ERC_/European Research Council/International
+GR  - T32 HL094284/HL/NHLBI NIH HHS/United States
 GR  - T32GM7790/GM/NIGMS NIH HHS/United States
 GR  - 096599/WT_/Wellcome Trust/United Kingdom
 GR  - 100956/WT_/Wellcome Trust/United Kingdom
@@ -6657,7 +8241,6 @@ GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
 GR  - WT_/Wellcome Trust/United Kingdom
 GR  - T32 GM007790/GM/NIGMS NIH HHS/United States
 GR  - R01 HG007022/HG/NHGRI NIH HHS/United States
-GR  - 617306/ERC_/European Research Council/International
 GR  - U54HG3067/HG/NHGRI NIH HHS/United States
 GR  - WT0855322/Z/08/Z/WT_/Wellcome Trust/United Kingdom
 GR  - DP5 OD009154/OD/NIH HHS/United States
@@ -8411,7 +9994,7 @@ PMID- 25348406
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20150331
-LR  - 20181113
+LR  - 20220330
 IS  - 1362-4962 (Electronic)
 IS  - 0305-1048 (Linking)
 VI  - 42
@@ -8489,8 +10072,8 @@ SI  - GENBANK/KM281533
 SI  - GENBANK/KM281534
 GR  - DP5 OD009154/OD/NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
-GR  - 1R01-HG007068-01A1/HG/NHGRI NIH HHS/United States
 GR  - DP5OD009154/OD/NIH HHS/United States
+GR  - 1R01-HG007068-01A1/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20141027
@@ -8525,7 +10108,7 @@ PMID- 25279985
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20141209
-LR  - 20200824
+LR  - 20211021
 IS  - 1537-6605 (Electronic)
 IS  - 0002-9297 (Linking)
 VI  - 95
@@ -8678,14 +10261,14 @@ AD  - Psychiatric and Neurodevelopmental Genetics Unit, Molecular Neurogenetics
       and Harvard Medical School, Boston, MA 02114, USA. Electronic address:
       doylea@helix.mgh.harvard.edu.
 LA  - eng
+GR  - R00 MH095867/MH/NIMH NIH HHS/United States
+GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
+GR  - MH095867/MH/NIMH NIH HHS/United States
 GR  - K24 MH094614/MH/NIMH NIH HHS/United States
 GR  - R01 HG007068/HG/NHGRI NIH HHS/United States
-GR  - R00 MH095867/MH/NIMH NIH HHS/United States
 GR  - K24MH094614/MH/NIMH NIH HHS/United States
 GR  - K99 MH095867/MH/NIMH NIH HHS/United States
 GR  - P30 CA034196/CA/NCI NIH HHS/United States
-GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
-GR  - MH095867/MH/NIMH NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -8724,7 +10307,7 @@ PMID- 24980144
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20150330
-LR  - 20190108
+LR  - 20211021
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 15
@@ -8796,8 +10379,8 @@ GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - U41 HG007234/HG/NHGRI NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
-GR  - 098051/Wellcome Trust/United Kingdom
 GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - 098051/WT_/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20140630
@@ -10208,7 +11791,7 @@ PMID- 25653097
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20151002
-LR  - 20210109
+LR  - 20220318
 IS  - 2041-1723 (Electronic)
 IS  - 2041-1723 (Linking)
 VI  - 5
@@ -10244,11 +11827,11 @@ CN  - 1000 Genomes Project Consortium
 LA  - eng
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
+GR  - 096599/WT_/Wellcome Trust/United Kingdom
 GR  - BB/I02593X/1/BB_/Biotechnology and Biological Sciences Research
       Council/United Kingdom
-GR  - G0801823/MRC_/Medical Research Council/United Kingdom
-GR  - 096599/WT_/Wellcome Trust/United Kingdom
 GR  - R01 CA166661/CA/NCI NIH HHS/United States
+GR  - G0801823/MRC_/Medical Research Council/United Kingdom
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
 GR  - P30 ES013508/ES/NIEHS NIH HHS/United States
 PT  - Journal Article
@@ -11052,7 +12635,7 @@ PMID- 24763686
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20140721
-LR  - 20200929
+LR  - 20211203
 IS  - 2157-6564 (Print)
 IS  - 2157-6564 (Linking)
 VI  - 3
@@ -11146,10 +12729,13 @@ PT  - Comparative Study
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20140424
-PL  - United States
+PL  - England
 TA  - Stem Cells Transl Med
 JT  - Stem cells translational medicine
 JID - 101578022
+RN  - 0 (KLF4 protein, human)
+RN  - 0 (Klf4 protein, mouse)
+RN  - 0 (Kruppel-Like Factor 4)
 RN  - 0 (Transcription Factors)
 SB  - IM
 MH  - Animals
@@ -11157,6 +12743,7 @@ MH  - *Genomic Instability
 MH  - HEK293 Cells
 MH  - Humans
 MH  - *Induced Pluripotent Stem Cells/cytology/metabolism
+MH  - Kruppel-Like Factor 4
 MH  - *Lentivirus
 MH  - Mice
 MH  - *Transcription Factors/biosynthesis/genetics
@@ -11184,7 +12771,7 @@ PMID- 23778870
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20141007
-LR  - 20191210
+LR  - 20211021
 IS  - 1476-5438 (Electronic)
 IS  - 1018-4813 (Linking)
 VI  - 22
@@ -11306,7 +12893,7 @@ PMID- 24092746
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20131029
-LR  - 20181113
+LR  - 20211021
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 342
@@ -11589,28 +13176,28 @@ AD  - Department of Computer Science, Yale University, New Haven, CT 06520,
 LA  - eng
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 CA152057/CA/NCI NIH HHS/United States
-GR  - U01HG6513/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005718/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - WT090532/WT_/Wellcome Trust/United Kingdom
+GR  - WT095908/WT_/Wellcome Trust/United Kingdom
+GR  - WT098051/WT_/Wellcome Trust/United Kingdom
+GR  - CA167824/CA/NCI NIH HHS/United States
+GR  - R01CA152057/CA/NCI NIH HHS/United States
+GR  - R01 GM097358/GM/NIGMS NIH HHS/United States
+GR  - 085532/Wellcome Trust/United Kingdom
+GR  - U01HG6513/HG/NHGRI NIH HHS/United States
+GR  - WT085532/WT_/Wellcome Trust/United Kingdom
 GR  - HG005718/HG/NHGRI NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
-GR  - CA167824/CA/NCI NIH HHS/United States
 GR  - R01HG4719/HG/NHGRI NIH HHS/United States
 GR  - 098051/Wellcome Trust/United Kingdom
 GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
 GR  - R01 CA167824/CA/NCI NIH HHS/United States
-GR  - WT095908/Wellcome Trust/United Kingdom
 GR  - 090532/Wellcome Trust/United Kingdom
 GR  - 095908/Wellcome Trust/United Kingdom
-GR  - R01CA152057/CA/NCI NIH HHS/United States
 GR  - R01 CA166661/CA/NCI NIH HHS/United States
 GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
-GR  - WT085532/Wellcome Trust/United Kingdom
-GR  - WT090532/Wellcome Trust/United Kingdom
-GR  - WT098051/Wellcome Trust/United Kingdom
-GR  - R01 GM097358/GM/NIGMS NIH HHS/United States
-GR  - 085532/Wellcome Trust/United Kingdom
 GR  - GM104424/GM/NIGMS NIH HHS/United States
 GR  - U41 HG007000/HG/NHGRI NIH HHS/United States
 GR  - UL1 TR000457/TR/NCATS NIH HHS/United States
@@ -13062,7 +14649,7 @@ PMID- 24014587
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20131211
-LR  - 20181113
+LR  - 20211021
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 110
@@ -13128,9 +14715,9 @@ SI  - GEO/GSE45741
 GR  - 5 R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - F32 AG039979/AG/NIA NIH HHS/United States
 GR  - 5 R01 AI 089246-01A1/AI/NIAID NIH HHS/United States
+GR  - R01 AI089246/AI/NIAID NIH HHS/United States
 GR  - F32 AG 039979/AG/NIA NIH HHS/United States
 GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
-GR  - R01 AI089246/AI/NIAID NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -13175,7 +14762,7 @@ PMID- 23656838
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20131105
-LR  - 20181202
+LR  - 20211021
 IS  - 1471-2105 (Electronic)
 IS  - 1471-2105 (Linking)
 VI  - 14
@@ -13261,7 +14848,7 @@ PMID- 23602499
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20130709
-LR  - 20181113
+LR  - 20220318
 IS  - 1097-4199 (Electronic)
 IS  - 0896-6273 (Linking)
 VI  - 78
@@ -13383,7 +14970,7 @@ PMID- 23517041
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20130906
-LR  - 20181113
+LR  - 20211021
 IS  - 1365-2222 (Electronic)
 IS  - 0954-7894 (Linking)
 VI  - 43
@@ -13442,15 +15029,15 @@ AU  - Lee C
 FAU - Raby, B A
 AU  - Raby BA
 LA  - eng
-GR  - P01 HL083069/HL/NHLBI NIH HHS/United States
-GR  - R01 HL093076/HL/NHLBI NIH HHS/United States
 GR  - U01 HL065899/HL/NHLBI NIH HHS/United States
 GR  - K12HL089990/HL/NHLBI NIH HHS/United States
 GR  - N01HR16049/HL/NHLBI NIH HHS/United States
 GR  - K12 HL089990/HL/NHLBI NIH HHS/United States
+GR  - R01 MH095797/MH/NIMH NIH HHS/United States
+GR  - P01 HL083069/HL/NHLBI NIH HHS/United States
+GR  - R01 HL093076/HL/NHLBI NIH HHS/United States
 GR  - N01 HR16049/HR/NHLBI NIH HHS/United States
 GR  - R01 HL086601/HL/NHLBI NIH HHS/United States
-GR  - R01 MH095797/MH/NIMH NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -13490,7 +15077,7 @@ PMID- 23128226
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20121226
-LR  - 20210503
+LR  - 20220410
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 491
@@ -13543,6 +15130,7 @@ LA  - eng
 GR  - U01HG5208/HG/NHGRI NIH HHS/United States
 GR  - T32 HL094284/HL/NHLBI NIH HHS/United States
 GR  - T32GM7748/GM/NIGMS NIH HHS/United States
+GR  - UL1RR024131/RR/NCRR NIH HHS/United States
 GR  - R01HG4960/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 ES015794/ES/NIEHS NIH HHS/United States
@@ -13550,9 +15138,10 @@ GR  - U01HG5725/HG/NHGRI NIH HHS/United States
 GR  - RC2HG5581/HG/NHGRI NIH HHS/United States
 GR  - P30 CA016672/CA/NCI NIH HHS/United States
 GR  - T15 LM007056/LM/NLM NIH HHS/United States
-GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - AI077439/AI/NIAID NIH HHS/United States
 GR  - R01 MH084698/MH/NIMH NIH HHS/United States
+GR  - RG/09/012/28096/BHF_/British Heart Foundation/United Kingdom
+GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005208/HG/NHGRI NIH HHS/United States
 GR  - AI2009061/AI/NIAID NIH HHS/United States
@@ -13566,9 +15155,7 @@ GR  - WT085475/Z/08/Z/WT_/Wellcome Trust/United Kingdom
 GR  - R01HG3698/HG/NHGRI NIH HHS/United States
 GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
 GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
-GR  - G0900747/MRC_/Medical Research Council/United Kingdom
 GR  - RC2HL102925/HL/NHLBI NIH HHS/United States
-GR  - G0701805/MRC_/Medical Research Council/United Kingdom
 GR  - U01HG5715/HG/NHGRI NIH HHS/United States
 GR  - R01GM59290/GM/NIGMS NIH HHS/United States
 GR  - R01HL95045/HL/NHLBI NIH HHS/United States
@@ -13578,36 +15165,35 @@ GR  - U01 HG005214/HG/NHGRI NIH HHS/United States
 GR  - HHMI/Howard Hughes Medical Institute/United States
 GR  - U01 HG006569/HG/NHGRI NIH HHS/United States
 GR  - P41 HG002371/HG/NHGRI NIH HHS/United States
-GR  - BB/I02593X/1/BB_/Biotechnology and Biological Sciences Research
-      Council/United Kingdom
 GR  - R01 HL078885/HL/NHLBI NIH HHS/United States
 GR  - UL1 RR024131/RR/NCRR NIH HHS/United States
 GR  - UL1 TR000124/TR/NCATS NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - T32 GM008283/GM/NIGMS NIH HHS/United States
-GR  - G0801823/MRC_/Medical Research Council/United Kingdom
 GR  - U01 HG005728/HG/NHGRI NIH HHS/United States
 GR  - U01HG6569/HG/NHGRI NIH HHS/United States
 GR  - WT085532AIA/WT_/Wellcome Trust/United Kingdom
-GR  - 096599/WT_/Wellcome Trust/United Kingdom
+GR  - 096599/Wellcome Trust/United Kingdom
 GR  - U01 HG005715/HG/NHGRI NIH HHS/United States
 GR  - WT090532/Z/09/Z/WT_/Wellcome Trust/United Kingdom
+GR  - G0900747/MRC_/Medical Research Council/United Kingdom
+GR  - BB/I02593X/1/BB_/Biotechnology and Biological Sciences Research
+      Council/United Kingdom
 GR  - U01HG5211/HG/NHGRI NIH HHS/United States
 GR  - U01HG6513/HG/NHGRI NIH HHS/United States
 GR  - G12 MD007579/MD/NIMHD NIH HHS/United States
 GR  - U54HG3079/HG/NHGRI NIH HHS/United States
+GR  - G0801823/MRC_/Medical Research Council/United Kingdom
 GR  - HL078885/HL/NHLBI NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
 GR  - T15 LM007033/LM/NLM NIH HHS/United States
 GR  - U01HG5214/HG/NHGRI NIH HHS/United States
 GR  - U19 AI077439/AI/NIAID NIH HHS/United States
 GR  - U41 HG004568/HG/NHGRI NIH HHS/United States
-GR  - 090532/WT_/Wellcome Trust/United Kingdom
+GR  - 090532/Wellcome Trust/United Kingdom
 GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
-GR  - 095908/WT_/Wellcome Trust/United Kingdom
+GR  - 095908/Wellcome Trust/United Kingdom
 GR  - R01MH84698/MH/NIMH NIH HHS/United States
-GR  - RG/09/012/28096/BHF_/British Heart Foundation/United Kingdom
-GR  - UL1RR024131/RR/NCRR NIH HHS/United States
 GR  - R01 HG005701/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003079/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005725/HG/NHGRI NIH HHS/United States
@@ -13624,11 +15210,11 @@ GR  - U01HG5209/HG/NHGRI NIH HHS/United States
 GR  - T32GM8283/GM/NIGMS NIH HHS/United States
 GR  - R01 HG007022/HG/NHGRI NIH HHS/United States
 GR  - U54HG3067/HG/NHGRI NIH HHS/United States
-GR  - 086084/WT_/Wellcome Trust/United Kingdom
+GR  - 086084/Wellcome Trust/United Kingdom
 GR  - P41HG4221/HG/NHGRI NIH HHS/United States
 GR  - DP2 OD006514/OD/NIH HHS/United States
 GR  - RC2 HG005581/HG/NHGRI NIH HHS/United States
-GR  - 085532/WT_/Wellcome Trust/United Kingdom
+GR  - 085532/Wellcome Trust/United Kingdom
 GR  - R01HG5701/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
 GR  - T32HL94284/HL/NHLBI NIH HHS/United States
@@ -13637,6 +15223,7 @@ GR  - WT089250/Z/09/Z/WT_/Wellcome Trust/United Kingdom
 GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
 GR  - T32 GM007748/GM/NIGMS NIH HHS/United States
+GR  - G0701805/MRC_/Medical Research Council/United Kingdom
 GR  - WT095552/Z/11/Z/WT_/Wellcome Trust/United Kingdom
 GR  - R01HG4719/HG/NHGRI NIH HHS/United States
 GR  - RC2 HL102925/HL/NHLBI NIH HHS/United States
@@ -13660,7 +15247,6 @@ CIN - Genome Biol. 2012;13(12):182. PMID: 23268745
 MH  - Alleles
 MH  - Binding Sites/genetics
 MH  - Conserved Sequence/genetics
-MH  - Continental Population Groups/genetics
 MH  - Evolution, Molecular
 MH  - Genetic Variation/*genetics
 MH  - Genetics, Medical
@@ -13672,6 +15258,7 @@ MH  - Haplotypes/genetics
 MH  - Humans
 MH  - Nucleotide Motifs
 MH  - Polymorphism, Single Nucleotide/genetics
+MH  - Racial Groups/genetics
 MH  - Sequence Deletion/genetics
 MH  - Transcription Factors/metabolism
 PMC - PMC3498066
@@ -15078,7 +16665,7 @@ PMID- 22797897
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20121026
-LR  - 20181113
+LR  - 20211021
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 109
@@ -15141,11 +16728,11 @@ SI  - GEO/GSE38572
 GR  - 2T32HL007627-26/HL/NHLBI NIH HHS/United States
 GR  - T32 HL007627/HL/NHLBI NIH HHS/United States
 GR  - P41HG004221/HG/NHGRI NIH HHS/United States
-GR  - F32AG039979/AG/NIA NIH HHS/United States
-GR  - F32 AG039979/AG/NIA NIH HHS/United States
 GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - R01GM081533/GM/NIGMS NIH HHS/United States
 GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - F32AG039979/AG/NIA NIH HHS/United States
+GR  - F32 AG039979/AG/NIA NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 DEP - 20120713
@@ -15186,7 +16773,7 @@ PMID- 22543379
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20120917
-LR  - 20191008
+LR  - 20220316
 IS  - 1548-7105 (Electronic)
 IS  - 1548-7091 (Linking)
 VI  - 9
@@ -15232,15 +16819,15 @@ AU  - Flicek P
 CN  - 1000 Genomes Project Consortium
 LA  - eng
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
-GR  - G1000758/Medical Research Council/United Kingdom
-GR  - Z99 LM999999/Intramural NIH HHS/United States
-GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - P20 MD006899/MD/NIMHD NIH HHS/United States
-GR  - 090532/Wellcome Trust/United Kingdom
-GR  - 095908/Wellcome Trust/United Kingdom
 GR  - P01 CA101937/CA/NCI NIH HHS/United States
-GR  - 085532/Wellcome Trust/United Kingdom
+GR  - 085532/WT_/Wellcome Trust/United Kingdom
+GR  - Z99 LM999999/ImNIH/Intramural NIH HHS/United States
+GR  - U01 HG006513/HG/NHGRI NIH HHS/United States
+GR  - G1000758/MRC_/Medical Research Council/United Kingdom
+GR  - 090532/WT_/Wellcome Trust/United Kingdom
+GR  - 095908/WT_/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, N.I.H., Intramural
 PT  - Research Support, Non-U.S. Gov't
@@ -16364,7 +17951,7 @@ PMID- 22388000
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20120530
-LR  - 20181113
+LR  - 20220331
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 44
@@ -16445,26 +18032,26 @@ AU  - Gusella JF
 FAU - Talkowski, Michael E
 AU  - Talkowski ME
 LA  - eng
+GR  - GM061354/GM/NIGMS NIH HHS/United States
+GR  - CAPMC/ CIHR/Canada
+GR  - P01 GM061354-05/GM/NIGMS NIH HHS/United States
+GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
+GR  - NS32765/NS/NINDS NIH HHS/United States
+GR  - P01 GM061354-07/GM/NIGMS NIH HHS/United States
+GR  - P01 GM061354-02/GM/NIGMS NIH HHS/United States
+GR  - F32 MH087123/MH/NIMH NIH HHS/United States
 GR  - HD065286/HD/NICHD NIH HHS/United States
 GR  - P01 GM061354-03/GM/NIGMS NIH HHS/United States
 GR  - MH087123/MH/NIMH NIH HHS/United States
-GR  - GM061354/GM/NIGMS NIH HHS/United States
+GR  - P50 NS016367/NS/NINDS NIH HHS/United States
 GR  - P01 GM061354-09/GM/NIGMS NIH HHS/United States
 GR  - P01 GM061354-01A1/GM/NIGMS NIH HHS/United States
-GR  - P50 NS016367/NS/NINDS NIH HHS/United States
-GR  - P01 GM061354-05/GM/NIGMS NIH HHS/United States
-GR  - Canadian Institutes of Health Research/Canada
-GR  - P01 GM061354/GM/NIGMS NIH HHS/United States
 GR  - NS16367/NS/NINDS NIH HHS/United States
 GR  - P01 GM061354-06A2/GM/NIGMS NIH HHS/United States
 GR  - P01 GM061354-08/GM/NIGMS NIH HHS/United States
 GR  - R01 NS032765/NS/NINDS NIH HHS/United States
 GR  - R21 HD065286/HD/NICHD NIH HHS/United States
 GR  - P01 GM061354-04/GM/NIGMS NIH HHS/United States
-GR  - NS32765/NS/NINDS NIH HHS/United States
-GR  - P01 GM061354-07/GM/NIGMS NIH HHS/United States
-GR  - P01 GM061354-02/GM/NIGMS NIH HHS/United States
-GR  - F32 MH087123/MH/NIMH NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -16506,7 +18093,7 @@ PMID- 22203992
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20120312
-LR  - 20181113
+LR  - 20220410
 IS  - 1091-6490 (Electronic)
 IS  - 0027-8424 (Linking)
 VI  - 109
@@ -16577,9 +18164,9 @@ LA  - eng
 SI  - GEO/GSE28328
 GR  - T32HL007627/HL/NHLBI NIH HHS/United States
 GR  - T32 HL007627/HL/NHLBI NIH HHS/United States
+GR  - HHMI/Howard Hughes Medical Institute/United States
 GR  - R01 CA111560/CA/NCI NIH HHS/United States
 GR  - K99 ES018892/ES/NIEHS NIH HHS/United States
-GR  - Howard Hughes Medical Institute/United States
 GR  - 1K99ES018892/ES/NIEHS NIH HHS/United States
 GR  - 5R01CA111560/CA/NCI NIH HHS/United States
 GR  - 5P41HG004421/HG/NHGRI NIH HHS/United States
@@ -16633,7 +18220,7 @@ PMID- 21917140
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20120823
-LR  - 20181113
+LR  - 20220318
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 12
@@ -16740,14 +18327,14 @@ AU  - Gibbs R
 CN  - 1000 Genomes Project
 LA  - eng
 GR  - 1U01HG005211-0109/HG/NHGRI NIH HHS/United States
+GR  - WT 077009/WT_/Wellcome Trust/United Kingdom
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
-GR  - 5U54HG003273/HG/NHGRI NIH HHS/United States
-GR  - P30 DK043351/DK/NIDDK NIH HHS/United States
-GR  - WT 077009/Wellcome Trust/United Kingdom
 GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - 090532/Wellcome Trust/United Kingdom
 GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - 5U54HG003273/HG/NHGRI NIH HHS/United States
+GR  - P30 DK043351/DK/NIDDK NIH HHS/United States
 GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
 GR  - 085532/Wellcome Trust/United Kingdom
 PT  - Journal Article
@@ -17539,7 +19126,7 @@ PMID- 21666693
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20110915
-LR  - 20181113
+LR  - 20220330
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 43
@@ -17600,11 +19187,11 @@ FAU - Awadalla, Philip
 AU  - Awadalla P
 CN  - 1000 Genomes Project
 LA  - eng
+GR  - 077014/Z/05/Z/WT_/Wellcome Trust/United Kingdom
 GR  - R01 GM070806/GM/NIGMS NIH HHS/United States
-GR  - 090532/Wellcome Trust/United Kingdom
-GR  - 077014/Wellcome Trust/United Kingdom
-GR  - 085532/Wellcome Trust/United Kingdom
-GR  - 077014/Z/05/Z/Wellcome Trust/United Kingdom
+GR  - 090532/WT_/Wellcome Trust/United Kingdom
+GR  - 077014/WT_/Wellcome Trust/United Kingdom
+GR  - 085532/WT_/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20110612
@@ -18750,7 +20337,7 @@ PMID- 21460062
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20110926
-LR  - 20181113
+LR  - 20220316
 IS  - 1549-5469 (Electronic)
 IS  - 1088-9051 (Linking)
 VI  - 21
@@ -18803,11 +20390,11 @@ AU  - Devine SE
 LA  - eng
 SI  - GEO/GSE27889
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
-GR  - MC_UP_A320_1004/Medical Research Council/United Kingdom
-GR  - MC_U137761446/Medical Research Council/United Kingdom
+GR  - MC_U137761446/MRC_/Medical Research Council/United Kingdom
+GR  - F32 HG004207/HG/NHGRI NIH HHS/United States
+GR  - MC_UP_A320_1004/MRC_/Medical Research Council/United Kingdom
 GR  - R01HG002898/HG/NHGRI NIH HHS/United States
 GR  - F32HG004207/HG/NHGRI NIH HHS/United States
-GR  - F32 HG004207/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -18842,7 +20429,7 @@ PMID- 21627829
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20120214
-LR  - 20181113
+LR  - 20211020
 IS  - 1474-760X (Electronic)
 IS  - 1474-7596 (Linking)
 VI  - 12
@@ -18943,7 +20530,7 @@ PMID- 21552272
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20111014
-LR  - 20191210
+LR  - 20220331
 IS  - 1546-1696 (Electronic)
 IS  - 1087-0156 (Linking)
 VI  - 29
@@ -19017,25 +20604,25 @@ FAU - Feuk, Lars
 AU  - Feuk L
 LA  - eng
 SI  - GEO/GSE25893
+GR  - 213997/CAPMC/ CIHR/Canada
 GR  - 077008/Wellcome Trust/United Kingdom
 GR  - T32 HD007396/HD/NICHD NIH HHS/United States
 GR  - R01 HD055150/HD/NICHD NIH HHS/United States
 GR  - HG004221/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
-GR  - HG005209/HG/NHGRI NIH HHS/United States
-GR  - R01 CA111560/CA/NCI NIH HHS/United States
 GR  - HD055150/HD/NICHD NIH HHS/United States
-GR  - R01 CA111560-05/CA/NCI NIH HHS/United States
-GR  - 077014/Wellcome Trust/United Kingdom
-GR  - 213997/Canadian Institutes of Health Research/Canada
 GR  - P01 HD068250/HD/NICHD NIH HHS/United States
 GR  - HD007396/HD/NICHD NIH HHS/United States
 GR  - P41 HG004221-03/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
-GR  - T32 GM007748/GM/NIGMS NIH HHS/United States
 GR  - T32 GM007748-33/GM/NIGMS NIH HHS/United States
 GR  - CA111560/CA/NCI NIH HHS/United States
+GR  - HG005209/HG/NHGRI NIH HHS/United States
+GR  - R01 CA111560/CA/NCI NIH HHS/United States
+GR  - R01 CA111560-05/CA/NCI NIH HHS/United States
+GR  - 077014/Wellcome Trust/United Kingdom
+GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
+GR  - T32 GM007748/GM/NIGMS NIH HHS/United States
 PT  - Comparative Study
 PT  - Evaluation Study
 PT  - Journal Article
@@ -19077,7 +20664,7 @@ PMID- 21293372
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20110222
-LR  - 20181113
+LR  - 20220331
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 470
@@ -19221,42 +20808,42 @@ FAU - Korbel, Jan O
 AU  - Korbel JO
 CN  - 1000 Genomes Project
 LA  - eng
+GR  - RC2 HG005552-01/HG/NHGRI NIH HHS/United States
+GR  - U01 HG005209-01/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-03S2/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-03S3/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004221-02/HG/NHGRI NIH HHS/United States
+GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
+GR  - P41 HG004221-03/HG/NHGRI NIH HHS/United States
+GR  - R01 GM081533-02/GM/NIGMS NIH HHS/United States
 GR  - 077009/Wellcome Trust/United Kingdom
 GR  - R01 GM081533-01A1/GM/NIGMS NIH HHS/United States
 GR  - 077192/Wellcome Trust/United Kingdom
-GR  - RC2 HG005552-01/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-01/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-04/HG/NHGRI NIH HHS/United States
-GR  - G1000758/Medical Research Council/United Kingdom
 GR  - U01 HG005209-02/HG/NHGRI NIH HHS/United States
 GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
-GR  - G0701805/Medical Research Council/United Kingdom
-GR  - U01 HG005209-01/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-03S2/HG/NHGRI NIH HHS/United States
 GR  - R01 MH091350/MH/NIMH NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - R01 GM081533-04/GM/NIGMS NIH HHS/United States
-GR  - P41 HG004221-03S3/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-02/HG/NHGRI NIH HHS/United States
+GR  - G1000758/MRC_/Medical Research Council/United Kingdom
 GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
 GR  - R01 GM081533-03/GM/NIGMS NIH HHS/United States
-GR  - R01 GM081533/GM/NIGMS NIH HHS/United States
 GR  - RC2 HG005552-02/HG/NHGRI NIH HHS/United States
 GR  - 077014/Wellcome Trust/United Kingdom
 GR  - R01 HG004719-02/HG/NHGRI NIH HHS/United States
 GR  - P41 HG004221-01/HG/NHGRI NIH HHS/United States
 GR  - 062023/Wellcome Trust/United Kingdom
 GR  - P41 HG004221-03S1/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004221-03/HG/NHGRI NIH HHS/United States
 GR  - 085532/Wellcome Trust/United Kingdom
 GR  - R01 HG004719-02S1/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-03/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
 GR  - R21 AA022707/AA/NIAAA NIH HHS/United States
 GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
-GR  - R01 GM081533-02/GM/NIGMS NIH HHS/United States
+GR  - G0701805/MRC_/Medical Research Council/United Kingdom
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -20384,7 +21971,7 @@ PMID- 21030649
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20101116
-LR  - 20181113
+LR  - 20220129
 IS  - 1095-9203 (Electronic)
 IS  - 0036-8075 (Linking)
 VI  - 330
@@ -20435,9 +22022,9 @@ GR  - P01 HG004120-03/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
 GR  - HG004120/HG/NHGRI NIH HHS/United States
-GR  - Howard Hughes Medical Institute/United States
-GR  - 085532/Wellcome Trust/United Kingdom
+GR  - 085532/WT_/Wellcome Trust/United Kingdom
 GR  - P01 HG004120/HG/NHGRI NIH HHS/United States
+GR  - HHMI/Howard Hughes Medical Institute/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -20449,7 +22036,6 @@ JID - 0404511
 SB  - IM
 CIN - Science. 2010 Oct 29;330(6004):574-5. PMID: 21030618
 MH  - Chromosome Mapping
-MH  - Continental Population Groups/genetics
 MH  - *DNA Copy Number Variations
 MH  - Databases, Nucleic Acid
 MH  - Evolution, Molecular
@@ -20467,6 +22053,7 @@ MH  - Haplotypes
 MH  - Humans
 MH  - Male
 MH  - Polymorphism, Single Nucleotide
+MH  - Racial Groups/genetics
 MH  - Sequence Analysis, DNA
 PMC - PMC3020103
 MID - NIHMS255880
@@ -21589,7 +23176,7 @@ PMID- 20981092
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20101214
-LR  - 20211001
+LR  - 20220408
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 467
@@ -21641,33 +23228,41 @@ AU  - Hurles ME
 FAU - McVean, Gil A
 AU  - McVean GA
 LA  - eng
-GR  - 077009/Wellcome Trust/United Kingdom
-GR  - N01HG62088/HG/NHGRI NIH HHS/United States
+GR  - U01HG5208/HG/NHGRI NIH HHS/United States
+GR  - HHMI/Howard Hughes Medical Institute/United States
+GR  - WT085532AIA/WT_/Wellcome Trust/United Kingdom
+GR  - 075491/Wellcome Trust/United Kingdom
+GR  - U54 HG002750/HG/NHGRI NIH HHS/United States
+GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
+GR  - R01 HG004719-02/HG/NHGRI NIH HHS/United States
+GR  - WT086084/Z/08/Z/WT_/Wellcome Trust/United Kingdom
 GR  - R01HG4960/HG/NHGRI NIH HHS/United States
 GR  - 077192/Wellcome Trust/United Kingdom
-GR  - U01HG5208/HG/NHGRI NIH HHS/United States
-GR  - WT086084/Z/08/Z/Wellcome Trust/United Kingdom
-GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
+GR  - 077009/Wellcome Trust/United Kingdom
+GR  - N01HG62088/HG/NHGRI NIH HHS/United States
 GR  - R01 MH084698/MH/NIMH NIH HHS/United States
 GR  - RC2 HG005552-01/HG/NHGRI NIH HHS/United States
+GR  - RG/09/012/28096/BHF_/British Heart Foundation/United Kingdom
+GR  - R01 HG004960/HG/NHGRI NIH HHS/United States
+GR  - WT081407/Z/06/Z/WT_/Wellcome Trust/United Kingdom
+GR  - 01MH84698/MH/NIMH NIH HHS/United States
 GR  - R01GM72861/GM/NIGMS NIH HHS/United States
 GR  - U54 HG003067/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-01/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005208/HG/NHGRI NIH HHS/United States
-GR  - 01MH84698/MH/NIMH NIH HHS/United States
 GR  - U41 HG002371/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004333/HG/NHGRI NIH HHS/United States
-GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
-GR  - P41 HG004222/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-04/HG/NHGRI NIH HHS/United States
-GR  - WT081407/Z/06/Z/Wellcome Trust/United Kingdom
 GR  - P41HG2371/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002651/HG/NHGRI NIH HHS/United States
+GR  - R01 HG004719/HG/NHGRI NIH HHS/United States
+GR  - P41 HG004222/HG/NHGRI NIH HHS/United States
 GR  - R01HG4333/HG/NHGRI NIH HHS/United States
 GR  - R01HG3698/HG/NHGRI NIH HHS/United States
 GR  - R01 GM072861/GM/NIGMS NIH HHS/United States
 GR  - RC2 HG005552/HG/NHGRI NIH HHS/United States
 GR  - U54HG2757/HG/NHGRI NIH HHS/United States
+GR  - WT089088/Z/09/Z/WT_/Wellcome Trust/United Kingdom
 GR  - U54 HG002757/HG/NHGRI NIH HHS/United States
 GR  - 089088/Wellcome Trust/United Kingdom
 GR  - R01GM59290/GM/NIGMS NIH HHS/United States
@@ -21675,45 +23270,39 @@ GR  - U01HG5210/HG/NHGRI NIH HHS/United States
 GR  - U41HG4568/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005211/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005214/HG/NHGRI NIH HHS/United States
+GR  - WT075491/Z/04/WT_/Wellcome Trust/United Kingdom
 GR  - R01 HG003229/HG/NHGRI NIH HHS/United States
 GR  - P41 HG002371/HG/NHGRI NIH HHS/United States
 GR  - T32 GM007753/GM/NIGMS NIH HHS/United States
-GR  - WT075491/Z/04/Wellcome Trust/United Kingdom
 GR  - U54 HG003273/HG/NHGRI NIH HHS/United States
-GR  - G0801823/Medical Research Council/United Kingdom
-GR  - 075491/Wellcome Trust/United Kingdom
-GR  - Intramural NIH HHS/United States
 GR  - U01HG5211/HG/NHGRI NIH HHS/United States
 GR  - U54HG3079/HG/NHGRI NIH HHS/United States
+GR  - G0801823/MRC_/Medical Research Council/United Kingdom
+GR  - G0801823(89305)/MRC_/Medical Research Council/United Kingdom
 GR  - U01HG5214/HG/NHGRI NIH HHS/United States
 GR  - U41 HG004568/HG/NHGRI NIH HHS/United States
-GR  - U54 HG002750/HG/NHGRI NIH HHS/United States
-GR  - R01 GM059290/GM/NIGMS NIH HHS/United States
-GR  - RG/09/012/28096/British Heart Foundation/United Kingdom
-GR  - Howard Hughes Medical Institute/United States
 GR  - U54HG2750/HG/NHGRI NIH HHS/United States
 GR  - 089062/Wellcome Trust/United Kingdom
+GR  - ImNIH/Intramural NIH HHS/United States
 GR  - U01 HG005210/HG/NHGRI NIH HHS/United States
 GR  - RC2 HG005552-02/HG/NHGRI NIH HHS/United States
 GR  - 077014/Wellcome Trust/United Kingdom
-GR  - R01 HG004719-02/HG/NHGRI NIH HHS/United States
 GR  - R01 HG003698/HG/NHGRI NIH HHS/United States
-GR  - WT085532AIA/Wellcome Trust/United Kingdom
 GR  - RC2HG5552/HG/NHGRI NIH HHS/United States
 GR  - P01HG4120/HG/NHGRI NIH HHS/United States
 GR  - U01HG5209/HG/NHGRI NIH HHS/United States
 GR  - 089061/Wellcome Trust/United Kingdom
+GR  - 086084/Wellcome Trust/United Kingdom
 GR  - 01HG3229/HG/NHGRI NIH HHS/United States
 GR  - U54HG3067/HG/NHGRI NIH HHS/United States
-GR  - 086084/Wellcome Trust/United Kingdom
 GR  - P41HG4221/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002510/HG/NHGRI NIH HHS/United States
 GR  - 081407/Wellcome Trust/United Kingdom
 GR  - 085532/Wellcome Trust/United Kingdom
-GR  - F31 HG005201/HG/NHGRI NIH HHS/United States
-GR  - P50HG2357/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-02S1/HG/NHGRI NIH HHS/United States
 GR  - R01 HG004719-03/HG/NHGRI NIH HHS/United States
+GR  - F31 HG005201/HG/NHGRI NIH HHS/United States
+GR  - P50HG2357/HG/NHGRI NIH HHS/United States
 GR  - R01 HG003229-05/HG/NHGRI NIH HHS/United States
 GR  - U01 HG005209/HG/NHGRI NIH HHS/United States
 GR  - R21 AA022707/AA/NIAAA NIH HHS/United States
@@ -21724,9 +23313,7 @@ GR  - S10RR025056/RR/NCRR NIH HHS/United States
 GR  - R01HG2651/HG/NHGRI NIH HHS/United States
 GR  - R01HG4719/HG/NHGRI NIH HHS/United States
 GR  - P50 HG002357/HG/NHGRI NIH HHS/United States
-GR  - G0801823(89305)/Medical Research Council/United Kingdom
 GR  - U54HG3273/HG/NHGRI NIH HHS/United States
-GR  - WT089088/Z/09/Z/Wellcome Trust/United Kingdom
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, N.I.H., Intramural
@@ -22878,7 +24465,7 @@ PMID- 20858594
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20110124
-LR  - 20181113
+LR  - 20220310
 IS  - 1460-2083 (Electronic)
 IS  - 0964-6906 (Linking)
 VI  - 19
@@ -22943,7 +24530,7 @@ PMID- 20603005
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20100713
-LR  - 20181113
+LR  - 20220408
 IS  - 1097-4172 (Electronic)
 IS  - 0092-8674 (Linking)
 VI  - 141
@@ -22992,8 +24579,6 @@ GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 CA086335/CA/NCI NIH HHS/United States
 GR  - R01GM078541/GM/NIGMS NIH HHS/United States
 GR  - R01 CA132065/CA/NCI NIH HHS/United States
-GR  - R01HG002898/HG/NHGRI NIH HHS/United States
-GR  - F32HG004207/HG/NHGRI NIH HHS/United States
 GR  - R01 GM078541/GM/NIGMS NIH HHS/United States
 GR  - 1R01CA132065/CA/NCI NIH HHS/United States
 GR  - F32 HG004207/HG/NHGRI NIH HHS/United States
@@ -23001,9 +24586,11 @@ GR  - P01 CA116676/CA/NCI NIH HHS/United States
 GR  - R01 CA116804/CA/NCI NIH HHS/United States
 GR  - R01CA116804/CA/NCI NIH HHS/United States
 GR  - 5P01CA116676/CA/NCI NIH HHS/United States
+GR  - R01 HG002898-06/HG/NHGRI NIH HHS/United States
+GR  - R01HG002898/HG/NHGRI NIH HHS/United States
+GR  - F32HG004207/HG/NHGRI NIH HHS/United States
 GR  - T32 GM008490/GM/NIGMS NIH HHS/United States
 GR  - R01CA086335/CA/NCI NIH HHS/United States
-GR  - R01 HG002898-06/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -23044,7 +24631,7 @@ PMID- 20364138
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20100527
-LR  - 20181113
+LR  - 20211203
 IS  - 1546-1718 (Electronic)
 IS  - 1061-4036 (Linking)
 VI  - 42
@@ -23132,10 +24719,10 @@ FAU - Seo, Jeong-Sun
 AU  - Seo JS
 LA  - eng
 SI  - GEO/GSE19651
-GR  - 077009/Wellcome Trust/United Kingdom
-GR  - 077008/Wellcome Trust/United Kingdom
+GR  - 077009/WT_/Wellcome Trust/United Kingdom
+GR  - 077008/WT_/Wellcome Trust/United Kingdom
 GR  - HG004221/HG/NHGRI NIH HHS/United States
-GR  - 077014/Wellcome Trust/United Kingdom
+GR  - 077014/WT_/Wellcome Trust/United Kingdom
 GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
@@ -23148,7 +24735,7 @@ JID - 9216904
 SB  - IM
 CIN - Nat Genet. 2010 May;42(5):365-6. PMID: 20428091
 MH  - Algorithms
-MH  - Asian Continental Ancestry Group
+MH  - Asians
 MH  - China
 MH  - Chromosome Mapping
 MH  - Computational Biology/methods
@@ -23182,7 +24769,7 @@ PMID- 20028483
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20100805
-LR  - 20181113
+LR  - 20220409
 IS  - 1600-0854 (Electronic)
 IS  - 1398-9219 (Linking)
 VI  - 11
@@ -23271,7 +24858,7 @@ PMID- 19587683
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20090923
-LR  - 20181113
+LR  - 20211203
 IS  - 1476-4687 (Electronic)
 IS  - 0028-0836 (Linking)
 VI  - 460
@@ -23394,14 +24981,14 @@ AU  - Kingsmore SF
 FAU - Seo, Jeong-Sun
 AU  - Seo JS
 LA  - eng
-GR  - U01 AI066569/AI/NIAID NIH HHS/United States
-GR  - U01 AI066569-04/AI/NIAID NIH HHS/United States
-GR  - RR016480/RR/NCRR NIH HHS/United States
 GR  - HG004221/HG/NHGRI NIH HHS/United States
 GR  - U19 HD077693/HD/NICHD NIH HHS/United States
 GR  - P20 RR016480-08/RR/NCRR NIH HHS/United States
 GR  - P41 HG004221/HG/NHGRI NIH HHS/United States
 GR  - P20 RR016480/RR/NCRR NIH HHS/United States
+GR  - U01 AI066569/AI/NIAID NIH HHS/United States
+GR  - U01 AI066569-04/AI/NIAID NIH HHS/United States
+GR  - RR016480/RR/NCRR NIH HHS/United States
 PT  - Journal Article
 PT  - Research Support, N.I.H., Extramural
 PT  - Research Support, Non-U.S. Gov't
@@ -23411,7 +24998,7 @@ TA  - Nature
 JT  - Nature
 JID - 0410462
 SB  - IM
-MH  - Asian Continental Ancestry Group/*genetics
+MH  - Asians/*genetics
 MH  - Chromosomes, Artificial, Bacterial/genetics
 MH  - Comparative Genomic Hybridization
 MH  - Computational Biology
@@ -23442,7 +25029,7 @@ PMID- 18836035
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20090116
-LR  - 20181113
+LR  - 20220409
 IS  - 1088-9051 (Print)
 IS  - 1088-9051 (Linking)
 VI  - 18
@@ -23532,7 +25119,7 @@ PMID- 18343812
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20080617
-LR  - 20210206
+LR  - 20211020
 IS  - 0021-9258 (Print)
 IS  - 0021-9258 (Linking)
 VI  - 283
@@ -23632,7 +25219,7 @@ PMID- 17331616
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20070605
-LR  - 20161122
+LR  - 20220330
 IS  - 0168-9525 (Print)
 IS  - 0168-9525 (Linking)
 VI  - 23
@@ -23704,7 +25291,7 @@ PMID- 17170104
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20070417
-LR  - 20210209
+LR  - 20220309
 IS  - 0021-9258 (Print)
 IS  - 0021-9258 (Linking)
 VI  - 282
@@ -23739,7 +25326,7 @@ AU  - Devine SE
 FAU - Corbett, Anita H
 AU  - Corbett AH
 LA  - eng
-GR  - MC_U105178939/Medical Research Council/United Kingdom
+GR  - MC_U105178939/MRC_/Medical Research Council/United Kingdom
 GR  - R01 GM058728/GM/NIGMS NIH HHS/United States
 GR  - R01 HG002898/HG/NHGRI NIH HHS/United States
 GR  - R01 HG002898-03/HG/NHGRI NIH HHS/United States
@@ -23780,7 +25367,7 @@ PMID- 16902084
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20061019
-LR  - 20181113
+LR  - 20220410
 IS  - 1088-9051 (Print)
 IS  - 1088-9051 (Linking)
 VI  - 16
@@ -23866,7 +25453,7 @@ PMID- 16532396
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20060425
-LR  - 20200824
+LR  - 20220330
 IS  - 0002-9297 (Print)
 IS  - 0002-9297 (Linking)
 VI  - 78
