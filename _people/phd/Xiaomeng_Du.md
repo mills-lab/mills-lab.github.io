@@ -3,8 +3,8 @@ publish: true
 name: Xiaomeng Du 
 title: Bioinformatics PhD Pre-Candidate
 picture: Xiaomeng_Du_pic.jpg
-line1: M.S., University of Michigan
-line2: B.S., Renmin University of China
+line1: B.S., Renmin University of China
+line2: M.S., University of Michigan
 google-scholar: 
 CV:
 linked-in: 
