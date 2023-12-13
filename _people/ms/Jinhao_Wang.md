@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Jinhao Wang 
-title: Biostatistics MS Candidate
+title: Bioinformatics PhD Candidate
 picture: Jinhao_Wang_pic.jpg
 line1: B.S., Western University, Canada
 line2: 
