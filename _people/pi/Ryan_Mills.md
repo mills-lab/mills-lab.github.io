@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Ryan E. Mills
-title: Associate Professor, DCM&B and Human Genetics
+title: Professor, DCM&B and Human Genetics
 line1: Ph.D., M.S., Georgia Institute of Technology
 line2: A.B., Wabash College
 line3: 
