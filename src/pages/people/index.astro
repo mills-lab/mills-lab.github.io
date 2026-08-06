@@ -8,30 +8,51 @@ const people = (await getCollection('people')).filter((p) => p.data.publish);
 const byStartDateAsc = (a: (typeof people)[number], b: (typeof people)[number]) =>
   (a.data.startDate?.valueOf() ?? 0) - (b.data.startDate?.valueOf() ?? 0);
 
-const current = people
-  .filter((p) => p.data.status !== 'alumni')
-  .sort(byStartDateAsc);
-const alumni = people.filter((p) => p.data.status === 'alumni').sort(byStartDateAsc).reverse();
-
 const STATUS_LABEL: Record<string, string> = {
   pi: 'Principal Investigator',
   researchinvestigator: 'Research Investigator',
   phd: 'Doctoral Student',
 };
+
+const sections = [
+  {
+    title: 'Current Lab Members',
+    people: people
+      .filter((p) => p.data.status === 'pi' || p.data.status === 'phd' || p.data.status === 'researchinvestigator')
+      .sort(byStartDateAsc),
+  },
+  {
+    title: 'Ph.D. Alumni',
+    people: people.filter((p) => p.data.status === 'phd-alumni').sort(byStartDateAsc).reverse(),
+  },
+  {
+    title: 'Other Lab Alumni',
+    people: people.filter((p) => p.data.status === 'other-alumni').sort(byStartDateAsc).reverse(),
+  },
+  {
+    title: 'Past Rotation Students',
+    people: people.filter((p) => p.data.status === 'rotation-alumni').sort(byStartDateAsc).reverse(),
+  },
+].filter((section) => section.people.length > 0);
 ---
 
 <Layout title="People">
   <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
     <h1 class="text-3xl font-bold text-umblue-950">People</h1>
 
-    <h2 class="mt-10 text-xl font-semibold text-umblue-950">Current Lab Members</h2>
-    <div class="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {current.map((person) => <PersonCard person={{ ...person.data, title: person.data.title ?? STATUS_LABEL[person.data.status] }} />)}
-    </div>
-
-    <h2 class="mt-14 text-xl font-semibold text-umblue-950">Alumni</h2>
-    <div class="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {alumni.map((person) => <PersonCard person={person.data} />)}
-    </div>
+    {
+      sections.map((section, i) => (
+        <>
+          <h2 class:list={['text-xl font-semibold text-umblue-950', i === 0 ? 'mt-10' : 'mt-14']}>
+            {section.title}
+          </h2>
+          <div class="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {section.people.map((person) => (
+              <PersonCard person={{ ...person.data, title: person.data.title ?? STATUS_LABEL[person.data.status] }} />
+            ))}
+          </div>
+        </>
+      ))
+    }
   </div>
 </Layout>

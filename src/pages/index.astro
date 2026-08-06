@@ -12,7 +12,8 @@ const latestResearch = (await getCollection('research'))
   .slice(0, 4);
 
 const people = await getCollection('people');
-const currentMemberCount = people.filter((p) => p.data.publish && p.data.status !== 'alumni').length;
+const CURRENT_STATUSES = new Set(['pi', 'phd', 'researchinvestigator']);
+const currentMemberCount = people.filter((p) => p.data.publish && CURRENT_STATUSES.has(p.data.status)).length;
 const publicationCount = (await getCollection('publications')).length;
 const softwareCount = (await getCollection('software')).length;
 

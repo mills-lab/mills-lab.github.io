@@ -20,23 +20,35 @@ const posts = defineCollection({
   }),
 });
 
+// The preset external-link types a person card can show as an icon. `other`
+// is the escape hatch — paired with a custom `label`, it's how Phase 3's
+// CMS should let lab members add a link type beyond this initial list
+// (e.g. ORCID, a lab wiki page) without a code change.
+const PERSON_LINK_TYPES = ['cv', 'googleScholar', 'linkedin', 'github', 'twitter', 'website', 'email', 'other'] as const;
+
 const people = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/people' }),
   schema: z.object({
     publish: z.boolean().default(true),
-    status: z.enum(['pi', 'phd', 'alumni', 'researchinvestigator']),
+    // `phd` = current PhD student; alumni are split into their own values
+    // so the People page can render them as separate sections.
+    status: z.enum(['pi', 'phd', 'researchinvestigator', 'phd-alumni', 'other-alumni', 'rotation-alumni']),
     name: z.string(),
     title: z.string().optional(),
     line1: z.string().optional(),
     line2: z.string().optional(),
     line3: z.string().optional(),
     picture: z.string().optional(),
-    googleScholar: z.string().optional(),
-    cv: z.string().optional(),
-    linkedIn: z.string().optional(),
-    twitter: z.string().optional(),
-    email: z.string().optional(),
     startDate: z.coerce.date().optional(),
+    links: z
+      .array(
+        z.object({
+          type: z.enum(PERSON_LINK_TYPES),
+          label: z.string().optional(),
+          url: z.string(),
+        })
+      )
+      .default([]),
   }),
 });
 

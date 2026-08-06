@@ -222,11 +222,56 @@ behavior, etc.
   identical `max-w-6xl px-4 py-8 sm:px-6 sm:py-10` containers in build
   output, one per section.
 
+- **People page: 4 sections + extensible icon links**. User wants "Current
+  Lab Members", "Ph.D. Alumni", "Other Lab Alumni", "Past Rotation Students"
+  as separate sections, plus CV/Google Scholar/LinkedIn/GitHub/email shown
+  as icon links, with room for the CMS to add more link types later.
+  - **Status split**: `people.status` enum went from `pi | phd | alumni |
+    researchinvestigator` to `pi | phd | researchinvestigator | phd-alumni
+    | other-alumni | rotation-alumni` (`phd` now unambiguously means
+    *current* student, since alumni have their own values).
+  - **⚠️ Needs your review**: the legacy data never distinguished *why*
+    someone left `_people/alumni/` — I classified all 13 by each person's
+    `title` field (`ALUMNI_SUBSTATUS` map in `scripts/migrate-content.mjs`):
+    "PhD Candidate/Student" → Ph.D. Alumni (Alex Weber, Chen Sun, Marcus
+    Sherman, Xuefang Zhao, Yifan Wang); "Rotation Student" → Past Rotation
+    Students (Catherine Barnier, Fan Zhang); everything else → Other Lab
+    Alumni (Gargi Dayama, Tony Chun — clearly postdocs — plus **Akima
+    George, Nan Lin, Zhenning Zhang**, whose titles ("Bioinformatics
+    Student", "Human Genetics Student") don't say PhD or Rotation
+    explicitly — I defaulted these three to Other Lab Alumni but genuinely
+    don't know if that's right. Worth a quick look before this ships.
+  - **Extensible `links` field** (this is the actual feature ask): replaced
+    the flat `cv`/`googleScholar`/`linkedIn`/`twitter`/`email` fields with
+    `links: { type, label?, url }[]`, `type` a preset enum (`cv`,
+    `googleScholar`, `linkedin`, `github`, `twitter`, `website`, `email`,
+    `other`). `other` + a custom `label` is the escape hatch — **when Phase
+    3 builds the Decap config, expose `other` as an "add a different kind
+    of link" option** (e.g. a list widget with a type dropdown that
+    includes "Other" + a label field) so lab members aren't stuck with only
+    the 5 you named if something new comes up later (ORCID, a personal
+    site, etc.).
+  - New `src/components/PersonLinks.astro` renders these as icon-only
+    circular buttons (hand-drawn inline SVGs — document icon for CV, cap
+    for Scholar, simplified LinkedIn/GitHub/X marks, envelope for email,
+    globe for website, chain-link for `other` — no icon library
+    dependency), with `aria-label`/`title` for accessibility.
+  - **Not migrated**: the old `linked-in` field's legacy values (e.g.
+    Ryan's `pub/ryan-mills-82b5854//`) are in LinkedIn's `/pub/` URL format,
+    deprecated years ago and never actually rendered on the old site either
+    — skipped rather than publishing a link that's probably already dead.
+    Add a current LinkedIn URL by hand, or via the CMS later, if wanted.
+  - Verified via build output: 7 current / 5 Ph.D. alumni / 6 other alumni
+    / 2 rotation alumni = 20 total (matches full people count exactly), 17
+    icon links total across all cards, all resolving to the expected
+    aria-labels (2 CV, 2 Google Scholar, 1 X/Twitter, 12 Email).
+
 ## Next: Phase 3 — Decap CMS integration
 
 Not started. Needs: `public/admin/index.html` + `config.yml` defining Decap
-collections matching the schemas in `src/content.config.ts`, a GitHub OAuth
-App + small OAuth proxy (Cloudflare Worker recommended, e.g. the
+collections matching the schemas in `src/content.config.ts` (note the
+`people.links` list-with-type-dropdown design above), a GitHub OAuth App +
+small OAuth proxy (Cloudflare Worker recommended, e.g. the
 `sveltia-cms-auth` script — GitHub Pages can't run the server-side half of
 the OAuth flow itself), `publish_mode: editorial_workflow`, `branch:
 development` for now.

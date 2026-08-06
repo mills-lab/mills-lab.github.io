@@ -61,9 +61,51 @@ function migratePosts() {
 }
 
 // ---- people ----
+// Legacy _people/alumni/*.md didn't distinguish PhD alumni from rotation
+// students from other roles (postdocs, masters students, etc.) - the new
+// People page wants those as three separate sections. Classified below by
+// each person's `title` field: "PhD Candidate/Student" -> phd-alumni,
+// "Rotation Student" -> rotation-alumni, everything else -> other-alumni.
+// A few (Akima George, Nan Lin, Zhenning Zhang) have ambiguous titles with
+// no explicit "PhD" or "Rotation" - defaulted to other-alumni but worth the
+// user double-checking; see PROGRESS.md.
+const ALUMNI_SUBSTATUS = {
+  'Akima_George.md': 'other-alumni',
+  'Alex_Weber.md': 'phd-alumni',
+  'Catherine_Barnier.md': 'rotation-alumni',
+  'Chen_Sun.md': 'phd-alumni',
+  'Fan_Zhang.md': 'rotation-alumni',
+  'Gargi_Dayama.md': 'other-alumni',
+  'Marcus_Sherman.md': 'phd-alumni',
+  'Nan_Lin.md': 'other-alumni',
+  'Shaomiao_Xia.md': 'other-alumni',
+  'Tony_Chun.md': 'other-alumni',
+  'Xuefang_Zhao.md': 'phd-alumni',
+  'Yifan_Wang.md': 'phd-alumni',
+  'Zhenning_Zhang.md': 'other-alumni',
+};
+
+// Builds the extensible `links` array from the old flat fields. `linked-in`
+// is deliberately skipped: the legacy values (e.g. "pub/ryan-mills-82b5854//")
+// are in LinkedIn's old /pub/ URL format, deprecated years ago and never
+// actually rendered on the old site either - migrating it would just
+// publish a link that's likely already dead. Add a current LinkedIn URL by
+// hand, or via the CMS once Phase 3 exists.
+function buildPersonLinks(data) {
+  const links = [];
+  if (data.CV) links.push({ type: 'cv', url: `/assets/${data.CV}` });
+  if (data['google-scholar']) {
+    links.push({ type: 'googleScholar', url: `https://scholar.google.com/citations?user=${data['google-scholar']}` });
+  }
+  if (data.twitter) links.push({ type: 'twitter', url: `https://twitter.com/${data.twitter}` });
+  if (data.email) links.push({ type: 'email', url: data.email });
+  return links;
+}
+
 function migratePeople() {
   const srcRoot = path.join(root, '_people');
   const outDir = path.join(outRoot, 'people');
+  fs.rmSync(outDir, { recursive: true, force: true });
   ensureDir(outDir);
   const statuses = ['pi', 'phd', 'alumni', 'researchinvestigator'];
   for (const status of statuses) {
@@ -71,23 +113,20 @@ function migratePeople() {
     if (!fs.existsSync(srcDir)) continue;
     for (const file of fs.readdirSync(srcDir).filter((f) => f.endsWith('.md'))) {
       const { data, content } = matter.read(path.join(srcDir, file));
+      const resolvedStatus = status === 'alumni' ? (ALUMNI_SUBSTATUS[file] ?? 'other-alumni') : status;
       writeEntry(
         path.join(outDir, `${status}-${file}`),
         {
           publish: data.publish,
-          status,
+          status: resolvedStatus,
           name: data.name,
           title: data.title,
           line1: data.line1,
           line2: data.line2,
           line3: data.line3,
           picture: data.picture,
-          googleScholar: data['google-scholar'],
-          cv: data.CV,
-          linkedIn: data['linked-in'],
-          twitter: data.twitter,
-          email: data.email,
           startDate: data['start-date'],
+          links: buildPersonLinks(data),
         },
         content
       );
