@@ -134,6 +134,24 @@ behavior, etc.
   - **Not yet wired into Decap CMS** (Phase 3 hasn't started) — when Phase 3
     happens, add a `media` collection to `public/admin/config.yml` alongside
     the others so lab members can add press coverage without touching files.
+- **People page photos were over-cropped** — `PersonCard.astro` forced a
+  fixed 240px height with `w-full`, so `object-cover` cropped away most of
+  each photo's width in wide grid columns. The source photos in
+  `public/assets/people/` are already pre-cropped to a consistent 190x240
+  ratio (hardcoded in the legacy `_includes/people-grid.html`), so the fix
+  was sizing by that same ratio (`aspect-[19/24]`) instead of a fixed
+  height — verified the compiled CSS (`aspect-ratio:19/24`).
+- **Lightbox for news post images**: new `src/components/Lightbox.astro`
+  (native `<dialog>`, no external library) — any element with
+  `data-lightbox-src` opens the full-resolution image in a modal on click
+  (Escape/backdrop-click/×-button to close). Wired into
+  `PostGallery.astro` (each gallery photo) and the feature image on
+  `src/pages/news/[slug].astro`. The gallery/feature images were already
+  the full-resolution source files (just displayed cropped/small), so this
+  is a display-only change — no new image assets needed. Verified via build
+  output that every post's images carry `data-lightbox-src` and the
+  dialog/script appear exactly once per page (shared between the two
+  components' triggers, not duplicated).
 
 ## Next: Phase 3 — Decap CMS integration
 

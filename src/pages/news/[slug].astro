@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PostGallery from '../../components/PostGallery.astro';
+import Lightbox from '../../components/Lightbox.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -22,11 +23,24 @@ const feature = post.data.image?.feature ? `/images/${post.data.image.feature}` 
   <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
     <p class="text-sm text-slate-500">{dateFmt.format(post.data.date)}</p>
     <h1 class="mt-1 text-3xl font-bold text-umblue-950">{post.data.title}</h1>
-    {feature && <img src={feature} alt="" class="mt-6 w-full rounded-lg object-cover" />}
+    {
+      feature && (
+        <button
+          type="button"
+          data-lightbox-src={feature}
+          data-lightbox-alt={post.data.title}
+          class="mt-6 block w-full cursor-zoom-in appearance-none border-0 bg-transparent p-0"
+          aria-label="View full-size photo"
+        >
+          <img src={feature} alt="" class="w-full rounded-lg object-cover transition hover:opacity-90" />
+        </button>
+      )
+    }
     <div class="prose prose-slate mt-6 max-w-none">
       <Content />
     </div>
     {post.data.gallery && <PostGallery folder={post.data.gallery} />}
+    <Lightbox />
     {
       post.data.externalUrl && (
         <p class="mt-6">

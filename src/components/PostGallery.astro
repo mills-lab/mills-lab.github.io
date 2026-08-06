@@ -19,12 +19,19 @@ const images = fs.existsSync(dir)
   images.length > 0 && (
     <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
       {images.map((image) => (
-        <img
-          src={`/images/${folder}/${image}`}
-          alt=""
-          loading="lazy"
-          class="aspect-square w-full rounded-md object-cover"
-        />
+        <button
+          type="button"
+          data-lightbox-src={`/images/${folder}/${image}`}
+          class="block cursor-zoom-in appearance-none border-0 bg-transparent p-0"
+          aria-label="View full-size photo"
+        >
+          <img
+            src={`/images/${folder}/${image}`}
+            alt=""
+            loading="lazy"
+            class="aspect-square w-full rounded-md object-cover transition hover:opacity-90"
+          />
+        </button>
       ))}
     </div>
   )

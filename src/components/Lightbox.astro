@@ -1,0 +1,51 @@
+---
+// Shared full-resolution image viewer. Any element with data-lightbox-src
+// (a <button> wrapping an <img>, typically) opens this on click. One
+// instance per page — used on news detail pages for the feature image and
+// PostGallery photos, all of which already are the full-resolution files.
+---
+
+<dialog id="lightbox-dialog" class="m-auto max-h-[92vh] max-w-[92vw] rounded-lg bg-transparent p-0">
+  <button
+    type="button"
+    id="lightbox-close"
+    aria-label="Close"
+    class="absolute top-3 right-3 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-black/60 text-lg text-white hover:bg-black/80"
+  >
+    &times;
+  </button>
+  <img id="lightbox-image" src="" alt="" class="max-h-[92vh] max-w-[92vw] object-contain" />
+</dialog>
+
+<style>
+  dialog::backdrop {
+    background: rgb(0 0 0 / 85%);
+  }
+</style>
+
+<script>
+  const dialog = document.getElementById('lightbox-dialog');
+  const image = document.getElementById('lightbox-image');
+  const closeButton = document.getElementById('lightbox-close');
+
+  document.addEventListener('click', (event) => {
+    if (!(event.target instanceof Element)) return;
+    const trigger = event.target.closest('[data-lightbox-src]');
+    if (!trigger || !(dialog instanceof HTMLDialogElement) || !(image instanceof HTMLImageElement)) return;
+    image.src = trigger.getAttribute('data-lightbox-src') ?? '';
+    image.alt = trigger.getAttribute('data-lightbox-alt') ?? '';
+    dialog.showModal();
+  });
+
+  closeButton?.addEventListener('click', () => {
+    if (dialog instanceof HTMLDialogElement) dialog.close();
+  });
+
+  dialog?.addEventListener('click', (event) => {
+    if (event.target === dialog && dialog instanceof HTMLDialogElement) dialog.close();
+  });
+
+  dialog?.addEventListener('close', () => {
+    if (image instanceof HTMLImageElement) image.src = '';
+  });
+</script>
