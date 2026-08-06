@@ -429,6 +429,13 @@ behavior, etc.
   Verified in build output: no `float: right` remains, the image/caption
   render in the new position, ordered after the consortia paragraph and
   before "Areas of Investigation".
+- **Hero stats (Lab Members/Publications/Software Tools) are now links**,
+  shrunk down (`dt` `text-sm`→`text-xs`, `dd` `text-3xl`→`text-xl`, tighter
+  `dl` spacing). Each stat's title+number is wrapped in a single `<a>` to
+  `/people/`, `/publications/`, `/software/` respectively, styled to look
+  like plain text (same Tailwind-preflight-inherits-color/decoration trick
+  as the hero eyebrow links) with only a subtle `hover:opacity-80` as a
+  usability cue, per the "shouldn't look like hyperlinks" request.
 
 ## Next: Phase 3 — Decap CMS integration
 
