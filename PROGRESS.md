@@ -202,6 +202,16 @@ behavior, etc.
     actual figure out of a specific paper, which needs someone with
     rights/knowledge of the right image — that's Phase 3 CMS content work,
     not something to fabricate now.
+- **Left-alignment fix**: "Recent Research" and "Lab News" weren't aligned
+  with the hero's "The Mills Lab" / "Our Research" / "Lab Members" content.
+  Cause: the hero's outer container was `max-w-6xl` but the two section
+  containers were independently centered at `max-w-4xl` — different
+  max-widths under `mx-auto` centering don't share a left edge. Fixed by
+  giving both sections the same `mx-auto max-w-6xl px-4 sm:px-6` outer
+  container as the hero, then nesting an un-centered `max-w-4xl` div inside
+  for the narrower reading width (left-aligned by default, since it has no
+  `mx-auto`). Verified in build output that all three containers now emit
+  the identical `max-w-6xl px-4 ... sm:px-6` class string.
 
 ## Next: Phase 3 — Decap CMS integration
 
