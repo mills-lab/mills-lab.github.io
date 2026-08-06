@@ -4,7 +4,7 @@ name: Shaomiao Xia
 title: Bioinformatics MS Candidate
 picture: Shaomiao_Xia_pic.jpg
 line1: B.S., The Chinese University of Hong Kong, Shenzhen 
-line2: 
+line2: Research Assistant, University of Michigan
 google-scholar: 
 CV:
 linked-in: 

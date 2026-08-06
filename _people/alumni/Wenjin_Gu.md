@@ -8,7 +8,7 @@ line2: M.S., Biostatistics, University of Michigan
 line3: Tempus AI
 google-scholar: 
 CV:
-linked-in: 
+linked-in: https://www.linkedin.com/in/wenjin-gu/
 twitter:
 email: wenjingu@umich.edu
 start-date: 2020-09-01

@@ -5,7 +5,7 @@ title: Bioinformatics PhD Candidate
 picture: Chen_Sun_pic.jpg
 line1: B.S., Shanghai Jiaotong University
 line2:  
-google-scholar: 
+google-scholar: 5I43zBsAAAAJ
 CV:
 linked-in: 
 twitter:

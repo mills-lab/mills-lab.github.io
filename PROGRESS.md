@@ -274,6 +274,62 @@ behavior, etc.
   line2-as-current-position pattern other alumni entries use). Steve got no
   institution line, per the request. Verified: Current Lab Members
   7 → 5, Ph.D. Alumni 5 → 7, "Tempus AI" renders on the page.
+- **Web-researched current institution/Scholar/LinkedIn for all 15 alumni**
+  (user request). Used 3 parallel research agents (WebSearch + WebFetch,
+  cross-checking every candidate against known facts — degree, program,
+  advisor/lab, dates — before treating it as a match) plus direct research
+  for Alex Weber. Google Scholar matches were verified by fetching the
+  profile directly (Scholar pages are fetchable); **LinkedIn matches could
+  only be verified via search-snippet text, not by fetching the profile
+  page itself — LinkedIn blocks WebFetch**. Treat LinkedIn URLs as
+  best-effort; Scholar URLs as verified.
+  - **Applied (current institution updated):** Marcus Sherman (Assistant →
+    Associate Teaching Professor, Roux Institute/Northeastern — his title
+    had advanced), Xuefang Zhao (Post-doctoral Fellow → Staff Scientist,
+    Talkowski Lab/MGH), Yifan Wang (added Postdoctoral Research Fellow,
+    Mayo Clinic), Catherine Barnier (Ph.D. Student, Freddolino Lab →
+    Consultant, ClearView Healthcare Partners — she defended Oct 2024), Fan
+    Zhang (Ph.D. Student, Kang Lab → Senior Bioinformatics Scientist,
+    Illumina), Gargi Dayama (Post-doctoral Fellow → Senior Research
+    Scientist, Lau Lab, Boston University — consolidated her two degree
+    lines into one to free up a line for this, all three schema line slots
+    were already full), Shaomiao Xia (added Research Assistant, University
+    of Michigan), Zhenning Zhang (Engineer, Ann Arbor Algorithms → Machine
+    Learning Engineer, AstraZeneca — the old employer's own alumni page
+    confirmed the transition).
+  - **Applied (added Scholar/LinkedIn only, institution unchanged or still
+    blank):** Alex Weber, Chen Sun (Scholar only — no confident current
+    employer found), Wenjin Gu (LinkedIn only — institution already set to
+    Tempus AI from your earlier request), Steve Ho (Scholar + LinkedIn
+    only — no institution, per your earlier explicit "no current
+    institution" instruction, which I treated as still standing).
+  - **⚠️ Skipped — not confident enough to publish:** Akima George (one
+    candidate found — "Development Specialist, POBLO International" — but
+    only via a third-party contact-aggregator site, not a primary source;
+    the research agent itself recommended a manual check before
+    publishing). Nan Lin and Tony Chun: nothing found either confirming or
+    contradicting their existing "last known" info (Research Assistant,
+    Indiana University / Senior Scientist, CJ Research Institute of
+    Biotechnology) — left unchanged since it's unverified either way, not
+    known-wrong.
+  - **Note on Fan Zhang**: her personal site uses he/his pronouns, which
+    the research agent flagged as inconsistent with an assumption it made
+    from the name; the institutional match (B.S.E. South China University
+    of Technology, UM Bioinformatics PhD, advisor Hyun Min Kang) is
+    specific enough that I'm confident it's the same person regardless —
+    flagging here in case it matters for how her entry is written.
+  - **Migration script change**: `buildPersonLinks()` in
+    `scripts/migrate-content.mjs` now accepts a `linked-in` value if it's a
+    full URL (`^https?://`), passing it straight through — previously the
+    field was ignored entirely because the only existing value (Ryan
+    Mills', in LinkedIn's deprecated `/pub/` format) wasn't usable. Freshly
+    researched URLs are all full `https://www.linkedin.com/in/...` links,
+    so they now flow through; any future stale/malformed value is silently
+    ignored rather than migrated into a broken link.
+  - Verified via build output: Google Scholar icons 2 → 7, LinkedIn icons
+    0 → 7, and spot-checked every updated institution string
+    (Illumina, AstraZeneca, Mayo Clinic, Boston University, etc.) appears
+    exactly once in the rendered People page.
 
 ## Next: Phase 3 — Decap CMS integration
 

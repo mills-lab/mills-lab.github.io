@@ -99,6 +99,13 @@ function buildPersonLinks(data) {
   if (data['google-scholar']) {
     links.push({ type: 'googleScholar', url: `https://scholar.google.com/citations?user=${data['google-scholar']}` });
   }
+  // Only accept `linked-in` if it's a real full URL. Legacy values (e.g.
+  // "pub/ryan-mills-82b5854//") are bare path fragments in LinkedIn's
+  // deprecated /pub/ scheme and get silently ignored rather than migrated
+  // into a broken link; freshly-researched full URLs pass through as-is.
+  if (data['linked-in'] && /^https?:\/\//.test(data['linked-in'])) {
+    links.push({ type: 'linkedin', url: data['linked-in'] });
+  }
   if (data.twitter) links.push({ type: 'twitter', url: `https://twitter.com/${data.twitter}` });
   if (data.email) links.push({ type: 'email', url: data.email });
   return links;
