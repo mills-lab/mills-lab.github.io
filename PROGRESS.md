@@ -358,6 +358,56 @@ behavior, etc.
     `journal`. Verified zero `&#` sequences remain in
     `src/content/publications/*.md` after re-running the migration, and
     that e.g. "Mako: A Graph..." renders with a real colon.
+- **Added recent publications from Ryan Mills' NCBI MyBibliography**
+  (https://www.ncbi.nlm.nih.gov/myncbi/1-Io6fmDrHEQv/bibliography/public/,
+  117 entries across 3 pages, per user request).
+  - **The bibliography is contaminated with false positives** — about 20 of
+    the ~26 newest candidate entries turned out to be papers by a
+    different University of Michigan researcher (Ivo Dinov's biostatistics/
+    ML lab: DataSifter, SOCRAT, spacekime, brain-tumor-segmentation papers)
+    or Brenner-lab HNSCC papers that don't actually include Ryan Mills as
+    an author — NCBI's auto-bibliography matching isn't reliable. Verified
+    every candidate by fetching full author lists from NCBI's E-utilities
+    esummary API (`eutils.ncbi.nlm.nih.gov/.../esummary.fcgi`, batched by
+    PMID) and only added ones where "Mills RE" literally appears in the
+    author list — not just topical plausibility.
+  - **Added 4 new entries** (all confirmed "Mills RE" co-author):
+    PMID 40689859 (Merkel Cell Carcinoma genomics, Mol Cancer Res, 2025),
+    40604182 (Somatic Mosaicism across Human Tissues Network flagship
+    paper, Nature, 2025 — the SMaHT consortium the lab's Research page
+    already mentions), and two current bioRxiv preprints not yet published
+    (39763954, 41278868).
+  - **Replaced 1 bioRxiv entry with its published version**: old
+    PMID 36945473 ("Mapping the Complex Genetic Landscape of Human
+    Neurons," bioRxiv) removed, replaced by PMID 38760338 ("Mapping
+    recurrent mosaic copy number variation in human neurons," Nature
+    Communications, 2024) — confirmed same paper via near-identical
+    author list (Sun C, Kathuria K, Emery SB, ... Mills RE, McConnell MJ)
+    and the bibliography explicitly listing 38760338 as a current entry.
+  - **Left the other existing bioRxiv entry unchanged** (PMID 36778249,
+    "Somatic nuclear mitochondrial DNA insertions..."). I independently
+    know (from the earlier Recent Research task) that this was published
+    in PLoS Biology as PMID 39172952 — but per your explicit instruction to
+    only remove bioRxiv entries "now included at this link," I checked all
+    3 pages of the bibliography and 39172952 does not appear there, so I
+    left 36778249 as-is rather than substitute my own outside knowledge for
+    the stated rule. Worth a manual look if you want it updated anyway.
+  - **Found and fixed a real pre-existing bug** while adding the two new
+    bioRxiv preprints: empty YAML values (`volume: `) parse to `null`, but
+    `migratePublications()` checked `!== undefined`, so `String(null)`
+    produced the literal text `"null"` — visible on the *existing* bioRxiv
+    entry too ("bioRxiv 2023 Apr 21, null(null), N/A"), not something this
+    task introduced. Fixed by checking `!= null` instead (catches both
+    `null` and `undefined`) for pmid/pubdate/volume/issue/pages in
+    `scripts/migrate-content.mjs`. Also added the same `fs.rmSync` cleanup
+    before regeneration that `migratePeople`/`migratePages` already had, so
+    deleted `_pubs/*.md` files (like the superseded 36945473) don't leave
+    an orphaned file in `src/content/publications/`.
+  - Verified: 94 total publications (90 − 1 replaced + 5 new... 4 added +
+    1 replacement = net +4), new 2025 year section appears on the
+    Publications page, all 5 new/updated titles render, the superseded
+    title is gone, and the `null(null)` artifact no longer appears
+    anywhere.
 
 ## Next: Phase 3 — Decap CMS integration
 

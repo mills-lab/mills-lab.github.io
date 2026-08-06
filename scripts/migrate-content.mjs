@@ -159,19 +159,22 @@ function migratePeople() {
 function migratePublications() {
   const srcDir = path.join(root, '_pubs');
   const outDir = path.join(outRoot, 'publications');
+  fs.rmSync(outDir, { recursive: true, force: true });
   ensureDir(outDir);
   for (const file of fs.readdirSync(srcDir).filter((f) => f.endsWith('.md'))) {
     const { data, content } = matter.read(path.join(srcDir, file));
     writeEntry(
       path.join(outDir, file),
       {
-        pmid: data.pmid !== undefined ? String(data.pmid) : undefined,
+        pmid: data.pmid != null ? String(data.pmid) : undefined,
         title: decodeHtmlEntities(data.title),
         authors: decodeHtmlEntities(data.authors),
-        pubdate: data.pubdate !== undefined ? String(data.pubdate) : undefined,
-        volume: data.volume !== undefined ? String(data.volume) : undefined,
-        issue: data.issue !== undefined ? String(data.issue) : undefined,
-        pages: data.pages !== undefined ? String(data.pages) : undefined,
+        pubdate: data.pubdate != null ? String(data.pubdate) : undefined,
+        // Empty YAML values (e.g. `volume: `) parse to null, not undefined -
+        // `!= null` catches both so they don't get stringified to "null".
+        volume: data.volume != null ? String(data.volume) : undefined,
+        issue: data.issue != null ? String(data.issue) : undefined,
+        pages: data.pages != null ? String(data.pages) : undefined,
         journal: decodeHtmlEntities(data.journal),
       },
       content
