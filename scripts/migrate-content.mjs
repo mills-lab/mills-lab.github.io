@@ -14,6 +14,18 @@ function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
+// PubMed's bibliographic export encoded punctuation as HTML entities (e.g.
+// "Mako&#58; A Graph-based..." instead of "Mako: A Graph-based..."), which
+// otherwise renders literally instead of as a colon. Decode the common ones.
+const HTML_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
+function decodeHtmlEntities(str) {
+  if (typeof str !== 'string') return str;
+  return str
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(parseInt(dec, 10)))
+    .replace(/&([a-zA-Z]+);/g, (m, name) => HTML_ENTITIES[name] ?? m);
+}
+
 function writeEntry(outPath, data, body) {
   const cleaned = Object.fromEntries(
     Object.entries(data).filter(([, v]) => v !== undefined && v !== null && v !== '')
@@ -154,13 +166,13 @@ function migratePublications() {
       path.join(outDir, file),
       {
         pmid: data.pmid !== undefined ? String(data.pmid) : undefined,
-        title: data.title,
-        authors: data.authors,
+        title: decodeHtmlEntities(data.title),
+        authors: decodeHtmlEntities(data.authors),
         pubdate: data.pubdate !== undefined ? String(data.pubdate) : undefined,
         volume: data.volume !== undefined ? String(data.volume) : undefined,
         issue: data.issue !== undefined ? String(data.issue) : undefined,
         pages: data.pages !== undefined ? String(data.pages) : undefined,
-        journal: data.journal,
+        journal: decodeHtmlEntities(data.journal),
       },
       content
     );

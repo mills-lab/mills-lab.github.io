@@ -330,6 +330,34 @@ behavior, etc.
     0 → 7, and spot-checked every updated institution string
     (Illumina, AstraZeneca, Mayo Clinic, Boston University, etc.) appears
     exactly once in the rendered People page.
+- **Publications page: year sections, PubMed icon, decoded titles.**
+  - `src/pages/publications/index.astro` now groups publications by year
+    (parsed from the leading 4 digits of `pubdate`, which every one of the
+    90 entries has) into subtle uppercase/tracking-wide/slate-400 section
+    headers, sorted newest-year-first. **Caught a bug while verifying**:
+    initially built the year list via `[...new Set(...)]` off the
+    pmid-sorted array, which orders years by first-appearance-in-pmid-order
+    rather than chronologically — pmid isn't perfectly monotonic with
+    pubdate year, so headers came out jumbled (2018, 2017, ... 2008, 2003,
+    2007, 2006, 2004, 2023, ...). Fixed by explicitly sorting the unique
+    years numerically descending; verified all 20 year headers (2023 down
+    to 2003) now in correct order and all 90 publications still accounted
+    for across the groups.
+  - The `pmid:12345` text link is now an icon-only PubMed link (hand-drawn
+    DNA-helix SVG, not an attempt to reproduce PubMed's actual logo/brand
+    mark — kept generic to avoid any trademark-reproduction question — with
+    `aria-label`/`title="View on PubMed"` so it's unambiguous what it
+    links to).
+  - **Decoded HTML entities in publication titles/authors/journal.**
+    PubMed's bibliographic export encoded colons as `&#58;` (e.g. "Mako&#58;
+    A Graph-based..." instead of "Mako: A Graph-based..."), present in 14
+    of the 90 legacy `_pubs/*.md` files and carried through unchanged by
+    the original migration. Added a small `decodeHtmlEntities()` helper to
+    `scripts/migrate-content.mjs` (handles numeric decimal/hex entities
+    plus `&amp;/&lt;/&gt;/&quot;/&apos;`) applied to `title`, `authors`,
+    `journal`. Verified zero `&#` sequences remain in
+    `src/content/publications/*.md` after re-running the migration, and
+    that e.g. "Mako: A Graph..." renders with a real colon.
 
 ## Next: Phase 3 — Decap CMS integration
 
