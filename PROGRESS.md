@@ -171,6 +171,12 @@ behavior, etc.
   (`max-w-6xl` → `max-w-4xl`, matching their single-column row layout) and
   given less padding (`py-16` → `py-10 sm:py-12`) so there's less empty
   space between the hero, Recent Research, and Lab News sections.
+- **Further spacing fix**: user still saw excess space above "Lab News" and
+  below "Recent Research". Root cause: `FeedRow.astro` had `first:pt-0` but
+  no matching `last:pb-0`, so the last row in each list kept its full `py-7`
+  bottom padding, which then stacked with the section's own bottom padding.
+  Added `last:pb-0` and reduced both sections' padding again
+  (`py-10 sm:py-12` → `py-8 sm:py-10`).
 
 ## Next: Phase 3 — Decap CMS integration
 
