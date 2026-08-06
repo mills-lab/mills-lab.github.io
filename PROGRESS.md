@@ -458,6 +458,14 @@ behavior, etc.
   `CURRENT_STATUSES`) from `src/pages/index.astro` rather than leaving dead
   code. Verified no `<dl>`/"Lab Members"/"Software Tools" remain in the
   build output.
+- **Added a 3rd `research` entry**: "Improving and Scaling Techniques in
+  Both Molecular and Computational Labs with NIH Support" (University of
+  Michigan Medical School, 2023-05-11) — verified via WebFetch that Ryan
+  Mills is co-PI on the NIH Common Fund SMaHT grant this covers. `kind:
+  media`, no `relatedPmid` (the article covers grant funding, not a single
+  paper, so there's no one publication to point at). Verified it renders
+  on the homepage in correct chronological order among the other two
+  `research` entries.
 
 ## Next: Phase 3 — Decap CMS integration
 
