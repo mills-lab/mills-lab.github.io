@@ -95,6 +95,24 @@ deps and do it myself) to catch anything a structural check can't — spacing,
 responsiveness, whether the maize/blue theme actually looks good, mobile menu
 behavior, etc.
 
+## Post-Phase-2 fixes (from user review)
+
+- **Nav order bug**: the header rendered alphabetically (Contact, News,
+  People...) instead of the live site's News, Research, People, Publications,
+  Software, Contact — even though `_data/navigation.yml`'s source array was
+  already in the right order. Root cause: Astro's `file()` loader doesn't
+  guarantee it returns collection entries in source order. Fixed root-cause
+  style rather than patched: `navigation`/`footer` schemas now require an
+  explicit `order: number` field (stamped from array index during
+  migration), and `Header.astro`/`Footer.astro` sort by it explicitly rather
+  than trusting collection iteration order. Verified fixed via build output.
+- **New Phase 7 added to the plan** (`/home/remills/.claude/plans/imperative-purring-trinket.md`):
+  PubMed sync for Ryan Mills' publications — a scheduled/manually-triggered
+  GitHub Action that queries NCBI E-utilities, diffs against
+  `src/content/publications/*.md` by pmid, and opens a PR with new entries
+  (same review-before-publish model as everything else on this site). User
+  explicitly scoped this as post-cutover, not a launch blocker — not started.
+
 ## Next: Phase 3 — Decap CMS integration
 
 Not started. Needs: `public/admin/index.html` + `config.yml` defining Decap

@@ -174,7 +174,9 @@ function slugify(title) {
 
 function migrateDataFile(srcFile, destFile) {
   const items = yaml.load(fs.readFileSync(srcFile, 'utf8'));
-  const keyed = Object.fromEntries(items.map((item) => [slugify(item.title), item]));
+  const keyed = Object.fromEntries(
+    items.map((item, order) => [slugify(item.title), { order, ...item }])
+  );
   fs.writeFileSync(destFile, yaml.dump(keyed, { lineWidth: -1 }));
 }
 

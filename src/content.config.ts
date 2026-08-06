@@ -78,9 +78,13 @@ const pages = defineCollection({
   }),
 });
 
+// `file()`'s data store doesn't guarantee it returns entries in source
+// order, so each entry carries an explicit `order` field (set from its
+// position in the source YAML array) that callers must sort by.
 const navigation = defineCollection({
   loader: file('./src/content/data/navigation.yml'),
   schema: z.object({
+    order: z.number(),
     title: z.string(),
     url: z.string(),
     excerpt: z.string().nullable().optional(),
@@ -91,6 +95,7 @@ const navigation = defineCollection({
 const footer = defineCollection({
   loader: file('./src/content/data/footer.yml'),
   schema: z.object({
+    order: z.number(),
     title: z.string(),
     url: z.string(),
   }),

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 
-const footerLinks = await getCollection('footer');
+const footerLinks = (await getCollection('footer')).sort((a, b) => a.data.order - b.data.order);
 const year = new Date().getFullYear();
 ---
 

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 
-const navItems = await getCollection('navigation');
+const navItems = (await getCollection('navigation')).sort((a, b) => a.data.order - b.data.order);
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
 

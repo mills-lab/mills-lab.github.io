@@ -1,9 +1,12 @@
 university-of-michigan-medical-school:
+  order: 0
   title: University of Michigan Medical School
   url: http://www.med.umich.edu/
 department-of-computational-medicine-and-bioinformatics:
+  order: 1
   title: Department of Computational Medicine and Bioinformatics
   url: https://medicine.umich.edu/dept/computational-medicine-bioinformatics
 department-of-human-genetics:
+  order: 2
   title: Department of Human Genetics
   url: https://medicine.umich.edu/dept/human-genetics/
