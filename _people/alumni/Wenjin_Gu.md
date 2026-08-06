@@ -1,13 +1,15 @@
 ---
 publish: true
-status: phd
-name: Wenjin Gu
+name: Wenjin Gu 
 title: Bioinformatics PhD Candidate
+picture: Wenjin_Gu_pic.jpg
 line1: B.S., China Agricultural University
 line2: M.S., Biostatistics, University of Michigan
-picture: Wenjin_Gu_pic.jpg
-startDate: 2020-09-01T00:00:00.000Z
-links:
-  - type: email
-    url: wenjingu@umich.edu
+line3: Tempus AI
+google-scholar: 
+CV:
+linked-in: 
+twitter:
+email: wenjingu@umich.edu
+start-date: 2020-09-01
 ---

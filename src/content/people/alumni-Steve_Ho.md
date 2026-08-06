@@ -1,6 +1,6 @@
 ---
 publish: true
-status: phd
+status: phd-alumni
 name: Steve Ho
 title: Human Genetics PhD Candidate
 line1: B.S., University of California - Davis

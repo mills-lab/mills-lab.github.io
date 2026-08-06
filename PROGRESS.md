@@ -265,6 +265,15 @@ behavior, etc.
     / 2 rotation alumni = 20 total (matches full people count exactly), 17
     icon links total across all cards, all resolving to the expected
     aria-labels (2 CV, 2 Google Scholar, 1 X/Twitter, 12 Email).
+- **Wenjin Gu and Steve Ho moved to Ph.D. Alumni** (user request, both were
+  previously "current" `phd`). `git mv`'d `_people/phd/{Wenjin_Gu,Steve_Ho}.md`
+  → `_people/alumni/`, added both filenames to `ALUMNI_SUBSTATUS` in
+  `scripts/migrate-content.mjs` as `phd-alumni`. Wenjin's current
+  institution ("Tempus AI") added as `line3` in the legacy source file
+  (line1/line2 were already her two degrees, so it couldn't reuse the
+  line2-as-current-position pattern other alumni entries use). Steve got no
+  institution line, per the request. Verified: Current Lab Members
+  7 → 5, Ph.D. Alumni 5 → 7, "Tempus AI" renders on the page.
 
 ## Next: Phase 3 — Decap CMS integration
 
