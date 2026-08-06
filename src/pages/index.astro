@@ -20,13 +20,8 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
 ---
 
 <Layout title="Home">
-  <section class="relative overflow-hidden bg-umblue-950 text-white">
-    <img
-      src="/images/DNA_Cloud.png"
-      alt=""
-      class="pointer-events-none absolute inset-y-0 right-0 hidden h-full w-auto opacity-10 mix-blend-screen sm:block"
-    />
-    <div class="relative mx-auto max-w-6xl px-4 py-24 sm:px-6 sm:py-28">
+  <section class="bg-umblue-950 text-white">
+    <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
       <p class="text-sm font-semibold tracking-widest text-maize-400 uppercase">
         University of Michigan &middot; Computational Medicine &amp; Bioinformatics
       </p>
@@ -43,7 +38,7 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
           Meet the Lab
         </a>
       </div>
-      <dl class="mt-14 grid max-w-xl grid-cols-2 gap-8 border-t border-white/20 pt-8 sm:grid-cols-3">
+      <dl class="mt-10 grid max-w-xl grid-cols-2 gap-8 border-t border-white/20 pt-6 sm:grid-cols-3">
         <div>
           <dt class="text-sm text-slate-300">Lab Members</dt>
           <dd class="text-3xl font-bold text-maize-400">{currentMemberCount}</dd>

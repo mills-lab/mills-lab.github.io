@@ -121,10 +121,11 @@ behavior, etc.
     University Irving Medical Center article covering the same PLOS Biology
     study. Deliberately did not fabricate additional press coverage —
     add more `media/*.md` entries as real coverage appears.
-  - Homepage hero: added `public/images/DNA_Cloud.png` (an existing legacy
-    lab asset, a word-cloud graphic) as a low-opacity background layer, plus
-    a stats row (lab member count, publication count, software count) pulled
-    live from the collections — all real counts, nothing hardcoded.
+  - Homepage hero: added a stats row (lab member count, publication count,
+    software count) pulled live from the collections — all real counts,
+    nothing hardcoded. (Originally also had `DNA_Cloud.png`, a legacy
+    word-cloud graphic, as a low-opacity background layer — removed per
+    user feedback below, it read as hard-to-see and squished to one side.)
   - "Latest News" renamed to "Latest Lab News"; new "Latest Research" section
     above it shows the latest `media` entries.
   - Both sections now use `src/components/FeedRow.astro`, a shared full-width
@@ -152,6 +153,12 @@ behavior, etc.
   output that every post's images carry `data-lightbox-src` and the
   dialog/script appear exactly once per page (shared between the two
   components' triggers, not duplicated).
+- **Hero simplified**: removed the `DNA_Cloud.png` background graphic
+  entirely (user found it hard to see and awkwardly squished to one side)
+  and tightened the hero's vertical padding (`py-24 sm:py-28` down to
+  `py-14 sm:py-16`, similar reductions on the stats-row spacing) so there's
+  less empty space while still leaving reasonable breathing room. Hero is
+  now a plain `umblue-950` panel with no background imagery.
 
 ## Next: Phase 3 — Decap CMS integration
 
