@@ -1,0 +1,10 @@
+---
+publish: true
+status: alumni
+name: Shaomiao Xia
+title: Bioinformatics MS Candidate
+line1: B.S., The Chinese University of Hong Kong, Shenzhen
+picture: Shaomiao_Xia_pic.jpg
+email: shaomiao@umich.edu
+startDate: 2022-02-22T00:00:00.000Z
+---

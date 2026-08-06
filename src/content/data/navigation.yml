@@ -1,0 +1,22 @@
+news:
+  title: News
+  url: /news/
+  excerpt: null
+  image: null
+research:
+  title: Research
+  url: /research/
+  excerpt: null
+  image: null
+people:
+  title: People
+  url: /people/
+publications:
+  title: Publications
+  url: /publications/
+software:
+  title: Software
+  url: /software/
+contact:
+  title: Contact
+  url: /contact/
