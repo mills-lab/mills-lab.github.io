@@ -212,6 +212,15 @@ behavior, etc.
   for the narrower reading width (left-aligned by default, since it has no
   `mx-auto`). Verified in build output that all three containers now emit
   the identical `max-w-6xl px-4 ... sm:px-6` class string.
+- **Right-alignment fix**: same idea, other edge. "View all publications" /
+  "View all" needed to right-align with the header nav's last item
+  ("Contact"). Moved the heading + "View all" row out of the `max-w-4xl`
+  wrapper so it spans the section's full `max-w-6xl` width (matching the
+  header's own `mx-auto max-w-6xl ... justify-between` container) — the
+  `max-w-4xl` cap now applies only to the row-list div below the heading,
+  which stays left-aligned/narrower per the earlier request. Verified two
+  identical `max-w-6xl px-4 py-8 sm:px-6 sm:py-10` containers in build
+  output, one per section.
 
 ## Next: Phase 3 — Decap CMS integration
 
