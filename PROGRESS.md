@@ -133,8 +133,10 @@ behavior, etc.
     the rest) replacing the old 3-column card grid, per user request that
     each item "fill the space" in its own row.
   - **Not yet wired into Decap CMS** (Phase 3 hasn't started) — when Phase 3
-    happens, add a `media` collection to `public/admin/config.yml` alongside
-    the others so lab members can add press coverage without touching files.
+    happens, add a `research` collection to `public/admin/config.yml`
+    alongside the others (see rename note below), with an image-upload
+    widget for the `image` field, so lab members can add press coverage and
+    publication summaries without touching files.
 - **People page photos were over-cropped** — `PersonCard.astro` forced a
   fixed 240px height with `w-full`, so `object-cover` cropped away most of
   each photo's width in wide grid columns. The source photos in
@@ -177,6 +179,29 @@ behavior, etc.
   bottom padding, which then stacked with the section's own bottom padding.
   Added `last:pb-0` and reduced both sections' padding again
   (`py-10 sm:py-12` → `py-8 sm:py-10`).
+- **`media` collection renamed to `research` + extended for publication
+  summaries** (schema/UI only — user explicitly deferred content population
+  to Phase 3). User wants "Recent Research" to eventually show lab-written
+  publication summaries with a representative figure thumbnail, not just
+  third-party press coverage. Changes:
+  - `src/content/media/` → `src/content/research/` (`git mv`, both existing
+    entries preserved); collection key `media` → `research` in
+    `src/content.config.ts`.
+  - Schema gained `kind: z.enum(['media', 'publication']).default('media')`
+    (both existing entries now explicitly set `kind: media`) and
+    `image: z.string().optional()` — a thumbnail filename resolved against
+    `public/images/research/` (that folder doesn't exist yet; nothing
+    references it until real publication-summary content is added).
+  - Homepage (`src/pages/index.astro`): `getCollection('research')`, slice
+    bumped from 3 to 4 latest entries per user request, `FeedRow` now gets
+    `imageSrc` from `item.data.image` when present — `FeedRow.astro` itself
+    needed no changes, it already fell back to the `source` text badge
+    when no image is given, so this was additive.
+  - **Deliberately not done**: no real publication-summary entries added.
+    Sourcing "a representative image from the publication" means pulling an
+    actual figure out of a specific paper, which needs someone with
+    rights/knowledge of the right image — that's Phase 3 CMS content work,
+    not something to fabricate now.
 
 ## Next: Phase 3 — Decap CMS integration
 

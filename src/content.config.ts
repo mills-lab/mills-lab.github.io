@@ -65,16 +65,22 @@ const software = defineCollection({
   }),
 });
 
-// Press/media coverage of lab publications, shown in the homepage's
-// "Latest Research" section (distinct from `posts`, which is lab news).
-const media = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/media' }),
+// Research highlights shown in the homepage's "Recent Research" section
+// (distinct from `posts`, which is lab news): either third-party press
+// coverage of a publication, or a lab-written summary of one. `image` is
+// an optional thumbnail (filename under public/images/research/) — a
+// representative figure from the paper, or the outlet's own art. When
+// absent, the feed falls back to a text badge of `source`.
+const research = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/research' }),
   schema: z.object({
+    kind: z.enum(['media', 'publication']).default('media'),
     title: z.string(),
     source: z.string(),
     url: z.string(),
     date: z.coerce.date(),
     excerpt: z.string().optional(),
+    image: z.string().optional(),
     relatedPmid: z.string().optional(),
   }),
 });
@@ -115,4 +121,4 @@ const footer = defineCollection({
   }),
 });
 
-export const collections = { posts, people, publications, software, media, pages, navigation, footer };
+export const collections = { posts, people, publications, software, research, pages, navigation, footer };

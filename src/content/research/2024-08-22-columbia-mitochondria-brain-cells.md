@@ -1,4 +1,5 @@
 ---
+kind: media
 title: "Mitochondria Are Flinging Their DNA into Our Brain Cells"
 source: Columbia University Irving Medical Center
 url: https://www.cuimc.columbia.edu/news/mitochondria-are-flinging-their-dna-our-brain-cells

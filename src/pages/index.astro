@@ -7,9 +7,9 @@ const latestPosts = (await getCollection('posts'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
 
-const latestMedia = (await getCollection('media'))
+const latestResearch = (await getCollection('research'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+  .slice(0, 4);
 
 const people = await getCollection('people');
 const currentMemberCount = people.filter((p) => p.data.publish && p.data.status !== 'alumni').length;
@@ -68,13 +68,14 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
     </div>
     <div class="mt-2">
       {
-        latestMedia.map((item) => (
+        latestResearch.map((item) => (
           <FeedRow
             href={item.data.url}
             external
             eyebrow={`${item.data.source} · ${dateFmt.format(item.data.date)}`}
             title={item.data.title}
             excerpt={item.data.excerpt}
+            imageSrc={item.data.image ? `/images/research/${item.data.image}` : null}
             badge={item.data.source}
           />
         ))
