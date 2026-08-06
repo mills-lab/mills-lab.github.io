@@ -408,6 +408,14 @@ behavior, etc.
     Publications page, all 5 new/updated titles render, the superseded
     title is gone, and the `null(null)` artifact no longer appears
     anywhere.
+- **Replaced the remaining bioRxiv entry too** (user follow-up): PMID
+  36778249 ("Somatic nuclear mitochondrial DNA insertions...", bioRxiv) →
+  39172952 (same title, same author list, PLoS Biol, 2024 Aug, 22(8),
+  e3002723) — the published version I'd found during the earlier Recent
+  Research task but held off updating since it wasn't in the NCBI
+  bibliography page. User asked directly this time, so applied it. Count
+  stays at 94 (1-for-1 swap); verified the citation renders correctly and
+  the PubMed icon links to 39172952, not the old PMID.
 
 ## Next: Phase 3 — Decap CMS integration
 
