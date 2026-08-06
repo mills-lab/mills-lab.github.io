@@ -10,7 +10,7 @@ const picture = person.picture ? `/assets/people/${person.picture}` : '/assets/p
 ---
 
 <article class="flex flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
-  <img src={picture} alt={person.name} class="h-60 w-full object-cover" loading="lazy" />
+  <img src={picture} alt={person.name} class="aspect-[19/24] w-full object-cover" loading="lazy" />
   <div class="flex flex-1 flex-col gap-1 p-4">
     <h3 class="font-semibold text-umblue-950">{person.name}</h3>
     {person.title && <p class="text-sm text-slate-600">{person.title}</p>}
