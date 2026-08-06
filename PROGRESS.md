@@ -416,6 +416,19 @@ behavior, etc.
   bibliography page. User asked directly this time, so applied it. Count
   stays at 94 (1-for-1 swap); verified the citation renders correctly and
   the PubMed icon links to 39172952, not the old PMID.
+- **Fixed orphaned "The" on the Research page.** The legacy content used
+  `<p style="float: right; width: 650px; ...">` to float the figure beside
+  the intro text, Jekyll-era-style — in the narrower `max-w-3xl` container
+  this new site uses, that produced an orphaned "The" (the first word of
+  the next paragraph) stranded on its own line above the image. Removed
+  the float entirely and moved the figure to a plain block `<figure>`
+  (with its caption as a real `<figcaption>`) positioned after both intro
+  paragraphs and before "Areas of Investigation", per request. Edited both
+  `_pages/research.md` (legacy source) and confirmed `scripts/migrate-
+  content.mjs` regenerates `src/content/pages/research.md` identically.
+  Verified in build output: no `float: right` remains, the image/caption
+  render in the new position, ordered after the consortia paragraph and
+  before "Areas of Investigation".
 
 ## Next: Phase 3 — Decap CMS integration
 
