@@ -159,6 +159,18 @@ behavior, etc.
   `py-14 sm:py-16`, similar reductions on the stats-row spacing) so there's
   less empty space while still leaving reasonable breathing room. Hero is
   now a plain `umblue-950` panel with no background imagery.
+- **Hero eyebrow labels are now links**: "University of Michigan" →
+  `https://umich.edu`, "Computational Medicine & Bioinformatics" → the same
+  department URL already used in the footer
+  (`https://medicine.umich.edu/dept/computational-medicine-bioinformatics`).
+  No extra styling needed — Tailwind's preflight resets `<a>` to
+  `color: inherit; text-decoration: inherit`, confirmed in the compiled CSS,
+  so the links are visually identical to the old plain text.
+- **Homepage sections renamed and tightened**: "Latest Research" → "Recent
+  Research", "Latest Lab News" → "Lab News". Both sections narrowed
+  (`max-w-6xl` → `max-w-4xl`, matching their single-column row layout) and
+  given less padding (`py-16` → `py-10 sm:py-12`) so there's less empty
+  space between the hero, Recent Research, and Lab News sections.
 
 ## Next: Phase 3 — Decap CMS integration
 
