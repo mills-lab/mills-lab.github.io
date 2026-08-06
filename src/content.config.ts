@@ -65,6 +65,20 @@ const software = defineCollection({
   }),
 });
 
+// Press/media coverage of lab publications, shown in the homepage's
+// "Latest Research" section (distinct from `posts`, which is lab news).
+const media = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/media' }),
+  schema: z.object({
+    title: z.string(),
+    source: z.string(),
+    url: z.string(),
+    date: z.coerce.date(),
+    excerpt: z.string().optional(),
+    relatedPmid: z.string().optional(),
+  }),
+});
+
 const pages = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
   schema: z.object({
@@ -101,4 +115,4 @@ const footer = defineCollection({
   }),
 });
 
-export const collections = { posts, people, publications, software, pages, navigation, footer };
+export const collections = { posts, people, publications, software, media, pages, navigation, footer };

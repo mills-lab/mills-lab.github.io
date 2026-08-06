@@ -112,6 +112,28 @@ behavior, etc.
   `src/content/publications/*.md` by pmid, and opens a PR with new entries
   (same review-before-publish model as everything else on this site). User
   explicitly scoped this as post-cutover, not a launch blocker — not started.
+- **Homepage redesign** (flashier hero + new "Latest Research" section):
+  - New `media` content collection (`src/content/media/*.md`, schema in
+    `src/content.config.ts`) for press coverage of lab publications — fields:
+    `title`, `source`, `url`, `date`, `excerpt`, `relatedPmid`. Seeded with
+    two real, verified entries (checked via WebFetch, not invented): the
+    Scientific American numts piece the user linked, and a Columbia
+    University Irving Medical Center article covering the same PLOS Biology
+    study. Deliberately did not fabricate additional press coverage —
+    add more `media/*.md` entries as real coverage appears.
+  - Homepage hero: added `public/images/DNA_Cloud.png` (an existing legacy
+    lab asset, a word-cloud graphic) as a low-opacity background layer, plus
+    a stats row (lab member count, publication count, software count) pulled
+    live from the collections — all real counts, nothing hardcoded.
+  - "Latest News" renamed to "Latest Lab News"; new "Latest Research" section
+    above it shows the latest `media` entries.
+  - Both sections now use `src/components/FeedRow.astro`, a shared full-width
+    horizontal row layout (image or source-badge on the left, content filling
+    the rest) replacing the old 3-column card grid, per user request that
+    each item "fill the space" in its own row.
+  - **Not yet wired into Decap CMS** (Phase 3 hasn't started) — when Phase 3
+    happens, add a `media` collection to `public/admin/config.yml` alongside
+    the others so lab members can add press coverage without touching files.
 
 ## Next: Phase 3 — Decap CMS integration
 
