@@ -5,6 +5,40 @@ Tracks progress against `/home/remills/.claude/plans/imperative-purring-trinket.
 Work happens on the `development` branch; `master` (the live site) is untouched
 until the Phase 6 cutover PR.
 
+## ⏸ Paused here (2026-08-06) — read this first
+
+Everything below is committed on `development` (`master`/production untouched,
+zero live-site risk). Working tree is clean as of commit `f6fb89a`. To resume:
+read this section, then `git log --oneline` for the full blow-by-blow if needed.
+
+**Done:** Phase 1 (Astro scaffold + content migration) and Phase 2 (all page
+templates) are complete, plus a long tail of real content/design work driven
+by user feedback that went well beyond Phase 2's original scope — homepage
+redesign (hero, Recent News/Lab Updates sections, alignment fixes), People
+page split into 4 sections with an extensible icon-links system, Publications
+reformatted with year sections + real new publications added (web-researched
+and verified against NCBI, not guessed), Research/Contact page content fixes.
+See the dated entries below for full detail on each.
+
+**Not started:** Phase 3 (Decap CMS integration) onward — 3/4/5/6/7 are all
+still exactly as scoped in the plan file. Phase 3 is the natural next step.
+
+**Two open items worth resolving before or during Phase 3** (both flagged to
+the user when found, neither blocking):
+- Three alumni have ambiguous Ph.D./rotation/other classification (Akima
+  George, Nan Lin, Zhenning Zhang — see the Phase 2 alumni section below for
+  the reasoning) — defaulted to "Other Lab Alumni," not confirmed correct.
+- Akima George's current institution (a "Development Specialist, POBLO
+  International" candidate) was found but not published — only source was a
+  third-party contact aggregator, not primary.
+
+**Known sandbox limitation, not project-related:** this environment has no
+sudo, so headless-Chromium visual QA (Playwright) isn't possible here — every
+change was verified structurally (build output, type-check, HTML inspection)
+but never actually eyeballed in a rendered browser. Worth a `npm run dev` +
+manual click-through before Phase 6 cutover, if that hasn't happened yet in
+the meantime.
+
 ## Phase 1 — Scaffold Astro on `development` — DONE
 
 - Scaffolded Astro (v7) at repo root with TypeScript (`strict`), Tailwind CSS v4,
