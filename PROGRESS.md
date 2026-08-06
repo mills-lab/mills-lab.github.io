@@ -451,6 +451,13 @@ behavior, etc.
   Left the phone number untouched (not mentioned, no reason to assume
   it changed). Edited both `_pages/contact.md` and confirmed the
   migration regenerates `src/content/pages/contact.md` identically.
+- **Removed the hero stats section** (Lab Members/Publications/Software
+  Tools `<dl>`) entirely, per request — the linked/shrunk version from the
+  prior task didn't stick around long. Also removed the now-unused count
+  computations (`currentMemberCount`, `publicationCount`, `softwareCount`,
+  `CURRENT_STATUSES`) from `src/pages/index.astro` rather than leaving dead
+  code. Verified no `<dl>`/"Lab Members"/"Software Tools" remain in the
+  build output.
 
 ## Next: Phase 3 — Decap CMS integration
 

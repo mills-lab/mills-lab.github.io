@@ -11,12 +11,6 @@ const latestResearch = (await getCollection('research'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 4);
 
-const people = await getCollection('people');
-const CURRENT_STATUSES = new Set(['pi', 'phd', 'researchinvestigator']);
-const currentMemberCount = people.filter((p) => p.data.publish && CURRENT_STATUSES.has(p.data.status)).length;
-const publicationCount = (await getCollection('publications')).length;
-const softwareCount = (await getCollection('software')).length;
-
 const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
@@ -43,20 +37,6 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
           Meet the Lab
         </a>
       </div>
-      <dl class="mt-8 grid max-w-xl grid-cols-2 gap-6 border-t border-white/20 pt-5 sm:grid-cols-3">
-        <a href="/people/" class="block transition hover:opacity-80">
-          <dt class="text-xs text-slate-300">Lab Members</dt>
-          <dd class="text-xl font-bold text-maize-400">{currentMemberCount}</dd>
-        </a>
-        <a href="/publications/" class="block transition hover:opacity-80">
-          <dt class="text-xs text-slate-300">Publications</dt>
-          <dd class="text-xl font-bold text-maize-400">{publicationCount}+</dd>
-        </a>
-        <a href="/software/" class="hidden transition hover:opacity-80 sm:block">
-          <dt class="text-xs text-slate-300">Software Tools</dt>
-          <dd class="text-xl font-bold text-maize-400">{softwareCount}</dd>
-        </a>
-      </dl>
     </div>
   </section>
 
