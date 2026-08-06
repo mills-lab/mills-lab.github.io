@@ -44,11 +44,65 @@ untouched. Plan is to delete them at the end of Phase 5 (once the new site
 has been QA'd against them) or during Phase 6 cutover — do not delete
 earlier, they're what `scripts/migrate-content.mjs` reads from.
 
-## Next: Phase 2 — Design & build pages
+## Phase 2 — Design & build pages — DONE
 
-Not started. Needs: base layout (nav/footer), home page, news index/detail,
-people directory (grouped by `status`), publications list, software list,
-research/contact static pages, RSS feed via `@astrojs/rss`.
+- Michigan-branded Tailwind theme (`umblue`/`maize` custom colors) defined in
+  `src/styles/global.css` via Tailwind v4's `@theme`. `@tailwindcss/typography`
+  added (`prose` classes) for the long-form research/contact/post bodies.
+- `src/layouts/Layout.astro` (head/meta/favicon/RSS link) +
+  `src/components/Header.astro` (nav from the `navigation` collection,
+  active-link highlighting, mobile menu) + `Footer.astro` (links from the
+  `footer` collection).
+- Pages built: `/` (hero + latest 3 news), `/news/` (grid) +
+  `/news/[slug]/` (detail, dynamic route off the `posts` collection),
+  `/people/` (Current Lab Members + Alumni sections, sorted by `startDate`),
+  `/publications/` (sorted desc by pmid), `/software/` (sorted desc by date),
+  `/research/` and `/contact/` (render the migrated `pages` collection
+  entries), `/404`, and `/rss.xml` (via `@astrojs/rss`).
+- `src/components/PersonCard.astro` and `src/components/PostGallery.astro`
+  (new — see below) handle the two most complex content shapes.
+- **Migration script updated**: 10 of the 17 posts used Jekyll's `media`
+  layout, which embedded a Liquid loop over `site.static_files` to render an
+  image gallery from a folder under `/images/`. `migrate-content.mjs` now
+  detects that block, strips it, and records a `gallery: <folder>` frontmatter
+  field instead; `PostGallery.astro` reads that folder from `public/images/`
+  directly at build time (plain `fs.readdirSync`, no Liquid). All 10 verified
+  gallery folders exist except `2017-11-30-Tony-defense` (0 images) — that
+  folder was already missing/empty in the legacy repo, not something this
+  migration broke; the component just renders nothing for it, same as before.
+- Also stopped migrating `_pages/{news,people,publications,software}.md` into
+  the `pages` collection — those were pure Liquid-loop scaffolding with no
+  real prose, fully superseded by the dedicated routes above. Only `research`
+  and `contact` (genuine static content) remain in `src/content/pages/`.
+- Verified via `npx astro build` + `npx astro check`: 25 pages generate, 0
+  type errors. Confirmed via curl against a running `astro preview`/`astro dev`
+  server that rendered counts match content exactly (20 people cards, 90
+  publications, 8 software entries, 15 gallery images on the holiday-party
+  post, contact page's Google Maps iframe intact, all nav links present) and
+  that the compiled Tailwind CSS ships real utility classes in the production
+  build.
+
+**Known limitation — no true visual/browser check.** I could not get a
+headless browser rendering in this sandbox: Playwright's Chromium download
+works, but launching it fails on missing system shared libraries
+(`libnspr4.so` etc.), and installing them (`playwright install --with-deps`)
+needs `sudo`, which isn't available here. So this phase was verified
+structurally (build passes, types check, HTML output inspected via curl for
+correct counts/links/images) but **not eyeballed in an actual browser**.
+Before merging past Phase 2, run `npm run dev` locally and click through the
+site yourself (or grant sudo in a future session so I can install Chromium's
+deps and do it myself) to catch anything a structural check can't — spacing,
+responsiveness, whether the maize/blue theme actually looks good, mobile menu
+behavior, etc.
+
+## Next: Phase 3 — Decap CMS integration
+
+Not started. Needs: `public/admin/index.html` + `config.yml` defining Decap
+collections matching the schemas in `src/content.config.ts`, a GitHub OAuth
+App + small OAuth proxy (Cloudflare Worker recommended, e.g. the
+`sveltia-cms-auth` script — GitHub Pages can't run the server-side half of
+the OAuth flow itself), `publish_mode: editorial_workflow`, `branch:
+development` for now.
 
 ## How to resume this work
 

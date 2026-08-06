@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const publications = (await getCollection('publications')).sort(
+  (a, b) => Number(b.data.pmid ?? 0) - Number(a.data.pmid ?? 0)
+);
+---
+
+<Layout title="Publications">
+  <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+    <h1 class="text-3xl font-bold text-umblue-950">Publications</h1>
+    <ul class="mt-8 space-y-6">
+      {
+        publications.map((pub) => (
+          <li class="border-b border-slate-200 pb-6 text-sm leading-relaxed text-slate-700">
+            <p>
+              {pub.data.authors}. {pub.data.title}{' '}
+              <span class="font-semibold italic">{pub.data.journal}</span> {pub.data.pubdate}
+              {pub.data.volume && `, ${pub.data.volume}`}
+              {pub.data.issue && `(${pub.data.issue})`}
+              {pub.data.pages && `, ${pub.data.pages}`}
+              {pub.data.pmid && (
+                <>
+                  {' '}
+                  <a
+                    href={`https://pubmed.ncbi.nlm.nih.gov/${pub.data.pmid}/`}
+                    target="_blank"
+                    class="text-umblue-900 underline hover:text-umblue-950"
+                  >
+                    pmid:{pub.data.pmid}
+                  </a>
+                </>
+              )}
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

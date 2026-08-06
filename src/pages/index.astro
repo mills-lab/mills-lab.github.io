@@ -1,17 +1,60 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
 
+const latestPosts = (await getCollection('posts'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+
+const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Home">
+  <section class="bg-umblue-950 text-white">
+    <div class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <h1 class="max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">The Mills Lab</h1>
+      <p class="mt-4 max-w-2xl text-lg text-slate-200">
+        A bioinformatics research group at the University of Michigan developing methods to
+        discover and characterize genomic structural variation in human health and disease.
+      </p>
+      <div class="mt-8 flex gap-4">
+        <a href="/research/" class="rounded-md bg-maize-400 px-5 py-2.5 font-semibold text-umblue-950 hover:bg-maize-300">
+          Our Research
+        </a>
+        <a href="/people/" class="rounded-md border border-white/40 px-5 py-2.5 font-semibold hover:bg-white/10">
+          Meet the Lab
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+    <div class="flex items-baseline justify-between">
+      <h2 class="text-2xl font-bold text-umblue-950">Latest News</h2>
+      <a href="/news/" class="text-sm font-medium text-umblue-900 underline hover:text-umblue-950">View all</a>
+    </div>
+    <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-3">
+      {
+        latestPosts.map((post) => {
+          const href = post.data.externalUrl || `/news/${post.id}/`;
+          const teaser = post.data.image?.teaser ? `/images/${post.data.image.teaser}` : null;
+          return (
+            <article class="flex flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+              <a href={href} target={post.data.externalUrl ? '_blank' : undefined}>
+                {teaser && <img src={teaser} alt="" class="h-40 w-full object-cover" loading="lazy" />}
+              </a>
+              <div class="flex flex-1 flex-col p-4">
+                <time class="text-xs text-slate-500">{dateFmt.format(post.data.date)}</time>
+                <h3 class="mt-1 font-semibold text-umblue-950">
+                  <a href={href} target={post.data.externalUrl ? '_blank' : undefined} class="hover:underline">
+                    {post.data.title}
+                  </a>
+                </h3>
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>

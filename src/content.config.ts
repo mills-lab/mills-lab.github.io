@@ -10,6 +10,7 @@ const posts = defineCollection({
     share: z.boolean().default(true),
     ads: z.boolean().default(true),
     externalUrl: z.string().optional(),
+    gallery: z.string().optional(),
     image: z
       .object({
         teaser: z.string().optional(),

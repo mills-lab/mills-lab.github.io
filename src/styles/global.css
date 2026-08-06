@@ -1,1 +1,23 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-umblue-950: #00274c;
+  --color-umblue-900: #003a70;
+  --color-umblue-800: #0d5090;
+  --color-maize-400: #ffcb05;
+  --color-maize-300: #ffd633;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-slate-800 antialiased;
+  }
+  a {
+    @apply underline-offset-2;
+  }
+}

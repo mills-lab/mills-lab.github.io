@@ -35,6 +35,15 @@ function migratePosts() {
     }
     const [, date, slug] = dateMatch;
     const { data, content } = matter.read(path.join(srcDir, file));
+
+    // Jekyll's `media` layout embedded a Liquid loop over site.static_files
+    // to render an image gallery from a folder under /images/. Replace it
+    // with a `gallery: <folder>` field; PostGallery.astro reads the folder
+    // directly from public/images at build time.
+    const galleryBlock = /<div>\s*\{%\s*for image in site\.static_files\s*%\}[\s\S]*?images\/([^'"]+?)\/?['"][\s\S]*?\{%\s*endfor\s*%\}\s*<\/div>/;
+    const galleryMatch = content.match(galleryBlock);
+    const body = galleryMatch ? content.replace(galleryBlock, '').trim() : content;
+
     writeEntry(
       path.join(outDir, `${date}-${slug}.md`),
       {
@@ -44,8 +53,9 @@ function migratePosts() {
         ads: data.ads,
         externalUrl: data['external-url'],
         image: data.image,
+        gallery: galleryMatch?.[1],
       },
-      content
+      body
     );
   }
 }
@@ -131,11 +141,17 @@ function migrateSoftware() {
 }
 
 // ---- pages ----
+// news/people/publications/software were index pages built entirely from
+// Liquid loops (no real prose) — they're rebuilt as dedicated Astro routes
+// instead, so only genuinely static content pages are migrated here.
+const DEDICATED_ROUTE_PAGES = new Set(['news.md', 'people.md', 'publications.md', 'software.md']);
+
 function migratePages() {
   const srcDir = path.join(root, '_pages');
   const outDir = path.join(outRoot, 'pages');
+  fs.rmSync(outDir, { recursive: true, force: true });
   ensureDir(outDir);
-  for (const file of fs.readdirSync(srcDir).filter((f) => f.endsWith('.md'))) {
+  for (const file of fs.readdirSync(srcDir).filter((f) => f.endsWith('.md') && !DEDICATED_ROUTE_PAGES.has(f))) {
     const { data, content } = matter.read(path.join(srcDir, file));
     writeEntry(
       path.join(outDir, file),
