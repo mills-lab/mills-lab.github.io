@@ -436,6 +436,21 @@ behavior, etc.
   like plain text (same Tailwind-preflight-inherits-color/decoration trick
   as the hero eyebrow links) with only a subtle `hover:opacity-80` as a
   usability cue, per the "shouldn't look like hyperlinks" request.
+- **Contact page updated to the lab's new address** (Palmer Commons →
+  Medical Science I). Email `remills@med.umich.edu` → `remills@umich.edu`,
+  Office → `MS1/5B390`, shipping address → `1301 Catherine St, Room 5B390,
+  Ann Arbor, MI 48109`, location blurb now says "5th floor in the B-Wing of
+  the Medical Science I building." Also updated the embedded Google Map
+  (was pointing at Palmer Commons — left unchanged would've shown the
+  wrong building right next to the corrected text) using the simple
+  `maps?q=...&output=embed` format, no API key needed. **Removed the
+  "Parking Information" link** — it pointed specifically to Palmer
+  Commons driving directions, which no longer applies; wasn't asked to
+  address parking specifically but leaving a stale link for the old
+  building right next to the new address seemed worse than dropping it.
+  Left the phone number untouched (not mentioned, no reason to assume
+  it changed). Edited both `_pages/contact.md` and confirmed the
+  migration regenerates `src/content/pages/contact.md` identically.
 
 ## Next: Phase 3 — Decap CMS integration
 
