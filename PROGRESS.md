@@ -771,7 +771,7 @@ with the full pipeline (`migrate-content.mjs` where legacy-sourced →
   kept as a sibling outside that wrapper so its own `<a>` tags don't end
   up nested inside another anchor.
 
-## Phase 6 — Cutover — IN PROGRESS
+## Phase 6 — Cutover — DONE
 
 - Replaced `.github/workflows/jekyll.yml` with `.github/workflows/deploy.yml`:
   same `actions/configure-pages` + `actions/deploy-pages` pattern, build step
@@ -790,8 +790,21 @@ with the full pipeline (`migrate-content.mjs` where legacy-sourced →
 - **Noted but not yet acted on**: 4 open Dependabot PRs bumping Ruby/Jekyll
   gems (rexml, addressable, ffi, jekyll) will become obsolete once the
   Jekyll setup is retired — worth closing after cutover confirms stable.
-- **Remaining**: user review/merge of PR #14, confirm the `deploy.yml` run
-  succeeds, spot-check the live site at `millslab.org`.
+- PR #14 merged into `master` (merge commit `d70b87b`). The new `deploy.yml`
+  workflow triggered automatically on the merge and completed successfully.
+- **Live verification**: `millslab.org` returns 200 with the new site
+  (`<title>Home | The Mills Lab</title>`), `/people/` shows Ryan Mills
+  correctly linked to `/people/ryan-mills/`, a news post with a photo
+  gallery loads, `/publications/` loads. `millslab.org` is now the live
+  production site — the Astro rebuild is fully cut over.
+- **Noted, not a regression from this migration**: `https_enforced: false`
+  on the repo's Pages settings (pre-existing — apex `mills-lab.github.io`
+  redirects to `http://millslab.org` rather than `https://`, though
+  `https://millslab.org` itself serves fine directly). Worth toggling
+  "Enforce HTTPS" in Settings → Pages at some point, unrelated to this
+  project's scope.
+- **Follow-up housekeeping**: the 4 open Dependabot PRs bumping Ruby/Jekyll
+  gems are now obsolete (Jekyll/Gemfile no longer used) and can be closed.
 
 ## How to resume this work
 

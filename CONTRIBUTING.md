@@ -18,9 +18,10 @@ you're comfortable with it).
 2. Claude edits the relevant content files under `src/content/` (see
    `src/content.config.ts` for the schema of each content type), commits
    the change to a new branch, and opens a pull request against `master`.
-3. Review the PR's diff and (once Phase 4's preview pipeline exists) its
-   live preview link, then merge it yourself. **A human always merges** —
-   nothing goes live without a PR being approved and merged.
+3. Review the PR's diff, then merge it yourself (or run `npm run dev`
+   locally on the branch first if you want to preview it before merging).
+   **A human always merges** — nothing goes live without a PR being
+   approved and merged.
 
 Content changes should never be committed directly to `master`. Branch
 protection on `master` (see below) enforces this at the GitHub level, not
