@@ -647,30 +647,49 @@ protection" instead of "Decap CMS integration"; Phases 4-7 are otherwise
 unaffected (the preview pipeline and PubMed sync don't care what created
 the PR).
 
-**Done so far:**
+**Done:**
 - New `CONTRIBUTING.md` at the repo root: documents the ask-Claude-for-
   changes workflow, where each content type lives, and the one-time repo
-  setup step below.
+  setup step (branch protection).
+- **Branch protection on `master`**: user set up a GitHub ruleset (not the
+  older "branch protection rules" UI — GitHub's newer Rulesets system).
+  Verified via `GET /repos/mills-lab/mills-lab.github.io/rules/branches/master`
+  (authoritative — reflects what GitHub actually enforces, unlike relying
+  on git's local/client-side behavior) that the effective rules are exactly
+  as recommended: `pull_request` (required_approving_review_count: 0, so
+  the user can still merge their own PRs), `non_fast_forward` (blocks force
+  pushes), `deletion` (blocks deleting the branch).
+- **Push access via a fine-grained PAT**, scoped to just this repo
+  (Contents + Pull requests + Workflows: read/write). Hit and fixed a real
+  bug while setting it up: the token was stored in `~/.git-credentials` as
+  `https://TOKEN@github.com` (token-only, no username), which git's
+  `credential-store` helper silently fails to match on lookup — it
+  requires the `username:password@host` form. `git credential fill` and
+  `git credential-store ... get` both returned nothing for the token-only
+  format even though the file existed and looked superficially correct;
+  confirmed the exact cause by testing known-good vs. token-only formats
+  against a scratch file before fixing the real one. Reformatted to
+  `https://x-access-token:TOKEN@github.com` (same token) and confirmed
+  fixed via `git credential-store get`.
+- **Pushed the 34 commits** that had been local-only since Phase 1 (this
+  sandbox never had push access before now) — `origin/development` is now
+  fully in sync with local, at `40140fd`. GitHub's push response also
+  surfaced 16 Dependabot vulnerabilities on the repo's *default* branch
+  (`master`, the old Jekyll/Ruby dependency tree) — unrelated to this push,
+  not acted on since `master` stays frozen until Phase 6 cutover, but
+  noting it for later.
+- **Verified branch protection is real**, without doing anything risky to
+  confirm it: relied on the GitHub API's `rules/branches/master` response
+  (queried above) as the authoritative source, rather than attempting an
+  actual push to `master` to "test" it — `git push --dry-run` only
+  simulates client-side ref negotiation and doesn't reliably exercise
+  GitHub's server-side ruleset enforcement, so it's not trustworthy for
+  this and testing for real would mean deliberately attempting the exact
+  risky action (direct push to `master`) the ruleset exists to prevent.
 
-**⚠️ Blocked on the user — two things only they can do:**
-1. **Enable branch protection on `master`** (GitHub Settings → Branches →
-   add a rule for `master` → "Require a pull request before merging").
-   This is a repo-admin action in GitHub's web UI; Claude has no way to do
-   it via git. This is what actually *enforces* "always a PR," not just
-   convention — worth doing before real editors start using this workflow.
-2. **Push access.** Discovered while starting this phase:
-   `origin/development` on GitHub is currently 34 commits behind local
-   `development` (stuck at `f96edc8`, the very first Phase 1 commit) —
-   this sandbox has never had git push credentials (confirmed back in
-   Phase 1), so every commit since then has been local-only. The user
-   pushed once early on but nothing since. **Nothing in this repo's
-   history exists on GitHub past that first commit** until someone pushes.
-   Options: (a) the user pulls/pushes this branch from their own machine
-   periodically, or (b) the user sets up push credentials for this
-   environment. Either way, Phase 3's "verify end-to-end" step (confirm a
-   real Claude-driven edit produces an actual GitHub PR, and that branch
-   protection actually blocks a direct push) needs real GitHub access to
-   test — can't be verified from inside this sandbox alone.
+**Remaining for Phase 3**: proving a real Claude-driven content edit
+produces an actual GitHub PR (not just a local branch) — deferred to the
+next real content request rather than fabricating a throwaway test PR.
 
 ## How to resume this work
 
