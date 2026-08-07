@@ -570,6 +570,12 @@ behavior, etc.
     homepage ("Recent News"), zero "View all" text anywhere on it, and the
     5 merged items are in correct chronological order spanning both
     collections (2025 press → 2023 lab post → 2023 press → 2021 lab post).
+- **Added 2 more `research`/Press entries** (user request): the Center for
+  RNA Biomedicine faculty spotlight (2019-08-13 — used the original post
+  date, not its 2023 "updated" date) and the Journal of Young Investigators
+  interview (2015-01-01). Both verified via WebFetch before adding. Old
+  enough that neither displaces anything in the homepage's 5-item "Recent
+  News" window; both confirmed rendering on `/press/`, now at 5 entries.
 
 ## Next: Phase 3 — Decap CMS integration
 
