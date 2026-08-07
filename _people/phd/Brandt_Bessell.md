@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Brandt Bessell
-title: Bioinformatics PhD Pre-Candidate
+title: Bioinformatics PhD Candidate
 picture: Brandt_Bessell_pic.jpg
 line1: B.S., University of Florida
 line2: 
