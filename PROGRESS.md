@@ -633,15 +633,44 @@ behavior, etc.
   entries wrapped in a real PubMed link, the BAMnostic entry stays
   unlinked plain text.
 
-## Next: Phase 3 — Decap CMS integration
+## Phase 3 — Content workflow & branch protection (revised from Decap CMS)
 
-Not started. Needs: `public/admin/index.html` + `config.yml` defining Decap
-collections matching the schemas in `src/content.config.ts` (note the
-`people.links` list-with-type-dropdown design above), a GitHub OAuth App +
-small OAuth proxy (Cloudflare Worker recommended, e.g. the
-`sveltia-cms-auth` script — GitHub Pages can't run the server-side half of
-the OAuth flow itself), `publish_mode: editorial_workflow`, `branch:
-development` for now.
+**Plan changed.** Before starting Phase 3, the user asked to weigh Decap CMS
+against just asking Claude directly for content changes. After discussing
+the tradeoffs (Decap needs a `/admin` UI + GitHub OAuth App + a Cloudflare
+Worker OAuth proxy since GitHub Pages can't run server code, vs. Claude-
+direct needing zero new infrastructure but requiring editors to have AI
+assistant access), the user chose **Claude-direct, no CMS**. The plan file
+(`/home/remills/.claude/plans/imperative-purring-trinket.md`) has been
+rewritten accordingly — Phase 3 is now "Content workflow & branch
+protection" instead of "Decap CMS integration"; Phases 4-7 are otherwise
+unaffected (the preview pipeline and PubMed sync don't care what created
+the PR).
+
+**Done so far:**
+- New `CONTRIBUTING.md` at the repo root: documents the ask-Claude-for-
+  changes workflow, where each content type lives, and the one-time repo
+  setup step below.
+
+**⚠️ Blocked on the user — two things only they can do:**
+1. **Enable branch protection on `master`** (GitHub Settings → Branches →
+   add a rule for `master` → "Require a pull request before merging").
+   This is a repo-admin action in GitHub's web UI; Claude has no way to do
+   it via git. This is what actually *enforces* "always a PR," not just
+   convention — worth doing before real editors start using this workflow.
+2. **Push access.** Discovered while starting this phase:
+   `origin/development` on GitHub is currently 34 commits behind local
+   `development` (stuck at `f96edc8`, the very first Phase 1 commit) —
+   this sandbox has never had git push credentials (confirmed back in
+   Phase 1), so every commit since then has been local-only. The user
+   pushed once early on but nothing since. **Nothing in this repo's
+   history exists on GitHub past that first commit** until someone pushes.
+   Options: (a) the user pulls/pushes this branch from their own machine
+   periodically, or (b) the user sets up push credentials for this
+   environment. Either way, Phase 3's "verify end-to-end" step (confirm a
+   real Claude-driven edit produces an actual GitHub PR, and that branch
+   protection actually blocks a direct push) needs real GitHub access to
+   test — can't be verified from inside this sandbox alone.
 
 ## How to resume this work
 
