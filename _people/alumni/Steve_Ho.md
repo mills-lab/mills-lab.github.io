@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Steve Ho
-title:  Human Genetics PhD Candidate
+title: Ph.D. University of Michigan
 picture: Steve_Ho_pic.png
 line1: B.S., University of California - Davis
 line2:  
