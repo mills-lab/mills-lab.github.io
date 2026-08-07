@@ -8,4 +8,3 @@ image:
   feature: banner-short-apb.png
 gallery: 2025_labHolidayParty
 ---
-We had our annual Lab Holiday Party this year. We shared excellent food, silly white elephant gifts, and skill at playing nerdy games related to genetics (Genotype!).
