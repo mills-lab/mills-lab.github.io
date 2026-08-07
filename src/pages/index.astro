@@ -3,15 +3,33 @@ import Layout from '../layouts/Layout.astro';
 import FeedRow from '../components/FeedRow.astro';
 import { getCollection } from 'astro:content';
 
-const latestPosts = (await getCollection('posts'))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
-
-const latestResearch = (await getCollection('research'))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 4);
-
 const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const newsItems = (await getCollection('posts')).map((post) => ({
+  date: post.data.date,
+  href: post.data.externalUrl || `/news/${post.id}/`,
+  external: Boolean(post.data.externalUrl),
+  eyebrow: dateFmt.format(post.data.date),
+  title: post.data.title,
+  excerpt: undefined as string | undefined,
+  imageSrc: post.data.image?.teaser ? `/images/${post.data.image.teaser}` : null,
+  badge: null as string | null,
+}));
+
+const pressItems = (await getCollection('research')).map((item) => ({
+  date: item.data.date,
+  href: item.data.url,
+  external: true,
+  eyebrow: `${item.data.source} · ${dateFmt.format(item.data.date)}`,
+  title: item.data.title,
+  excerpt: item.data.excerpt,
+  imageSrc: item.data.image ? `/images/research/${item.data.image}` : null,
+  badge: item.data.source as string | null,
+}));
+
+const recentNews = [...newsItems, ...pressItems]
+  .sort((a, b) => b.date.valueOf() - a.date.valueOf())
+  .slice(0, 5);
 ---
 
 <Layout title="Home">
@@ -21,7 +39,7 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
         <a href="https://umich.edu" target="_blank" rel="noopener">University of Michigan</a>{' '}
         <span aria-hidden="true">&middot;</span>{' '}
         <a href="https://medicine.umich.edu/dept/computational-medicine-bioinformatics" target="_blank" rel="noopener">
-          Computational Medicine &amp; Bioinformatics
+          Gilbert S. Omenn Department of Computational Medicine &amp; Bioinformatics
         </a>
       </p>
       <h1 class="mt-3 max-w-2xl text-5xl font-bold tracking-tight sm:text-6xl">The Mills Lab</h1>
@@ -44,52 +62,21 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
   </section>
 
   <section class="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
-    <div class="flex items-baseline justify-between">
-      <h2 class="text-2xl font-bold text-umblue-950">Recent News</h2>
-      <a href="/publications/" class="text-sm font-medium text-umblue-900 underline hover:text-umblue-950">
-        View all publications
-      </a>
-    </div>
+    <h2 class="text-2xl font-bold text-umblue-950">Recent News</h2>
     <div class="mt-2 max-w-4xl">
       {
-        latestResearch.map((item) => (
+        recentNews.map((item) => (
           <FeedRow
-            href={item.data.url}
-            external
-            eyebrow={`${item.data.source} · ${dateFmt.format(item.data.date)}`}
-            title={item.data.title}
-            excerpt={item.data.excerpt}
-            imageSrc={item.data.image ? `/images/research/${item.data.image}` : null}
-            badge={item.data.source}
+            href={item.href}
+            external={item.external}
+            eyebrow={item.eyebrow}
+            title={item.title}
+            excerpt={item.excerpt}
+            imageSrc={item.imageSrc}
+            badge={item.badge}
           />
         ))
       }
-    </div>
-  </section>
-
-  <section class="bg-slate-50">
-    <div class="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
-      <div class="flex items-baseline justify-between">
-        <h2 class="text-2xl font-bold text-umblue-950">Lab Updates</h2>
-        <a href="/news/" class="text-sm font-medium text-umblue-900 underline hover:text-umblue-950">View all</a>
-      </div>
-      <div class="mt-2 max-w-4xl">
-        {
-          latestPosts.map((post) => {
-            const href = post.data.externalUrl || `/news/${post.id}/`;
-            const teaser = post.data.image?.teaser ? `/images/${post.data.image.teaser}` : null;
-            return (
-              <FeedRow
-                href={href}
-                external={Boolean(post.data.externalUrl)}
-                eyebrow={dateFmt.format(post.data.date)}
-                title={post.data.title}
-                imageSrc={teaser}
-              />
-            );
-          })
-        }
-      </div>
     </div>
   </section>
 </Layout>

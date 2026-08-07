@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import FeedRow from '../../components/FeedRow.astro';
+import { getCollection } from 'astro:content';
+
+const press = (await getCollection('research')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Layout title="Press">
+  <div class="mx-auto max-w-4xl px-4 py-12 sm:px-6">
+    <h1 class="text-3xl font-bold text-umblue-950">Press</h1>
+    <div class="mt-8">
+      {
+        press.map((item) => (
+          <FeedRow
+            href={item.data.url}
+            external
+            eyebrow={`${item.data.source} · ${dateFmt.format(item.data.date)}`}
+            title={item.data.title}
+            excerpt={item.data.excerpt}
+            imageSrc={item.data.image ? `/images/research/${item.data.image}` : null}
+            badge={item.data.source}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Layout>

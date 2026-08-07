@@ -82,12 +82,13 @@ const software = defineCollection({
   }),
 });
 
-// Research highlights shown in the homepage's "Recent Research" section
-// (distinct from `posts`, which is lab news): either third-party press
-// coverage of a publication, or a lab-written summary of one. `image` is
-// an optional thumbnail (filename under public/images/research/) — a
-// representative figure from the paper, or the outlet's own art. When
-// absent, the feed falls back to a text badge of `source`.
+// "Press" coverage, shown at /press/ and mixed into the homepage's "Recent
+// News" section (distinct from `posts`, which is lab news/updates): either
+// third-party press coverage of a publication, or a lab-written summary of
+// one. `image` is an optional thumbnail (filename under
+// public/images/research/) — a representative figure from the paper, or
+// the outlet's own art. When absent, the feed falls back to a text badge
+// of `source`.
 const research = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/research' }),
   schema: z.object({

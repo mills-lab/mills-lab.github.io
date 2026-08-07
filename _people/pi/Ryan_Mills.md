@@ -13,7 +13,7 @@ twitter: ryan_e_mills
 email: remills@umich.edu
 start-date: 2012-01-01
 titles:
-  - Professor, Computational Medicine and Bioinformatics
+  - Professor, Gilbert S. Omenn Department of Computational Medicine and Bioinformatics
   - Professor, Human Genetics
   - Program Director, DCMB Computing Infrastructure
 education:
@@ -22,7 +22,7 @@ education:
   - A.B., Wabash College
   - Postdoctoral Fellow, Genetics/Genomics, Emory University
 ---
-Ryan Mills is a Professor of Computational Medicine and Bioinformatics and of Human Genetics at the University of Michigan Medical School, where he also serves as Program Director of DCMB Computing Infrastructure.
+Ryan Mills is a Professor in the Gilbert S. Omenn Department of Computational Medicine and Bioinformatics and of Human Genetics at the University of Michigan Medical School, where he also serves as Program Director of DCMB Computing Infrastructure.
 
 Mills earned his A.B. from Wabash College before completing his M.S. and Ph.D. in bioinformatics at the Georgia Institute of Technology. He went on to a postdoctoral fellowship in genetics and genomics at Emory University under Dr. Scott Devine, followed by a research position in the Department of Pathology at Brigham and Women's Hospital and Harvard Medical School, where he also led the Bioinformatics and Medical Diagnostics Team within the Molecular Genetic Research Unit. He joined the University of Michigan as an Assistant Professor in 2012.
 

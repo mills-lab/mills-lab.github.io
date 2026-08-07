@@ -536,6 +536,40 @@ behavior, etc.
   - Verified in build output: all 3 hero buttons share the identical
     yellow class string, the profile page renders titles/education/bio/
     image correctly, 26 pages now build (up from 25).
+- **Department rename, new Press section, homepage merge** (user request,
+  several parts):
+  - "Computational Medicine & Bioinformatics" → "Gilbert S. Omenn
+    Department of Computational Medicine & Bioinformatics" everywhere it's
+    a *current site-chrome reference* to the department: hero eyebrow link,
+    `Footer.astro` blurb, the footer nav link (`_data/footer.yml`), and
+    Ryan Mills' `titles`/bio text on the new PI page. **Deliberately left
+    unchanged**: mentions inside old `_posts/*.md` narrative content (e.g.
+    the 2017 posts about Tony Chun's and Xuefang Zhao's thesis defenses) —
+    those are dated historical records of what the department was called
+    at the time, not a live label, so rewriting them would be revising
+    history rather than fixing a current reference. Also left the
+    abbreviated `title: Professor, DCM&B and Human Genetics` field alone
+    (used only for the compact People-page card, where the short form is
+    intentional for space).
+  - **New "Press" nav item**, inserted between Publications and Software
+    in `_data/navigation.yml` → `src/content/data/navigation.yml`
+    (order field handles the positioning, per the earlier nav-ordering
+    fix). New route `src/pages/press/index.astro` lists the `research`
+    collection (same `FeedRow` treatment as before), i.e. this collection
+    is now conceptually "Press" while `posts` is "News" — the existing
+    `/news/` page already covered that half, no changes needed there.
+  - **Merged the homepage's two sections into one "Recent News"**:
+    `posts` and `research` entries are now normalized to a common shape
+    and interleaved by actual date (not shown as two separate lists) in
+    `src/pages/index.astro`, sliced to the 5 most recent across both.
+    Removed the "View all publications" / "View all" links per request
+    (no replacement link added, since none was asked for).
+  - Verified in build output: 27 pages now (up from 26, the new `/press/`
+    route), nav shows Press between Publications and Software, dept name
+    updated in all 4 intended spots, only one `<h2>` remains on the
+    homepage ("Recent News"), zero "View all" text anywhere on it, and the
+    5 merged items are in correct chronological order spanning both
+    collections (2025 press → 2023 lab post → 2023 press → 2021 lab post).
 
 ## Next: Phase 3 — Decap CMS integration
 

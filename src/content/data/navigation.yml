@@ -18,11 +18,15 @@ publications:
   order: 3
   title: Publications
   url: /publications/
-software:
+press:
   order: 4
+  title: Press
+  url: /press/
+software:
+  order: 5
   title: Software
   url: /software/
 contact:
-  order: 5
+  order: 6
   title: Contact
   url: /contact/
