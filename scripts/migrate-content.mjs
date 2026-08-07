@@ -93,7 +93,7 @@ const ALUMNI_SUBSTATUS = {
   'Nan_Lin.md': 'other-alumni',
   'Shaomiao_Xia.md': 'other-alumni',
   'Steve_Ho.md': 'phd-alumni',
-  'Tony_Chun.md': 'other-alumni',
+  'Tony_Chun.md': 'phd-alumni',
   'Vital_Nyabashi.md': 'rotation-alumni',
   'Wenjin_Gu.md': 'phd-alumni',
   'Xuefang_Zhao.md': 'phd-alumni',

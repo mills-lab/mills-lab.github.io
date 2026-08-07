@@ -1,6 +1,6 @@
 ---
 publish: true
-status: other-alumni
+status: phd-alumni
 name: Tony Chun
 title: Post-doctoral Fellow
 line1: Ph.D., M.Sc.,  University of Michigan
