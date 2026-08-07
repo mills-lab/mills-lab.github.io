@@ -1,7 +1,7 @@
 ---
 publish: true
 name: Alex Weber
-title: Bioinformatics PhD Candidate
+title: Ph.D. University of Michigan
 picture: Alex_Weber_pic.jpg
 line1: B.S., University of Wisconsin - Madison
 line2: Bioinformatics Data Scientist, Encoded Therapeutics 

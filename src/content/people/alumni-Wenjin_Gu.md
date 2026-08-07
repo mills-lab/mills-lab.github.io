@@ -2,7 +2,7 @@
 publish: true
 status: phd-alumni
 name: Wenjin Gu
-title: Bioinformatics PhD Candidate
+title: Ph.D. University of Michigan
 line1: B.S., China Agricultural University
 line2: M.S., Biostatistics, University of Michigan
 line3: Tempus AI

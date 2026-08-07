@@ -2,7 +2,7 @@
 publish: true
 status: phd-alumni
 name: Steve Ho
-title: Human Genetics PhD Candidate
+title: Ph.D. University of Michigan
 line1: B.S., University of California - Davis
 picture: Steve_Ho_pic.png
 startDate: 2018-09-01T00:00:00.000Z
