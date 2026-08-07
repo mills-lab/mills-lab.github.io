@@ -13,7 +13,7 @@ twitter: ryan_e_mills
 email: remills@umich.edu
 start-date: 2012-01-01
 titles:
-  - Professor, Gilbert S. Omenn Department of Computational Medicine and Bioinformatics
+  - Professor, Associate Chair, Gilbert S. Omenn Department of Computational Medicine and Bioinformatics
   - Professor, Human Genetics
   - Program Director, DCMB Computing Infrastructure
 education:

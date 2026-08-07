@@ -8,7 +8,7 @@ line2: A.B., Wabash College
 picture: Ryan_Mills_pic.jpg
 startDate: 2012-01-01T00:00:00.000Z
 titles:
-  - Professor, Gilbert S. Omenn Department of Computational Medicine and Bioinformatics
+  - Professor, Associate Chair, Gilbert S. Omenn Department of Computational Medicine and Bioinformatics
   - Professor, Human Genetics
   - Program Director, DCMB Computing Infrastructure
 education:
