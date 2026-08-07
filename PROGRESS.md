@@ -691,6 +691,53 @@ the PR).
 produces an actual GitHub PR (not just a local branch) — deferred to the
 next real content request rather than fabricating a throwaway test PR.
 
+## Phase 4 — Preview pipeline — SKIPPED (by user decision)
+
+User asked directly whether the companion-preview-repo pipeline was worth
+the setup given they'd already been happy previewing via `npm run dev`.
+Discussed the actual tradeoff: the pipeline's main value is a shareable
+review URL for reviewers who don't want to check out branches locally,
+which matters much less when the same person is both requesting and
+merging changes (true here). Recommended skipping it; user agreed. Not a
+one-way door — easy to add later if more editors/reviewers join. The plan
+file still describes it for reference but it's not being built.
+
+## Phase 5 — Content migration & QA — DONE
+
+Given how much verification already happened organically throughout every
+prior content change in this project (every addition came with exact
+count checks), this was a final structured confirmation pass rather than
+starting fresh. User confirmed they're satisfied doing the actual visual/
+responsive check themselves via `npm run dev` (same sandbox limitation as
+before — no sudo for headless-Chromium deps — so this remains their
+responsibility going forward, not something resolved this phase).
+
+- **Content counts, cross-checked against legacy source**: posts 18 (17
+  legacy + 1 new 2025 post), publications 94 (matches `_pubs/` exactly,
+  which already includes this project's additions), software 8 (unchanged
+  from legacy), people 20 (matches `_people/` exactly), research 5 (new
+  collection, no legacy equivalent), pages 2 (contact + research). All
+  exactly as expected.
+- **New reusable tool**: `scripts/check-links.py` (stdlib-only Python, no
+  new dependency) — walks every built `dist/*.html` page, flags any
+  internal `href`/`src` that doesn't resolve to a real file, and prints a
+  summary of external link domains referenced (cheap way to eyeball for
+  typo'd hostnames without live-fetching all of them). Run via
+  `python3 scripts/check-links.py` after `npm run build`; exits non-zero
+  if anything's broken.
+  - **Result: 0 broken internal references** across all 28 pages (every
+    image, CV, gallery photo, and internal link resolves correctly).
+  - 238 external link/src references across 24 domains, all legitimate
+    (pubmed.ncbi.nlm.nih.gov ×93 ≈ matches the 93 publications with a
+    pmid, university/journal/GitHub/LinkedIn/Scholar domains as expected,
+    no typos).
+- **RSS feed**: 18 items, matches post count exactly.
+- **Sitemap**: 27 URLs (28 pages minus the 404 page, correctly excluded).
+- **CNAME**: `millslab.org`, matches `astro.config.mjs`'s `site` setting.
+- **Favicon + apple-touch-icon**: both present in `dist/`.
+- **robots.txt**: absent on both the old Jekyll site and this one — not a
+  regression, nothing to fix.
+
 ## How to resume this work
 
 ```
