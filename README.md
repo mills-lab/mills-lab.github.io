@@ -1,17 +1,39 @@
-# Skinny Bones Jekyll Starter
+# Mills Lab Website
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+Source for [millslab.org](https://millslab.org), the website of the Mills
+Lab (Ryan Mills, PI) at the University of Michigan's Gilbert S. Omenn
+Department of Computational Medicine & Bioinformatics.
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+This is a rebuild of a previous Jekyll site, currently in progress on the
+`development` branch — `master` still serves the live legacy site until
+cutover. See `PROGRESS.md` for the full build history and current status,
+and `CONTRIBUTING.md` for how content changes get made.
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+## Stack
 
----
+- **[Astro](https://astro.build)** (TypeScript, static output) with
+  **Tailwind CSS**
+- Content lives as Markdown/YAML files under `src/content/`, typed and
+  validated by [content collection](https://docs.astro.build/en/guides/content-collections/)
+  schemas in `src/content.config.ts` — posts, people, publications,
+  software, press coverage, and site-wide data (nav, footer) each have
+  their own schema
+- Deployed as a static site to **GitHub Pages** via GitHub Actions
 
-## Notable Features
+## Local development
 
-* Jekyll 3.x and GitHub Pages compatible.
-* Stylesheet built using Sass.
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+```
+npm install
+npm run dev      # local dev server
+npm run build    # production build to dist/
+npm run preview  # serve the production build locally
+```
+
+## Content workflow
+
+Content changes (new posts, personnel updates, publications, etc.) are made
+by describing the change to an AI coding assistant (Claude) with repo
+access, which edits the relevant files and opens a pull request — no
+separate CMS. Every change to `master` requires a PR (enforced by a GitHub
+ruleset, not just convention). See `CONTRIBUTING.md` for details on the
+workflow and where each content type lives.
