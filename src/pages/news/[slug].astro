@@ -15,7 +15,10 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
-const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+// timeZone: 'UTC' is required - dates parse as UTC midnight (z.coerce.date()
+// on a bare "YYYY-MM-DD"), so formatting in the server's local timezone can
+// shift the displayed calendar date back a day.
+const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const feature = post.data.image?.feature ? `/images/${post.data.image.feature}` : null;
 ---
 

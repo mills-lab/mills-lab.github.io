@@ -600,6 +600,28 @@ behavior, etc.
     the lightbox on the post's detail page, teaser renders on the News
     index, and the post correctly appears first in the homepage's 5-item
     "Recent News."
+- **Removed the placeholder body text** from the 2025 Lab Holiday Party
+  post per request — now just frontmatter + gallery, no prose.
+- **Found and fixed a real, site-wide date-off-by-one bug** while
+  double-checking the new post's date. The frontmatter always correctly
+  said `2025-12-13`, but every page showed "December 12" — the user's "the
+  date should be December 13" report was actually this bug, not a wrong
+  source value. Root cause: `z.coerce.date()` parses a bare `"YYYY-MM-DD"`
+  string as UTC midnight, but every `new Intl.DateTimeFormat('en-US', {...})`
+  call across the site (`index.astro`, `news/index.astro`,
+  `news/[slug].astro`, `press/index.astro`) formatted without an explicit
+  `timeZone`, so it used the server's local zone — this sandbox is
+  America/New_York (UTC-4/5), which rolls UTC midnight back to the
+  previous evening. **This affected every date on the entire site**, not
+  just the new post — e.g. the 2023 Holiday Party was showing "December
+  15" instead of "December 16." Fixed by adding `timeZone: 'UTC'` to all
+  four `Intl.DateTimeFormat` instantiations, which is also the more
+  correct/deterministic fix regardless of environment, since it makes the
+  displayed date independent of whatever timezone the build machine
+  happens to be in (GitHub Actions runners default to UTC, so this may
+  never have been visible in production — but relying on that would've
+  been fragile). Verified every affected page (post detail, News index,
+  Press index, homepage) now shows the correct date for every entry.
 
 ## Next: Phase 3 — Decap CMS integration
 
