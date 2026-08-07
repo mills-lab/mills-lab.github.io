@@ -34,6 +34,8 @@ const sections = [
     people: people.filter((p) => p.data.status === 'rotation-alumni').sort(byStartDateAsc).reverse(),
   },
 ].filter((section) => section.people.length > 0);
+
+const notShown = people.filter((p) => p.data.status === 'not-shown').sort(byStartDateAsc);
 ---
 
 <Layout title="People">
@@ -53,6 +55,23 @@ const sections = [
           </div>
         </>
       ))
+    }
+
+    {
+      notShown.length > 0 && (
+        <>
+          <h2 class="mt-14 text-xl font-semibold text-umblue-950">Not Shown</h2>
+          <ul class="mt-4 max-w-2xl space-y-2 text-slate-700">
+            {notShown.map((person) => (
+              <li>
+                <span class="font-medium text-umblue-950">{person.data.name}</span>
+                {person.data.line1 && `, ${person.data.line1}`}
+                {person.data.title && ` — ${person.data.title}`}
+              </li>
+            ))}
+          </ul>
+        </>
+      )
     }
   </div>
 </Layout>
