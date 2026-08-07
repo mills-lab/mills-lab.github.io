@@ -771,6 +771,28 @@ with the full pipeline (`migrate-content.mjs` where legacy-sourced →
   kept as a sibling outside that wrapper so its own `<a>` tags don't end
   up nested inside another anchor.
 
+## Phase 6 — Cutover — IN PROGRESS
+
+- Replaced `.github/workflows/jekyll.yml` with `.github/workflows/deploy.yml`:
+  same `actions/configure-pages` + `actions/deploy-pages` pattern, build step
+  swapped from `bundle exec jekyll build` to `npm ci && npm run build`. No
+  `--baseurl`/base-path handling needed (custom domain deploys at root, same
+  as the Jekyll site did). Verified locally by running the exact commands the
+  workflow runs (`npm ci`, `npm run build`) — 28 pages, clean.
+- GitHub Pages is already configured for Actions-based deployment (the old
+  Jekyll workflow already used `configure-pages`/`deploy-pages`), so no
+  repo-settings change was needed — just swapping which workflow builds it.
+- Opened PR #14 (`development` → `master`) — this is the single point where
+  production (`millslab.org`) actually changes. Includes a rollback plan in
+  the PR description (fast: re-run last successful Jekyll deploy from
+  Actions; clean: revert the merge commit via a new PR, which respects this
+  repo's branch protection).
+- **Noted but not yet acted on**: 4 open Dependabot PRs bumping Ruby/Jekyll
+  gems (rexml, addressable, ffi, jekyll) will become obsolete once the
+  Jekyll setup is retired — worth closing after cutover confirms stable.
+- **Remaining**: user review/merge of PR #14, confirm the `deploy.yml` run
+  succeeds, spot-check the live site at `millslab.org`.
+
 ## How to resume this work
 
 ```
