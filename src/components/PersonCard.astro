@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import PersonLinks from './PersonLinks.astro';
+
+interface Props {
+  person: CollectionEntry<'people'>['data'];
+  // Optional: makes the photo/name/title/lines area a link (e.g. to a full
+  // profile page). Styled to look identical to the non-linked version (same
+  // preflight color/decoration-inherit trick used elsewhere on the site) -
+  // kept separate from PersonLinks below so icon links don't end up nested
+  // inside this anchor, which would be invalid HTML.
+  href?: string;
+}
+
+const { person, href } = Astro.props;
+const picture = person.picture ? `/assets/people/${person.picture}` : '/assets/people/placeholder.png';
+const Wrapper = href ? 'a' : 'div';
+---
+
+<article class="flex flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+  <Wrapper href={href} class="contents">
+    <img src={picture} alt={person.name} class="aspect-[19/24] w-full object-cover" loading="lazy" />
+    <div class="flex flex-1 flex-col gap-1 p-4 pb-0">
+      <h3 class="font-semibold text-umblue-950">{person.name}</h3>
+      {person.title && <p class="text-sm text-slate-600">{person.title}</p>}
+      <ul class="mt-1 space-y-0.5 text-sm text-slate-500">
+        {person.line1 && <li set:html={person.line1} />}
+        {person.line2 && <li set:html={person.line2} />}
+        {person.line3 && <li set:html={person.line3} />}
+      </ul>
+    </div>
+  </Wrapper>
+  <div class="px-4 pb-4">
+    <PersonLinks links={person.links} />
+  </div>
+</article>

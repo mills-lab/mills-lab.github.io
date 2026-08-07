@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostGallery from '../../components/PostGallery.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+// timeZone: 'UTC' is required - dates parse as UTC midnight (z.coerce.date()
+// on a bare "YYYY-MM-DD"), so formatting in the server's local timezone can
+// shift the displayed calendar date back a day.
+const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const feature = post.data.image?.feature ? `/images/${post.data.image.feature}` : null;
+---
+
+<Layout title={post.data.title}>
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+    <p class="text-sm text-slate-500">{dateFmt.format(post.data.date)}</p>
+    <h1 class="mt-1 text-3xl font-bold text-umblue-950">{post.data.title}</h1>
+    {
+      feature && (
+        <button
+          type="button"
+          data-lightbox-src={feature}
+          data-lightbox-alt={post.data.title}
+          class="mt-6 block w-full cursor-zoom-in appearance-none border-0 bg-transparent p-0"
+          aria-label="View full-size photo"
+        >
+          <img src={feature} alt="" class="w-full rounded-lg object-cover transition hover:opacity-90" />
+        </button>
+      )
+    }
+    <div class="prose prose-slate mt-6 max-w-none">
+      <Content />
+    </div>
+    {post.data.gallery && <PostGallery folder={post.data.gallery} />}
+    <Lightbox />
+    {
+      post.data.externalUrl && (
+        <p class="mt-6">
+          <a href={post.data.externalUrl} target="_blank" class="text-umblue-900 underline hover:text-umblue-950">
+            View original source &rarr;
+          </a>
+        </p>
+      )
+    }
+    <p class="mt-10">
+      <a href="/news/" class="text-sm text-umblue-900 underline hover:text-umblue-950">&larr; Back to News</a>
+    </p>
+  </article>
+</Layout>

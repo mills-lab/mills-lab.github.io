@@ -1,0 +1,54 @@
+# Contributing to the Mills Lab website
+
+This site's content — news posts, personnel changes, publications, software
+entries, press coverage — is meant to be edited by asking an AI coding
+assistant (Claude) to make the change, rather than through a separate CMS or
+by hand-editing files yourself (though you're welcome to do that too, if
+you're comfortable with it).
+
+## How to make a content change
+
+1. Open Claude (Claude Code, or another assistant with write access to this
+   repository) and describe the change in plain language — e.g. "add a new
+   PhD student, here's their name/photo/bio" or "add this news article to
+   the Press page: <url>". Point it at the `PROGRESS.md` file at the repo
+   root first if it's a fresh session with no prior context — it summarizes
+   the project, the content model, and a lot of prior decisions worth
+   knowing before making changes.
+2. Claude edits the relevant content files under `src/content/` (see
+   `src/content.config.ts` for the schema of each content type), commits
+   the change to a new branch, and opens a pull request against `master`.
+3. Review the PR's diff and (once Phase 4's preview pipeline exists) its
+   live preview link, then merge it yourself. **A human always merges** —
+   nothing goes live without a PR being approved and merged.
+
+Content changes should never be committed directly to `master`. Branch
+protection on `master` (see below) enforces this at the GitHub level, not
+just by convention.
+
+## Content locations
+
+- `src/content/posts/` — lab news posts (photos, events, announcements)
+- `src/content/people/` — lab members and alumni (see the `status` field
+  for how sections on the People page are determined)
+- `src/content/publications/` — publications, shown on the Publications page
+- `src/content/software/` — software tools
+- `src/content/research/` — press coverage and publication summaries, shown
+  on the Press page and the homepage's "Recent News"
+- `src/content/pages/` — static page bodies (Research, Contact)
+- `src/content/data/navigation.yml`, `footer.yml` — site nav and footer links
+- Images live under `public/images/` (post galleries/teasers) and
+  `public/assets/` (people photos, CVs)
+
+## One-time repo setup (for a repo admin)
+
+Branch protection on `master` needs to be turned on once, by someone with
+admin access to the repo, via GitHub's web UI:
+
+1. Go to the repo's **Settings → Branches**.
+2. Add a branch protection rule for `master`.
+3. Enable **"Require a pull request before merging"**.
+
+This is a repo configuration setting, not something that can be done via
+`git` alone — it has to be set up in GitHub's UI (or via the GitHub API with
+admin credentials) by a repo administrator.

@@ -1,0 +1,80 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { getCollection } from 'astro:content';
+
+const people = (await getCollection('people')).filter((p) => p.data.publish);
+
+const byStartDateAsc = (a: (typeof people)[number], b: (typeof people)[number]) =>
+  (a.data.startDate?.valueOf() ?? 0) - (b.data.startDate?.valueOf() ?? 0);
+
+const STATUS_LABEL: Record<string, string> = {
+  pi: 'Principal Investigator',
+  researchinvestigator: 'Research Investigator',
+  phd: 'Doctoral Student',
+};
+
+const sections = [
+  {
+    title: 'Current Lab Members',
+    people: people
+      .filter((p) => p.data.status === 'pi' || p.data.status === 'phd' || p.data.status === 'researchinvestigator')
+      .sort(byStartDateAsc),
+  },
+  {
+    title: 'Ph.D. Alumni',
+    people: people.filter((p) => p.data.status === 'phd-alumni').sort(byStartDateAsc).reverse(),
+  },
+  {
+    title: 'Other Lab Alumni',
+    people: people.filter((p) => p.data.status === 'other-alumni').sort(byStartDateAsc).reverse(),
+  },
+  {
+    title: 'Past Rotation Students',
+    people: people.filter((p) => p.data.status === 'rotation-alumni').sort(byStartDateAsc).reverse(),
+  },
+].filter((section) => section.people.length > 0);
+
+const notShown = people.filter((p) => p.data.status === 'not-shown').sort(byStartDateAsc);
+---
+
+<Layout title="People">
+  <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <h1 class="text-3xl font-bold text-umblue-950">People</h1>
+
+    {
+      sections.map((section, i) => (
+        <>
+          <h2 class:list={['text-xl font-semibold text-umblue-950', i === 0 ? 'mt-10' : 'mt-14']}>
+            {section.title}
+          </h2>
+          <div class="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {section.people.map((person) => (
+              <PersonCard
+                person={{ ...person.data, title: person.data.title ?? STATUS_LABEL[person.data.status] }}
+                href={person.data.status === 'pi' ? '/people/ryan-mills/' : undefined}
+              />
+            ))}
+          </div>
+        </>
+      ))
+    }
+
+    {
+      notShown.length > 0 && (
+        <>
+          <h2 class="mt-14 text-xl font-semibold text-umblue-950">Not Shown</h2>
+          <ul class="mt-4 max-w-2xl space-y-2 text-slate-700">
+            {notShown.map((person) => (
+              <li>
+                <span class="font-medium text-umblue-950">{person.data.name}</span>
+                {person.data.line1 && `, ${person.data.line1}`}
+                {person.data.title && ` — ${person.data.title}`}
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+  </div>
+</Layout>

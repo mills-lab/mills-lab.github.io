@@ -1,0 +1,32 @@
+news:
+  order: 0
+  title: News
+  url: /news/
+  excerpt: null
+  image: null
+research:
+  order: 1
+  title: Research
+  url: /research/
+  excerpt: null
+  image: null
+people:
+  order: 2
+  title: People
+  url: /people/
+publications:
+  order: 3
+  title: Publications
+  url: /publications/
+press:
+  order: 4
+  title: Press
+  url: /press/
+software:
+  order: 5
+  title: Software
+  url: /software/
+contact:
+  order: 6
+  title: Contact
+  url: /contact/

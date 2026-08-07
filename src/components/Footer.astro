@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+
+const footerLinks = (await getCollection('footer')).sort((a, b) => a.data.order - b.data.order);
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-slate-200 bg-slate-50">
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <p class="font-semibold text-umblue-950">The Mills Lab</p>
+        <p class="mt-1 max-w-sm text-sm text-slate-600">
+          Gilbert S. Omenn Department of Computational Medicine &amp; Bioinformatics, University
+          of Michigan.
+          Studying genomic structural variation in human health and disease.
+        </p>
+      </div>
+      <ul class="flex flex-col gap-1.5 text-sm text-slate-600">
+        {
+          footerLinks.map((link) => (
+            <li>
+              <a href={link.data.url} class="hover:text-umblue-950 hover:underline">
+                {link.data.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <p class="mt-8 text-xs text-slate-400">&copy; {year} The Mills Lab, University of Michigan.</p>
+  </div>
+</footer>

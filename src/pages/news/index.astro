@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+// timeZone: 'UTC' is required - dates parse as UTC midnight (z.coerce.date()
+// on a bare "YYYY-MM-DD"), so formatting in the server's local timezone can
+// shift the displayed calendar date back a day.
+const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+
+<Layout title="News">
+  <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <h1 class="text-3xl font-bold text-umblue-950">News</h1>
+    <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        posts.map((post) => {
+          const href = post.data.externalUrl || `/news/${post.id}/`;
+          const target = post.data.externalUrl ? '_blank' : undefined;
+          const teaser = post.data.image?.teaser ? `/images/${post.data.image.teaser}` : null;
+          return (
+            <article class="flex flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+              <a href={href} target={target}>
+                {teaser && <img src={teaser} alt="" class="h-44 w-full object-cover" loading="lazy" />}
+              </a>
+              <div class="flex flex-1 flex-col p-4">
+                <time class="text-xs text-slate-500">{dateFmt.format(post.data.date)}</time>
+                <h2 class="mt-1 font-semibold text-umblue-950">
+                  <a href={href} target={target} class="hover:underline">
+                    {post.data.title}
+                  </a>
+                </h2>
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+  </div>
+</Layout>

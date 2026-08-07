@@ -1,10 +1,10 @@
 ---
 publish: true
 name: Weichen Zhou
-title: Ph.D., Fudan University 
+title: Assistant Research Professor, DCM&B
 picture: Weichen_Zhou_pic.jpg
-line1: B.S.E., Huazhong University of Science and Technology
-line2: 
+line1: Ph.D., Fudan University
+line2: B.S.E., Huazhong University of Science and Technology
 google-scholar: 3O6XCBkAAAAJ 
 CV: ZhouWeichen_CV.pdf
 linked-in: 

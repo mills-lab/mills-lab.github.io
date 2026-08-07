@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const software = (await getCollection('software')).sort(
+  (a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0)
+);
+---
+
+<Layout title="Software">
+  <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+    <h1 class="text-3xl font-bold text-umblue-950">Software</h1>
+    <ul class="mt-8 space-y-8">
+      {
+        software.map((code) => (
+          <li class="border-b border-slate-200 pb-8">
+            <h2 class="text-lg font-semibold">
+              <a href={code.data.externalUrl} target="_blank" class="text-umblue-900 hover:underline">
+                {code.data.title}
+              </a>
+            </h2>
+            {code.data.description && <p class="mt-1 text-slate-700">{code.data.description}</p>}
+            {code.data.externalUrl && (
+              <p class="mt-2 text-sm text-slate-600">
+                Source code and documentation available at{' '}
+                <a href={code.data.externalUrl} target="_blank" class="text-umblue-900 underline hover:text-umblue-950">
+                  {code.data.externalUrl}
+                </a>
+              </p>
+            )}
+            {code.data.citation && (
+              <p class="mt-2 text-sm text-slate-600">
+                <span class="font-medium">Reference:</span> {code.data.citation}
+              </p>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

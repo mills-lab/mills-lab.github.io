@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+
+const navItems = (await getCollection('navigation')).sort((a, b) => a.data.order - b.data.order);
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<header class="bg-umblue-950 text-white">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
+    <a href="/" class="flex items-center gap-2 text-lg font-semibold tracking-tight">
+      <span class="inline-block h-2.5 w-2.5 rounded-full bg-maize-400"></span>
+      The Mills Lab
+    </a>
+    <nav aria-label="Primary" class="hidden gap-6 text-sm font-medium sm:flex">
+      {
+        navItems.map((item) => {
+          const href = item.data.url;
+          const isActive = href !== '/' && currentPath.startsWith(href.replace(/\/$/, ''));
+          return (
+            <a
+              href={href}
+              class:list={[
+                'transition hover:text-maize-400',
+                isActive ? 'text-maize-400' : 'text-white',
+              ]}
+            >
+              {item.data.title}
+            </a>
+          );
+        })
+      }
+    </nav>
+    <details class="relative sm:hidden">
+      <summary class="cursor-pointer list-none rounded border border-white/30 px-3 py-1.5 text-sm">
+        Menu
+      </summary>
+      <nav
+        aria-label="Primary"
+        class="absolute right-0 z-10 mt-2 flex w-44 flex-col gap-1 rounded-md bg-umblue-900 p-3 text-sm shadow-lg"
+      >
+        {
+          navItems.map((item) => (
+            <a href={item.data.url} class="rounded px-2 py-1.5 hover:bg-umblue-800">
+              {item.data.title}
+            </a>
+          ))
+        }
+      </nav>
+    </details>
+  </div>
+</header>

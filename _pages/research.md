@@ -6,7 +6,6 @@ permalink: /research/
 image:
   feature: banner-short-apb.png
 ---
-<p style="float: right; margin: 10px 0px 10px 20px; width: 650px;"><img alt="Figure1" src="/images/figure2.png" title="Figure2"><span style="font-size: 1.0em; line-height: 1.3;"><span style="margin-top: 10px; display: block;">Discovery and characterization of somatic genomic structural variation in human tissues</span></span></p>
 <p>
 The primary purpose of sequencing genomes is to identify the underlying genetic variation between individuals and to explore what role those changes have on human phenotypes. Our research laboratory develops and implements methods to precisely identify and resolve different types of genomic variation both between and within individuals. Our current efforts are focused on developing methods for discovering and characterizing somatic genomic variation in individual cells and tissues. Our goal is to integrate this information with other forms of biologically and medically relevant data to improve our overall understanding of human health and disease.
 </p>
@@ -14,6 +13,11 @@ The primary purpose of sequencing genomes is to identify the underlying genetic 
 <p>
 Over the past decade, our research has been conducted independently, collaboratively through partnerships with other research groups, and through membership in numerous large consortia including the 1000 Genomes Project, Human Genome Structural Variation Consortium, Brain Somatic Mosaicism Network, Impact of Genomic Variation on Function Consortium, and recently the Somatic Mosaicism across Human Tissues Network. 
 </p>
+
+<figure style="margin: 24px 0;">
+  <img alt="Figure1" src="/images/figure2.png" title="Figure2" style="width: 100%; height: auto; border-radius: 8px;">
+  <figcaption style="margin-top: 8px; font-size: 0.95em; color: #555;">Discovery and characterization of somatic genomic structural variation in human tissues</figcaption>
+</figure>
 
 <p>
 <b>Areas of Investigation</b>
