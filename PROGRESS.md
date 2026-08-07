@@ -738,6 +738,39 @@ responsibility going forward, not something resolved this phase).
 - **robots.txt**: absent on both the old Jekyll site and this one — not a
   regression, nothing to fix.
 
+## Post-Phase-5 content updates
+
+Ongoing content requests handled after the Phase 5 QA pass, each verified
+with the full pipeline (`migrate-content.mjs` where legacy-sourced →
+`astro check` → `astro build` → `check-links.py` → commit/push to
+`development`):
+
+- Added rotation students Kobe Howcroft and Vital Nyabashi (both PIBS
+  Rotation Student, Oct–Dec 2025); Vital is now a Bioinformatics Ph.D.
+  student in the Brenner Lab. Moved Tony Chun from Other Lab Alumni to
+  Ph.D. Alumni.
+- Updated Ryan Mills' CV (`public/assets/mills_cv.pdf`) to the
+  08/07/2026-dated version the user supplied.
+- Added rotation students Maya Bose (B.S., University of Arizona) and Kai
+  Li (B.S., Qingdao University; now a Postdoctoral Fellow at UM), photos
+  cropped to the standard 190×240 person-photo convention.
+- Added a new "Not Shown" section/status (`not-shown`) on the People page
+  for master's and undergraduate students who shouldn't get full cards —
+  text-only entries (name, university, status) for Samantha Reimer,
+  Byungjun Kim, Samantha Rondeau, Priya Ghandi, Yanming Gan, Thomas Chang,
+  and Sophia Marcotte.
+- Weichen Zhou's card now shows his rank, "Assistant Research Professor,
+  DCM&B", as the title, with his Ph.D./B.S.E. degrees moved into
+  line1/line2.
+- Ryan Mills' People card now links to his PI profile page
+  (`/people/ryan-mills/`). `PersonCard.astro` gained an optional `href`
+  prop that wraps the photo/name/title/lines block in an `<a>` (styled
+  identically to plain text via the site's existing preflight-reset
+  "invisible hyperlink" pattern — no visible difference from unlinked
+  cards). The `PersonLinks` icon row (CV/Scholar/etc.) is deliberately
+  kept as a sibling outside that wrapper so its own `<a>` tags don't end
+  up nested inside another anchor.
+
 ## How to resume this work
 
 ```
