@@ -147,6 +147,8 @@ function migratePeople() {
           line3: data.line3,
           picture: data.picture,
           startDate: data['start-date'],
+          titles: data.titles,
+          education: data.education,
           links: buildPersonLinks(data),
         },
         content

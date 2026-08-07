@@ -1,0 +1,52 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+const people = await getCollection('people');
+const pi = people.find((p) => p.data.status === 'pi');
+if (!pi) throw new Error('No person with status "pi" found for the PI profile page');
+
+const { Content } = await render(pi);
+const picture = pi.data.picture ? `/assets/people/${pi.data.picture}` : '/assets/people/placeholder.png';
+---
+
+<Layout title="Meet the PI">
+  <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+    <div class="flex flex-col gap-8 sm:flex-row">
+      <img
+        src={picture}
+        alt={pi.data.name}
+        class="aspect-[19/24] w-48 flex-shrink-0 self-start rounded-lg object-cover sm:w-56"
+      />
+      <div>
+        <h1 class="text-3xl font-bold text-umblue-950">{pi.data.name}</h1>
+        {
+          pi.data.titles && pi.data.titles.length > 0 && (
+            <ul class="mt-3 space-y-1 text-slate-700">
+              {pi.data.titles.map((title) => (
+                <li>{title}</li>
+              ))}
+            </ul>
+          )
+        }
+      </div>
+    </div>
+
+    {
+      pi.data.education && pi.data.education.length > 0 && (
+        <div class="mt-10">
+          <h2 class="text-xl font-semibold text-umblue-950">Education</h2>
+          <ul class="mt-3 space-y-1 text-slate-700">
+            {pi.data.education.map((entry) => (
+              <li>{entry}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    <div class="prose prose-slate mt-10 max-w-none">
+      <Content />
+    </div>
+  </div>
+</Layout>

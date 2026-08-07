@@ -500,6 +500,42 @@ behavior, etc.
   paper, so there's no one publication to point at). Verified it renders
   on the homepage in correct chronological order among the other two
   `research` entries.
+- **New "Meet the PI" page + homepage button** (user request). Homepage
+  hero now has 3 buttons (Our Research / Meet the Lab / Meet the PI), all
+  restyled to the same yellow (`bg-maize-400`) filled style — "Meet the
+  Lab" was previously an outlined style, now matches the other two.
+  - **Source research**: `medschool.umich.edu` (the URL the user gave) is
+    behind a Cloudflare bot challenge — both WebFetch and curl got a "Just
+    a moment..." JS-challenge page (403/interstitial), not the real
+    content, so nothing was scraped from it directly. Pieced together
+    verified info instead from: the lab's own `public/assets/mills_cv.pdf`
+    (extracted via `pypdf`, dated 2023-06-30 — has full education/training/
+    appointment history), a fetchable RNA Biomedicine faculty-spotlight
+    page, and WebSearch results aggregating 2024/2025-dated UM pages that
+    consistently show his rank advanced from "Associate Professor" (as of
+    the 2023 CV) to full **"Professor."** Current titles/rank and
+    education are both real, sourced, cross-checked across ≥2 independent
+    mentions each — not fabricated.
+  - **Image**: also couldn't be pulled from the blocked UM page, so reused
+    the lab's own existing `Ryan_Mills_pic.jpg` (already on file, already
+    a real photo of him) rather than substitute a different one.
+  - **Schema**: `people` collection gained two new optional fields,
+    `titles: string[]` and `education: string[]` (only populated for Ryan
+    so far — generically named in case another PI profile is ever added).
+    The biography is the entry's markdown body, rendered via the same
+    `render()` pattern already used for `research`/`contact`.
+  - **Also fixed while in the file**: `_people/pi/Ryan_Mills.md` still had
+    the old `remills@med.umich.edu` email in its `links`/mailto field —
+    the Contact page email got corrected to `remills@umich.edu` in an
+    earlier task but this separate copy of the same fact was missed.
+    Updated for consistency.
+  - New route: `src/pages/people/ryan-mills.astro` — image left, titles
+    right, education below both, biography below that, matching the
+    requested layout. Looks up the PI via `status === 'pi'` rather than a
+    hardcoded slug, so it keeps working if the file gets renamed later.
+  - Verified in build output: all 3 hero buttons share the identical
+    yellow class string, the profile page renders titles/education/bio/
+    image correctly, 26 pages now build (up from 25).
 
 ## Next: Phase 3 — Decap CMS integration
 

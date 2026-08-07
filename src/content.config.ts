@@ -40,6 +40,11 @@ const people = defineCollection({
     line3: z.string().optional(),
     picture: z.string().optional(),
     startDate: z.coerce.date().optional(),
+    // Only populated for people with a dedicated full profile page (so far
+    // just the PI) - current titles/rank and educational background shown
+    // there, plus the markdown body as the biography.
+    titles: z.array(z.string()).optional(),
+    education: z.array(z.string()).optional(),
     links: z
       .array(
         z.object({
