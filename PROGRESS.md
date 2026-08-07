@@ -622,6 +622,16 @@ behavior, etc.
   never have been visible in production — but relying on that would've
   been fragile). Verified every affected page (post detail, News index,
   Press index, homepage) now shows the correct date for every entry.
+- **Publications page: whole entry is the PubMed link now, icon removed.**
+  Each `<li>` citation is now itself wrapped in `<a href="https://pubmed...">`
+  (when the entry has a `pmid` — one entry, the JOSS BAMnostic paper, has
+  none and correctly renders as plain unlinked text, same as before). No
+  color/underline styling on the link — relies on the same Tailwind-
+  preflight-inherits trick used elsewhere on the site, plus a subtle
+  `hover:bg-slate-50` on the whole row as the only interactivity cue, per
+  "don't show them as hyperlinks." Verified: 0 `<svg>` remain, 93 of 94
+  entries wrapped in a real PubMed link, the BAMnostic entry stays
+  unlinked plain text.
 
 ## Next: Phase 3 — Decap CMS integration
 
