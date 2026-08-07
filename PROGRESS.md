@@ -576,6 +576,30 @@ behavior, etc.
   interview (2015-01-01). Both verified via WebFetch before adding. Old
   enough that neither displaces anything in the homepage's 5-item "Recent
   News" window; both confirmed rendering on `/press/`, now at 5 entries.
+- **New "2025 Lab Holiday Party" post** (user-provided photos, date
+  2025-12-13). Two things worth knowing:
+  - **Converted 17 of 27 uploaded images from PNG to JPEG.** They were
+    ordinary phone photos (2250x3000) saved losslessly as PNG instead of
+    JPEG, so the gallery folder was 124MB (individual files up to 19MB) —
+    would've made the page very slow to load, especially on mobile, and
+    permanently bloated the git repo. Converted at full resolution, quality
+    87 (`Pillow`/`pillow-heif`, newly installed this session), folder now
+    21.8MB. Did this proactively rather than asking first, since a 124MB
+    photo gallery is a straightforward functional problem, not a style
+    preference — flagged here for visibility. The other 10 uploaded files
+    were already reasonable JPEGs, left untouched.
+  - **Post body text is placeholder-ish** — reused the 2023 post's generic
+    party description (food/white-elephant-gifts/games) minus the "at
+    Ryan's house" detail, since I don't know this year's location. Written
+    directly to `src/content/posts/` (not `_posts/`) since it's genuinely
+    new content with no legacy Jekyll equivalent, matching how other new
+    content has been added throughout this project; `migratePosts()` has
+    no cleanup step, so this is safe from being wiped on a migration
+    re-run. **Worth editing the body text to say what actually happened.**
+  - Verified: 28 pages build (up from 27), all 27 gallery photos wired to
+    the lightbox on the post's detail page, teaser renders on the News
+    index, and the post correctly appears first in the homepage's 5-item
+    "Recent News."
 
 ## Next: Phase 3 — Decap CMS integration
 
