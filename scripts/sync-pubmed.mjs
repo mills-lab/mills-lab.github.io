@@ -26,6 +26,11 @@
 //    "1000 Genomes Project" as CN, no individual "Mills RE" author entry -
 //    added by hand originally, which is exactly the situation this list
 //    is meant to surface going forward.)
+//
+// If a bioRxiv/medRxiv preprint later gets a peer-reviewed publication,
+// only the published version is kept - checked by title against both the
+// existing catalog (deletes the superseded preprint's file) and this run's
+// other new candidates (drops it before it's ever written).
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -41,6 +46,13 @@ const CONSORTIA = [
   'Brain Somatic Mosaicism Network',
   'Somatic Mosaicism across Human Tissues Network',
 ];
+
+// If a bioRxiv/medRxiv preprint later gets a peer-reviewed publication,
+// only the published version is kept - matches title against both the
+// existing catalog and this run's other new candidates and drops the
+// preprint side whenever a non-preprint match exists.
+const PREPRINT_SERVERS = new Set(['bioRxiv', 'medRxiv', 'chemRxiv', 'Research Square', 'SSRN', 'arXiv']);
+const normalizeTitle = (title) => (title ?? '').toLowerCase().trim().replace(/\.$/, '').replace(/\s+/g, ' ');
 
 const EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 const dryRun = process.argv.includes('--dry-run');
@@ -125,7 +137,7 @@ function verifyIndividualAuthorship(entries) {
   return false;
 }
 
-function writePubEntry(pmid, entries) {
+function buildPubEntry(pmid, entries) {
   const title = decodeHtmlEntities(field(entries, 'TI') ?? '');
   const authors = decodeHtmlEntities(buildAuthorString(entries));
   const pubdate = field(entries, 'DP') ?? '';
@@ -148,8 +160,62 @@ function writePubEntry(pmid, entries) {
     '',
   ].join('\n');
 
-  if (!dryRun) fs.writeFileSync(path.join(pubsDir, `${pmid}.md`), frontmatter);
-  return { pmid, title, journal };
+  return { pmid, title, journal, frontmatter };
+}
+
+function writePubEntry(entry) {
+  if (!dryRun) fs.writeFileSync(path.join(pubsDir, `${entry.pmid}.md`), entry.frontmatter);
+}
+
+function loadExistingCatalog() {
+  return fs
+    .readdirSync(pubsDir)
+    .filter((f) => f.endsWith('.md'))
+    .map((f) => {
+      const text = fs.readFileSync(path.join(pubsDir, f), 'utf8');
+      const title = text.match(/^title:\s*(.*)$/m)?.[1]?.trim() ?? '';
+      const journal = text.match(/^journal:\s*(.*)$/m)?.[1]?.trim() ?? '';
+      return { pmid: f.replace(/\.md$/, ''), title, journal, file: path.join(pubsDir, f) };
+    });
+}
+
+// Drops the preprint side of any preprint/published pair - checked against
+// both the existing catalog (deletes the old preprint's file) and this
+// run's other new candidates (drops it before it's ever written). A group
+// with only preprint entries (no published version exists yet) is left
+// alone; a group with multiple non-preprint entries (the existing catalog
+// has one such case, an unrelated PubMed indexing duplicate) is also left
+// alone - this only acts when there's an actual preprint-vs-published mix.
+function reconcilePreprints(newEntries, existingCatalog) {
+  const groups = new Map();
+  for (const e of [...existingCatalog.map((e) => ({ ...e, isExisting: true })), ...newEntries.map((e) => ({ ...e, isExisting: false }))]) {
+    const key = normalizeTitle(e.title);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+
+  const supersededExisting = [];
+  const supersededNew = new Set();
+  for (const group of groups.values()) {
+    if (group.length < 2) continue;
+    const hasPublished = group.some((e) => !PREPRINT_SERVERS.has(e.journal));
+    if (!hasPublished) continue;
+    for (const e of group) {
+      if (!PREPRINT_SERVERS.has(e.journal)) continue;
+      if (e.isExisting) {
+        if (!dryRun) fs.rmSync(e.file);
+        supersededExisting.push(e);
+      } else {
+        supersededNew.add(e.pmid);
+      }
+    }
+  }
+
+  return {
+    survivingNew: newEntries.filter((e) => !supersededNew.has(e.pmid)),
+    supersededExisting,
+    supersededNew: newEntries.filter((e) => supersededNew.has(e.pmid)),
+  };
 }
 
 async function main() {
@@ -186,11 +252,14 @@ async function main() {
       continue;
     }
     if (verifyIndividualAuthorship(entries)) {
-      added.push(writePubEntry(pmid, entries));
+      added.push(buildPubEntry(pmid, entries));
     } else {
       rejected.push({ pmid, title });
     }
   }
+
+  const { survivingNew, supersededExisting, supersededNew } = reconcilePreprints(added, loadExistingCatalog());
+  for (const entry of survivingNew) writePubEntry(entry);
 
   // --- Consortium leads: papers credited via a group name for a known
   // consortium, with no individual author entry for him - can't be
@@ -219,13 +288,25 @@ async function main() {
   const lines = [];
   lines.push(`## PubMed sync report`);
   lines.push('');
-  if (added.length > 0) {
-    lines.push(`### Added ${added.length} new publication${added.length === 1 ? '' : 's'}`);
+  if (survivingNew.length > 0) {
+    lines.push(`### Added ${survivingNew.length} new publication${survivingNew.length === 1 ? '' : 's'}`);
     lines.push('');
-    for (const p of added) lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal})`);
+    for (const p of survivingNew) lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal})`);
     lines.push('');
   } else {
     lines.push('No new individually-authored publications found.');
+    lines.push('');
+  }
+  if (supersededExisting.length > 0 || supersededNew.length > 0) {
+    const total = supersededExisting.length + supersededNew.length;
+    lines.push(`### ${total} preprint${total === 1 ? '' : 's'} superseded by a published version`);
+    lines.push('');
+    for (const p of supersededExisting) {
+      lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal}) — removed from the catalog, replaced by the published version below`);
+    }
+    for (const p of supersededNew) {
+      lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal}) — not added, a published version already covers this`);
+    }
     lines.push('');
   }
   if (skippedCorrections.length > 0) {

@@ -867,20 +867,37 @@ with the full pipeline (`migrate-content.mjs` where legacy-sourced →
   workflow's PR-opening step needs this and it can't be checked or set via
   the fine-grained PAT used elsewhere in this project (needs repo-admin
   scope). **Not yet confirmed enabled.**
+- **Preprint/published deduplication** (added after user feedback on the
+  first draft of this PR): if a bioRxiv/medRxiv preprint later gets a
+  peer-reviewed publication, only the published version is kept. Checked
+  by normalized title match against both the existing catalog (deletes the
+  superseded preprint's `_pubs` file) and this run's other new candidates
+  (drops it before it's ever written) — `reconcilePreprints()` in
+  `sync-pubmed.mjs`. Deliberately narrow: only acts when there's an actual
+  preprint-server-vs-real-journal mismatch in a title-matched group; a
+  group of multiple non-preprint entries (the existing catalog has one such
+  case, PMIDs 33062306/34556651, an unrelated PubMed indexing duplicate,
+  not a preprint situation) is left untouched.
+- **Bug found and fixed during that same review**: the preprint-deletion
+  step wasn't gated by `--dry-run` — an early `--dry-run` test call ended
+  up actually deleting the two superseded preprint files for real (the
+  final on-disk state was still correct by coincidence of the test
+  sequence, but the flag needed to genuinely no-op). Fixed by gating the
+  `fs.rmSync` call; reverified `--dry-run` now makes zero filesystem
+  changes.
 - **First real run** (done manually, not via the not-yet-triggered
   workflow, to verify the logic against live data before relying on the
   schedule): found 6 genuinely new publications going back to 2020 that
   were missing from the original 94-entry catalog, 2 correction notices
-  correctly skipped, 0 false positives, and 19 consortium-credited papers
+  correctly skipped, 2 of the 6 superseded by an already-cataloged
+  published version (one was the "Complex genetic variation..." bioRxiv
+  preprint vs. its own new Nature entry from this same run; the other,
+  PMID 36778249, turned out to be a preprint of an already-existing PLoS
+  Biol entry, PMID 39172952, that predated this sync entirely — confirming
+  the dedup logic needed to check the existing catalog, not just this
+  run's own batch), 0 false positives, and 19 consortium-credited papers
   flagged for manual review (mostly older 1000 Genomes Project/BSMN
-  papers). Catalog is now 100 publications. One thing worth a look during
-  PR review: two of the 6 new entries (PMIDs 39372794 and 40702183) are
-  the bioRxiv preprint and the later peer-reviewed Nature publication of
-  the same paper ("Complex genetic variation in nearly complete human
-  genomes") — kept as separate entries since there's already a similar
-  duplicate-title precedent in the existing catalog (PMIDs 33062306 /
-  34556651), but flagged in case the preprint entry should be dropped now
-  that the published version exists.
+  papers). Catalog is now 98 publications (94 + 6 added − 2 superseded).
 
 ## How to resume this work
 
