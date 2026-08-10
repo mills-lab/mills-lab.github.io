@@ -72,3 +72,13 @@ admin access to the repo, via GitHub's web UI:
 This is a repo configuration setting, not something that can be done via
 `git` alone — it has to be set up in GitHub's UI (or via the GitHub API with
 admin credentials) by a repo administrator.
+
+The monthly PubMed sync workflow (`.github/workflows/pubmed-sync.yml`) opens
+its own pull requests using the built-in `GITHUB_TOKEN`, which requires one
+more one-time admin setting:
+
+1. Go to **Settings → Actions → General → Workflow permissions**.
+2. Enable **"Allow GitHub Actions to create and approve pull requests"**.
+
+Without this, the sync workflow's `create-pull-request` step will fail to
+open a PR even when it finds new publications to add.

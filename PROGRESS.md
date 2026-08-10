@@ -806,6 +806,99 @@ with the full pipeline (`migrate-content.mjs` where legacy-sourced →
 - **Follow-up housekeeping**: the 4 open Dependabot PRs bumping Ruby/Jekyll
   gems are now obsolete (Jekyll/Gemfile no longer used) and can be closed.
 
+## Phase 7 — PubMed publication sync — DONE
+
+- `scripts/sync-pubmed.mjs`: finds new Ryan Mills publications on PubMed and
+  writes them into `_pubs/<pmid>.md` (the same legacy-source directory
+  `migrate-content.mjs` reads from for everything else in the publications
+  collection — run that afterward to regenerate `src/content/publications/`).
+- **Discovery**: unions two PubMed `esearch` queries — `Mills RE[Author] AND
+  Michigan[Affiliation]`, and an ORCID search (`0000-0003-3425-6998[Author -
+  Identifier]`, found in his own MEDLINE records). Neither alone is a
+  superset of the other (verified directly: the name+affiliation query
+  turned up 8 new candidates the existing catalog was missing, going back to
+  2020; the ORCID query independently confirmed one already-cataloged PMID
+  the name query didn't find) — using both closes real gaps either query
+  alone would leave.
+- **Verification, addressing the user's authorship-vs-funding concern**:
+  each candidate is `efetch`'d in MEDLINE text format and only kept if
+  PubMed's own author metadata individually credits him — an `AU - Mills
+  RE` entry whose author block contains either his ORCID or a Michigan
+  `AD` (affiliation) line. NIH grant numbers live in a completely separate
+  `GR` field this never inspects, so a paper he co-leads funding for but
+  didn't write can't pass this check no matter how it surfaced — this is
+  what keeps grant-only associations out, structurally, not via a
+  denylist.
+- **Consortium authorship — the other half of the user's concern**:
+  genuine consortium co-authorship (e.g. 1000 Genomes Project, Brain
+  Somatic Mosaicism Network, SMaHT Network — the three named in his PI
+  bio) turns out to still individually name him as `AU - Mills RE` in the
+  large majority of real cases, alongside a `CN` (collective name, e.g.
+  "SMaHT MEI Working Group") recorded at its exact byline position — so
+  the same author check above correctly includes these without special
+  handling. The one case PubMed's metadata genuinely can't resolve is a
+  paper credited *only* via a bare consortium `CN` with no individual
+  author entry for him at all (the existing catalog has exactly one
+  historical example of this: PMID 21666693, "1000 Genomes Project" as
+  sole `CN`, evidently added by hand originally). These can't be verified
+  automatically, so the script instead searches each known consortium name
+  as a `[Corporate Author]` and prints any not-yet-cataloged hits as a
+  **manual-review list** (title/PMID/journal) rather than guessing —
+  surfaced in the workflow's Action summary and, when there's also a real
+  addition to bundle it with, in the PR body.
+- **Corrections/errata are skipped**: PubMed titles these
+  "Author Correction: ..."/"Erratum: ..."/etc., matching the original
+  paper's title — filtered out by title prefix rather than added as
+  duplicate-looking entries (confirmed with the user; no existing catalog
+  entry is a correction notice, so this establishes the policy rather than
+  changing one).
+- `.github/workflows/pubmed-sync.yml`: runs monthly (`workflow_dispatch`
+  also available for on-demand runs), does the sync + regenerates content +
+  runs `astro check`/`npm run build` as a safety check, then opens a PR via
+  `peter-evans/create-pull-request` with the sync report as the PR body —
+  same "always a PR, a human merges" model as every other content change.
+  No-ops (no branch/PR) when there's nothing new to add; the sync report
+  (including the consortium manual-review list) still gets written to the
+  Action run's summary either way, since that list can have entries even
+  in a run that adds nothing automatically.
+- **One-time admin setup needed** (documented in `CONTRIBUTING.md`): enable
+  "Allow GitHub Actions to create and approve pull requests" under
+  Settings → Actions → General → Workflow permissions — the sync
+  workflow's PR-opening step needs this and it can't be checked or set via
+  the fine-grained PAT used elsewhere in this project (needs repo-admin
+  scope). **Not yet confirmed enabled.**
+- **Preprint/published deduplication** (added after user feedback on the
+  first draft of this PR): if a bioRxiv/medRxiv preprint later gets a
+  peer-reviewed publication, only the published version is kept. Checked
+  by normalized title match against both the existing catalog (deletes the
+  superseded preprint's `_pubs` file) and this run's other new candidates
+  (drops it before it's ever written) — `reconcilePreprints()` in
+  `sync-pubmed.mjs`. Deliberately narrow: only acts when there's an actual
+  preprint-server-vs-real-journal mismatch in a title-matched group; a
+  group of multiple non-preprint entries (the existing catalog has one such
+  case, PMIDs 33062306/34556651, an unrelated PubMed indexing duplicate,
+  not a preprint situation) is left untouched.
+- **Bug found and fixed during that same review**: the preprint-deletion
+  step wasn't gated by `--dry-run` — an early `--dry-run` test call ended
+  up actually deleting the two superseded preprint files for real (the
+  final on-disk state was still correct by coincidence of the test
+  sequence, but the flag needed to genuinely no-op). Fixed by gating the
+  `fs.rmSync` call; reverified `--dry-run` now makes zero filesystem
+  changes.
+- **First real run** (done manually, not via the not-yet-triggered
+  workflow, to verify the logic against live data before relying on the
+  schedule): found 6 genuinely new publications going back to 2020 that
+  were missing from the original 94-entry catalog, 2 correction notices
+  correctly skipped, 2 of the 6 superseded by an already-cataloged
+  published version (one was the "Complex genetic variation..." bioRxiv
+  preprint vs. its own new Nature entry from this same run; the other,
+  PMID 36778249, turned out to be a preprint of an already-existing PLoS
+  Biol entry, PMID 39172952, that predated this sync entirely — confirming
+  the dedup logic needed to check the existing catalog, not just this
+  run's own batch), 0 false positives, and 19 consortium-credited papers
+  flagged for manual review (mostly older 1000 Genomes Project/BSMN
+  papers). Catalog is now 98 publications (94 + 6 added − 2 superseded).
+
 ## How to resume this work
 
 ```
