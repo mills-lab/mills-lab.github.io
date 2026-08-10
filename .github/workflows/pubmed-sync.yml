@@ -1,0 +1,50 @@
+name: Sync PubMed publications
+
+on:
+  schedule:
+    # 13:00 UTC on the 1st of each month
+    - cron: "0 13 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run PubMed sync
+        run: node scripts/sync-pubmed.mjs | tee /tmp/pubmed-sync-report.md
+
+      - name: Regenerate content collections
+        run: node scripts/migrate-content.mjs
+
+      - name: Verify the site still builds
+        run: |
+          npx astro check
+          npm run build
+
+      - name: Open PR with any new publications
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Add new publications from PubMed sync"
+          title: "Add new publications from PubMed sync"
+          body-path: /tmp/pubmed-sync-report.md
+          branch: pubmed-sync/auto-update
+          delete-branch: true
+          add-paths: |
+            _pubs/
+            src/content/publications/
