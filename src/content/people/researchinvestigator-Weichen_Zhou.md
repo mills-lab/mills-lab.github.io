@@ -2,7 +2,7 @@
 publish: true
 status: researchinvestigator
 name: Weichen Zhou
-title: Assistant Research Professor, DCM&B
+title: Research Assistant Professor, DCM&B
 line1: Ph.D., Fudan University
 line2: B.S.E., Huazhong University of Science and Technology
 picture: Weichen_Zhou_pic.jpg
