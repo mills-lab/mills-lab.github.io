@@ -1,5 +1,5 @@
 ---
-title: Viral Integration Review Published
+title: Viral Integration Review Published in Frontiers in Oncology
 date: '2026-09-14'
 share: false
 externalUrl: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1925720/full
