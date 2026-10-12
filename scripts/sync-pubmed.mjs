@@ -56,7 +56,75 @@ const normalizeTitle = (title) => (title ?? '').toLowerCase().trim().replace(/\.
 
 const EUTILS = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 const dryRun = process.argv.includes('--dry-run');
+const draftNewsPosts = process.argv.includes('--draft-news-posts');
+const postsDir = path.join(root, 'src', 'content', 'posts');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+const MONTHS = {
+  jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6,
+  jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12,
+};
+
+// MEDLINE's DP field is freeform ("2025 Apr 21", "2025 Apr", or just
+// "2025") - this is only ever used for a draft News post's frontmatter
+// date, not the publications catalog (which keeps pubdate as a display
+// string elsewhere), so an approximate year/month and day-1 fallback is
+// fine - a human reviews the draft before it's ever published anyway.
+function parseMedlineDate(dp) {
+  const m = (dp ?? '').match(/^(\d{4})(?:\s+([A-Za-z]{3}))?(?:\s+(\d{1,2}))?/);
+  if (!m) return null;
+  const year = m[1];
+  const month = m[2] ? MONTHS[m[2].toLowerCase()] : 1;
+  const day = m[3] ? Number(m[3]) : 1;
+  if (!month) return null;
+  return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
+// Plain (unquoted) YAML scalars break on a ": " (colon-space) inside the
+// value - which real paper titles hit often enough (subtitled papers,
+// "Mako: A Graph-based..." elsewhere in this catalog) that it's worth
+// always quoting rather than hoping it doesn't come up.
+function yamlQuote(str) {
+  return `'${String(str ?? '').replace(/'/g, "''")}'`;
+}
+
+function slugify(title, maxLen = 60) {
+  const slug = (title ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  if (slug.length <= maxLen) return slug;
+  return slug.slice(0, maxLen).replace(/-[^-]*$/, '');
+}
+
+// A deterministic, unpolished starting point - not a finished News post.
+// No thumbnail is picked (sourcing a good one, as with the viral-
+// integration and Discovery Research Week posts, needs a human/Claude's
+// judgment), and the body is a generic placeholder sentence. Written
+// straight to src/content/posts/ (migratePosts() has no cleanup step, so
+// it won't be wiped on the next `migrate-content.mjs` run - same pattern
+// used for the 2025 Holiday Party post).
+function buildNewsPostStub(entry) {
+  const date = parseMedlineDate(entry.pubdate) ?? new Date().toISOString().slice(0, 10);
+  const slug = slugify(entry.title) || entry.pmid;
+  const filename = `${date}-${slug}-published.md`;
+  const frontmatter = [
+    '---',
+    `title: ${yamlQuote(`${entry.title} — Published`)}`,
+    `date: '${date}'`,
+    `externalUrl: https://pubmed.ncbi.nlm.nih.gov/${entry.pmid}/`,
+    'image:',
+    '  feature: banner-short-apb.png',
+    '---',
+    `A new paper from the Mills Lab, "${entry.title}," was published in ${entry.journal}!`,
+    '',
+  ].join('\n');
+  return { filename, frontmatter };
+}
+
+function writeNewsPostStub(stub) {
+  if (!dryRun) fs.writeFileSync(path.join(postsDir, stub.filename), stub.frontmatter);
+}
 
 async function esearch(term) {
   const url = `${EUTILS}/esearch.fcgi?db=pubmed&retmax=500&retmode=json&term=${encodeURIComponent(term)}`;
@@ -149,22 +217,38 @@ function buildPubEntry(pmid, entries) {
   const frontmatter = [
     '---',
     `pmid: ${pmid}`,
-    `title: ${title}`,
+    `title: ${yamlQuote(title)}`,
     `authors: ${authors}`,
     `pubdate: ${pubdate}`,
     `volume: ${volume}`,
     `issue: ${issue}`,
     `pages: ${pages}`,
-    `journal: ${journal}`,
+    `journal: ${yamlQuote(journal)}`,
     '---',
     '',
   ].join('\n');
 
-  return { pmid, title, journal, frontmatter };
+  return { pmid, title, journal, pubdate, frontmatter };
 }
 
 function writePubEntry(entry) {
   if (!dryRun) fs.writeFileSync(path.join(pubsDir, `${entry.pmid}.md`), entry.frontmatter);
+}
+
+// Strips a single layer of YAML quoting (both the plain-scalar entries this
+// script wrote before title-quoting was added, and single/double-quoted
+// ones - including some hand-written _pubs files that already used single
+// quotes, e.g. 40689859.md) so preprint-dedup title matching below compares
+// like with like regardless of which form a given file is in.
+function unquoteYamlScalar(raw) {
+  const value = (raw ?? '').trim();
+  if (value.length >= 2 && value[0] === "'" && value[value.length - 1] === "'") {
+    return value.slice(1, -1).replace(/''/g, "'");
+  }
+  if (value.length >= 2 && value[0] === '"' && value[value.length - 1] === '"') {
+    return value.slice(1, -1).replace(/\\"/g, '"');
+  }
+  return value;
 }
 
 function loadExistingCatalog() {
@@ -173,8 +257,8 @@ function loadExistingCatalog() {
     .filter((f) => f.endsWith('.md'))
     .map((f) => {
       const text = fs.readFileSync(path.join(pubsDir, f), 'utf8');
-      const title = text.match(/^title:\s*(.*)$/m)?.[1]?.trim() ?? '';
-      const journal = text.match(/^journal:\s*(.*)$/m)?.[1]?.trim() ?? '';
+      const title = unquoteYamlScalar(text.match(/^title:\s*(.*)$/m)?.[1]);
+      const journal = unquoteYamlScalar(text.match(/^journal:\s*(.*)$/m)?.[1]);
       return { pmid: f.replace(/\.md$/, ''), title, journal, file: path.join(pubsDir, f) };
     });
 }
@@ -261,6 +345,15 @@ async function main() {
   const { survivingNew, supersededExisting, supersededNew } = reconcilePreprints(added, loadExistingCatalog());
   for (const entry of survivingNew) writePubEntry(entry);
 
+  const newsPostStubs = [];
+  if (draftNewsPosts) {
+    for (const entry of survivingNew) {
+      const stub = buildNewsPostStub(entry);
+      writeNewsPostStub(stub);
+      newsPostStubs.push(stub);
+    }
+  }
+
   // --- Consortium leads: papers credited via a group name for a known
   // consortium, with no individual author entry for him - can't be
   // verified automatically, surfaced for manual review instead. ---
@@ -295,6 +388,16 @@ async function main() {
     lines.push('');
   } else {
     lines.push('No new individually-authored publications found.');
+    lines.push('');
+  }
+  if (newsPostStubs.length > 0) {
+    lines.push(`### Drafted ${newsPostStubs.length} News post stub${newsPostStubs.length === 1 ? '' : 's'} (needs review before merging)`);
+    lines.push('');
+    lines.push(
+      'Each is a bare-bones placeholder — generic body text, no custom thumbnail, and a title taken straight from the paper. Before merging, either edit it by hand or ask Claude to polish it (pick a thumbnail, credit the right lab member, tighten the title) — same as the viral-integration and Discovery Research Week posts.'
+    );
+    lines.push('');
+    for (const s of newsPostStubs) lines.push(`- \`src/content/posts/${s.filename}\``);
     lines.push('');
   }
   if (supersededExisting.length > 0 || supersededNew.length > 0) {

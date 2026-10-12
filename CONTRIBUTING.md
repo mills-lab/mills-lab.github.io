@@ -82,3 +82,21 @@ more one-time admin setting:
 
 Without this, the sync workflow's `create-pull-request` step will fail to
 open a PR even when it finds new publications to add.
+
+### Optionally drafting a News post for a new publication
+
+The sync workflow only ever adds publications to the Publications page by
+default — it never assumes a new paper deserves a News post, since not
+every paper warrants one. To also get a rough draft News post stub for
+each new publication found in a given run, trigger the workflow manually
+(**Actions → Sync PubMed publications → Run workflow**) with the
+**"draft_news_posts"** checkbox enabled. Scheduled (monthly) runs never do
+this — it's opt-in per manual run only.
+
+These stubs are intentionally bare-bones: a generic body sentence, no
+custom thumbnail, and a title taken straight from the paper, written to
+`src/content/posts/` in the same PR as the new publication(s). Review each
+one before merging — either edit it directly, or ask Claude to polish it
+(pick a representative thumbnail, credit the right lab member by name,
+tighten the title), the same way the "Viral Integration Review" and
+"Discovery Research Week" posts were done.

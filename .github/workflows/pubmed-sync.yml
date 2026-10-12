@@ -5,6 +5,11 @@ on:
     # 13:00 UTC on the 1st of each month
     - cron: "0 13 1 * *"
   workflow_dispatch:
+    inputs:
+      draft_news_posts:
+        description: "Also draft a News post stub for each new publication found (unpolished - needs review before merging). Scheduled runs never do this; it's opt-in per manual run."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Run PubMed sync
-        run: node scripts/sync-pubmed.mjs | tee /tmp/pubmed-sync-report.md
+        run: node scripts/sync-pubmed.mjs${{ inputs.draft_news_posts && ' --draft-news-posts' || '' }} | tee /tmp/pubmed-sync-report.md
 
       - name: Regenerate content collections
         run: node scripts/migrate-content.mjs
@@ -48,3 +53,4 @@ jobs:
           add-paths: |
             _pubs/
             src/content/publications/
+            src/content/posts/
