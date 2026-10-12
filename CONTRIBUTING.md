@@ -82,3 +82,30 @@ more one-time admin setting:
 
 Without this, the sync workflow's `create-pull-request` step will fail to
 open a PR even when it finds new publications to add.
+
+### Optionally drafting a News post for a new publication
+
+The sync workflow only ever adds publications to the Publications page by
+default — it never assumes a new paper deserves a News post, since not
+every paper warrants one. To also get a rough draft News post stub for
+each new publication found in a given run, trigger the workflow manually
+(**Actions → Sync PubMed publications → Run workflow**) with the
+**"draft_news_posts"** checkbox enabled. Scheduled (monthly) runs never do
+this — it's opt-in per manual run only.
+
+**This is all-or-nothing per run, not a per-publication choice** — the
+checkbox applies to every new publication the run finds, since GitHub
+Actions has no way to know which publications exist until the job actually
+queries PubMed. If a run finds 3 new publications, checking the box drafts
+a stub for all 3 in the same PR. To publicize only some of them, just
+delete the unwanted stub file(s) from the PR branch before merging (each
+publication gets its own file under `src/content/posts/`, so this is a
+quick removal, not a rewrite) — or ask Claude to do it for you.
+
+These stubs are intentionally bare-bones: a generic body sentence, no
+custom thumbnail, and a title taken straight from the paper, written to
+`src/content/posts/` in the same PR as the new publication(s). Review each
+one before merging — either edit it directly, or ask Claude to polish it
+(pick a representative thumbnail, credit the right lab member by name,
+tighten the title), the same way the "Viral Integration Review" and
+"Discovery Research Week" posts were done.

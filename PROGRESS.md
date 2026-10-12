@@ -899,6 +899,60 @@ with the full pipeline (`migrate-content.mjs` where legacy-sourced →
   flagged for manual review (mostly older 1000 Genomes Project/BSMN
   papers). Catalog is now 98 publications (94 + 6 added − 2 superseded).
 
+## Post-Phase-7: optional News post drafts from the PubMed sync
+
+User asked whether the PubMed sync could also optionally draft a News post
+for a new publication — same thing done by hand twice by this point (the
+viral integration paper, PMID 42807781, and separately a Michigan Medicine
+Press entry) — without posting one for *every* paper found, since not all
+of them warrant it. Discussed three options (flag-only + ask-Claude
+prompt, a deterministic draft stub, or full unattended automation via
+Claude in CI); user picked the deterministic stub.
+
+- **`scripts/sync-pubmed.mjs`** gained a `--draft-news-posts` flag. When
+  set, every publication actually added this run also gets a bare-bones
+  `src/content/posts/<date>-<slug>-published.md` stub: title = paper title
+  + " — Published", `date` parsed from MEDLINE's freeform `DP` field
+  (`parseMedlineDate()` — handles "2025 Apr 21" / "2025 Apr" / "2025",
+  falls back to today if unparseable), `externalUrl` = the PubMed link, a
+  generic one-sentence body, and the existing generic `banner-short-apb.png`
+  as the feature image — **deliberately no custom thumbnail or
+  per-paper-tailored body text**, since picking a good thumbnail (a paper
+  figure vs. a venue logo vs. a lab photo) and writing accurate attribution
+  is exactly the judgment call that made the two hand-done examples good,
+  and isn't something a deterministic script should guess at. Written
+  straight to `src/content/posts/`, not `_pubs/` (same reasoning as the
+  2025 Holiday Party post — no legacy source, and `migratePosts()` has no
+  cleanup step so it's safe from being wiped on the next
+  `migrate-content.mjs` run).
+- **Off by default, opt-in per manual run only**: the workflow gained a
+  `workflow_dispatch` boolean input (`draft_news_posts`, default `false`).
+  Scheduled (monthly cron) runs never pass it, so the automatic monthly PR
+  behaves exactly as before — stubs only happen when someone deliberately
+  runs the workflow by hand with the box checked (documented in
+  `CONTRIBUTING.md`). The sync PR's report lists each stub's path with a
+  reminder to review/polish (or ask Claude) before merging.
+- **Found and fixed a real pre-existing bug while adding this**: neither
+  `buildPubEntry()`'s `title:`/`journal:` frontmatter lines nor the new
+  stub's `title:` line were YAML-quoted — fine for every title seen so far,
+  but a subtitled paper title (e.g. "Mako: A Graph-based..." — a real title
+  elsewhere in this catalog, just not one that's gone through the automated
+  path yet) would break the frontmatter the moment the sync job hit one.
+  Added a `yamlQuote()` helper (single-quote wrap, doubles internal `'`)
+  used on both fields in both places. This also required fixing
+  `loadExistingCatalog()`'s title/journal parsing (`unquoteYamlScalar()`)
+  so the preprint-dedup title match still works once future entries are
+  quoted — verified against the existing catalog (including one
+  hand-written entry, `_pubs/40689859.md`, that was already manually
+  quoted) that dedup still correctly identifies the same 2 superseded
+  preprints as before the change.
+- Verified: `node --check` (syntax), the quoting/date/slug helpers
+  unit-tested in isolation, `--dry-run --draft-news-posts` against live
+  PubMed data (no-op currently — nothing new to draft, confirmed zero
+  filesystem changes), and a synthetic stub file with a colon in the title
+  built cleanly through the full pipeline (`astro check`, `npm run build`,
+  rendered correctly on `/news/`) before being removed.
+
 ## How to resume this work
 
 ```
