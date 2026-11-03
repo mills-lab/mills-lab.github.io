@@ -4,7 +4,7 @@ name: Steve Ho
 title: Ph.D. University of Michigan
 picture: Steve_Ho_pic.png
 line1: B.S., University of California - Davis
-line2:  
+line2: Postdoctoral Research Scientist, UK Research and Innovation (UKRI)
 google-scholar: xfw4BLoAAAAJ
 CV:
 linked-in: https://www.linkedin.com/in/sciencesteveho/
