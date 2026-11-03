@@ -30,9 +30,9 @@ const people = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/people' }),
   schema: z.object({
     publish: z.boolean().default(true),
-    // `phd` = current PhD student; alumni are split into their own values
+    // `phd` / `ms` = current PhD / master's student; alumni are split into their own values
     // so the People page can render them as separate sections.
-    status: z.enum(['pi', 'phd', 'researchinvestigator', 'phd-alumni', 'other-alumni', 'rotation-alumni', 'not-shown']),
+    status: z.enum(['pi', 'phd', 'ms', 'researchinvestigator', 'phd-alumni', 'other-alumni', 'rotation-alumni', 'not-shown']),
     name: z.string(),
     title: z.string().optional(),
     line1: z.string().optional(),

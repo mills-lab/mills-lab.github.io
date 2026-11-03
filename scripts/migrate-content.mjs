@@ -132,7 +132,7 @@ function migratePeople() {
   const outDir = path.join(outRoot, 'people');
   fs.rmSync(outDir, { recursive: true, force: true });
   ensureDir(outDir);
-  const statuses = ['pi', 'phd', 'alumni', 'researchinvestigator', 'not-shown'];
+  const statuses = ['pi', 'phd', 'ms', 'alumni', 'researchinvestigator', 'not-shown'];
   for (const status of statuses) {
     const srcDir = path.join(srcRoot, status);
     if (!fs.existsSync(srcDir)) continue;
