@@ -4,6 +4,7 @@ status: phd-alumni
 name: Steve Ho
 title: Ph.D. University of Michigan
 line1: B.S., University of California - Davis
+line2: Postdoctoral Research Scientist, UK Research and Innovation (UKRI)
 picture: Steve_Ho_pic.png
 startDate: 2018-09-01T00:00:00.000Z
 links:
