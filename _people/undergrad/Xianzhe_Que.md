@@ -9,6 +9,6 @@ google-scholar:
 CV:
 linked-in: 
 twitter:
-email: 
+email: xianzhe@umich.edu
 start-date: 2026-11-03
 ---
