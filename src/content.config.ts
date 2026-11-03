@@ -68,6 +68,9 @@ const publications = defineCollection({
     issue: z.string().optional(),
     pages: z.string().optional(),
     journal: z.string().optional(),
+    // Link for entries not indexed by PubMed (e.g. a bioRxiv preprint); used
+    // instead of the PubMed link when there's no pmid.
+    url: z.string().optional(),
   }),
 });
 
