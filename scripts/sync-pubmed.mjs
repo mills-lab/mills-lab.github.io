@@ -280,10 +280,18 @@ function reconcilePreprints(newEntries, existingCatalog) {
 
   const supersededExisting = [];
   const supersededNew = new Set();
+  const duplicateNew = new Set();
   for (const group of groups.values()) {
     if (group.length < 2) continue;
     const hasPublished = group.some((e) => !PREPRINT_SERVERS.has(e.journal));
-    if (!hasPublished) continue;
+    if (!hasPublished) {
+      // Preprint already in the catalog (e.g. hand-added from bioRxiv before
+      // PubMed indexed it) and now showing up on PubMed too - don't add it twice.
+      if (group.some((e) => e.isExisting)) {
+        for (const e of group) if (!e.isExisting) duplicateNew.add(e.pmid);
+      }
+      continue;
+    }
     for (const e of group) {
       if (!PREPRINT_SERVERS.has(e.journal)) continue;
       if (e.isExisting) {
@@ -296,9 +304,10 @@ function reconcilePreprints(newEntries, existingCatalog) {
   }
 
   return {
-    survivingNew: newEntries.filter((e) => !supersededNew.has(e.pmid)),
+    survivingNew: newEntries.filter((e) => !supersededNew.has(e.pmid) && !duplicateNew.has(e.pmid)),
     supersededExisting,
     supersededNew: newEntries.filter((e) => supersededNew.has(e.pmid)),
+    duplicateNew: newEntries.filter((e) => duplicateNew.has(e.pmid)),
   };
 }
 
@@ -342,7 +351,7 @@ async function main() {
     }
   }
 
-  const { survivingNew, supersededExisting, supersededNew } = reconcilePreprints(added, loadExistingCatalog());
+  const { survivingNew, supersededExisting, supersededNew, duplicateNew } = reconcilePreprints(added, loadExistingCatalog());
   for (const entry of survivingNew) writePubEntry(entry);
 
   const newsPostStubs = [];
@@ -405,10 +414,20 @@ async function main() {
     lines.push(`### ${total} preprint${total === 1 ? '' : 's'} superseded by a published version`);
     lines.push('');
     for (const p of supersededExisting) {
-      lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal}) — removed from the catalog, replaced by the published version below`);
+      // Hand-added preprints (no PMID) are keyed by filename, e.g. biorxiv-<doi suffix>.
+      const ref = /^\d+$/.test(p.pmid) ? `[${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/)` : `\`_pubs/${p.pmid}.md\``;
+      lines.push(`- ${ref} — ${p.title} (${p.journal}) — removed from the catalog, replaced by the published version below`);
     }
     for (const p of supersededNew) {
       lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal}) — not added, a published version already covers this`);
+    }
+    lines.push('');
+  }
+  if (duplicateNew.length > 0) {
+    lines.push(`### ${duplicateNew.length} preprint${duplicateNew.length === 1 ? '' : 's'} already in the catalog`);
+    lines.push('');
+    for (const p of duplicateNew) {
+      lines.push(`- [${p.pmid}](https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/) — ${p.title} (${p.journal}) — not added, same preprint is already listed (added by hand before PubMed indexed it)`);
     }
     lines.push('');
   }

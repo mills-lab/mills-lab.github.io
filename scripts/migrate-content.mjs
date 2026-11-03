@@ -182,6 +182,7 @@ function migratePublications() {
         issue: data.issue != null ? String(data.issue) : undefined,
         pages: data.pages != null ? String(data.pages) : undefined,
         journal: decodeHtmlEntities(data.journal),
+        url: data.url,
       },
       content
     );
