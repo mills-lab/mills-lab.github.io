@@ -13,13 +13,14 @@ const STATUS_LABEL: Record<string, string> = {
   researchinvestigator: 'Research Investigator',
   phd: 'Doctoral Student',
   ms: "Master's Student",
+  undergrad: 'Undergraduate Researcher',
 };
 
 const sections = [
   {
     title: 'Current Lab Members',
     people: people
-      .filter((p) => ['pi', 'phd', 'ms', 'researchinvestigator'].includes(p.data.status))
+      .filter((p) => ['pi', 'phd', 'ms', 'undergrad', 'researchinvestigator'].includes(p.data.status))
       .sort(byStartDateAsc),
   },
   {
