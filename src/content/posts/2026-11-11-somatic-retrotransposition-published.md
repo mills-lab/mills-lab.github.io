@@ -1,5 +1,5 @@
 ---
-title: Somatic Retrotransposition Framework Published in Cell Genomics
+title: Somatic Retrotransposition Discovery Framework Published in Cell Genomics
 date: '2026-11-11'
 share: false
 externalUrl: https://doi.org/10.1016/j.xgen.2026.101418
