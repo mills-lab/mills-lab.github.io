@@ -48,7 +48,7 @@ const feature = post.data.image?.feature ? `/images/${post.data.image.feature}` 
       post.data.externalUrl && (
         <p class="mt-6">
           <a href={post.data.externalUrl} target="_blank" class="text-umblue-900 underline hover:text-umblue-950">
-            View original source &rarr;
+            {post.data.externalLabel ?? 'View publication'} &rarr;
           </a>
         </p>
       )
