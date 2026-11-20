@@ -10,8 +10,8 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long
 
 const newsItems = (await getCollection('posts')).map((post) => ({
   date: post.data.date,
-  href: post.data.externalUrl || `/news/${post.id}/`,
-  external: Boolean(post.data.externalUrl),
+  href: `/news/${post.id}/`,
+  external: false,
   eyebrow: dateFmt.format(post.data.date),
   title: post.data.title,
   excerpt: undefined as string | undefined,

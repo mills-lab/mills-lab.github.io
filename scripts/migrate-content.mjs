@@ -64,6 +64,7 @@ function migratePosts() {
         share: data.share,
         ads: data.ads,
         externalUrl: data['external-url'],
+        externalLabel: data['external-label'],
         image: data.image,
         gallery: galleryMatch?.[1],
       },
